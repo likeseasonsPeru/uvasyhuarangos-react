@@ -433,6 +433,12 @@ h6 {
 .btn-w {
   width: 150px;
 }
+.contain-legado {
+  height: 40vh;
+  background-color: #fed16a;
+  font-size: 2rem;
+  position: relative;
+}
 
 .br-grape {
   border: 1px solid #8a73a6;
@@ -572,6 +578,7 @@ h6 {
 /* FOOTER */
 .br-btn-footer {
   border: 1px solid #fff;
+  font-family: "tuskergrotesk-medium";
 }
 .logo-footer {
   max-width: 100px;
@@ -586,7 +593,7 @@ h6 {
   font-size: 20px;
 }
 .subtitle-footer {
-  color: #6e5844;
+  font-family: "tuskergrotesk-medium";
 }
 .input-footer {
   border: none;
