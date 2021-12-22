@@ -1,0 +1,704 @@
+@font-face {
+  font-family: "tuskergrotesk-medium";
+  /* src: url('../fonts/TuskerGrotesk-6500Medium.woff2') format('woff2'), */
+  src: url("../../assets/fonts/TuskerGrotesk-6500Medium.woff2") format("woff2"),
+    url("../../assets/fonts/TuskerGrotesk-6500Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "neue_worldsuperCnBd";
+  src: url("../../assets/fonts/neueworld-supercondensedbold-webfont.woff2")
+      format("woff2"),
+    url("../../assets/fonts/neueworld-supercondensedbold-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "neue_worldsuperCnLt";
+  src: url("../../assets/fonts/neueworld-supercondensedlight-webfont.woff2")
+      format("woff2"),
+    url("../../assets/fonts/neueworld-supercondensedlight-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "neue_worldsuperCnRg";
+  src: url("../../assets/fonts/neueworld-supercondensedregular-webfont.woff2")
+      format("woff2"),
+    url("../../assets/fonts/neueworld-supercondensedregular-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "neue_worldsuperCnultraLt";
+  src: url("../../assets/fonts/neueworld-supercondensedultralight-webfont.woff2")
+      format("woff2"),
+    url("../../assets/fonts/neueworld-supercondensedultralight-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "p22_mackinac_probold";
+  src: url("../../assets/fonts/p22mackinacpro-bold-webfont.woff2")
+      format("woff2"),
+    url("../../assets/fonts/p22mackinacpro-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "p22_mackinac_probook";
+  src: url("../../assets/fonts/p22mackinacpro-book-webfont.woff2")
+      format("woff2"),
+    url("../../assets/fonts/p22mackinacpro-book-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "p22_mackinac_proXBdIt";
+  src: url("../../assets/fonts/p22mackinacpro-exbolditalic-webfont.woff2")
+      format("woff2"),
+    url("../../assets/fonts/p22mackinacpro-exbolditalic-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "p22_mackinac_promedium_italic";
+  src: url("../../assets/fonts/p22mackinacpro-meditalic-webfont.woff2")
+      format("woff2"),
+    url("../../assets/fonts/p22mackinacpro-meditalic-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "p22_mackinac_promedium";
+  src: url("../../assets/fonts/p22mackinacpro-medium-webfont.woff2")
+      format("woff2"),
+    url("../../assets/fonts/p22mackinacpro-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "californyabuploaded_file";
+  src: url("../../assets/fonts/californya_b-webfont.woff2") format("woff2"),
+    url("../../assets/fonts/californya_b-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LondrinaOutline-Regular";
+  src: url("../../assets/fonts/LondrinaOutline-Regular.woff2") format("woff2"),
+    url("../../assets/fonts/LondrinaOutline-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  background-color: #000 !important;
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #fff;
+  font-family: "tuskergrotesk-medium";
+  margin: 0px;
+  color: #fff;
+}
+
+p {
+  font-family: "p22_mackinac_probook";
+  font-size: 1rem;
+}
+
+.page {
+  background-color: #fff;
+  color: #000;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.nav-item {
+  font-family: "tuskergrotesk-medium";
+  font-size: 1.5rem;
+  padding-left: 1.5rem;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+}
+
+.jumbotron {
+  position: relative;
+  background: none;
+  margin-top: 30%;
+  /*padding-bottom: 240px !important;*/
+}
+
+.jumbotron:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*background-image: url(../img/banner-home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;*/
+}
+
+.title-jumbotron {
+  font-family: "tuskergrotesk-medium";
+  font-size: 40px;
+  line-height: 45px;
+  margin-bottom: 25px;
+}
+
+.text-jumbotron {
+  font-family: "Avenir-Roman";
+  font-size: 24px;
+}
+
+h1 {
+  font-family: "tuskergrotesk-medium";
+  /* or 103px */
+  color: #fff;
+}
+
+h2 {
+  font-family: "tuskergrotesk-medium";
+  /*font-size: 56px;*/
+  font-size: 6vw;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+h6 {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:active:focus:not(:disabled):not(.disabled),
+.btn:focus,
+.btn:active,
+.btn:hover {
+  box-shadow: none !important;
+  outline: 0;
+}
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important ;
+}
+
+/* PARALLAX */
+.parallax {
+  /* Set a specific height */
+  height: 50vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-titles {
+  font-family: "tuskergrotesk-medium";
+  font-size: 7.3rem;
+  line-height: 9rem;
+  color: #fff;
+}
+
+.parallax-position-inicio {
+  padding-top: 15vh;
+  position: absolute;
+}
+
+.parallax-position {
+  line-height: 9rem;
+  position: absolute;
+  margin-top: 25.5vh;
+}
+
+.sello {
+  position: absolute;
+  right: 5%;
+  margin-top: 20vh;
+}
+
+.mayoria {
+  font-family: "tuskergrotesk-medium";
+  font-size: 5rem;
+}
+
+.btn-idiomas {
+  width: 80px;
+  margin: 1rem 0 0 2.5rem;
+}
+.btn-cookies {
+  color: #000;
+  background-color: #fff;
+  font-size: 14px;
+  border: none;
+  text-transform: uppercase;
+}
+.btn-aceptar {
+  color: #fff;
+  background-color: #000;
+  font-size: 14px;
+  border: none;
+  text-transform: uppercase;
+}
+.slg-index {
+  font-family: "californyabuploaded_file";
+  font-size: 2.5rem;
+}
+.logo-home-bear {
+  font-size: 2rem;
+}
+.btn-store {
+  border: 1px solid #fff;
+  color: #fff;
+  height: 60px;
+  text-transform: uppercase;
+  width: 100px;
+}
+.p-inicio {
+  background-image: url("../../assets/img/bg-inicio.jpg");
+  /* background: url('./img/bg-inicio'); */
+}
+
+.p-uvas {
+  background-image: url("../../assets/img/bg-uvas.jpg");
+}
+
+.p-huarangos {
+  background-image: url("../../assets/img/bg-huarango.jpg");
+}
+
+.p-familias {
+  background-image: url("../../assets/img/bg-familias.jpg");
+}
+
+.p-pisco {
+  background-image: url("../../assets/img/bg-pisco.jpg");
+}
+
+.p-vinos {
+  background-image: url("../../assets/img/bg-vinos.jpg");
+}
+
+.p-adrenalina {
+  background-image: url("../../assets/img/bg-adrenalina.jpg");
+}
+.p-tradicion {
+  background-image: url("../../assets/img/tradicion/banner1.jpg");
+}
+
+/* END PARALLAX */
+
+/* UVAS PATRIMONIALES */
+.pages-titles {
+  font-family: "neue_worldsuperCnLt";
+  font-size: 9rem;
+  text-transform: uppercase;
+}
+
+.pages-subtitles {
+  font-family: "neue_worldsuperCnLt";
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+.pages-slogan {
+  font-family: "californyabuploaded_file";
+  font-size: 3rem;
+}
+
+.color-uva {
+  color: #8a73a6;
+}
+
+.color-huarango {
+  color: #a8c9d5;
+}
+.color-white {
+  color: #fff;
+}
+.products-titles {
+  background-color: #8a73a6;
+  color: #fff;
+  font-family: "p22_mackinac_probook";
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* END UVAS PATRIMONIALES */
+
+/* GASTRONOMIA */
+
+.color-gastronomia {
+  color: #e27423;
+}
+
+.bg-gastronomia {
+  background-color: #e27423;
+}
+.br-gastronomia {
+  border: 1px solid #e27423;
+  height: 77px;
+}
+.txt-bold-gastronomia {
+  font-weight: bold !important;
+}
+.enoturismo-logo {
+  font-family: "californyabuploaded_file";
+  font-size: 4.5rem;
+}
+.mx-6 {
+  margin: 0 10rem;
+}
+.icon-left {
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+  transform: rotate(180deg);
+  border: none;
+}
+/* END GASTRONOMIA */
+
+/* LEGADO  */
+
+.color-legado {
+  color: #808060;
+}
+.arrowLeftLegado {
+  position: absolute;
+  top: 5rem;
+  border: none;
+}
+.premios-title {
+  font-family: "californyabuploaded_file";
+  font-size: 7rem;
+}
+.color-tienda {
+  color: #000;
+}
+.btn-w {
+  width: 150px;
+}
+
+.br-grape {
+  border: 1px solid #8a73a6;
+}
+.br-store {
+  border: 1px solid #000;
+}
+.bg-legado {
+  background-color: #808060;
+  width: 100%;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.table-box {
+  padding-bottom: 6rem;
+}
+
+.table-vinos {
+  border: 1.5px solid #808060;
+  width: 100%;
+}
+.th-table-vinos {
+  width: 50%;
+  border-bottom: 1.5px solid #808060;
+  border-right: 1.5px solid #808060;
+}
+.td-table-vinos {
+  border-right: 1.5px solid #808060;
+  color: #808060;
+  font-family: "p22_mackinac_probook";
+  font-size: 1.2rem;
+}
+
+.th-table-food {
+  width: 25%;
+  border-bottom: 1.5px solid #808060;
+  border-right: 1.5px solid #808060;
+}
+.th-table-food:last-child {
+  border-bottom: none;
+}
+.th-table-food-i {
+  width: 50%;
+  border-bottom: 1.5px solid #808060;
+  border-right: 1.5px solid #808060;
+}
+.td-table-food {
+  border-bottom: 1.5px solid #808060;
+  border-right: 1.5px solid #808060;
+}
+/* END LEGADO */
+
+/* BEBIDAS */
+.color-tradicion {
+  color: #fed16a;
+}
+.ul-ingredientes {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+.ul-ingredientes li {
+  font-family: "p22_mackinac_probook";
+}
+.strong-txt {
+  text-transform: uppercase;
+}
+/* END BEBIDAS */
+
+/* TRADICION */
+.color-tradicion-r {
+  color: #8d745c;
+}
+.bg-tradicion {
+  background-color: #8d745c;
+  color: #fff;
+}
+.br-cocteleria {
+  color: #fed16a;
+  border: 1.5px solid #fed16a;
+  font-size: 1.2rem;
+}
+.types-pisco {
+  font-family: "californyabuploaded_file";
+  font-size: 4rem;
+}
+/* END TRADICION */
+
+/* QUIENES SOMOS Y VINOS */
+.color-qs {
+  color: #a45844;
+}
+.navbar-brands {
+  background-color: #a45844;
+  /* height: 100px; */
+}
+.navbar-brands ul {
+  padding: 3rem 0;
+}
+.brands-link p {
+  font-family: "p22_mackinac_probook";
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0;
+}
+.link-social {
+  color: #000;
+  font-family: "p22_mackinac_probook";
+  cursor: pointer;
+}
+.link-social span {
+  color: #a45844;
+  font-weight: 900;
+  padding-right: 0.5rem;
+}
+.subtitles-racimo {
+  font-family: "californyabuploaded_file";
+  font-size: 50px;
+}
+.pages-subheaderh6,
+.pages-subheaderh5 {
+  font-family: "p22_mackinac_probook";
+  font-weight: bold;
+}
+.txt-autor {
+  font-family: "californyabuploaded_file";
+  font-size: 70px;
+}
+.pages-firstitle {
+  font-family: "p22_mackinac_probook";
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+/* END QUIENES SOMOS */
+
+/* FOOTER */
+.br-btn-footer {
+  border: 1px solid #fff;
+}
+.logo-footer {
+  max-width: 100px;
+  font-family: "p22_mackinac_probook";
+  text-transform: uppercase;
+  font-size: 20px;
+  /* text-align: justify; */
+}
+.txt-footer {
+  font-family: "tuskergrotesk-medium";
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.subtitle-footer {
+  color: #6e5844;
+}
+.input-footer {
+  border: none;
+  background-color: #000;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-family: "p22_mackinac_probook";
+}
+.input-footer::placeholder {
+  color: #fff;
+  font-family: "p22_mackinac_probook";
+  font-size: 15px;
+}
+.logo-footer {
+  font-family: "tuskergrotesk-medium";
+  color: #fff;
+}
+.footer-slang {
+  font-size: 3.5rem;
+  font-family: "LondrinaOutline-Regular";
+  letter-spacing: 0.2rem;
+  opacity: 0.3;
+}
+/* END FOOTER */
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  transition: background-color 200ms linear;
+}
+
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 10rem 2rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .jumbotron {
+    margin-top: 0;
+    padding-top: 150px !important;
+  }
+
+  .title-jumbotron {
+    font-size: 32px;
+  }
+
+  .text-jumbotron {
+    width: 100% !important;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  ul.navbar-nav {
+    margin-top: 25px;
+  }
+
+  .navbar-collapse {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1) !important;
+  }
+
+  .navbar-collapse.collapsing {
+    left: -100%;
+    transition: height 0s ease;
+  }
+
+  .navbar-collapse.show {
+    left: 0;
+    transition: left 100ms linear;
+  }
+
+  .navbar-toggler.collapsed ~ .navbar-collapse {
+    transition: left 200ms ease;
+  }
+
+  .navbar-collapse {
+    padding: 0px;
+  }
+
+  .nav-link:hover {
+    background-color: #ffffff;
+  }
+
+  .nav-link {
+    padding-left: 25px !important;
+  }
+
+  .nav-item img {
+    padding-left: 25px;
+    margin-bottom: 15px;
+  }
+}
