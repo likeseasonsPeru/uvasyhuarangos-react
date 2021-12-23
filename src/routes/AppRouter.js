@@ -8,6 +8,7 @@ import { Uvas } from "../Pages/Uvas";
 import Gastronomia from "../Pages/Gastronomia";
 import { Vinos } from "../Pages/Vinos";
 import { Piscos } from "../Pages/Piscos";
+import { Familia } from "../Pages/Familia";
 
 export const AppRouter = () => {
   return (
@@ -19,6 +20,7 @@ export const AppRouter = () => {
         <Route path="/turismo"  element={ <Gastronomia/> }/>
         <Route path="/vinos"  element={ <Vinos/> }/>
         <Route path="/piscos"  element={ <Piscos/> }/>
+        <Route path="/familia" element={<Familia />} />
       </Routes>
     </>
   );

@@ -392,7 +392,8 @@ h6 {
 }
 .br-gastronomia {
   border: 1px solid #e27423;
-  height: 77px;
+  /* height: 77px; */
+  font-family: "tuskergrotesk-medium";
 }
 .txt-bold-gastronomia {
   font-weight: bold !important;
@@ -442,15 +443,20 @@ h6 {
 
 .br-grape {
   border: 1px solid #8a73a6;
+  font-family: "tuskergrotesk-medium";
 }
 .br-store {
   border: 1px solid #000;
+  font-family: "tuskergrotesk-medium";
 }
 .bg-legado {
   background-color: #808060;
   width: 100%;
   color: #fff;
   font-size: 1.5rem;
+}
+.bg-legado th {
+  font-family: "tuskergrotesk-medium";
 }
 .table-box {
   padding-bottom: 6rem;
@@ -464,6 +470,7 @@ h6 {
   width: 50%;
   border-bottom: 1.5px solid #808060;
   border-right: 1.5px solid #808060;
+  font-family: "tuskergrotesk-medium";
 }
 .td-table-vinos {
   border-right: 1.5px solid #808060;
@@ -533,17 +540,31 @@ h6 {
 }
 .navbar-brands {
   background-color: #a45844;
-  /* height: 100px; */
 }
 .navbar-brands ul {
   padding: 3rem 0;
+}
+.brands-link {
+  color: #fff;
+  text-decoration: none;
+}
+.brands-link:hover {
+  text-decoration: none;
+  color: #ccc;
+  opacity: 1;
 }
 .brands-link p {
   font-family: "p22_mackinac_probook";
   font-size: 14px;
   text-transform: uppercase;
-  text-decoration: none;
   margin: 0;
+}
+@media screen and (min-width: 1200px) {
+  .nav-families {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 .link-social {
   color: #000;
