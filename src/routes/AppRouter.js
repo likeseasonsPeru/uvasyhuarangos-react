@@ -9,6 +9,9 @@ import Gastronomia from "../Pages/Gastronomia";
 import { Vinos } from "../Pages/Vinos";
 import { Piscos } from "../Pages/Piscos";
 import { Familia } from "../Pages/Familia";
+import { FamiliiaScreen } from "../Pages/FamiliiaScreen";
+import { Error } from "../Pages/Error";
+import { Cocteleria } from "../Pages/Cocteleria";
 
 export const AppRouter = () => {
   return (
@@ -20,7 +23,10 @@ export const AppRouter = () => {
         <Route path="/turismo"  element={ <Gastronomia/> }/>
         <Route path="/vinos"  element={ <Vinos/> }/>
         <Route path="/piscos"  element={ <Piscos/> }/>
+        <Route path="/cocteleria"  element={ <Cocteleria/> }/>
         <Route path="/familia" element={<Familia />} />
+        <Route path="/familia/:familia" element={<FamiliiaScreen />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </>
   );

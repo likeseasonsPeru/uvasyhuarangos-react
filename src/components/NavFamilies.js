@@ -23,7 +23,7 @@ export const NavFamilies = () => {
         >
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="brands-link" to="/agenciadolphintravel.html">
+              <Link className="brands-link" to="/agenciadolphintravel">
                 <p className="text-center">
                   AGENCIA <br />
                   DOLPHIN TRAVEL
@@ -31,7 +31,7 @@ export const NavFamilies = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="brands-link" to="/finca314.html">
+              <Link className="brands-link" to="/finca314">
                 <p className="text-center">
                   Finca <br />
                   314
@@ -39,7 +39,7 @@ export const NavFamilies = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="brands-link" to="/fundosantalucia.html">
+              <Link className="brands-link" to="/fundosantalucia">
                 <p className="text-center">
                   FUNDO <br />
                   SANTA LUCIA
@@ -47,7 +47,7 @@ export const NavFamilies = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="brands-link" to="/bodega1615.html">
+              <Link className="brands-link" to="/bodega1615">
                 <p className="text-center">
                   Bodega <br />
                   1615
@@ -55,7 +55,7 @@ export const NavFamilies = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="brands-link" to="/bodegaelcatador.html">
+              <Link className="brands-link" to="/bodegaelcatador">
                 <p className="text-center">
                   Bodega <br />
                   el catador
@@ -63,7 +63,7 @@ export const NavFamilies = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="brands-link" to="/bodegapampasdeica.html">
+              <Link className="brands-link" to="/bodegapampasdeica">
                 <p className="text-center">
                   Bodega <br />
                   pampas de ica
@@ -71,7 +71,7 @@ export const NavFamilies = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="brands-link" to="/bodegatresgeneraciones.html">
+              <Link className="brands-link" to="/bodegatresgeneraciones">
                 <p className="text-center">
                   Bodega <br />
                   tres Generaciones
@@ -79,7 +79,7 @@ export const NavFamilies = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="brands-link" to="/bodegavillacuri.html">
+              <Link className="brands-link" to="/bodegavillacuri">
                 <p className="text-center">
                   Bodega <br />
                   Villacuri
@@ -87,7 +87,7 @@ export const NavFamilies = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="brands-link" to="/haciendagranpaso.html">
+              <Link className="brands-link" to="/haciendagranpaso">
                 <p className="text-center">
                   Hacienda <br />
                   gran paso
@@ -95,7 +95,7 @@ export const NavFamilies = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="brands-link" to="/restauranteolladejuanita.html">
+              <Link className="brands-link" to="/restauranteolladejuanita">
                 <p className="text-center">
                   Restaurante <br />
                   olla de juanita
@@ -112,7 +112,7 @@ export const NavFamilies = () => {
           style={{ marginBottom: "0" }}
         >
           <li className="nav-item">
-            <Link className="brands-link" to="/agenciadolphintravel.html">
+            <Link className="brands-link" to="/familia/agenciadolphintravel">
               <p className="text-center">
                 AGENCIA <br />
                 DOLPHIN TRAVEL
@@ -120,7 +120,7 @@ export const NavFamilies = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="brands-link" to="/finca314.html">
+            <Link className="brands-link" to="/familia/finca314">
               <p className="text-center">
                 Finca <br />
                 314
@@ -128,7 +128,7 @@ export const NavFamilies = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="brands-link" to="/fundosantalucia.html">
+            <Link className="brands-link" to="/familia/fundosantalucia">
               <p className="text-center">
                 FUNDO <br />
                 SANTA LUCIA
@@ -136,7 +136,7 @@ export const NavFamilies = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="brands-link" to="/bodega1615.html">
+            <Link className="brands-link" to="/familia/bodega1615">
               <p className="text-center">
                 Bodega <br />
                 1615
@@ -144,7 +144,7 @@ export const NavFamilies = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="brands-link" to="/bodegaelcatador.html">
+            <Link className="brands-link" to="/familia/bodegaelcatador">
               <p className="text-center">
                 Bodega <br />
                 el catador
@@ -152,7 +152,7 @@ export const NavFamilies = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="brands-link" to="/bodegapampasdeica.html">
+            <Link className="brands-link" to="/familia/bodegapampasdeica">
               <p className="text-center">
                 Bodega <br />
                 pampas de ica
@@ -160,7 +160,7 @@ export const NavFamilies = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="brands-link" to="/bodegatresgeneraciones.html">
+            <Link className="brands-link" to="/familia/bodegatresgeneraciones">
               <p className="text-center">
                 Bodega <br />
                 tres Generaciones
@@ -168,7 +168,7 @@ export const NavFamilies = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="brands-link" to="/bodegavillacuri.html">
+            <Link className="brands-link" to="/familia/bodegavillacuri">
               <p className="text-center">
                 Bodega <br />
                 Villacuri
@@ -176,7 +176,7 @@ export const NavFamilies = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="brands-link" to="/haciendagranpaso.html">
+            <Link className="brands-link" to="/familia/haciendagranpaso">
               <p className="text-center">
                 Hacienda <br />
                 gran paso
@@ -184,7 +184,7 @@ export const NavFamilies = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="brands-link" to="/restauranteolladejuanita.html">
+            <Link className="brands-link" to="/familia/restauranteolladejuanita">
               <p className="text-center">
                 Restaurante <br />
                 olla de juanita
