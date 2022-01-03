@@ -80,7 +80,7 @@ export const Home = () => {
             </div>
             <div className="col-md-9 align-self-end">
               <p className="logo-home-bear text-white">
-                TOMAR BEBIDAS ALCOHÓLICAS EN EXCESO ES DAÑINO
+                {/* TOMAR BEBIDAS ALCOHÓLICAS EN EXCESO ES DAÑINO */}
               </p>
             </div>
           </div>
