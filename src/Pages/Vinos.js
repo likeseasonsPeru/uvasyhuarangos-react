@@ -6,7 +6,6 @@ import Navbar from "../components/Navbar";
 
 // images
 import ArrowLeft from "../assets/img/legado/arrow-left.png";
-import ArrowRight from "../assets/img/gastronomia/arrow-right.png";
 import banner1 from "../assets/img/legado/banner1.jpg";
 import banner3 from "../assets/img/legado/banner3.jpg";
 import sello from "../assets/img/legado/sello1.png";
@@ -25,7 +24,7 @@ export const Vinos = () => {
     <>
       <Navbar />
       <section id="legado" className="page">
-        <div className="container my-5 position-relative">
+        <div className="container py-5 position-relative">
           <div className="row">
             <div className="col text-center my-5">
               <h1 className="pages-titles color-legado">
@@ -87,15 +86,17 @@ export const Vinos = () => {
             <div className="col-md-5 col-sm-12 text-center">
               <h2 className="pages-subtitles color-legado">TINTO</h2>
               <img src={Tinto} alt="tinto" class="img-fluid mb-5" />
-              <p className="mx-auto text-center" style={{ maxWidth: "395px" }}>
+              <p className="mx-auto text-center" style={{ maxWidth: "410px" }}>
                 Nuestro vino tinto es un vino de exquisito sabor muy acentuado
                 con un imponente cuerpo y de color intenso. Es recomendado como
                 aperitivo o bajativo para acompañar carnes rojas o pastas. Este
                 vino de color rojo rubí penetrante esconde una intensa mezcla de
                 aromas de frutas rojas que, en boca, despliegan un gran cuerpo y
-                un sabor muy placentero. Los peruanos tenemos mucha predilección
-                por el vino dulce y en la tienda de Uvas y Huarangos también los
-                puedes encontrar.
+                un sabor muy placentero.
+                <br />
+                <br />
+                Los peruanos tenemos mucha predilección por el vino dulce y en
+                la tienda de Uvas y Huarangos también los puedes encontrar.
               </p>
             </div>
             <div className="col-md-2 col-sm-12  text-center align-self-center py-5">
@@ -104,25 +105,34 @@ export const Vinos = () => {
             <div className="col-md-5 col-sm-12 text-center">
               <h2 className="pages-subtitles color-legado">ROSE</h2>
               <img src={Rose} alt="Rose" class="img-fluid mb-5" />
-              <p className="mx-auto text-center" style={{ maxWidth: "395px" }}>
+              <p className="mx-auto text-center" style={{ maxWidth: "410px" }}>
                 Nuestro vino Rose posee algo de aquel color típico del vino
                 tinto, pero solo lo suficiente como para darle un tono rosado.
                 Este vino de excelente sabor acentuado, dependiendo del tipo de
                 uva con la que se elabore, variará en gran medida su sabor, como
                 flores, cítricos y frutos rojos, y su color, que puede ir del
-                claro al fuerte casi violeta. En boca despliega un cuerpo ligero
-                y posee un delicioso sabor.
+                claro al fuerte casi violeta.
+                <br /> <br />
+                En boca despliega un cuerpo ligero y posee un delicioso sabor.
               </p>
             </div>
           </div>
           <div className="d-flex justify-content-between">
             <div className="d-flex mt-5">
               <button className="btn-w color-tienda br-store">TIENDA</button>
-              <img src={ArrowStore} className="img-fluid ml-4" />
+              <img
+                src={ArrowStore}
+                className="img-fluid ml-4"
+                alt="arrow store"
+              />
             </div>
             <div className="d-flex mt-5">
               <button className="btn-w color-uva br-grape">UVAS</button>
-              <img src={ArrowGrape} className="img-fluid ml-4" />
+              <img
+                src={ArrowGrape}
+                className="img-fluid ml-4"
+                alt="arrow grape"
+              />
             </div>
           </div>
         </div>

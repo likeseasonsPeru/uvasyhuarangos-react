@@ -34,7 +34,10 @@ export const Uvas = () => {
       <Navbar />
       <section id="uvas-patrimoniales" className="page py-5">
         <div className="container py-5">
-          <button className="float-left pt-4">
+          <button
+            className="float-left pt-4"
+            onClick={() => window.history.back()}
+          >
             <img src={ArrowRight} alt="arrow-right" />
           </button>
           <div className="row">
@@ -69,21 +72,25 @@ export const Uvas = () => {
 
         <div className="container mb-5">
           <div className="row">
-            <div className="col-md-3 col-sm-6 align-self-center">
+            <div className="col-md-3 col-sm-6 text-center align-self-center py-3">
               <img src={sello} className="img-fluid" alt="UVAS PATRIMONIALES" />
             </div>
             <div className="col-md-6 col-sm-6 align-self-center">
-              <h2 className="pages-subtitles color-uva">
+              <h2
+                className="pages-subtitles color-uva mx-auto"
+                style={{ maxWidth: "415px" }}
+              >
                 DE ESTAS UVAS VIENE EL VINO Y DEL VINO, EL PISCO
               </h2>
             </div>
             <div className="col-md-3  col-sm-12 align-self-center">
               <p>
-                Hoy en día, alrededor del mundo podemos encontrar una tendencia
+                Hoy en día, alrededor del mundo, podemos encontrar una tendencia
                 a rescatar variedades emblemáticas de uvas, mejor conocidas como
                 uvas patrimoniales, por su conexión a la cultura y tradición
-                sudamericana. Las podemos clasificar en dos grupos,
-                tradicionales y criollas.
+                sudamericana.
+                <br /> <br />
+                Las podemos clasificar en dos grupos, tradicionales y criollas.
               </p>
             </div>
           </div>
@@ -100,8 +107,8 @@ export const Uvas = () => {
                 UVAS TRADICIONALES O CRIOLLAS
               </h2>
             </div>
-            <div className="col-10">
-              <p>
+            <div className="col-12">
+              <p className="mx-auto" style={{ maxWidth: "950px" }}>
                 Entre las tradicionales tenemos la Listán Prieto, actualmente
                 Negra Criolla en Perú, la uva Italia, también llamada Moscatel
                 de Alejandría, la Mollar y la Albilla. Todas estas crearon lo
@@ -109,6 +116,7 @@ export const Uvas = () => {
                 Quebranta, es un cruce de Listán Prieto y Mollar Cano, pero
                 podemos encontrar muchas otras como la Torontel, la Moscatel,
                 etc.
+                <br />
                 <br />
                 Del mismo modo, las uvas se dividen en dos tipos: aromáticas
                 (Moscatel, Italia, Torontel, Albilla) y no aromáticas

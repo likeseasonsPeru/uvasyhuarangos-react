@@ -408,7 +408,10 @@ h6 {
   font-size: 1rem;
   text-align: center;
 }
-
+.ArrowRightHuarango {
+  top: 5rem;
+  left: 5rem;
+}
 /* END UVAS PATRIMONIALES */
 
 /* GASTRONOMIA */
@@ -551,6 +554,15 @@ h6 {
 }
 .strong-txt {
   text-transform: uppercase;
+}
+.arrowLeftCocteleria {
+  top: 3rem;
+  left: 9rem;
+  border: none;
+}
+.arrowWhiteCocteleria {
+  bottom: 3rem;
+  right: 2rem;
 }
 /* END BEBIDAS */
 
@@ -780,6 +792,22 @@ h6 {
   .pages-titles {
     font-size: 7rem;
   }
+  .parallax-titles {
+    font-size: 3.3rem;
+    line-height: 4rem;
+  }
+  .arrowLeftCocteleria {
+    top: 4rem;
+    left: 3rem;
+  }
+  .arrowWhiteCocteleria {
+    bottom: 1rem;
+    right: 1rem;
+  }
+  .ArrowRightHuarango {
+    top: 3rem;
+    left: 3rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -809,5 +837,10 @@ h6 {
   }
   .arrowLeftLegado img {
     height: 3rem !important;
+  }
+  .arrowLeftCocteleria,
+  .ArrowRightHuarango {
+    top: 1rem;
+    left: 1rem;
   }
 }

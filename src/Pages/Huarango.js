@@ -9,7 +9,6 @@ import ArrowRight from "../assets/img/huarangos/arrow-right.png";
 import banner1 from "../assets/img/huarangos/banner1.jpg";
 import banner2 from "../assets/img/huarangos/banner2.jpg";
 import whyimportant from "../assets/img/huarangos/whyimportant.jpg";
-import sello from "../assets/img/huarangos/sello.jpg";
 
 export const Huarango = () => {
   const DataFooter = [
@@ -29,22 +28,23 @@ export const Huarango = () => {
             alt="banner 1 huarangos"
           />
           <button
-            style={{
-              position: "absolute",
-              top: "5rem",
-              left: "5rem",
-              border: "none",
-            }}
+            className="position-absolute border-0 ArrowRightHuarango"
+            onClick={() => window.history.back()}
           >
             <img src={ArrowRight} alt="ArrowRight" className="img-fluid" />
           </button>
         </div>
-        <div className="container py-5">
+        <div
+          className="container-fluid py-3"
+          style={{ backgroundColor: "#C0D8E1" }}
+        >
+          <h1 className="pages-titles color-white  text-center">
+            CONMIGO COMIENZA TODO
+          </h1>
+        </div>
+        <div className="container pb-5">
           <div className="row py-5">
             <div className="col text-center">
-              <h1 className="pages-titles color-huarango">
-                CONMIGO COMIENZA TODO
-              </h1>
               <h4 className="pages-slogan mb-4">Hola, soy el Huarango</h4>
               <p>
                 Estoy aquí desde tiempos inmemoriales, llegué a Ica antes que
@@ -69,52 +69,66 @@ export const Huarango = () => {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-between py-5">
-          <div style={{ maxWidth: "50vw" }}>
-            <img src={whyimportant} className="img-fluid" alt="whyimportant" />
-          </div>
-          <div className="mx-auto d-flex flex-column justify-content-between">
-            <div>
-              <div className="col text-right align-self-end">
-                <h2 className="pages-subtitles color-huarango text-right">
-                  ¿POR QUÉ SOY <br /> TAN IMPORTANTE?
-                </h2>
+
+        <div className="container py-5">
+          <div className="row">
+            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <div style={{ width: "100%" }}>
+                <img
+                  src={whyimportant}
+                  className="img-fluid"
+                  alt="whyimportant"
+                />
               </div>
-              <p className="mt-5 text-right" style={{ maxWidth: "512px" }}>
-                El árbol de huarango es oriundo del Valle de Ica, la extensa
-                franja de tierra entre el Pacífico y los Andes, donde la lluvia
-                es prácticamente nula. En el ecosistema iqueño, uno de los más
-                vulnerables de la Tierra, el huarango perdura gracias a sus
-                propiedades únicas.
-                <br />
-                <br />
-                Cuenta con las raíces más profundas del mundo, midiendo hasta 70
-                metros. Lo que le permite alcanzar fuentes profundas de agua
-                subterránea y traer agua a superficies desérticas, haciendo
-                posible la vida y sembrado de otras plantas y frutos, como las
-                uvas.
-                <br />
-                <br />
-                Sus hojas actúan como atrapanieblas, su superficie capta la
-                niebla, esta se condensa y se convierte en agua, goteando al
-                suelo. El fruto del árbol, denominado huaranga, es sumamente
-                nutritivo, culturas de la etapa precolombina sobrevivieron
-                largos períodos de sequía comiendo únicamente este fruto
-              </p>
+            </div>
+            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-4">
+              <div className="ml-auto d-flex flex-column justify-content-between">
+                <div>
+                  <div className="text-right align-self-end">
+                    <h2 className="pages-subtitles color-huarango text-right">
+                      ¿POR QUÉ SOY <br /> TAN IMPORTANTE?
+                    </h2>
+                  </div>
+                  <p
+                    className="ml-auto text-right"
+                    style={{ maxWidth: "560px" }}
+                  >
+                    El árbol de huarango es oriundo del Valle de Ica, donde la
+                    lluvia es prácticamente nula. Con uno de los ecosistemas más
+                    vulnerables de la tierra este árbol perdura gracias a sus
+                    propiedades únicas.
+                    <br />
+                    <br />
+                    El huarango cuenta con las raíces más profundas del mundo,
+                    que miden hasta 70 metros y le permite alcanzar fuentes
+                    profundas de agua subterránea, traerla a superficies
+                    desérticas, haciendo posible la vida y sembrado de otras
+                    plantas y frutos, como las uvas.
+                    <br />
+                    <br />
+                    Sus hojas actúan como atrapanieblas, su superficie capta la
+                    niebla, esta se condensa y se convierte en agua, goteando al
+                    suelo. Su fruto, denominado huaranga, es sumamente
+                    nutritivo, sirviéndole incluso a culturas de la etapa
+                    precolombina como alimento de sobrevivencia.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div className="container mb-5">
-          <div className="row justify-content-center align-items-center">
-            <div className="col-md-6">
+
+        <div className="container py-5">
+          <div className="row">
+            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <h2 className="pages-subtitles color-huarango">
                 CUIDEMOS
                 <br />
                 AL GUARDIÁN
               </h2>
               <p className="color-huarango">
-                Un árbol tan majestuoso como el huarango, debe ser preservado
-                con mucho cuidado.
+                Un árbol tan majestuoso como el huarango, <br /> debe ser
+                preservado con mucho cuidado.
               </p>
               <p>
                 Debemos saber que hacer para salvaguardarlo, porque sembrar sus
@@ -133,19 +147,12 @@ export const Huarango = () => {
                 otra vez.
               </p>
             </div>
-            <div className="col-md-6 text-right">
-              <img src={sello} className="img-fluid" alt="sello" />
+            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 h-100">
+              <div className="w-100 h-100">
+                <img src={banner2} class="img-fluid h-100" alt="banner2"/>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div className="container-fluid p-0 mb-5">
-          <img
-            src={banner2}
-            className="img-fluid"
-            alt="banner 2 Huarangos"
-            style={{ width: "100%" }}
-          />
         </div>
       </section>
       <Footer color={DataFooter[0]} txt={DataFooter[1]} />
