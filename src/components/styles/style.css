@@ -148,32 +148,36 @@ button {
   color: #fff;
   font-size: 1rem;
 }
-@media screen and (min-width: 1000px) {
-  .nav-fixed {
-    position: fixed;
-    top: 0;
-    background-color: #000;
-    width: 100%;
-    z-index: 1000;
-    overflow: hidden;
-  }
+.nav-fixed {
+  position: fixed !important;
+  top: 0;
+  background-color: #000;
+  width: 100%;
+  z-index: 100;
+  overflow: hidden;
 }
-@media screen and (min-width: 1200px) {
-  .container {
-    max-width: 1300px !important;
-  }
+.mt-120 {
+  margin-top: 125px;
 }
-@media screen and (min-width: 1600px) {
-  .container {
-    max-width: 1500px !important;
-  }
+.mt-140 {
+  margin-top: 140px;
 }
-
+.mt-240 {
+  margin-top: 230px;
+}
 .nav-item {
   font-family: "tuskergrotesk-medium";
   font-size: 1.5rem;
   padding-left: 1.5rem;
   color: #fff;
+}
+.nav-item-fam {
+  font-family: "tuskergrotesk-medium";
+  font-size: 1.5rem;
+  color: #fff;
+}
+.navbar-brands-lg {
+  display: none;
 }
 
 a {
@@ -307,7 +311,10 @@ h6 {
 
 .btn-idiomas {
   width: 80px;
-  margin: 1rem 0 0 2.5rem;
+  margin: 0rem 0 0 2.5rem;
+}
+.btn-idiomas > button {
+  font-family: "tuskergrotesk-medium";
 }
 .btn-cookies {
   color: #000;
@@ -315,6 +322,7 @@ h6 {
   font-size: 14px;
   border: none;
   text-transform: uppercase;
+  font-family: "tuskergrotesk-medium";
 }
 .btn-aceptar {
   color: #fff;
@@ -322,6 +330,7 @@ h6 {
   font-size: 14px;
   border: none;
   text-transform: uppercase;
+  font-family: "tuskergrotesk-medium";
 }
 .slg-index {
   font-family: "californyabuploaded_file";
@@ -330,12 +339,30 @@ h6 {
 .logo-home-bear {
   font-size: 2rem;
 }
+.contain-home-data {
+  height: 50vh;
+  background: #808060;
+}
+.sello-home {
+  position: absolute;
+  right: 20px;
+  top: -250px;
+}
+.b-parallax-data {
+  height: 50vh;
+  font-size: 2rem;
+}
+.b-parallax-arrow {
+  padding-right: 30px;
+}
 .btn-store {
   border: 1px solid #fff;
   color: #fff;
   height: 60px;
   text-transform: uppercase;
-  width: 100px;
+  /* width: 100px; */
+  font-size: 20px;
+  font-family: "tuskergrotesk-medium";
 }
 .p-inicio {
   background-image: url("../../assets/img/bg-inicio.jpg");
@@ -557,7 +584,7 @@ h6 {
 }
 .arrowLeftCocteleria {
   top: 3rem;
-  left: 9rem;
+  left: 5rem;
   border: none;
 }
 .arrowWhiteCocteleria {
@@ -630,6 +657,11 @@ h6 {
   color: #a45844;
   font-weight: 900;
   padding-right: 0.5rem;
+}
+.arrowFamiliaBtn,
+.arrowFamiliaBtnFam {
+  top: 4rem;
+  left: 4rem;
 }
 .subtitles-racimo {
   font-family: "californyabuploaded_file";
@@ -745,7 +777,7 @@ h6 {
   }
 
   .navbar-collapse {
-    position: fixed;
+    /* position: fixed; */
     top: 0px;
     left: 0;
     padding-left: 15px;
@@ -753,7 +785,7 @@ h6 {
     padding-bottom: 15px;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 1) !important;
+    /* background-color: rgba(0, 0, 0, 1) !important; */
   }
 
   .navbar-collapse.collapsing {
@@ -808,14 +840,52 @@ h6 {
     top: 3rem;
     left: 3rem;
   }
+  .contain-home-data {
+    height: 50vh;
+  }
+  .btn-idiomas {
+    margin: 0rem 0 0 5px;
+  }
+  .sello-home {
+    display: none !important;
+  }
+  .b-parallax-data,
+  .parallax {
+    height: 35vh;
+  }
 }
-
+@media screen and (max-width: 992px) {
+  .contain-home-data {
+    height: 80vh;
+  }
+  .sello-home {
+    display: none;
+  }
+  .b-parallax-data,
+  .parallax {
+    height: 50vh;
+  }
+  .arrowFamiliaBtn,
+  .arrowFamiliaBtnFam {
+    top: 4rem;
+    left: 2rem;
+  }
+  .arrowFamiliaBtnFam {
+    top: 6rem;
+    left: 2rem;
+  }
+  .arrowFamiliaBtn > img {
+    height: 5rem;
+  }
+  .arrowFamiliaBtnFam > img {
+    height: 5rem;
+  }
+}
 @media screen and (max-width: 768px) {
   /* Global */
   .pages-titles {
-    font-size: 4rem;
+    font-size: 3rem;
   }
-
   /* Gastronomia */
   .row-reverse-w {
     flex-direction: row-reverse !important;
@@ -842,5 +912,52 @@ h6 {
   .ArrowRightHuarango {
     top: 1rem;
     left: 1rem;
+  }
+  .contain-home-data {
+    height: 70vh;
+  }
+  .b-parallax-data,
+  .parallax {
+    height: 40vh;
+  }
+  .b-parallax-arrow {
+    height: 80px !important;
+    padding-right: 10px;
+  }
+  .arrowFamiliaBtn {
+    top: 2.5rem;
+    left: 1rem;
+  }
+
+  .arrowFamiliaBtn > img {
+    height: 4rem;
+  }
+  .arrowFamiliaBtnFam {
+    top: 5.5rem;
+    left: 1rem;
+  }
+  .arrowFamiliaBtnFam > img {
+    height: 3rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .contain-home-data {
+    height: 100vh;
+  }
+  .arrowFamiliaBtn {
+    top: 3.5rem;
+  }
+  .arrowFamiliaBtn > img {
+    height: 2.5rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1300px !important;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .container {
+    max-width: 1500px !important;
   }
 }

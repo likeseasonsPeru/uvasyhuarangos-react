@@ -7,7 +7,7 @@ export const Error = () => {
   return (
     <div>
       <Navbar />
-      <section className="container">
+      <section className="container mt-120">
         <div className="row">
           <div className="col-sm-12 col-md-12 py-5">
             <h2 className="text-center color-white mt-5">

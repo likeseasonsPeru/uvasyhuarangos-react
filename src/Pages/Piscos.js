@@ -23,7 +23,7 @@ export const Piscos = () => {
   return (
     <>
       <Navbar />
-      <section id="tradicion" className="page">
+      <section id="tradicion" className="page mt-120">
         <div className="row">
           <div className="col-xl-6 col-md-6 py-5">
             <div className="row">

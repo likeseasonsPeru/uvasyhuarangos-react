@@ -9,14 +9,14 @@ import Shield from "../assets/img/footer/escudo.png";
 const Footer = ({ color, txt }) => {
   return (
     <div className="pb-40 pt-20" style={{ paddingTop: "20px" }}>
-      <div className="row p-5 justify-content-around">
+      <div className="row p-0 p-lg-5 p-md-5 justify-content-around">
         <div
           className="col-md-2 d-flex flex-column justify-content-between"
           style={{ minHeight: "500px" }}
         >
           <div className="d-flex mt-5">
             <button className="br-btn-footer px-3">TIENDA</button>
-            <img src={ArrowRight} className="img-fluid ml-4" />
+            <img src={ArrowRight} className="img-fluid ml-4" alt="arrow right" />
           </div>
           <p className="color-white">
             Uso de esta web:
@@ -85,10 +85,10 @@ const Footer = ({ color, txt }) => {
         </div>
         <div className="col-md-4 pt-5">
           <div className="row">
-            <div className="col-md-6">
-              <img src={Shield} className="img-fluid" />
+            <div className="col-md-12 col-sm-12 col-lg-5 col-xl-5 col-xxl-5 text-center">
+              <img src={Shield} className="img-fluid pb-4" alt="shield"/>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-12 col-sm-12 col-lg-7 col-xl-7 col-xxl-7">
               <p className="txt-footer color-white">{txt}</p>
             </div>
           </div>
@@ -96,7 +96,7 @@ const Footer = ({ color, txt }) => {
       </div>
       <div className="row">
         <div className="col-12">
-          <p className="footer-slang text-center text-uppercase p-4 text-white">
+          <p className="footer-slang text-center text-uppercase py-4 text-white">
             Tomar Bebidas Alcohólicas en exceso es dañino
           </p>
         </div>

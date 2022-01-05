@@ -21,7 +21,7 @@ export const Cocteleria = () => {
   return (
     <>
       <Navbar />
-      <section id="tradicion" className="page">
+      <section id="tradicion" className="page mt-120">
         <div className="contain-legado">
           <button
             className="position-absolute arrowLeftCocteleria"

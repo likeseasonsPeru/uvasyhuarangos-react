@@ -21,7 +21,7 @@ const Gastronomia = () => {
   return (
     <>
       <Navbar />
-      <section id="gastronomia" className="page">
+      <section id="gastronomia" className="page mt-120">
         <div className="container-fluid p-0 position-relative">
           <img
             src={banner1}

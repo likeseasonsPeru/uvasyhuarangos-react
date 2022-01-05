@@ -1,7 +1,6 @@
 import React from "react";
 
 // components
-import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { NavFamilies } from "../components/NavFamilies";
 import { Link } from "react-router-dom";
@@ -12,18 +11,19 @@ import banner1 from "../assets/img/quienesomos/banner1.jpg";
 import sello from "../assets/img/legado/sello.png";
 
 export const Familia = () => {
+  const width = window.innerWidth;
+  const widthView = 992;
   const DataFooter = [
     "#A45844",
     "“PORQUE SOMOS PARTE DE LA TRADICIÓN, DEL CELEBRAR, DEL DISFRUTAR EN FAMILIA”",
   ];
   return (
     <>
-      <Navbar />
       <NavFamilies />
-      <section id="quienes-somos" class="page">
-        <div className="container py-5">
-          <button className="float-left pt-4">
-            <img src={ArrowRight} className="img-fluid" alt="ArrowRight" />
+      <section id="quienes-somos" className={ width <= widthView ? "mt-140 page" : "mt-240 page" }>
+        <div className="container py-5 position-relative">
+          <button className="position-absolute arrowFamiliaBtn" onClick={() => window.history.back()}>
+            <img src={ArrowRight} className="img-fluid arrowFamilia" alt="ArrowRight" />
           </button>
           <div className="row text-center justify-content-md-center">
             <div className="col-12">
@@ -42,24 +42,20 @@ export const Familia = () => {
               <p className="mx-auto">
                 <h6 className="pages-subheaderh6">Somos el cluster</h6>
                 <h3 className="subtitles-racimo">Racimos del Sur</h3>
-                <br />
-                <h5 className="pages-subheaderh5">
-                  presentamos nuestra tienda Uvas y Huarangos
-                </h5>
               </p>
             </div>
           </div>
         </div>
         <div className="container mb-5">
           <div className="row">
-            <div className="col">
+            <div className="col-md-4 col-sm-12">
               <div className="text-center">
                 <Link className="link-social" to="">
                   <span>INSTAGRAM:</span> @uvasyhuarangos
                 </Link>
               </div>
             </div>
-            <div className="col">
+            <div className="col-md-4 col-sm-12">
               <div className="text-center">
                 <Link
                   className="link-social"
@@ -69,7 +65,7 @@ export const Familia = () => {
                 </Link>
               </div>
             </div>
-            <div className="col">
+            <div className="col-md-4 col-sm-12">
               <div className="text-center">
                 <Link className="link-social" to="https://racimosdelsur.com/">
                   <span>WEB:</span> www.racimosdelsur.com
@@ -91,7 +87,7 @@ export const Familia = () => {
 
         <div className="container pb-5">
           <div className="row pb-4">
-            <div className="col-4 text-center">
+            <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
               <h2 className="pages-subtitles color-qs">VISIón</h2>
               <p style={{ maxWidth: "400px" }}>
                 Nuestro propósito es la inmortalidad de nuestras costumbres y
@@ -104,10 +100,10 @@ export const Familia = () => {
                 hecho con pasión.
               </p>
             </div>
-            <div className="col-4 text-center">
+            <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-4 text-center">
               <img src={sello} className="img-fluid" alt="sello" />
             </div>
-            <div className="col-4 text-center">
+            <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
               <h2 className="pages-subtitles color-qs">MISIón</h2>
               <p style={{ maxWidth: "400px" }}>
                 Somos una comunidad vitivinícola y eno turística que ofrece

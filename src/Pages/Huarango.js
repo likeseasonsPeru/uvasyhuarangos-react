@@ -19,7 +19,7 @@ export const Huarango = () => {
   return (
     <>
       <Navbar />
-      <section id="huarango" className="page">
+      <section id="huarango" className="page mt-120">
         <div className="container-fluid p-0 position-relative">
           <img
             src={banner1}

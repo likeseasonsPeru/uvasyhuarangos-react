@@ -7,6 +7,7 @@ import HomeData from "../data/homeData";
 
 // images
 import Shilf from "../assets/img/sello.png";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   const DataFooter = [
@@ -16,7 +17,7 @@ export const Home = () => {
   return (
     <>
       <Navbar />
-      <section>
+      <section className="mt-120">
         <div className="container-fluid parallax p-inicio">
           <div
             className="row d-flex align-items-end"
@@ -27,18 +28,11 @@ export const Home = () => {
               <br />
             </div>
             <div className="col-md-4 text-right">
-              <img
-                className="img-fluid"
-                style={{ position: "absolute", right: "20px", top: "-250px" }}
-                src={Shilf}
-              />
+              <img className="img-fluid sello-home" src={Shilf} alt="Shilf" />
             </div>
           </div>
         </div>
-        <div
-          className="container-fluid d-flex flex-column justify-content-between py-5"
-          style={{ height: "50vh", backgroundColor: "#808060" }}
-        >
+        <div className="container-fluid d-flex flex-column justify-content-between py-5 contain-home-data">
           <div className="row">
             <div className="col-md-3 text-center">
               <div className="d-flex align-items-center justify-content-center">
@@ -51,8 +45,8 @@ export const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-7">
-              <p className="py-3 text-white">
+            <div className="col-lg-7 col-md-9">
+              <p className="py-2 text-white">
                 Somos una gran familia iqueña compuesta de socios propietarios
                 de viñedos,
                 <br />
@@ -68,7 +62,7 @@ export const Home = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-3 text-center">
+            <div className="col-md-6 col-lg-4 col-sm-5 text-center">
               <p className="text-white">
                 ÚNETE A<br />
                 RACIMOS DEL SUR
@@ -85,9 +79,7 @@ export const Home = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section>
-        {HomeData.map(({ color, arrow, clase, txt }, index) => {
+        {HomeData.map(({ color, arrow, clase, txt, to }, index) => {
           return (
             <SectionHome
               color={color}
@@ -95,6 +87,7 @@ export const Home = () => {
               clase={clase}
               txt={txt}
               key={index}
+              to={to}
             />
           );
         })}
@@ -104,16 +97,22 @@ export const Home = () => {
   );
 };
 
-export const SectionHome = ({ color, arrow, clase, txt }) => {
+export const SectionHome = ({ color, arrow, clase, txt, to }) => {
   return (
     <>
       <div
-        style={{ height: "50vh", backgroundColor: color, fontSize: "2rem" }}
-        className="d-flex flex-column justify-content-end px-3"
+        style={{ backgroundColor: color }}
+        className="d-flex flex-column justify-content-end px-3 b-parallax-data"
       >
-        <div className="d-flex pl-2 pr-5 justify-content-between">
-          <button className="btn-store">Tienda</button>
-          <img src={arrow} />
+        <div className="d-flex pl-2 justify-content-between">
+          <button className="btn-store px-4">Tienda</button>
+          <Link to={`/${to}`}>
+            <img
+              src={arrow}
+              alt="arrow"
+              className="img-fluid b-parallax-arrow"
+            />
+          </Link>
         </div>
         <h1 className="parallax-titles">{txt[0]}</h1>
       </div>

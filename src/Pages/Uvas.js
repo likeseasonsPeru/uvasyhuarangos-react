@@ -32,7 +32,7 @@ export const Uvas = () => {
   return (
     <>
       <Navbar />
-      <section id="uvas-patrimoniales" className="page py-5">
+      <section id="uvas-patrimoniales" className="page py-5 mt-120">
         <div className="container py-5">
           <button
             className="float-left pt-4"

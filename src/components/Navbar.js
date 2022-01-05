@@ -6,7 +6,7 @@ import Logo from "../assets/img/logo.png";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-md navbar-dark bg-black">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-black nav-fixed">
         <Link className="navbar-brand" to="/">
           <img src={Logo} alt="Uvas y Huarangos" className="img-fluid" />
         </Link>

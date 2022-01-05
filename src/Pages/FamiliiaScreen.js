@@ -1,6 +1,5 @@
 import React, { memo } from "react";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 import { NavFamilies } from "../components/NavFamilies";
 import { Link, useParams, Navigate } from "react-router-dom";
 
@@ -16,6 +15,8 @@ export const FamiliiaScreen = memo(() => {
   if (!item) {
     return <Navigate to="/familia" />;
   }
+  const width = window.innerWidth;
+  const widthView = 992;
   const DataFooter = [
     "#A45844",
     "“PORQUE SOMOS PARTE DE LA TRADICIÓN, DEL CELEBRAR, DEL DISFRUTAR EN FAMILIA”",
@@ -23,11 +24,10 @@ export const FamiliiaScreen = memo(() => {
   console.log(item);
   return (
     <>
-      <Navbar />
       <NavFamilies />
-      <section className="page">
-        <div className="container py-5">
-          <button className="float-left pt-5">
+      <section className={ width <= widthView ? "mt-140 page" : "mt-240 page" }>
+        <div className="container py-5 position-relative">
+          <button className="position-absolute arrowFamiliaBtnFam" onClick={() => window.history.back()}>
             <img src={ArrowLeft} alt="ArrowLeft" className="img-fluid" />
           </button>
           <div className="row text-center justify-content-md-center">
@@ -59,7 +59,7 @@ export const FamiliiaScreen = memo(() => {
         </div>
         <div className="container mb-5">
           <div className="row">
-            <div className="col">
+            <div className="col-md-4 col-sm-12">
               <div className="text-center">
                 <Link
                   className="link-social text-decoration-none"
@@ -73,7 +73,7 @@ export const FamiliiaScreen = memo(() => {
                 </Link>
               </div>
             </div>
-            <div className="col">
+            <div className="col-md-4 col-sm-12">
               <div className="text-center">
                 <Link
                   className="link-social text-decoration-none"
@@ -87,7 +87,7 @@ export const FamiliiaScreen = memo(() => {
                 </Link>
               </div>
             </div>
-            <div className="col">
+            <div className="col-md-4 col-sm-12">
               <div className="text-center">
                 {item.networkSocial.web ? (
                   <Link
@@ -134,11 +134,11 @@ export const FamiliiaScreen = memo(() => {
 
         <div className="container pb-5">
           <div className="row pb-4">
-            <div className="col-md-5 text-center">
+            <div className="col-md-5 text-center my-3">
               <img
                 src={item.owner}
                 className="img-fluid"
-                style={{ maxHeight: "550px" }}
+                style={{ maxHeight: "580px" }}
                 alt="owner"
               />
             </div>
@@ -147,7 +147,7 @@ export const FamiliiaScreen = memo(() => {
                 <img
                   src={item.pisco}
                   className="img-fluid mt-2"
-                  style={{ maxHeight: "500px" }}
+                  style={{ maxHeight: "580px" }}
                   alt={`Pisco ${familia}`}
                 />
               )}

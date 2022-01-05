@@ -23,7 +23,7 @@ export const Vinos = () => {
   return (
     <>
       <Navbar />
-      <section id="legado" className="page">
+      <section id="legado" className="page mt-120">
         <div className="container py-5 position-relative">
           <div className="row">
             <div className="col text-center my-5">
