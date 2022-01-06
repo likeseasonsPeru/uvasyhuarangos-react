@@ -89,7 +89,7 @@ export const Familia = () => {
           <div className="row pb-4">
             <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
               <h2 className="pages-subtitles color-qs">VISIón</h2>
-              <p style={{ maxWidth: "400px" }}>
+              <p style={{ maxWidth: "400px" }} className="mx-auto">
                 Nuestro propósito es la inmortalidad de nuestras costumbres y
                 alimentar el alma y corazón de los peruanos con los frutos de
                 nuestras tierras.
@@ -105,7 +105,7 @@ export const Familia = () => {
             </div>
             <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
               <h2 className="pages-subtitles color-qs">MISIón</h2>
-              <p style={{ maxWidth: "400px" }}>
+              <p style={{ maxWidth: "400px" }} className="mx-auto">
                 Somos una comunidad vitivinícola y eno turística que ofrece
                 servicios relacionados a sus viñedos y el sol que los ve crecer
                 en Ica.
