@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ReactPlayer from "react-player";
-import Aos from "aos";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 // components
 import Navbar from "../components/Navbar";
@@ -26,7 +27,7 @@ export const Home = () => {
   };
 
   useEffect(() => {
-    Aos.init({
+    AOS.init({
       duration: 2000,
     });
     const getPlay = sessionStorage.getItem("video");
@@ -164,21 +165,30 @@ export const SectionHome = ({ color, arrow, clase, txt, to }) => {
         className="d-flex flex-column justify-content-end px-3 b-parallax-data"
       >
         <div className="d-flex pl-2 justify-content-between">
-          <button className="btn-store px-4">Tienda</button>
+          <button className="btn-store px-4" data-aos="fade-right">
+            Tienda
+          </button>
           <Link to={`/${to}`}>
             <img
               src={arrow}
               alt="arrow"
               className="img-fluid b-parallax-arrow"
+              data-aos="fade-left"
             />
           </Link>
         </div>
-        <h1 className="parallax-titles animate__animated animate__bounce">
+        <h1
+          className="parallax-titles animate__animated animate__bounce"
+          data-aos="fade-up"
+        >
           {txt[0]}
         </h1>
       </div>
       <div className={`parallax ${clase} px-3`}>
-        <h1 className="parallax-titles pt-2 animate__animated animate__bounce">
+        <h1
+          className="parallax-titles pt-2 animate__animated animate__bounce"
+          data-aos="fade-up"
+        >
           {txt[1]}
         </h1>
       </div>
