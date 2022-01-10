@@ -200,7 +200,15 @@ ul {
 li {
   float: left;
 }
-
+.px-60 {
+  padding: 60px 0;
+}
+.px-90 {
+  padding: 90px 0;
+}
+.px-120 {
+  padding: 120px 0;
+}
 .jumbotron {
   position: relative;
   background: none;
@@ -272,10 +280,7 @@ h6 {
 
 /* PARALLAX */
 .parallax {
-  /* Set a specific height */
   height: 50vh;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -348,7 +353,7 @@ h6 {
   font-size: 2rem;
 }
 .contain-home-data {
-  height: 50vh;
+  /* height: 50vh; */
   background: #808060;
 }
 .sello-home {
@@ -374,6 +379,7 @@ h6 {
 }
 .p-inicio {
   background-image: url("../../assets/img/bg-inicio.jpg");
+  background-size: 100%;
   /* background: url('./img/bg-inicio'); */
 }
 

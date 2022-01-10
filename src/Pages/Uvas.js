@@ -60,7 +60,7 @@ export const Uvas = () => {
               </p>
             </div>
           </div>
-          <div className="row">
+          <div className="row pb-3">
             {uvas.map(({ img, name }, index) => {
               return (
                 <div className="col" key={index} data-aos="fade-up">
@@ -74,14 +74,14 @@ export const Uvas = () => {
           </div>
         </div>
 
-        <div className="container-fluid p-0 mb-5">
+        <div className="container-fluid p-0">
           <img src={banner1} className="img-fluid" alt="Banner 1 uvas" />
         </div>
 
-        <div className="container mb-5">
-          <div className="row">
+        <div className="container px-120">
+          <div className="row justify-content-center align-items-center">
             <div className="col-md-3 col-sm-6 text-center align-self-center py-3" data-aos="fade-right">
-              <img src={sello} className="img-fluid" alt="UVAS PATRIMONIALES" />
+              <img src={sello} className="img-fluid" alt="UVAS PATRIMONIALES" style={{ maxHeight: "270px" }} />
             </div>
             <div className="col-md-6 col-sm-6 align-self-center" data-aos="fade-up">
               <h2

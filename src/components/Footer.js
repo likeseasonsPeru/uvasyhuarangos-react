@@ -16,14 +16,30 @@ const Footer = ({ color, txt }) => {
         >
           <div className="d-flex mt-5">
             <button className="br-btn-footer px-3">TIENDA</button>
-            <img src={ArrowRight} className="img-fluid ml-4" alt="arrow right" />
+            <img
+              src={ArrowRight}
+              className="img-fluid ml-4"
+              alt="arrow right"
+            />
           </div>
           <p className="color-white">
             Uso de esta web:
             <br />
-            Términos y condiciones
+            <Link
+              to="#"
+              className=" text-decoration-none text-white"
+              style={{ cursor: "pointer" }}
+            >
+              Términos y condiciones
+            </Link>
             <br />
-            Política de cookies
+            <Link
+              to="#"
+              className=" text-decoration-none text-white"
+              style={{ cursor: "pointer" }}
+            >
+              Política de cookies
+            </Link>
           </p>
           <p className="logo-footer text-center">
             únete al cluster racimos del sur
@@ -86,7 +102,7 @@ const Footer = ({ color, txt }) => {
         <div className="col-md-4 pt-5">
           <div className="row">
             <div className="col-md-12 col-sm-12 col-lg-5 col-xl-5 col-xxl-5 text-center">
-              <img src={Shield} className="img-fluid pb-4" alt="shield"/>
+              <img src={Shield} className="img-fluid pb-4" alt="shield" />
             </div>
             <div className="col-md-12 col-sm-12 col-lg-7 col-xl-7 col-xxl-7">
               <p className="txt-footer color-footer">{txt}</p>

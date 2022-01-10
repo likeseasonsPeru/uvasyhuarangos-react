@@ -83,7 +83,8 @@ export const Home = () => {
               >
                 <div className="col-md-8">
                   <h1 className="parallax-titles animate__animated animate__bounce">
-                    ALEGRÍA Y SABOR IQUEÑO
+                    ALEGRÍA Y <br />
+                    SABOR IQUEÑO
                   </h1>
                   <br />
                 </div>
@@ -127,7 +128,7 @@ export const Home = () => {
                 </div>
               </div>
               <div className="row">
-                <div className="col-md-6 col-lg-4 col-sm-5 text-center">
+                <div className="col-md-3 col-lg-3 col-sm-5 text-center">
                   <p className="text-white">
                     ÚNETE A<br />
                     RACIMOS DEL SUR
