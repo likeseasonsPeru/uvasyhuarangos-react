@@ -9,7 +9,6 @@ import Navbar from "../components/Navbar";
 // images
 import ArrowLeft from "../assets/img/legado/arrow-left.png";
 import banner1 from "../assets/img/legado/banner1.jpg";
-import banner3 from "../assets/img/legado/banner3.jpg";
 import sello from "../assets/img/legado/sello1.png";
 import ArrowGrape from "../assets/img/legado/arrow-right-grape.png";
 import ArrowStore from "../assets/img/legado/arrow-right-store.png";

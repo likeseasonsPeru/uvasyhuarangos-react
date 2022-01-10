@@ -209,6 +209,12 @@ li {
 .px-120 {
   padding: 120px 0;
 }
+.mb-80 {
+  margin-bottom: 80px;
+}
+.mb-120 {
+  margin-bottom: 120px;
+}
 .font-mackinacpro {
   font-family: "p22_mackinac_probook" !important;
   color: #000;

@@ -36,15 +36,15 @@ const Gastronomia = () => {
           <img
             src={banner1}
             className="img-fluid"
-            style={{ width: "100%" }}
+            style={{ width: "100%", maxHeight: "80vh" }}
             alt="Banner 1 Turismo"
           />
           <button className="icon-left" onClick={() => window.history.back()} data-aos="fade-right">
             <img src={ArrowLeft} alt="ArrowLeft" className="img-fluid" />
           </button>
         </div>
-        <div className="bg-gastronomia">
-          <div className="container py-5 mb-5">
+        <div className="bg-gastronomia mb-120">
+          <div className="container py-5">
             <div className="row my-5">
               <div className="col text-center">
                 <h1 className="pages-titles text-white" data-aos="fade-up">GASTRONOMíA</h1>
@@ -71,15 +71,15 @@ const Gastronomia = () => {
             </div>
           </div>
         </div>
-        <div className="container my-5">
+        <div className="container mt-5 mb-120">
           <div className="row">
             <div className="col-md-6 col-xl-6 col-sm-12">
-              <div class="d-flex flex-column justify-content-between">
+              <div class="d-flex flex-column justify-content-between h-100">
                 <div>
-                  <h2 className="pages-subtitles text-left color-gastronomia">
+                  <h1 className="pages-titles text-left color-gastronomia">
                     OLLA DE <br /> JUANITA
-                  </h2>
-                  <p className="text-left" style={{ maxWidth: "380px" }} >
+                  </h1>
+                  <p className="text-left pt-3" style={{ maxWidth: "340px", lineHeight: "1.8" }} >
                     La olla de Juanita proviene de la buena sazón y entrega de
                     la Dama del Pisco, Doña Juanita, heredada a su hija Cecilia
                     González. Parras, recetas y piscos inolvidables en un
@@ -89,7 +89,7 @@ const Gastronomia = () => {
                   </p>
                 </div>
 
-                <div className="d-flex mt-5 pb-3">
+                <div className="d-flex pb-3">
                   <button className="color-gastronomia br-gastronomia px-5">
                     RESERVA
                   </button>
@@ -119,7 +119,7 @@ const Gastronomia = () => {
           </div>
         </div>
 
-        <div className="container my-5">
+        <div className="container mt-5 mb-120">
           <div className="row">
             <div className="col-md-6 col-xl-6 col-sm-12">
               <div style={{ width: "100%" }}>
@@ -135,12 +135,12 @@ const Gastronomia = () => {
             <div className="col-md-6 col-xl-6 col-sm-12">
               <div className="d-flex flex-column justify-content-between h-100">
                 <div>
-                  <h2 className="pages-subtitles text-right color-gastronomia">
+                  <h1 className="pages-titles text-right color-gastronomia">
                     EL <br /> CATADOR
-                  </h2>
+                  </h1>
                   <p
-                    className="text-right ml-auto"
-                    style={{ maxWidth: "400px" }}
+                    className="text-right ml-auto  pt-3"
+                    style={{ maxWidth: "400px", lineHeight: "1.9" }}
                   >
                     Disfruta de la buena sazón iqueña rodeado de historia,
                     dentro de instalaciones antiguas que reflejan el legado del
@@ -149,7 +149,7 @@ const Gastronomia = () => {
                     ideal para degustar lo mejor de la gastronomía de Ica.
                   </p>
                 </div>
-                <div className="d-flex mt-5 justify-content-end pb-3">
+                <div className="d-flex justify-content-end pb-3">
                   <button className="color-gastronomia br-gastronomia px-5">
                     RESERVA
                   </button>
@@ -164,15 +164,15 @@ const Gastronomia = () => {
           </div>
         </div>
 
-        <div className="container my-5">
+        <div className="container mt-5 mb-120">
           <div className="row">
             <div className="col-md-6 col-xl-6 col-sm-12">
               <div className="d-flex flex-column justify-content-between h-100">
                 <div>
-                  <h2 className="pages-subtitles text-left color-gastronomia">
+                  <h1 className="pages-titles text-left color-gastronomia">
                     PAMPA
-                  </h2>
-                  <p className="text-left" style={{ maxWidth: "400px" }}>
+                  </h1>
+                  <p className="text-left pt-3" style={{ maxWidth: "400px" , lineHeight: "1.9" }}>
                     Prueba la verdadera comida criolla de la región de Ica en
                     nuestra picantería de carretera, degustando lo mejor de la
                     gastronomía típica de antaño con deliciosos piscos y vinos
@@ -210,7 +210,7 @@ const Gastronomia = () => {
             <div className="row my-5">
               <div className="col text-center">
                 <h1 className="pages-titles text-white">ENOTURISMO</h1>
-                <h4 className="enoturismo-logo">
+                <h4 className="enoturismo-logo mx-auto my-4" style={{ maxWidth: "900px" }}>
                   En Ica descubrirás el equilibrio perfecto entre historia y
                   aventura.
                 </h4>
@@ -227,16 +227,16 @@ const Gastronomia = () => {
           </div>
         </div>
 
-        <div className="container my-5">
+        <div className="container px-90">
           <div className="row">
             <div className="col-md-6 col-xl-6 col-sm-12">
-              <div className="mx-auto d-flex flex-column justify-content-between">
+              <div className="mx-auto d-flex flex-column justify-content-between h-100">
                 <div>
-                  <h2 className="pages-subtitles color-gastronomia text-left">
+                  <h1 className="pages-titles color-gastronomia text-left">
                     RUTA <br /> ADRENALINA
-                  </h2>
-                  <h3 className="color-gastronomia">TUBULARES</h3>
-                  <p className="text-left" style={{ maxWidth: "400px" }}>
+                  </h1>
+                  <h3 className="color-gastronomia" style={{ fontSize: "30px", fontWeight: "300" }}>TUBULARES</h3>
+                  <p className="text-left pt-3" style={{ maxWidth: "400px", lineHeight: "1.7" }}>
                     Diviertete viajando por las descomunales dunas en buggies
                     areneros y deslizate con una tabla para sentir la adrenalina
                     de esta gran aventura.
@@ -291,17 +291,17 @@ const Gastronomia = () => {
               </div>
             </div>
             <div className="col-md-6 col-xl-6 col-sm-12">
-              <div className="h-100 text-right d-flex flex-column justify-content-between">
+              <div className="h-100 text-right d-flex flex-column justify-content-between h-100">
                 <div>
-                  <h2 className="pages-subtitles color-gastronomia text-right">
+                  <h1 className="pages-titles color-gastronomia text-right">
                     TOURS
-                  </h2>
-                  <h4 className="color-gastronomia text-uppercase">
+                  </h1>
+                  <h4 className="color-gastronomia text-uppercase mb-4">
                     PARACAS - CAñon - nazca
                   </h4>
-                  <div className="ml-auto" style={{ maxWidth: "400px" }}>
+                  <div className="ml-auto" style={{ maxWidth: "800px" }}>
                     <strong className="gastronomia-days">DE 3 DIAS</strong>
-                    <p className="text-right">
+                    <p className="text-right" style={{lineHeight: "1.9"}}>
                       <span className="txt-bold-gastronomia">Primer día:</span>{" "}
                       Llegada y adrenalina (dunas, turismo, restaurants, hotel){" "}
                       <br />
@@ -331,7 +331,7 @@ const Gastronomia = () => {
                     </p>
                   </div>
                 </div>
-                <div className="d-flex pb-3 justify-content-end">
+                <div className="d-flex justify-content-end">
                   <button className="color-gastronomia br-gastronomia px-5">
                     RESERVA
                   </button>
@@ -349,13 +349,13 @@ const Gastronomia = () => {
           <div className="row">
             <div className="col-xl-9 col-md-12">
               <div className="row">
-                <div className="col-xl-6 col-md-6">
+                <div className="col-xl-7 col-md-7">
                   <div className="mr-5">
-                    <h2 className="pages-subtitles text-left color-gastronomia">
+                    <h1 className="pages-titles text-left color-gastronomia">
                       RUTAS UVAS Y <br /> HUARANGOS
-                    </h2>
+                    </h1>
                     <h3 className="color-gastronomia mb-5">BODEGAS</h3>
-                    <p className="mr-auto" style={{ maxWidth: "420px" }}>
+                    <p className="mr-auto" style={{ maxWidth: "420px", lineHeight: "1.9" }}>
                       Se parte de este viaje cultural por los distritos más
                       representativos de Ica, conoce nuestra región vitivinícola
                       y deleitate con el Pisco, la bebida iqueña por excelencia.
@@ -366,7 +366,7 @@ const Gastronomia = () => {
                     </p>
                   </div>
                 </div>
-                <div className="col-xl-6 col-md-6">
+                <div className="col-xl-5 col-md-5">
                   <img
                     src={escudocolor}
                     className="img-fluid mb-sm-5"
