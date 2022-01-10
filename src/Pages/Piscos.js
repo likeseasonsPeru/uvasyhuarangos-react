@@ -29,7 +29,7 @@ export const Piscos = () => {
   return (
     <>
       <Navbar />
-      <section id="tradicion" className="page mt-120">
+      <section id="tradicion" className="page mt-120 pt-5">
         <div className="row">
           <div className="col-xl-6 col-md-6 py-5">
             <div className="row">
@@ -44,7 +44,7 @@ export const Piscos = () => {
               </div>
               <div className="col-9">
                 <h1 className="pages-titles color-tradicion-r" data-aos="fade-right">TRADICIóN</h1>
-                <p style={{ maxWidth: "570px" }} data-aos="fade-right">
+                <p style={{ maxWidth: "450px" }} data-aos="fade-right">
                   En Ica tenemos una tradición vitivinícola centenaria y un gran
                   producto emblemático, el Pisco, bebida bandera del Perú,
                   elaborado a base de uvas patrimoniales, que, si bien ahora son
@@ -120,7 +120,7 @@ export const Piscos = () => {
                   resultado el destilado
                 </p>
               </div>
-              <div className="d-flex mt-5 justify-content-end">
+              <div className="d-flex mt-4 justify-content-end">
                 <Link to="/uvas" data-aos="fade-up">
                   <button
                     className="btn-w color-uva br-grape px-5"

@@ -62,14 +62,14 @@ export const Cocteleria = () => {
                 días calurosos de verano, este coctel ligero, fácil de hacer y
                 de beber, es delicioso con un sabor fresco y muy bueno.
               </p>
-              <strong>INGREDIENTES:</strong>
+              <strong className="font-mackinacpro">INGREDIENTES:</strong>
               <ul className="ul-ingredientes">
                 <li>- 6 cubos de hielo</li>
                 <li>- 1 onza de pisco</li>
                 <li>- Ginger ale a gusto</li>
                 <li>- 1 limón</li>
               </ul>
-              <strong className="strong-txt">PREPARACIóN:</strong>
+              <strong className="strong-txt font-mackinacpro">PREPARACIóN:</strong>
               <ol className="ul-ingredientes">
                 <li>Colocar el hielo en un vaso.</li>
                 <li>Añadir el pisco.</li>
@@ -127,7 +127,7 @@ export const Cocteleria = () => {
                 favorita: pisco y vermouth. Este refrescante cóctel es excelente
                 si buscas experimentar una gran combinación de sabores.
               </p>
-              <strong>INGREDIENTES:</strong>
+              <strong className="font-mackinacpro">INGREDIENTES:</strong>
               <div className="row pl-lg-5 pl-md-5 pl-sm-1">
                 <div className="col-5">
                   <ul className="ul-ingredientes">
@@ -146,7 +146,7 @@ export const Cocteleria = () => {
                   </ul>
                 </div>
               </div>
-              <strong className="strong-txt">PREPARACIóN:</strong>
+              <strong className="strong-txt font-mackinacpro">PREPARACIóN:</strong>
               <ol style={{ maxWidth: "600px" }} className="ul-ingredientes">
                 <li>
                   Vierta el pisco y el vermouth en una coctelera con hielo y
@@ -177,7 +177,7 @@ export const Cocteleria = () => {
                 nuestro país, tiene el pisco como principal ingrediente y
                 conmemora su día el 8 de febrero.
               </p>
-              <strong>INGREDIENTES:</strong>
+              <strong className="font-mackinacpro">INGREDIENTES:</strong>
               <div className="row pl-lg-5 pl-md-5 pl-sm-1">
                 <div className="col-5">
                   <ul className="ul-ingredientes">
@@ -197,7 +197,7 @@ export const Cocteleria = () => {
                   </ul>
                 </div>
               </div>
-              <strong className="strong-txt">PREPARACIóN:</strong>
+              <strong className="strong-txt font-mackinacpro">PREPARACIóN:</strong>
               <ol className="ul-ingredientes">
                 <li>Colocar los cubos de hielo.</li>
                 <li>
@@ -254,7 +254,7 @@ export const Cocteleria = () => {
                 encantó a todos y hoy en día esta bebida es uno de los más
                 populares elaborados con pisco nacional.
               </p>
-              <strong>INGREDIENTES:</strong>
+              <strong className="font-mackinacpro">INGREDIENTES:</strong>
               <div className="row pl-lg-5 pl-md-5 pl-sm-1">
                 <div className="col-6 ">
                   <ul className="ul-ingredientes">
@@ -276,7 +276,7 @@ export const Cocteleria = () => {
                   </ul>
                 </div>
               </div>
-              <strong className="strong-txt">PREPARACIóN:</strong>
+              <strong className="strong-txt font-mackinacpro">PREPARACIóN:</strong>
               <ol className="ul-ingredientes">
                 <li>Colocar el hielo en una copa amplia.</li>
                 <li>

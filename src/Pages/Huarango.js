@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
-import "aos/dist/aos.css"
+import "aos/dist/aos.css";
 
 // components
 import Footer from "../components/Footer";
@@ -19,9 +19,9 @@ export const Huarango = () => {
   ];
   useEffect(() => {
     AOS.init({
-      duration: 2000
-    })
-  }, [])
+      duration: 2000,
+    });
+  }, []);
   return (
     <>
       <Navbar />
@@ -30,7 +30,7 @@ export const Huarango = () => {
           <img
             src={banner1}
             className="img-fluid"
-            style={{ width: "100%" }}
+            style={{ width: "100%", maxHeight: "65vh" }}
             alt="banner 1 huarangos"
           />
           <button
@@ -53,8 +53,14 @@ export const Huarango = () => {
         <div className="container pb-5">
           <div className="row py-5">
             <div className="col text-center">
-              <h4 className="pages-slogan mb-4" data-aos="fade-up">Hola, soy el Huarango</h4>
-              <p data-aos="fade-right">
+              <h4 className="pages-slogan my-4" data-aos="fade-up">
+                Hola, soy el Huarango
+              </h4>
+              <p
+                className="mx-auto pt-3 font-mackinacpro"
+                data-aos="fade-right"
+                style={{ maxWidth: "1000px" }}
+              >
                 Estoy aquí desde tiempos inmemoriales, llegué a Ica antes que
                 los incas y las coyas, antes que los españoles y las uvas. Desde
                 entonces me he dedicado a darle vida a su ecosistema, a mejorar
@@ -78,7 +84,7 @@ export const Huarango = () => {
           </div>
         </div>
 
-        <div className="container py-5">
+        <div className="container pb-5">
           <div className="row">
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <div style={{ width: "100%" }} data-aos="fade-right">
@@ -89,16 +95,19 @@ export const Huarango = () => {
                 />
               </div>
             </div>
-            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-4">
-              <div className="ml-auto d-flex flex-column justify-content-between">
+            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-5">
+              <div className="ml-auto d-flex flex-column justify-content-between mt-3">
                 <div>
                   <div className="text-right align-self-end">
-                    <h2 className="pages-subtitles color-huarango text-right" data-aos="flip-up">
+                    <h2
+                      className="pages-subtitles color-huarango text-right"
+                      data-aos="flip-up"
+                    >
                       ¿POR QUÉ SOY <br /> TAN IMPORTANTE?
                     </h2>
                   </div>
                   <p
-                    className="ml-auto text-right"
+                    className="ml-auto text-right font-mackinacpro"
                     style={{ maxWidth: "560px" }}
                     data-aos="fade-left"
                   >
@@ -131,14 +140,14 @@ export const Huarango = () => {
           <div className="row">
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <h2 className="pages-subtitles color-huarango" data-aos="flip-up">
-                CUIDEMOS
+                CUIDEMOS <br />
                 AL GUARDIÁN
               </h2>
               <p className="color-huarango" data-aos="fade-right">
                 Un árbol tan majestuoso como el huarango, <br /> debe ser
                 preservado con mucho cuidado.
               </p>
-              <p>
+              <p className="font-mackinacpro">
                 Debemos saber que hacer para salvaguardarlo, porque sembrar sus
                 semillas sólo es la primer paso, el segundo es plantar la
                 semilla en los niños, de forma que sembrar árboles sea algo
@@ -157,7 +166,7 @@ export const Huarango = () => {
             </div>
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 h-100">
               <div className="w-100 h-100" data-aos="fade-left">
-                <img src={banner2} class="img-fluid h-100" alt="banner2"/>
+                <img src={banner2} class="img-fluid h-100" alt="banner2" />
               </div>
             </div>
           </div>

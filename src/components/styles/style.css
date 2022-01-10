@@ -209,6 +209,10 @@ li {
 .px-120 {
   padding: 120px 0;
 }
+.font-mackinacpro {
+  font-family: "p22_mackinac_probook" !important;
+  color: #000;
+}
 .jumbotron {
   position: relative;
   background: none;
@@ -417,12 +421,14 @@ h6 {
   font-family: "neue_worldsuperCnLt";
   font-size: 9rem;
   text-transform: uppercase;
+  line-height: 0.9;
 }
 
 .pages-subtitles {
   font-family: "neue_worldsuperCnLt";
   font-size: 5rem;
   text-transform: uppercase;
+  line-height: 0.9;
 }
 
 .pages-slogan {
@@ -519,7 +525,10 @@ h6 {
   color: #000;
 }
 .btn-w {
-  width: 150px;
+  width: 140px;
+}
+.btn-h80 {
+  height: 80px;
 }
 .contain-legado {
   height: 40vh;
