@@ -385,8 +385,15 @@ const Gastronomia = () => {
             </div>
           </div>
         </div>
-        <div className="container-fluid p-0 mt-5">
+        <div className="container-fluid p-0 mt-5 position-relative">
           <img src={banner2} className="img-fluid" alt="banner2" />
+          <p
+                  className="text-white text-right position-absolute txt-grastronomia-photo"
+                  style={{ top: "40px", right: "40px" }}
+                >
+                  ARMA tu ruta 
+                  <br /> y reserva aquí
+                </p>
         </div>
       </section>
       <Footer color={DataFooter[0]} txt={DataFooter[1]} />

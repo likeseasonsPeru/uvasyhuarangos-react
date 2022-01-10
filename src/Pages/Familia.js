@@ -80,7 +80,7 @@ export const Familia = () => {
           <h1
             className="pages-titles color-white text-center position-absolute"
             style={{ left: "0", right: "0", bottom: "-20px" }}
-            data-aos="fade-up"
+            // data-aos="fade-up"
           >
             HUARANGO, PISCO, TRADICIóN
           </h1>
@@ -89,8 +89,8 @@ export const Familia = () => {
         <div className="container pb-5">
           <div className="row pb-4">
             <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
-              <h2 className="pages-subtitles color-qs">VISIón</h2>
-              <p style={{ maxWidth: "400px" }} className="mx-auto">
+              <h1 className="pages-titles color-qs">VISIón</h1>
+              <p style={{ maxWidth: "400px", lineHeight: "2.3" }} className="mx-auto">
                 Nuestro propósito es la inmortalidad de nuestras costumbres y
                 alimentar el alma y corazón de los peruanos con los frutos de
                 nuestras tierras.
@@ -105,8 +105,8 @@ export const Familia = () => {
               <img src={sello} className="img-fluid" alt="sello" />
             </div>
             <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
-              <h2 className="pages-subtitles color-qs">MISIón</h2>
-              <p style={{ maxWidth: "400px" }} className="mx-auto">
+              <h1 className="pages-titles color-qs">MISIón</h1>
+              <p style={{ maxWidth: "400px", lineHeight: "2.3" }} className="mx-auto">
                 Somos una comunidad vitivinícola y eno turística que ofrece
                 servicios relacionados a sus viñedos y el sol que los ve crecer
                 en Ica.

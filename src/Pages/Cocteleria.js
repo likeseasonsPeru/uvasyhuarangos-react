@@ -244,7 +244,7 @@ export const Cocteleria = () => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 pl-lg-5 pl-md-5 pl-sm-1">
               <h1 className="pages-titles color-tradicion">PISCO PUNCH</h1>
               <p style={{ maxWidth: "600px" }}>
                 Este trago preparado con pisco nace lejos de nuestro país, ya

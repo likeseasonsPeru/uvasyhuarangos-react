@@ -48,7 +48,7 @@ export const FamiliiaScreen = memo(() => {
               </h6>
               {item.title.length > 1 ? (
                 <>
-                  <h2 className="pages-subtitles color-qs  animate__animated animate__fadeInDown">
+                  <h2 className="pages-subtitles color-qs  animate__animated animate__fadeInDown" style={{lineHeight: "1"}}>
                     {item.title[0]}
                   </h2>
                   <h1 className="pages-titles color-qs  animate__animated animate__fadeInDown">

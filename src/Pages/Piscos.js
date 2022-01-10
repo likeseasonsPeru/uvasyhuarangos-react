@@ -92,7 +92,7 @@ export const Piscos = () => {
               style={{ marginTop: "100px" }}
             >
               <div>
-                <h2 className="pages-subtitles color-tradicion-r text-right mt-4" data-aos="fade-up">
+                <h2 className="pages-subtitles color-tradicion-r text-right mt-1" data-aos="fade-up">
                   PROCESO artesanal
                 </h2>
                 <p className="ml-auto text-right" style={{ maxWidth: "600px" }} data-aos="fade-up">

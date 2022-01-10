@@ -132,7 +132,6 @@ export const Huarango = () => {
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <h2 className="pages-subtitles color-huarango" data-aos="flip-up">
                 CUIDEMOS
-                <br />
                 AL GUARDIÁN
               </h2>
               <p className="color-huarango" data-aos="fade-right">

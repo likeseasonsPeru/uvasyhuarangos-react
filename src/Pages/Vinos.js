@@ -78,7 +78,7 @@ export const Vinos = () => {
         <div className="container mb-5">
           <div className="row">
             <div className="col-12 text-center">
-              <h2 className="pages-subtitles color-legado" data-aos="fade-up">VINO BLANCO</h2>
+              <h1 className="pages-titles color-legado my-5" data-aos="fade-up">VINO BLANCO</h1>
               <p className="mx-auto mb-5" style={{ maxWidth: "667px" }} data-aos="fade-up">
                 Nuestro vino blanco posee un exquisito sabor muy acentuado, es
                 muy ligero y de color brillante. Es recomendado como aperitivo o
@@ -142,14 +142,6 @@ export const Vinos = () => {
               />
             </div>
           </div>
-        </div>
-        <div className="container-fluid p-0 mb-5">
-          <img
-            src={banner3}
-            className="img-fluid"
-            style={{ width: "100%" }}
-            alt="banner legado 3"
-          />
         </div>
         <div className="container mb-5">
           <div className="row mb-5">

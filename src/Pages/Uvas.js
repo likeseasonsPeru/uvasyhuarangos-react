@@ -26,8 +26,8 @@ export const Uvas = () => {
 
   const uvas = [
     { name: "QUEBRANTA", img: quebranta },
-    { name: "ALBILLA", img: albilla },
     { name: "NEGRA CRIOLLA", img: negraCriolla },
+    { name: "ALBILLA", img: albilla },
     { name: "MOLLAR", img: mollar },
     { name: "MOSCATEL", img: moscatel },
   ];
@@ -85,8 +85,8 @@ export const Uvas = () => {
             </div>
             <div className="col-md-6 col-sm-6 align-self-center" data-aos="fade-up">
               <h2
-                className="pages-subtitles color-uva mx-auto"
-                style={{ maxWidth: "415px" }}
+                className="pages-subtitles color-uva mx-auto "
+                style={{ maxWidth: "415px", lineHeight: "1" }}
               >
                 DE ESTAS UVAS VIENE EL VINO Y DEL VINO, EL PISCO
               </h2>
@@ -116,7 +116,7 @@ export const Uvas = () => {
               </h2>
             </div>
             <div className="col-12" data-aos="fade-up">
-              <p className="mx-auto" style={{ maxWidth: "950px" }}>
+              <p className="mx-auto mt-2" style={{ maxWidth: "950px" }}>
                 Entre las tradicionales tenemos la Listán Prieto, actualmente
                 Negra Criolla en Perú, la uva Italia, también llamada Moscatel
                 de Alejandría, la Mollar y la Albilla. Todas estas crearon lo

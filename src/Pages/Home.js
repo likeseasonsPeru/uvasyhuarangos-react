@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import ReactPlayer from "react-player";
+import ReactPlayer from "react-player";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -43,22 +43,24 @@ export const Home = () => {
             className=" d-flex justify-content-center align-items-center w-100 position-relative"
             style={{ height: "100vh" }}
           >
-            <button
-              className="btn btn-outline-light text-white"
-              style={{ top: "50px", right: "50px" }}
-              onClick={hideVideoPlayer}
-            >
-              Home
-            </button>
-            <video
+            <div className="position-absolute text-center w-50 mx-auto btn-next">
+              <button
+                className="btn btn-outline-dark text-white"
+                style={{ cursor: "pointer" }}
+                onClick={hideVideoPlayer}
+              >
+                Saltar video
+              </button>
+            </div>
+            {/* <video
               src={VideoUvas}
               autoPlay
               muted
-              style={{ maxHeight: "99vh" }}
+              style={{ maxHeight: "100vh" }}
               width="100%"
               height="100%"
-            ></video>
-            {/* <ReactPlayer
+            ></video> */}
+            <ReactPlayer
               url={VideoUvas}
               className="react-player"
               playing
@@ -66,8 +68,8 @@ export const Home = () => {
               height="100%"
               muted
               style={{ maxHeight: "99vh" }}
-              onEnded={hideVideoPlayer}
-            /> */}
+              // onEnded={hideVideoPlayer}
+            />
           </div>
         </>
       ) : (
