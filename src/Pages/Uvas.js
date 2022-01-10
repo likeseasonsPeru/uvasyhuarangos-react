@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../components/styles/style.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 // components
 import Footer from "../components/Footer";
@@ -29,6 +31,11 @@ export const Uvas = () => {
     { name: "MOLLAR", img: mollar },
     { name: "MOSCATEL", img: moscatel },
   ];
+  useEffect(() => {
+    AOS.init({
+      duration: 2000
+    })
+  }, [])
   return (
     <>
       <Navbar />
@@ -37,14 +44,15 @@ export const Uvas = () => {
           <button
             className="float-left pt-4"
             onClick={() => window.history.back()}
+            data-aos="fade-right"
           >
             <img src={ArrowRight} alt="arrow-right" />
           </button>
           <div className="row">
             <div className="col text-center">
-              <h1 className="pages-titles color-uva">UVAS PATRIMONIALES</h1>
-              <h4 className="pages-slogan">Nuestra Biodiversidad</h4>
-              <p className="py-4">
+              <h1 className="pages-titles color-uva" data-aos="zoom-out-down">UVAS PATRIMONIALES</h1>
+              <h4 className="pages-slogan" data-aos="zoom-out-down">Nuestra Biodiversidad</h4>
+              <p className="py-4" data-aos="zoom-out-down">
                 Se manifiesta en los sabores únicos de los ocho tipos de uvas
                 pisqueras,
                 <br />
@@ -55,8 +63,8 @@ export const Uvas = () => {
           <div className="row">
             {uvas.map(({ img, name }, index) => {
               return (
-                <div className="col" key={index}>
-                  <div className="products-container">
+                <div className="col" key={index} data-aos="fade-up">
+                  <div className="products-container imgs-vino">
                     <img width="100%" height="100%" src={img} alt={name} />
                     <div className="products-titles">{name}</div>
                   </div>
@@ -72,10 +80,10 @@ export const Uvas = () => {
 
         <div className="container mb-5">
           <div className="row">
-            <div className="col-md-3 col-sm-6 text-center align-self-center py-3">
+            <div className="col-md-3 col-sm-6 text-center align-self-center py-3" data-aos="fade-right">
               <img src={sello} className="img-fluid" alt="UVAS PATRIMONIALES" />
             </div>
-            <div className="col-md-6 col-sm-6 align-self-center">
+            <div className="col-md-6 col-sm-6 align-self-center" data-aos="fade-up">
               <h2
                 className="pages-subtitles color-uva mx-auto"
                 style={{ maxWidth: "415px" }}
@@ -83,7 +91,7 @@ export const Uvas = () => {
                 DE ESTAS UVAS VIENE EL VINO Y DEL VINO, EL PISCO
               </h2>
             </div>
-            <div className="col-md-3  col-sm-12 align-self-center">
+            <div className="col-md-3  col-sm-12 align-self-center" data-aos="fade-left">
               <p>
                 Hoy en día, alrededor del mundo, podemos encontrar una tendencia
                 a rescatar variedades emblemáticas de uvas, mejor conocidas como
@@ -103,11 +111,11 @@ export const Uvas = () => {
         <div className="container py-5">
           <div className="row text-center justify-content-md-center">
             <div className="col-12">
-              <h2 className="pages-subtitles color-uva">
+              <h2 className="pages-subtitles color-uva" data-aos="fade-up">
                 UVAS TRADICIONALES O CRIOLLAS
               </h2>
             </div>
-            <div className="col-12">
+            <div className="col-12" data-aos="fade-up">
               <p className="mx-auto" style={{ maxWidth: "950px" }}>
                 Entre las tradicionales tenemos la Listán Prieto, actualmente
                 Negra Criolla en Perú, la uva Italia, también llamada Moscatel

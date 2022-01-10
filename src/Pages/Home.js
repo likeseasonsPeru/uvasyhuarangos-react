@@ -43,14 +43,22 @@ export const Home = () => {
             className=" d-flex justify-content-center align-items-center w-100 position-relative"
             style={{ height: "100vh" }}
           >
-            {/* <button
-              className="position-absolute btn btn-outline-light text-white"
+            <button
+              className="btn btn-outline-light text-white"
               style={{ top: "50px", right: "50px" }}
               onClick={hideVideoPlayer}
             >
               Home
-            </button> */}
-            <ReactPlayer
+            </button>
+            <video
+              src={VideoUvas}
+              autoPlay
+              muted
+              style={{ maxHeight: "99vh" }}
+              width="100%"
+              height="100%"
+            ></video>
+            {/* <ReactPlayer
               url={VideoUvas}
               className="react-player"
               playing
@@ -59,7 +67,7 @@ export const Home = () => {
               muted
               style={{ maxHeight: "99vh" }}
               onEnded={hideVideoPlayer}
-            />
+            /> */}
           </div>
         </>
       ) : (
@@ -80,6 +88,7 @@ export const Home = () => {
                 <div className="col-md-4 text-right animate__animated animate__fadeInRight">
                   <img
                     className="img-fluid sello-home"
+                    data-aos="fade-left"
                     src={Shilf}
                     alt="Shilf"
                   />
@@ -103,17 +112,13 @@ export const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-7 col-md-9" data-aos="fade-up">
+                <div className="col-lg-5 col-md-9" data-aos="fade-up">
                   <p className="py-2 text-white">
                     Somos una gran familia iqueña compuesta de socios
-                    propietarios de viñedos,
-                    <br />
-                    bodegas, haciendas, restaurantes y agencias de turismo con
-                    algo en común:
-                    <br />
-                    el corazón latiendo de amor por Ica.
+                    propietarios de viñedos, bodegas, haciendas, restaurantes y
+                    agencias de turismo con algo en común: el corazón latiendo
+                    de amor por Ica.
                   </p>
-                  <br />
                   <p className="slg-index text-white">
                     el corazón latiendo de amor por Ica.
                   </p>

@@ -80,6 +80,7 @@ export const Familia = () => {
           <h1
             className="pages-titles color-white text-center position-absolute"
             style={{ left: "0", right: "0", bottom: "-20px" }}
+            data-aos="fade-up"
           >
             HUARANGO, PISCO, TRADICIóN
           </h1>

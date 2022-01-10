@@ -110,9 +110,11 @@
 }
 
 @font-face {
-  font-family: "MADE-TOMMY";
-  src: url("../../assets/fonts/Made-tommy.woff2") format("woff2"),
-    url("../../assets/fonts/Made-tommy.woff") format("woff");
+  font-family: "gothic_outline";
+  src: url("../../assets/fonts/gothic_outline_title_d_ot_regular-webfont.woff2")
+      format("woff2"),
+    url("../../assets/fonts/gothic_outline_title_d_ot_regular-webfont.woff")
+      format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -404,8 +406,6 @@ h6 {
   font-size: 9rem;
   text-transform: uppercase;
 }
-@media screen and (max-width: 768px) {
-}
 
 .pages-subtitles {
   font-family: "neue_worldsuperCnLt";
@@ -438,6 +438,13 @@ h6 {
 .ArrowRightHuarango {
   top: 5rem;
   left: 5rem;
+}
+.imgs-vino {
+  transition: transform 0.2s;
+}
+.imgs-vino:hover {
+  box-shadow: 0px 14px 9px 7px rgba(158, 152, 152, 0.29);
+  transform: scale(1.1);
 }
 /* END UVAS PATRIMONIALES */
 
@@ -478,7 +485,6 @@ h6 {
   position: absolute;
   top: 5rem;
   left: 5rem;
-  transform: rotate(180deg);
   border: none;
 }
 /* END GASTRONOMIA */
@@ -721,11 +727,14 @@ h6 {
 }
 .footer-slang {
   color: #fff;
-  font-size: 3rem;
+  font-size: 5rem;
   text-transform: uppercase;
-  font-family: "MADE-TOMMY";
-  letter-spacing: 0.01rem;
-  opacity: 0.7;
+  font-family: "gothic_outline";
+  letter-spacing: 0.1rem;
+  opacity: 0.3;
+}
+.color-footer {
+  color: #ebeae0;
 }
 /* END FOOTER */
 

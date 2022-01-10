@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+// components
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 // images
 import ArrowRight from "../assets/img/gastronomia/arrow-right.png";
+import ArrowLeft from "../assets/img/gastronomia/arrow-left.png";
 import banner1 from "../assets/img/gastronomia/banner1.jpg";
 import banner2 from "../assets/img/gastronomia/banner2.jpg";
 import escudocolor from "../assets/img/gastronomia/escudocolor.jpg";
@@ -18,6 +23,11 @@ const Gastronomia = () => {
     "#E27423",
     "RACIMOS DEL SUR TE INVITA A UNA EXPERIENCIA COMPLETA, LOS MEJORES VINOS Y PISCOS, CON LA AVENTURA QUE ESTABAS BUSCANDO",
   ];
+  useEffect(() => {
+    AOS.init({
+      duration: 2000
+    })
+  }, [])
   return (
     <>
       <Navbar />
@@ -29,19 +39,19 @@ const Gastronomia = () => {
             style={{ width: "100%" }}
             alt="Banner 1 Turismo"
           />
-          <button className="icon-left" onClick={() => window.history.back()}>
-            <img src={ArrowRight} alt="ArrowRight" className="img-fluid" />
+          <button className="icon-left" onClick={() => window.history.back()} data-aos="fade-right">
+            <img src={ArrowLeft} alt="ArrowLeft" className="img-fluid" />
           </button>
         </div>
         <div className="bg-gastronomia">
           <div className="container py-5 mb-5">
             <div className="row my-5">
               <div className="col text-center">
-                <h1 className="pages-titles text-white">GASTRONOMíA</h1>
-                <h4 className="enoturismo-logo">
+                <h1 className="pages-titles text-white" data-aos="fade-up">GASTRONOMíA</h1>
+                <h4 className="enoturismo-logo"  data-aos="zoom-in-up">
                   Contundencia, variedad y buena sazón
                 </h4>
-                <p className="my-5">
+                <p className="my-5" data-aos="zoom-in-up">
                   Eso caracteriza a la comida peruana, no por nada es reconocida
                   a nivel internacional.
                   <br />
@@ -69,7 +79,7 @@ const Gastronomia = () => {
                   <h2 className="pages-subtitles text-left color-gastronomia">
                     OLLA DE <br /> JUANITA
                   </h2>
-                  <p className="text-left" style={{ maxWidth: "380px" }}>
+                  <p className="text-left" style={{ maxWidth: "380px" }} >
                     La olla de Juanita proviene de la buena sazón y entrega de
                     la Dama del Pisco, Doña Juanita, heredada a su hija Cecilia
                     González. Parras, recetas y piscos inolvidables en un

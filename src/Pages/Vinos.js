@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 // components
 import Footer from "../components/Footer";
@@ -19,7 +21,11 @@ export const Vinos = () => {
     "#5D5D43",
     "“NOSOTROS NO SOMOS LA PITUCA PRODUCIDA. NOSOTROS SOMOS LA TRADICIÓN DE LCA. OSEA SOMOS LA CHOLA BONITA”",
   ];
-
+  useEffect(() => {
+    AOS.init({
+      duration: 2000
+    })
+  }, [])
   return (
     <>
       <Navbar />
@@ -27,10 +33,10 @@ export const Vinos = () => {
         <div className="container py-5 position-relative">
           <div className="row">
             <div className="col text-center my-5">
-              <h1 className="pages-titles color-legado">
+              <h1 className="pages-titles color-legado" data-aos="fade-up">
                 UN LEGADO DE <br /> RECONOCIMIENTOS
               </h1>
-              <p style={{ maxWidth: "1000px" }} className="mx-auto">
+              <p style={{ maxWidth: "1000px" }} className="mx-auto" data-aos="fade-up">
                 Desde su fundación, Ica siempre se distinguió de todas las demás
                 regiones por tener tierras fértiles dedicadas a la producción de
                 vinos.
@@ -56,6 +62,7 @@ export const Vinos = () => {
           <button
             className="arrowLeftLegado"
             onClick={() => window.history.back()}
+            data-aos="fade-right"
           >
             <img src={ArrowLeft} className="img-fluid" alt="arrow-left" />
           </button>
@@ -71,8 +78,8 @@ export const Vinos = () => {
         <div className="container mb-5">
           <div className="row">
             <div className="col-12 text-center">
-              <h2 className="pages-subtitles color-legado">VINO BLANCO</h2>
-              <p className="mx-auto mb-5" style={{ maxWidth: "667px" }}>
+              <h2 className="pages-subtitles color-legado" data-aos="fade-up">VINO BLANCO</h2>
+              <p className="mx-auto mb-5" style={{ maxWidth: "667px" }} data-aos="fade-up">
                 Nuestro vino blanco posee un exquisito sabor muy acentuado, es
                 muy ligero y de color brillante. Es recomendado como aperitivo o
                 bajativo y para acompañar carnes blancas y mariscos. Su color
@@ -84,9 +91,9 @@ export const Vinos = () => {
           </div>
           <div className="row py-5 justify-content-center align-items-baseline">
             <div className="col-md-5 col-sm-12 text-center">
-              <h2 className="pages-subtitles color-legado">TINTO</h2>
-              <img src={Tinto} alt="tinto" class="img-fluid mb-5" />
-              <p className="mx-auto text-center" style={{ maxWidth: "410px" }}>
+              <h2 className="pages-subtitles color-legado" data-aos="fade-up">TINTO</h2>
+              <img src={Tinto} alt="tinto" class="img-fluid mb-5" data-aos="fade-up-right"/>
+              <p className="mx-auto text-center" style={{ maxWidth: "410px" }} data-aos="fade-up">
                 Nuestro vino tinto es un vino de exquisito sabor muy acentuado
                 con un imponente cuerpo y de color intenso. Es recomendado como
                 aperitivo o bajativo para acompañar carnes rojas o pastas. Este
@@ -100,12 +107,12 @@ export const Vinos = () => {
               </p>
             </div>
             <div className="col-md-2 col-sm-12  text-center align-self-center py-5">
-              <img src={sello} className="img-fluid" alt="sello" />
+              <img src={sello} className="img-fluid" alt="sello" data-aos="fade-up"/>
             </div>
             <div className="col-md-5 col-sm-12 text-center">
-              <h2 className="pages-subtitles color-legado">ROSE</h2>
-              <img src={Rose} alt="Rose" class="img-fluid mb-5" />
-              <p className="mx-auto text-center" style={{ maxWidth: "410px" }}>
+              <h2 className="pages-subtitles color-legado" data-aos="fade-up">ROSE</h2>
+              <img src={Rose} alt="Rose" class="img-fluid mb-5" data-aos="fade-up-left" />
+              <p className="mx-auto text-center" style={{ maxWidth: "410px" }} data-aos="fade-up">
                 Nuestro vino Rose posee algo de aquel color típico del vino
                 tinto, pero solo lo suficiente como para darle un tono rosado.
                 Este vino de excelente sabor acentuado, dependiendo del tipo de
@@ -118,7 +125,7 @@ export const Vinos = () => {
             </div>
           </div>
           <div className="d-flex justify-content-between">
-            <div className="d-flex mt-5">
+            <div className="d-flex mt-5" data-aos="fade-up-right">
               <button className="btn-w color-tienda br-store">TIENDA</button>
               <img
                 src={ArrowStore}
@@ -126,7 +133,7 @@ export const Vinos = () => {
                 alt="arrow store"
               />
             </div>
-            <div className="d-flex mt-5">
+            <div className="d-flex mt-5" data-aos="fade-up-left">
               <button className="btn-w color-uva br-grape">UVAS</button>
               <img
                 src={ArrowGrape}
@@ -147,26 +154,27 @@ export const Vinos = () => {
         <div className="container mb-5">
           <div className="row mb-5">
             <div className="col-12 text-center my-5">
-              <h1 className="premios-title color-legado">Premios</h1>
+              <h1 className="premios-title color-legado" data-aos="fade-up">Premios</h1>
             </div>
             <div className="col-12">
               <div className="d-flex justify-content-around">
-                <div className="text-center">
+                <div className="text-center" data-aos="fade-right">
                   <img src="" width="170px" height="170px" alt="premio 1" />
                   <p className="mt-4">PREMIO AAA</p>
                 </div>
-                <div className="text-center">
+                <div className="text-center" data-aos="fade-up">
                   <img src="" width="170px" height="170px" alt="premio 2" />
                   <p className="mt-4">PREMIO AAA</p>
                 </div>
-                <div className="text-center">
+                <div className="text-center" data-aos="fade-left">
                   <img src="" width="170px" height="170px" alt="premio 3" />
                   <p className="mt-4">PREMIO AAA</p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="table-box">
+          <div className="table-box" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
             <table className="table-vinos text-center">
               <tr className="text-center bg-legado w-100">
                 <th colspan="2" className="py-2">
