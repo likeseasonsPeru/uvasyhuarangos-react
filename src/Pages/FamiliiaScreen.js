@@ -1,4 +1,4 @@
-import React, { memo, useEffect } from "react";
+import React, { useEffect } from "react";
 import Footer from "../components/Footer";
 import { NavFamilies } from "../components/NavFamilies";
 import { Link, useParams, Navigate } from "react-router-dom";
@@ -11,7 +11,7 @@ import ArrowRight from "../assets/img/legado/arrow-right-store.png";
 import ArrowLeft from "../assets/img/quienesomos/arrow-right.png";
 import { FamiliesData } from "../data/FamiliesData";
 
-export const FamiliiaScreen = memo(() => {
+export const FamiliiaScreen = () => {
   useEffect(() => {
     AOS.init({
       duration: 2000,
@@ -34,7 +34,7 @@ export const FamiliiaScreen = memo(() => {
     <>
       <NavFamilies />
       <section className={width <= widthView ? "mt-140 page" : "mt-240 page"}>
-        <div className="container py-5 position-relative">
+        <div className="container pb-5 position-relative pt-90">
           <button
             className="position-absolute arrowFamiliaBtnFam animate__animated animate__fadeInLeft"
             onClick={() => window.history.back()}
@@ -43,7 +43,7 @@ export const FamiliiaScreen = memo(() => {
           </button>
           <div className="row text-center justify-content-md-center">
             <div className="col-12">
-              <h6 className="pages-firstitle animate__animated animate__fadeInDown">
+              <h6 className="pages-firstitle animate__animated animate__fadeInDown mb-5">
                 ¿QUIENES SOMOS?
               </h6>
               {item.title.length > 1 ? (
@@ -65,7 +65,7 @@ export const FamiliiaScreen = memo(() => {
               {item.txt.length > 1 ? (
                 <p
                   style={{ maxWidth: "800px" }}
-                  className="mx-auto animate__animated animate__fadeInUp"
+                  className="mx-auto animate__animated animate__fadeInUp pt-3"
                 >
                   {item.txt[0]}
                   <br /> <br />
@@ -74,7 +74,7 @@ export const FamiliiaScreen = memo(() => {
               ) : (
                 <p
                   style={{ maxWidth: "800px" }}
-                  className="mx-auto animate__animated animate__fadeInUp"
+                  className="mx-auto animate__animated animate__fadeInUp pt-3"
                 >
                   {item.txt}
                 </p>
@@ -151,18 +151,17 @@ export const FamiliiaScreen = memo(() => {
           />
           <h1
             className="pages-titles color-white text-center position-absolute"
-            style={{ left: "0", right: "0", bottom: "-20px" }}
+            style={{ left: "0", right: "0", bottom: "5px" }}
           >
             {item.txtBanner}
           </h1>
         </div>
         {item.pisco ? (
           <div className="container pb-5">
-            <div className="row pb-4">
+            <div className="row px-60">
               <div
-                className="col-md-5 text-center my-3"
-                data-aos="fade-up"
-                data-aos-anchor-placement="bottom-center"
+                className="col-md-6 text-center my-3"
+                // data-aos="fade-right"
               >
                 <img
                   src={item.owner}
@@ -171,7 +170,7 @@ export const FamiliiaScreen = memo(() => {
                   alt="owner"
                 />
               </div>
-              <div className="col-md-2 text-center align-self-center">
+              <div className="col-md-2 text-center align-self-start">
                 <img
                   src={item.pisco}
                   className="img-fluid mt-2"
@@ -179,24 +178,24 @@ export const FamiliiaScreen = memo(() => {
                   alt={`Pisco ${familia}`}
                 />
               </div>
-              <div className="col-md-5 d-flex flex-column justify-content-around">
+              <div className="col-md-4 d-flex flex-column justify-content-between">
                 {item.txtOwner.length > 1 ? (
-                  <p className="text-right pb-3" style={{ maxWidth: "400px" }}>
+                  <p className="text-right pb-1" style={{ maxWidth: "400px" }}>
                     {item.txtOwner[0]}
                     <br />
                     <br />
                     {item.txtOwner[1]}
                   </p>
                 ) : (
-                  <p className="text-right pb-3" style={{ maxWidth: "400px" }}>
+                  <p className="text-right pb-1" style={{ maxWidth: "400px" }}>
                     {item.txtOwner}
                   </p>
                 )}
-                <div>
+                <div style={{ maxWidth: "400px" }}>
                   {item.nameOwner.length > 1 ? (
                     <>
-                      <h4 className="txt-autor pl-4">{item.nameOwner[0]}</h4>
-                      <h4 className="txt-autor text-center pr-5">
+                      <h4 className="txt-autor text-left pl-3">{item.nameOwner[0]}</h4>
+                      <h4 className="txt-autor text-right">
                         {item.nameOwner[1]}
                       </h4>
                     </>
@@ -208,7 +207,7 @@ export const FamiliiaScreen = memo(() => {
                     </>
                   )}
                 </div>
-                <div className="d-flex mt-3">
+                <div className="d-flex">
                   <button className="btn-w color-tienda br-store px-5">
                     TIENDA
                   </button>
@@ -224,45 +223,45 @@ export const FamiliiaScreen = memo(() => {
         ) : (
           <div className="container pb-5">
             <div className="row pb-4">
-              <div className="col-md-6 text-center my-3" data-aos="fade-up">
+              <div className="col-md-6 text-right my-3">
                 <img
                   src={item.owner}
                   className="img-fluid"
                   style={{ maxHeight: "580px" }}
                   alt="owner"
-                  data-aos="fade-up"
+                  // data-aos="fade-right"
                 />
               </div>
-              <div className="col-md-6 d-flex flex-column justify-content-around my-3">
+              <div className="col-md-6 d-flex flex-column justify-content-between my-3 pl-5">
                 {item.txtOwner.length > 1 ? (
-                  <p className="text-right pb-3" style={{ maxWidth: "400px" }}>
+                  <p className="text-left pb-3" style={{ maxWidth: "450px" }}>
                     {item.txtOwner[0]}
                     <br />
                     <br />
                     {item.txtOwner[1]}
                   </p>
                 ) : (
-                  <p className="text-right pb-3" style={{ maxWidth: "400px" }}>
+                  <p className="text-left pb-3" style={{ maxWidth: "450px" }}>
                     {item.txtOwner}
                   </p>
                 )}
-                <div>
+                <div style={{ maxWidth: "450px" }}>
                   {item.nameOwner.length > 1 ? (
                     <>
-                      <h4 className="txt-autor pl-4">{item.nameOwner[0]}</h4>
-                      <h4 className="txt-autor text-center pr-5">
+                      <h4 className="txt-autor text-center pl-4">{item.nameOwner[0]}</h4>
+                      <h4 className="txt-autor text-right">
                         {item.nameOwner[1]}
                       </h4>
                     </>
                   ) : (
                     <>
-                      <h4 className="txt-autor text-center pr-5">
+                      <h4 className="txt-autor text-lg-right text-md-right text-xl-right">
                         {item.nameOwner}
                       </h4>
                     </>
                   )}
                 </div>
-                <div className="d-flex mt-3">
+                <div className="d-flex" style={{ maxWidth: "450px" }}>
                   <button className="btn-w color-tienda br-store px-5">
                     TIENDA
                   </button>
@@ -280,4 +279,4 @@ export const FamiliiaScreen = memo(() => {
       <Footer color={DataFooter[0]} txt={DataFooter[1]} />
     </>
   );
-});
+}

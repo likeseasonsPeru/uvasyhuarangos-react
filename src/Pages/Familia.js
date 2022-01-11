@@ -21,7 +21,7 @@ export const Familia = () => {
     <>
       <NavFamilies />
       <section id="quienes-somos" className={ width <= widthView ? "mt-140 page" : "mt-240 page" }>
-        <div className="container py-5 position-relative">
+        <div className="container pb-5 position-relative pt-90">
           <button className="position-absolute arrowFamiliaBtn" onClick={() => window.history.back()}>
             <img src={ArrowRight} className="img-fluid arrowFamilia" alt="ArrowRight" />
           </button>
@@ -30,7 +30,7 @@ export const Familia = () => {
               <h1 className="pages-titles color-qs">¿QUIENES SOMOS?</h1>
             </div>
             <div className="col-12">
-              <p style={{ maxWidth: "800px" }} className="mx-auto">
+              <p style={{ maxWidth: "800px" }} className="mx-auto mt-3">
                 Somos un alma refinada pero generosa, que alberga grandes
                 historias que por generaciones han capturado la tradición de
                 miles de familias. Somos una tierra trabajada con el corazón,
@@ -50,16 +50,27 @@ export const Familia = () => {
           <div className="row">
             <div className="col-md-4 col-sm-12">
               <div className="text-center">
-                <Link className="link-social" to="">
-                  <span>INSTAGRAM:</span> @uvasyhuarangos
-                </Link>
+              <Link
+                    className="link-social text-decoration-none"
+                    to="#"
+                    onClick={(e) => {
+                      window.location = `mailto:racimosdelsur@gmail.com`;
+                      e.preventDefault();
+                    }}
+                  >
+                    <span>MAIL:</span> racimosdelsur@gmail.com
+                  </Link>
               </div>
             </div>
             <div className="col-md-4 col-sm-12">
               <div className="text-center">
                 <Link
-                  className="link-social"
-                  to="https://www.facebook.com/Racimos-Del-Sur-114922723616207/"
+                  className="link-social text-decoration-none"
+                  to="#"
+                  onClick={(e)=> {
+                    window.location = `https://www.facebook.com/Racimos-Del-Sur-114922723616207/`;
+                    e.preventDefault();
+                  }}
                 >
                   <span>FACEBOOK:</span> @racimosdelsur
                 </Link>
@@ -67,7 +78,10 @@ export const Familia = () => {
             </div>
             <div className="col-md-4 col-sm-12">
               <div className="text-center">
-                <Link className="link-social" to="https://racimosdelsur.com/">
+                <Link className="link-social text-decoration-none" to="#" onClick={(e)=> {
+                    window.location = `https://racimosdelsur.com/`;
+                    e.preventDefault();
+                  }}>
                   <span>WEB:</span> www.racimosdelsur.com
                 </Link>
               </div>
@@ -79,7 +93,7 @@ export const Familia = () => {
           <img src={banner1} className="img-fluid" width="100%" alt="banner1" />
           <h1
             className="pages-titles color-white text-center position-absolute"
-            style={{ left: "0", right: "0", bottom: "-20px" }}
+            style={{ left: "0", right: "0", bottom: "5px" }}
             // data-aos="fade-up"
           >
             HUARANGO, PISCO, TRADICIóN
@@ -87,7 +101,7 @@ export const Familia = () => {
         </div>
 
         <div className="container pb-5">
-          <div className="row pb-4">
+          <div className="row px-90">
             <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
               <h1 className="pages-titles color-qs">VISIón</h1>
               <p style={{ maxWidth: "400px", lineHeight: "2.3" }} className="mx-auto">

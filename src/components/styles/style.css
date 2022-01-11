@@ -167,6 +167,9 @@ button {
 .mt-240 {
   margin-top: 230px;
 }
+.navbar-brand {
+  margin-right: 0 !important;
+}
 .nav-item {
   font-family: "tuskergrotesk-medium";
   font-size: 1.5rem;
@@ -208,6 +211,9 @@ li {
 }
 .px-120 {
   padding: 120px 0;
+}
+.pt-90 {
+  padding-top: 140px;
 }
 .mb-80 {
   margin-bottom: 80px;
@@ -686,6 +692,10 @@ h6 {
   font-family: "p22_mackinac_probook";
   cursor: pointer;
 }
+.link-social:hover {
+  color: #000;
+  text-decoration: underline !important;
+}
 .link-social span {
   color: #a45844;
   font-weight: 900;
@@ -693,8 +703,10 @@ h6 {
 }
 .arrowFamiliaBtn,
 .arrowFamiliaBtnFam {
-  top: 4rem;
+  top: 9rem;
   left: 4rem;
+  z-index: 100;
+  cursor: pointer;
 }
 .subtitles-racimo {
   font-family: "californyabuploaded_file";
@@ -708,6 +720,7 @@ h6 {
 .txt-autor {
   font-family: "californyabuploaded_file";
   font-size: 70px;
+  line-height: 1;
 }
 .pages-firstitle {
   font-family: "p22_mackinac_probook";
@@ -889,6 +902,9 @@ h6 {
   .parallax {
     height: 35vh;
   }
+  .txt-autor {
+    font-size: 50px;
+  }
 }
 @media screen and (max-width: 992px) {
   .contain-home-data {
@@ -901,13 +917,12 @@ h6 {
   .parallax {
     height: 50vh;
   }
-  .arrowFamiliaBtn,
-  .arrowFamiliaBtnFam {
+  .arrowFamiliaBtn {
     top: 4rem;
     left: 2rem;
   }
   .arrowFamiliaBtnFam {
-    top: 6rem;
+    top: 9rem;
     left: 2rem;
   }
   .arrowFamiliaBtn > img {
@@ -963,13 +978,17 @@ h6 {
   .arrowFamiliaBtn {
     top: 2.5rem;
     left: 1rem;
+    cursor: pointer;
+  }
+  .arrowFamiliaBtn > button {
+    z-index: 1000;
   }
 
   .arrowFamiliaBtn > img {
     height: 4rem;
   }
   .arrowFamiliaBtnFam {
-    top: 5.5rem;
+    top: 8.5rem;
     left: 1rem;
   }
   .arrowFamiliaBtnFam > img {

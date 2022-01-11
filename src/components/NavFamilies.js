@@ -12,7 +12,7 @@ export const NavFamilies = () => {
     {/*  */}
     {
       width <= 992 ? (
-        <section className="position-fixed w-100 top-0" style={{zIndex: "100"}}>
+        <section className="position-fixed w-100 top-0" style={{zIndex: "1000"}}>
         <Navbar/>
         <nav className="navbar navbar-expand-lg navbar-dark navbar-brands navbar-brands-lg" style={{marginTop: "120px"}}>
         <button
@@ -116,7 +116,7 @@ export const NavFamilies = () => {
       </nav>
       </section>
       ) : (
-        <section className="position-fixed w-100 top-0" style={{zIndex: "100"}}>
+        <section className="position-fixed w-100 top-0" style={{zIndex: "1000"}}>
           <Navbar/>
           <nav className="navbar-brands" style={{marginTop: "120px"}}>
         <ul

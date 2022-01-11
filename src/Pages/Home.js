@@ -68,7 +68,7 @@ export const Home = () => {
               height="100%"
               muted
               style={{ maxHeight: "99vh" }}
-              // onEnded={hideVideoPlayer}
+              onEnded={hideVideoPlayer}
             />
           </div>
         </>
