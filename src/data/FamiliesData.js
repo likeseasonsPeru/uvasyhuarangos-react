@@ -3,28 +3,28 @@ import bannerDolphin from "../assets/img/quienesomos/dolphin/banner1.jpg"
 import ownerDolphin from "../assets/img/quienesomos/dolphin/owner.jpg"
 import bannerFinca314 from "../assets/img/quienesomos/finca314/banner.jpg"
 import ownerFinca314 from "../assets/img/quienesomos/finca314/owner.jpg"
-import piscoFinca314 from "../assets/img/quienesomos/finca314/pisco.jpg"
+// import piscoFinca314 from "../assets/img/quienesomos/finca314/pisco.jpg"
 import bannerFundoSantaLucia from "../assets/img/quienesomos/fundosantalucia/banner.jpg"
 import ownerFundoSantaLucia from "../assets/img/quienesomos/fundosantalucia/owner.jpg"
-import piscoFundoSantaLucia from "../assets/img/quienesomos/fundosantalucia/pisco.jpg"
+// import piscoFundoSantaLucia from "../assets/img/quienesomos/fundosantalucia/pisco.jpg"
 import bannerBodega1615 from "../assets/img/quienesomos/bodega1615/banner1.jpg"
 import ownerBodega1615 from "../assets/img/quienesomos/bodega1615/owner.jpg"
-import piscoBodega1615 from "../assets/img/quienesomos/bodega1615/pisco.jpg"
+// import piscoBodega1615 from "../assets/img/quienesomos/bodega1615/pisco.jpg"
 import bannerElCatador from "../assets/img/quienesomos/elcatador/banner1.jpg"
 import ownerElCatador from "../assets/img/quienesomos/elcatador/owner.jpg"
-import piscoElCatador from "../assets/img/quienesomos/elcatador/pisco.jpg"
+// import piscoElCatador from "../assets/img/quienesomos/elcatador/pisco.jpg"
 import bannerPampasDeIca from "../assets/img/quienesomos/bodegapampasdeica/banner.jpg"
 import ownerPampasDeIca from "../assets/img/quienesomos/bodegapampasdeica/owner.jpg"
-import piscoPampasDeIca from "../assets/img/quienesomos/bodegapampasdeica/pisco.jpg"
+// import piscoPampasDeIca from "../assets/img/quienesomos/bodegapampasdeica/pisco.jpg"
 import bannerTresGeneraciones from "../assets/img/quienesomos/bodegatresgeneraciones/banner.jpg"
 import ownerTresGeneraciones from "../assets/img/quienesomos/bodegatresgeneraciones/owner.jpg"
-import piscoTresGeneraciones from "../assets/img/quienesomos/bodegatresgeneraciones/pisco.jpg"
+// import piscoTresGeneraciones from "../assets/img/quienesomos/bodegatresgeneraciones/pisco.jpg"
 import bannerBodegaVillacuri from "../assets/img/quienesomos/bodegavillacuri/banner1.jpg"
 import ownerBodegaVillacuri from "../assets/img/quienesomos/bodegavillacuri/owner.jpg"
-import piscoBodegaVillacuris from "../assets/img/quienesomos/bodegavillacuri/pisco.jpg"
+// import piscoBodegaVillacuris from "../assets/img/quienesomos/bodegavillacuri/pisco.jpg"
 import bannerGranPaso from "../assets/img/quienesomos/haciendagranpaso/banner.jpg"
 import ownerGranPaso from "../assets/img/quienesomos/haciendagranpaso/owner.jpg"
-import piscoGranPaso from "../assets/img/quienesomos/haciendagranpaso/pisco.jpg"
+// import piscoGranPaso from "../assets/img/quienesomos/haciendagranpaso/pisco.jpg"
 import bannerOllaDeJuanita from "../assets/img/quienesomos/olladejuanita/banner1.jpg"
 import ownerOllaDeJuanita from "../assets/img/quienesomos/olladejuanita/owner.jpg"
 
@@ -54,7 +54,6 @@ export const FamiliesData = [
             "banner": bannerFinca314,
             "txtBanner": "TRADICión y pasión por el pisco",
             "owner": ownerFinca314,
-            "pisco": piscoFinca314,
             "txtOwner": ["Cercanas a cumplir nuestro Bicentenario estamos orgullosas de llevar la historia de la familia a mercados nacionales e internacionales. Siguiendo este legado, continuamos con dos grandes pilares de nuestra tradición bicentenaria: La honestidad y calidad; valores que hoy son premiados a través de concursos nacionales e internacionales, donde hemos obtenido medallas de oro en nuestras diferentes líneas de Pisco."],
             "nameOwner": ["Claudia","Moquillaza"],
             "networkSocial": {
@@ -71,7 +70,7 @@ export const FamiliesData = [
             "banner": bannerFundoSantaLucia,
             "txtBanner": "El legado del pisco, continúa",
             "owner": ownerFundoSantaLucia,
-            "pisco": piscoFundoSantaLucia,
+            // "pisco": piscoFundoSantaLucia,
             "txtOwner": ["EL Pisco Acholado Cholo Matías es un Pisco de Culto de Ica. Elaborado con cepas de más de 100 años y de manera tecno artesanal porque usa leña de palta (80%) y de huarango (20%) para el fuego, como se hacía hace 100 años. La calidad de un Pisco de culto no tiene comparación, estos piscos son los obsequios preferidos de los mandatarios extranjeros cuando visitan el Perú. Este Pisco es elaborado con el trabajo de más de 80 agricultores de uvas y casi mil personas intervienen en el proceso de la uva."],
             "nameOwner": ["Rosa","Grados"],
             "networkSocial": {
@@ -88,7 +87,7 @@ export const FamiliesData = [
             "banner": bannerBodega1615,
             "txtBanner": "ES MOMENTO DE COMPARTIR",
             "owner": ownerBodega1615,
-            "pisco": piscoBodega1615,
+            // "pisco": piscoBodega1615,
             "txtOwner": ["Somos una compañía dedicada al cultivo de uva, destilación y comercialización de pisco, destilado tradicional del Perú, bajo las marcas Pisco 1615 y Hermano, Nacimos en Pisco, Perú y hoy llegamos a más de 52 ciudades alrededor del mundo que nos hicieron el pisco #1 de exportaciones."],
             "nameOwner": ["Raúl","Otero"],
             "networkSocial": {
@@ -105,7 +104,7 @@ export const FamiliesData = [
             "banner": bannerElCatador,
             "txtBanner": "LA MáS GRANDE VARIEDAD DE CREMAS",
             "owner": ownerElCatador,
-            "pisco": piscoElCatador,
+            // "pisco": piscoElCatador,
             "txtOwner": ["Ica es un desierto rico en tradiciones y nosotros tenemos 36 años de historia promoviendo el pisco y sus derivados."],
             "nameOwner": ["Antonio","Carrasco"],
             "networkSocial": {
@@ -122,7 +121,7 @@ export const FamiliesData = [
             "banner": bannerPampasDeIca,
             "txtBanner": "Pisco, Vino, Premios y esfuerzo",
             "owner": ownerPampasDeIca,
-            "pisco": piscoPampasDeIca,
+            // "pisco": piscoPampasDeIca,
             "txtOwner": ["Nuestras 25 hectáreas de viñedos se encuentran ubicados en la provincia de Ica, en el Distrito de Santiago en el sector Pampas de los Castillos por ende el nombre de la marca “Pampas de Ica”. Estas tierras se compraron en los años 80 y en estos últimos 20 años se vienen cultivando variedades de uva destinadas para elaboración de Pisco y de Vino. Los suelos son franco arenosas, ricos en materia orgánica y minerales. Las aguas con las que se riegan estas viñas provienen de las regiones altoandinas y dan esa riqueza de minerales a nuestros suelos."],
             "nameOwner": ["Ismael","Carpio"],
             "networkSocial": {
@@ -139,7 +138,7 @@ export const FamiliesData = [
             "banner": bannerTresGeneraciones,
             "txtBanner": "Tradición y Pureza del pisco",
             "owner": ownerTresGeneraciones,
-            "pisco": piscoTresGeneraciones,
+            // "pisco": piscoTresGeneraciones,
             "txtOwner": ["Tradición desde 1856, La calidad de Tres Generaciones descansa en el cuidadoso cultivo de las uvas y el respeto a las prácticas tradicionales de elaboración."],
             "nameOwner": ["Juanita","Martinez"],
             "networkSocial": {
@@ -156,7 +155,7 @@ export const FamiliesData = [
             "banner": bannerBodegaVillacuri,
             "txtBanner": "Una pasión: producir uvas de calidad",
             "owner": ownerBodegaVillacuri,
-            "pisco": piscoBodegaVillacuris,
+            // "pisco": piscoBodegaVillacuris,
             "txtOwner": ["Ubicada en Villacuri, nuestra bodega fue fundada en el año 2007 y desde entonces viene dando servicio de elaboración a marcas reconocidas de piscos y vinos. Contamos con tecnología de punta y capacidad instalada para destilar 1 millón de litros."],
             "nameOwner": ["Jason","Astete"],
             "networkSocial": {
@@ -173,7 +172,7 @@ export const FamiliesData = [
             "banner": bannerGranPaso,
             "txtBanner": "La bebida auténtica del perú",
             "owner": ownerGranPaso,
-            "pisco": piscoGranPaso,
+            // "pisco": piscoGranPaso,
             "txtOwner": ["Pisco Gran Paso es un Pisco joven, con 9 años en el mercado, pero respaldado por la experiancia de sus gestores en el rubro de más de 20 años. Somos un Pisco de calidad indiscutible. Somos un Pisco de Pisco."],
             "nameOwner": ["Javier","Sanchez"],
             "networkSocial": {

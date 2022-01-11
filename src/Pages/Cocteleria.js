@@ -7,6 +7,7 @@ import Navbar from "../components/Navbar";
 // images
 import ArrowRight from "../assets/img/bebidas/arrow-left.png";
 import ArrowPiscos from "../assets/img/bebidas/arrow-right-bebidas.png";
+import ArrowPiscosBlack from "../assets/img/bebidas/arrow-right-black.png";
 import chilcano from "../assets/img/bebidas/chilcano.jpg";
 import capitan from "../assets/img/bebidas/capitan.jpg";
 import piscosour from "../assets/img/bebidas/piscosour.jpg";
@@ -33,7 +34,7 @@ export const Cocteleria = () => {
             <h1 className="parallax-titles parallax-position pb-2">BEBIDAS</h1>
           </div>
         </div>
-        <div className="parallax p-tradicion">
+        <div className="parallax p-pisco1">
           <div className="container">
             <h1 className="parallax-titles pt-2 text-uppercase">
               CON TRADICIóN
@@ -82,11 +83,11 @@ export const Cocteleria = () => {
               <div className="position-relative w-100">
                 <img src={chilcano} className="img-fluid mt-5" alt="chilcano" />
                 <div className="d-flex mt-5 position-absolute arrowWhiteCocteleria">
-                  <button className="btn-w color-white br-btn-footer px-5">
+                  <button className="btn-w color-black br-store px-5">
                     TIENDA
                   </button>
                   <img
-                    src={ArrowPiscos}
+                    src={ArrowPiscosBlack}
                     className="img-fluid ml-4"
                     alt="ArrowPiscos"
                   />
@@ -213,11 +214,11 @@ export const Cocteleria = () => {
               <div className="position-relative w-100">
                 <img src={piscosour} className="img-fluid" alt="piscosour" />
                 <div className="d-flex mt-5 position-absolute arrowWhiteCocteleria">
-                  <button className="btn-w color-white br-btn-footer px-5">
+                  <button className="btn-w color-black br-store px-5">
                     TIENDA
                   </button>
                   <img
-                    src={ArrowPiscos}
+                    src={ArrowPiscosBlack}
                     className="img-fluid ml-4"
                     alt="ArrowPiscos"
                   />

@@ -414,6 +414,9 @@ h6 {
 .p-pisco {
   background-image: url("../../assets/img/bg-pisco.jpg");
 }
+.p-pisco1 {
+  background-image: url("../../assets/img/bg-pisco1.jpg");
+}
 
 .p-vinos {
   background-image: url("../../assets/img/bg-vinos.jpg");
@@ -431,7 +434,7 @@ h6 {
 /* UVAS PATRIMONIALES */
 .pages-titles {
   font-family: "neue_worldsuperCnLt";
-  font-size: 9rem;
+  font-size: 8.5rem;
   text-transform: uppercase;
   line-height: 0.9;
 }
@@ -450,6 +453,10 @@ h6 {
 
 .color-uva {
   color: #8a73a6;
+}
+
+.color-black {
+  color: #000;
 }
 
 .color-huarango {
@@ -720,7 +727,7 @@ h6 {
 .txt-autor {
   font-family: "californyabuploaded_file";
   font-size: 70px;
-  line-height: 1;
+  line-height: 0.9;
 }
 .pages-firstitle {
   font-family: "p22_mackinac_probook";

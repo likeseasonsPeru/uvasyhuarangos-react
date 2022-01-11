@@ -223,25 +223,25 @@ export const FamiliiaScreen = () => {
         ) : (
           <div className="container pb-5">
             <div className="row pb-4">
-              <div className="col-md-6 text-right my-3">
+              <div className="col-md-7 col-sm-12 text-right my-3">
                 <img
                   src={item.owner}
                   className="img-fluid"
-                  style={{ maxHeight: "580px" }}
+                  style={{ maxHeight: "590px" }}
                   alt="owner"
                   // data-aos="fade-right"
                 />
               </div>
-              <div className="col-md-6 d-flex flex-column justify-content-between my-3 pl-5">
+              <div className="col-md-5 d-flex flex-column justify-content-around my-3 pl-5">
                 {item.txtOwner.length > 1 ? (
-                  <p className="text-left pb-3" style={{ maxWidth: "450px" }}>
+                  <p className="text-right pb-3" style={{ maxWidth: "450px" }}>
                     {item.txtOwner[0]}
                     <br />
                     <br />
                     {item.txtOwner[1]}
                   </p>
                 ) : (
-                  <p className="text-left pb-3" style={{ maxWidth: "450px" }}>
+                  <p className="text-right pb-3" style={{ maxWidth: "450px" }}>
                     {item.txtOwner}
                   </p>
                 )}
