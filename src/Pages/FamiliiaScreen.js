@@ -160,7 +160,7 @@ export const FamiliiaScreen = () => {
           <div className="container pb-5">
             <div className="row px-60">
               <div
-                className="col-md-6 text-center my-3"
+                className="col-md-6 text-center"
                 // data-aos="fade-right"
               >
                 <img
@@ -194,7 +194,7 @@ export const FamiliiaScreen = () => {
                 <div style={{ maxWidth: "400px" }}>
                   {item.nameOwner.length > 1 ? (
                     <>
-                      <h4 className="txt-autor text-left pl-3">{item.nameOwner[0]}</h4>
+                      <h4 className="txt-autor text-center pl-3">{item.nameOwner[0]}</h4>
                       <h4 className="txt-autor text-right">
                         {item.nameOwner[1]}
                       </h4>
