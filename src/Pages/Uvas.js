@@ -10,6 +10,7 @@ import Navbar from "../components/Navbar";
 // images
 import ArrowRight from "../assets/img/uvas-patrimoniales/arrow-right.png";
 import quebranta from "../assets/img/uvas-patrimoniales/quebranta.jpg";
+import torontel from "../assets/img/uvas-patrimoniales/torontel.jpg";
 import negraCriolla from "../assets/img/uvas-patrimoniales/negracriolla.jpg";
 import albilla from "../assets/img/uvas-patrimoniales/albilla.jpg";
 import mollar from "../assets/img/uvas-patrimoniales/mollar.jpg";
@@ -25,11 +26,14 @@ export const Uvas = () => {
   ];
 
   const uvas = [
+    { name: "TORONTEL", img: torontel },
     { name: "QUEBRANTA", img: quebranta },
     { name: "NEGRA CRIOLLA", img: negraCriolla },
     { name: "ALBILLA", img: albilla },
     { name: "MOLLAR", img: mollar },
     { name: "MOSCATEL", img: moscatel },
+    { name: "UBILLA", img: moscatel },
+    { name: "ITALIA", img: moscatel },
   ];
   useEffect(() => {
     AOS.init({
@@ -51,7 +55,7 @@ export const Uvas = () => {
           <div className="row">
             <div className="col text-center">
               <h1 className="pages-titles color-uva" data-aos="zoom-out-down">UVAS PATRIMONIALES</h1>
-              <h4 className="pages-slogan" data-aos="zoom-out-down">Nuestra Biodiversidad</h4>
+              <h4 className="pages-slogan mt-4" data-aos="zoom-out-down">Nuestra Biodiversidad</h4>
               <p className="py-4" data-aos="zoom-out-down">
                 Se manifiesta en los sabores únicos de los ocho tipos de uvas
                 pisqueras,

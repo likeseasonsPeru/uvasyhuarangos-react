@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
-import "aos/dist/aos.css"
+import "aos/dist/aos.css";
 
 // components
 import Footer from "../components/Footer";
@@ -8,7 +8,7 @@ import Navbar from "../components/Navbar";
 
 // images
 import ArrowLeft from "../assets/img/tradicion/arrow-left.png";
-import Tradicion from "../assets/img/tradicion/tradicon.jpg";
+import Tradicion from "../assets/img/tradicion/tradicion.jpg";
 import ProcesoArtesanal from "../assets/img/tradicion/procesoartesanal.jpg";
 import ArrowGrape from "../assets/img/legado/arrow-right-grape.png";
 import Banner2 from "../assets/img/tradicion/banner2.jpg";
@@ -23,9 +23,9 @@ export const Piscos = () => {
   ];
   useEffect(() => {
     AOS.init({
-      duration: 2000
-    })
-  }, [])
+      duration: 2000,
+    });
+  }, []);
   return (
     <>
       <Navbar />
@@ -34,7 +34,10 @@ export const Piscos = () => {
           <div className="col-xl-6 col-md-6 py-5">
             <div className="row">
               <div className="col-3">
-                <button onClick={() => window.history.back()} data-aos="fade-right">
+                <button
+                  onClick={() => window.history.back()}
+                  data-aos="fade-right"
+                >
                   <img
                     src={ArrowLeft}
                     className="img-fluid ml-4 mt-3"
@@ -43,7 +46,12 @@ export const Piscos = () => {
                 </button>
               </div>
               <div className="col-9">
-                <h1 className="pages-titles color-tradicion-r" data-aos="fade-right">TRADICIóN</h1>
+                <h1
+                  className="pages-titles color-tradicion-r"
+                  data-aos="fade-right"
+                >
+                  TRADICIóN
+                </h1>
                 <p style={{ maxWidth: "450px" }} data-aos="fade-right">
                   En Ica tenemos una tradición vitivinícola centenaria y un gran
                   producto emblemático, el Pisco, bebida bandera del Perú,
@@ -76,9 +84,12 @@ export const Piscos = () => {
         </div>
         <div className="row py-5">
           <div className="col-xl-6 col-md-6 col-sm-12">
-            <div style={{ width: "100%", height: "100%" }} data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+            <div
+              style={{ width: "100%", height: "100%" }}
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <img
                 src={ProcesoArtesanal}
                 className="img-fluid"
@@ -87,15 +98,19 @@ export const Piscos = () => {
             </div>
           </div>
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-            <div
-              className="d-flex flex-column justify-content-around pr-lg-5 pr-md-1"
-              style={{ marginTop: "100px" }}
-            >
+            <div className="d-flex flex-column justify-content-around pr-lg-5 pr-md-1">
               <div>
-                <h2 className="pages-subtitles color-tradicion-r text-right mt-1" data-aos="fade-up">
+                <h2
+                  className="pages-subtitles color-tradicion-r text-right mt-1"
+                  data-aos="fade-up"
+                >
                   PROCESO artesanal
                 </h2>
-                <p className="ml-auto text-right" style={{ maxWidth: "600px" }} data-aos="fade-up">
+                <p
+                  className="ml-auto text-right py-4"
+                  style={{ maxWidth: "600px" }}
+                  data-aos="fade-up"
+                >
                   El Pisco artesanal realizado en alambique y falca es sumamente
                   superior a otros piscos hechos de forma industrial, debido a
                   que este proceso permite una mejor etapa de destilación,
@@ -120,33 +135,57 @@ export const Piscos = () => {
                   resultado el destilado
                 </p>
               </div>
-              <div className="d-flex mt-4 justify-content-end">
-                <Link to="/uvas" data-aos="fade-up">
-                  <button
-                    className="btn-w color-uva br-grape px-5"
+              <div className=" d-flex flex-row-reverse">
+                <div className="d-flex mt-5 justify-content-end">
+                  <Link to="/uvas" data-aos="fade-up">
+                    <button
+                      className="btn-w color-uva br-grape px-5"
+                      style={{ height: "80px" }}
+                    >
+                      UVAS
+                    </button>
+                  </Link>
+                  <img
+                    src={ArrowGrape}
+                    data-aos="fade-up"
+                    className="img-fluid ml-xl-4 ml-2"
+                    alt="arrow-right-grape"
+                  />
+                </div>
+                <div className="d-flex mt-5 justify-content-end mr-3">
+                  <Link to="#" data-aos="fade-up">
+                    <button
+                      className="btn-w color-tienda br-store"
+                      style={{ height: "80px" }}
+                    >
+                      TIENDA
+                    </button>
+                  </Link>
+                  <img
+                    src={ArrowStore}
+                    data-aos="fade-up"
+                    className="img-fluid ml-xl-4 ml-2"
+                    alt="arrow-right-store"
                     style={{ height: "80px" }}
-                  >
-                    UVAS
-                  </button>
-                </Link>
-                <img
-                  src={ArrowGrape}
-                  data-aos="fade-up"
-                  className="img-fluid ml-xl-4 ml-2"
-                  alt="arrow-right-grape"
-                />
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="container py-5" style={{ marginTop: "80px" }}>
+        <div className="container py-5 mt-5">
           <div className="row">
             <div className="col-12 text-center">
-              <h4 className="types-pisco" data-aos="fade-up">Tipos de Pisco</h4>
+              <h4 className="types-pisco" data-aos="fade-up">
+                Tipos de Pisco
+              </h4>
             </div>
             <div className="col-12 mt-5">
               <div className="row">
-                <div className="col-md-4 text-center px-4" data-aos="fade-right">
+                <div
+                  className="col-md-4 text-center px-4"
+                  data-aos="fade-right"
+                >
                   <div className="mx-auto" style={{ maxWidth: "300px" }}>
                     <div className="mb-4 py-2 bg-tradicion">PURO</div>
                     <p className="px-2">
@@ -181,43 +220,50 @@ export const Piscos = () => {
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-md-6 col-sm-6" data-aos="fade-up-right">
-              <div className="d-flex mt-5">
-                <Link to="/cocteleria">
-                  <button
-                    className="color-cocteleria br-cocteleria px-4"
-                    style={{ height: "80px" }}
-                  >
-                    COCTELERIA
-                  </button>
-                  <img
-                    src={ArrowYellow}
-                    className="img-fluid ml-xl-4 ml-2"
-                    alt="arrow-right-yellow"
-                    style={{ height: "80px" }}
-                  />
-                </Link>
-              </div>
-            </div>
-            <div className="col-md-6 col-sm-6" data-aos="fade-up-left">
-              <div className="d-flex mt-5 justify-content-end">
-                <button
-                  className="btn-w color-tienda br-store"
-                  style={{ height: "80px" }}
+        </div>
+        <div
+          className="container-fluid px-0"
+          style={{ backgroundColor: "#FED16A" }}
+        >
+          <div className="container py-4">
+            <div className="row justify-content-center align-items-center py-2">
+              <div
+                className="col-md-6 col-sm-12 h-100 align-self-center text-center"
+                data-aos="fade-up-right"
+              >
+                <p
+                  className="my-0 text-white text-left mx-auto"
+                  style={{ maxWidth: "430px", fontSize: "30px" }}
                 >
-                  TIENDA
-                </button>
-                <img
-                  src={ArrowStore}
-                  className="img-fluid ml-xl-4 ml-2"
-                  alt="arrow-right-store"
-                  style={{ height: "80px" }}
-                />
+                  Aprende a preparar bebidas <br /> con auténtica tradición
+                  iqueña
+                </p>
+              </div>
+              <div
+                className="col-md-6 col-sm-12 text-right"
+                data-aos="fade-up-left"
+              >
+                <div className="d-flex flex-row justify-content-center align-items-center">
+                  <h1
+                    className="color-white text-title my-0 pt-2 text-uppercase"
+                    style={{ fontSize: "60px" }}
+                  >
+                    COCTELERíA
+                  </h1>
+                  <Link to="/cocteleria">
+                    <img
+                      src={ArrowYellow}
+                      className="img-fluid ml-xl-4 ml-2"
+                      alt="arrow-right-yellow"
+                      style={{ height: "80px" }}
+                    />
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
         <div className="container-fluid p-0 pt-5">
           <img
             src={Banner2}

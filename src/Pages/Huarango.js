@@ -8,6 +8,7 @@ import Navbar from "../components/Navbar";
 
 // images
 import ArrowRight from "../assets/img/huarangos/arrow-right.png";
+import Sello from "../assets/img/huarangos/sello1.png";
 import banner1 from "../assets/img/huarangos/banner1.jpg";
 import banner2 from "../assets/img/huarangos/banner2.jpg";
 import whyimportant from "../assets/img/huarangos/whyimportant.jpg";
@@ -95,8 +96,8 @@ export const Huarango = () => {
                 />
               </div>
             </div>
-            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-5">
-              <div className="ml-auto d-flex flex-column justify-content-between mt-3">
+            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <div className="ml-auto d-flex flex-column justify-content-between">
                 <div>
                   <div className="text-right align-self-end">
                     <h2
@@ -136,7 +137,7 @@ export const Huarango = () => {
           </div>
         </div>
 
-        <div className="container py-5">
+        <div className="container py-5 mt-5">
           <div className="row">
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <h2 className="pages-subtitles color-huarango" data-aos="flip-up">
@@ -147,7 +148,11 @@ export const Huarango = () => {
                 Un árbol tan majestuoso como el huarango, <br /> debe ser
                 preservado con mucho cuidado.
               </p>
-              <p className="font-mackinacpro">
+              <p
+                className="font-mackinacpro pt-2"
+                style={{ maxWidth: "580px" }}
+                data-aos="fade-right"
+              >
                 Debemos saber que hacer para salvaguardarlo, porque sembrar sus
                 semillas sólo es la primer paso, el segundo es plantar la
                 semilla en los niños, de forma que sembrar árboles sea algo
@@ -164,10 +169,28 @@ export const Huarango = () => {
                 otra vez.
               </p>
             </div>
-            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 h-100">
-              <div className="w-100 h-100" data-aos="fade-left">
-                <img src={banner2} class="img-fluid h-100" alt="banner2" />
-              </div>
+            <div
+              className="col-sm-12 col-md-12 col-lg-6 col-xl-6 h-100 align-self-end position-relative"
+              // data-aos="fade-left"
+            >
+              <img
+                src={Sello}
+                alt="Sello"
+                style={{
+                  height: "250px",
+                  top: "-25%",
+                  left: "-9%",
+                  zIndex: "10",
+                }}
+                className="position-absolute"
+                data-aos="fade-left"
+              />
+              <img
+                src={banner2}
+                class="img-fluid h-100"
+                alt="banner2"
+                data-aos="fade-left"
+              />
             </div>
           </div>
         </div>

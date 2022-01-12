@@ -14,6 +14,8 @@ import ArrowGrape from "../assets/img/legado/arrow-right-grape.png";
 import ArrowStore from "../assets/img/legado/arrow-right-store.png";
 import Rose from "../assets/img/legado/rose.jpg";
 import Tinto from "../assets/img/legado/tinto.jpg";
+import Premio1 from "../assets/img/legado/premio1.jpg";
+import Premio2 from "../assets/img/legado/premio2.jpg";
 import { Link } from "react-router-dom";
 
 export const Vinos = () => {
@@ -38,7 +40,7 @@ export const Vinos = () => {
               </h1>
               <p
                 style={{ maxWidth: "1000px" }}
-                className="mx-auto"
+                className="mx-auto mt-5"
                 data-aos="fade-up"
               >
                 Desde su fundación, Ica siempre se distinguió de todas las demás
@@ -192,18 +194,12 @@ export const Vinos = () => {
               </h1>
             </div>
             <div className="col-12" style={{ marginBottom: "100px" }}>
-              <div className="d-flex justify-content-around">
-                <div className="text-center" data-aos="fade-right">
-                  <img src="" width="170px" height="170px" alt="premio 1" />
-                  <p className="mt-4">PREMIO AAA</p>
+              <div className="row  align-items-end">
+                <div className="col-md-6 col-sm-12 text-center" data-aos="fade-right">
+                  <img src={Premio1} className="img-fluid" alt="premio 2" />
                 </div>
-                <div className="text-center" data-aos="fade-up">
-                  <img src="" width="170px" height="170px" alt="premio 2" />
-                  <p className="mt-4">PREMIO AAA</p>
-                </div>
-                <div className="text-center" data-aos="fade-left">
-                  <img src="" width="170px" height="170px" alt="premio 3" />
-                  <p className="mt-4">PREMIO AAA</p>
+                <div className="col-md-6 col-sm-12 text-center" data-aos="fade-left">
+                  <img src={Premio2} className="img-fluid" alt="premio 2" />
                 </div>
               </div>
             </div>

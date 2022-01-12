@@ -438,12 +438,18 @@ h6 {
   text-transform: uppercase;
   line-height: 0.9;
 }
+.pages-titles-gastronomia {
+  font-family: "neue_worldsuperCnLt";
+  font-size: 6rem;
+  text-transform: uppercase;
+  line-height: 0.9;
+}
 
 .pages-subtitles {
   font-family: "neue_worldsuperCnLt";
   font-size: 5rem;
   text-transform: uppercase;
-  line-height: 0.9;
+  line-height: 1;
 }
 
 .pages-slogan {
@@ -469,7 +475,7 @@ h6 {
   background-color: #8a73a6;
   color: #fff;
   font-family: "p22_mackinac_probook";
-  font-size: 1rem;
+  font-size: 12px;
   text-align: center;
 }
 .ArrowRightHuarango {
@@ -877,9 +883,6 @@ h6 {
 }
 
 @media screen and (max-width: 1200px) {
-  .pages-titles {
-    font-size: 7rem;
-  }
   .parallax-titles {
     font-size: 3.3rem;
     line-height: 4rem;

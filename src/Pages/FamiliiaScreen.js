@@ -223,7 +223,7 @@ export const FamiliiaScreen = () => {
         ) : (
           <div className="container pb-5">
             <div className="row pb-4">
-              <div className="col-md-7 col-sm-12 text-right my-3">
+              <div className="col-md-7 col-sm-12 text-center my-3">
                 <img
                   src={item.owner}
                   className="img-fluid"
