@@ -96,7 +96,7 @@ export const Familia = () => {
             style={{ left: "0", right: "0", bottom: "5px" }}
             // data-aos="fade-up"
           >
-            HUARANGO, PISCO, TRADICIóN
+            HUARANGO, PISCO y TRADICIóN
           </h1>
         </div>
 

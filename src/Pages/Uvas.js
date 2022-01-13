@@ -52,7 +52,7 @@ export const Uvas = () => {
           >
             <img src={ArrowRight} alt="arrow-right" />
           </button>
-          <div className="row">
+          <div className="row py-4">
             <div className="col text-center">
               <h1 className="pages-titles color-uva" data-aos="zoom-out-down">UVAS PATRIMONIALES</h1>
               <h4 className="pages-slogan mt-4" data-aos="zoom-out-down">Nuestra Biodiversidad</h4>
