@@ -68,9 +68,9 @@ export const Uvas = () => {
             {uvas.map(({ img, name }, index) => {
               return (
                 <div className="col" key={index} data-aos="fade-up">
-                  <div className="products-container imgs-vino">
+                  <div className="products-container imgs-vino position-relative">
                     <img width="100%" height="100%" src={img} alt={name} />
-                    <div className="products-titles">{name}</div>
+                    <div className="products-titles position-absolute w-100 bottom-0">{name}</div> 
                   </div>
                 </div>
               );

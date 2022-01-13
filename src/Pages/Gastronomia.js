@@ -10,10 +10,12 @@ import Navbar from "../components/Navbar";
 import ArrowRight from "../assets/img/gastronomia/arrow-right.png";
 import ArrowLeft from "../assets/img/gastronomia/arrow-left.png";
 import banner1 from "../assets/img/gastronomia/banner1.jpg";
-import banner2 from "../assets/img/gastronomia/banner2.jpg";
-import escudocolor from "../assets/img/gastronomia/escudocolor.jpg";
+import tradicion from "../assets/img/gastronomia/tradicion.jpg";
+import canperdidos from "../assets/img/gastronomia/canperdidos.jpg";
 import tours from "../assets/img/gastronomia/tours.jpg";
-import rutadrenalina from "../assets/img/gastronomia/rutadrenalina.jpg";
+import citytour from "../assets/img/gastronomia/citytour.jpg";
+import dunas from "../assets/img/gastronomia/dunas.jpg";
+import sabeica from "../assets/img/gastronomia/sabeica.jpg";
 import trekking from "../assets/img/gastronomia/trekking.jpg";
 import pampa from "../assets/img/gastronomia/pampa.jpg";
 import elcatador from "../assets/img/gastronomia/elcatador.jpg";
@@ -131,6 +133,38 @@ const Gastronomia = () => {
             </div>
           </div>
         </div>
+        {/* <div className="ml-auto" style={{ maxWidth: "800px" }}>
+<strong className="gastronomia-days">DE 3 DIAS</strong>
+<p className="text-right"style={{ lineHeight:"1.9"}}>
+<spanclassName="txt-bold-gastronomia">Primer día:</span>{""}
+Llegada y adrenalina (dunas, turismo, restaurants, hotel){" "}
+<br/>
+<spanclassName="txt-bold-gastronomia">
+Segundo día:
+</span>{""}
+cata en bodegas y comida (3 bodegas, Olla Juanita,
+almuerzo, hotel) <br />
+<spanclassName="txt-bold-gastronomia">
+Tercer día:
+</span>{""}
+paseo y regreso (bodega final) <br />
+<spanclassName="txt-bold-gastronomia">
+Cuarto día:
+</span>{""}
++ Bodegas o atracciones turísticas.
+</p>
+<strongclassName="gastronomia-days">DE 1 DIA</strong>
+<pclassName="text-right">
+<spanclassName="txt-bold-gastronomia">Primer día:</span>{""}
+cata y comida (3 bodegas, Olla Juanita, almuerzo, hotel){" "}
+<br/>
+<spanclassName="txt-bold-gastronomia">
+Segundo día:
+</span>{""}
+adrenalina y regreso por la noche (dunas, paseos)
+</p>
+</div>
+ */}
 
         <div className="container mt-5 mb-120">
           <div className="row">
@@ -221,6 +255,7 @@ const Gastronomia = () => {
             </div>
           </div>
         </div>
+
         <div className="bg-gastronomia">
           <div className="container py-5 mb-5">
             <div className="row my-5">
@@ -248,7 +283,7 @@ const Gastronomia = () => {
           </div>
         </div>
 
-        <div className="container px-90">
+        <div className="container px-90 border-bottom-color">
           <div className="row">
             <div className="col-md-6 col-xl-6 col-sm-12">
               <div className="mx-auto d-flex flex-column justify-content-between h-100">
@@ -289,7 +324,7 @@ const Gastronomia = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-xl-6 col-sm-12">
+            <div className="col-md-6 col-xl-6 col-sm-12 align-self-center">
               <div style={{ width: "100%" }}>
                 <img
                   src={trekking}
@@ -301,9 +336,9 @@ const Gastronomia = () => {
           </div>
         </div>
 
-        <div className="container my-5">
+        <div className="container px-90 border-bottom-color">
           <div className="row row-reverse-w">
-            <div className="col-md-6 col-xl-6 col-sm-12 pt-4">
+            <div className="col-md-6 col-xl-6 col-sm-12 align-self-center">
               <div className="position-relative" style={{ width: "100%" }}>
                 <img src={tours} className="img-fluid" alt="tours" />
               </div>
@@ -315,7 +350,10 @@ const Gastronomia = () => {
                     RUTA DEL <br />
                     PISCO Clásico
                   </h1>
-                  <p className="ml-auto" style={{ maxWidth: "580px" }}>
+                  <p
+                    className="ml-auto"
+                    style={{ maxWidth: "580px", lineHeight: "1.7" }}
+                  >
                     <strong>1.</strong> Recojo del hotel Elegido, e iniciaremos
                     la visita por la Bodega el Catador, donde aprenderemos el
                     proceso de elaboración del pisco artesanal (pisco hecho a
@@ -349,9 +387,9 @@ const Gastronomia = () => {
           </div>
         </div>
 
-        <div className="container px-90">
+        <div className="container px-90 border-bottom-color">
           <div className="row">
-            <div className="col-md-6 col-xl-6 col-sm-12">
+            <div className="col-md-6 col-xl-6 col-sm-12 my-2">
               <div className="mx-auto d-flex flex-column justify-content-between h-100">
                 <div>
                   <h1 className="pages-titles-gastronomia color-gastronomia text-left">
@@ -361,7 +399,7 @@ const Gastronomia = () => {
                   </h1>
                   <p
                     className="text-left pt-1 mr-auto"
-                    style={{ maxWidth: "400px", lineHeight: "1.7" }}
+                    style={{ maxWidth: "450px", lineHeight: "1.7" }}
                   >
                     La aventura comienza en Huacachina, partiremos desde
                     nuestras instalaciones en el Balneario de Huacachina,
@@ -372,7 +410,7 @@ const Gastronomia = () => {
                     para la práctica del Sandboard,
                   </p>
                 </div>
-                <div className="d-flex pb-3">
+                <div className="d-flex">
                   <button className="color-gastronomia br-gastronomia px-5">
                     RESERVA
                   </button>
@@ -384,77 +422,310 @@ const Gastronomia = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-xl-6 col-sm-12">
+            <div className="col-md-6 col-xl-6 col-sm-12 my-3 align-self-center">
               <div className="position-relative" style={{ width: "100%" }}>
-                <img
-                  src={rutadrenalina}
-                  className="img-fluid"
-                  alt="ruta adrenalina"
-                />
-                <p
-                  className="text-white text-left position-absolute txt-grastronomia-photo"
-                  style={{ top: "40px", left: "40px" }}
-                >
-                  aventura y
-                  <br /> adrenalina
-                </p>
+                <img src={dunas} className="img-fluid" alt="dunas" />
               </div>
             </div>
           </div>
         </div>
 
-        <div className="container my-5">
-          <div className="row">
-            <div className="col-xl-9 col-md-12">
-              <div className="row">
-                <div className="col-xl-7 col-md-7">
-                  <div className="mr-5">
-                    <h1 className="pages-titles-gastronomia text-left color-gastronomia">
-                      RUTAS UVAS Y <br /> HUARANGOS
-                    </h1>
-                    <h3 className="color-gastronomia mb-5">BODEGAS</h3>
-                    <p
-                      className="mr-auto"
-                      style={{ maxWidth: "420px", lineHeight: "1.9" }}
-                    >
-                      Se parte de este viaje cultural por los distritos más
-                      representativos de Ica, conoce nuestra región vitivinícola
-                      y deleitate con el Pisco, la bebida iqueña por excelencia.
-                      <br /> <br />
-                      Explora diferentes bodegas, descubre acerca de la
-                      producción y queda cautivado con degustaciones de los
-                      mejores piscos y vinos.
-                    </p>
-                  </div>
+        <div className="container px-90 border-bottom-color">
+          <div className="row row-reverse-w">
+            <div className="col-md-6 col-xl-6 col-sm-12 align-self-center">
+              <div className="position-relative" style={{ width: "100%" }}>
+                <img src={citytour} className="img-fluid" alt="tours" />
+              </div>
+            </div>
+            <div className="col-md-6 col-xl-6 col-sm-12">
+              <div className="h-100 text-right d-flex flex-column justify-content-between h-100">
+                <div>
+                  <h1 className="pages-titles-gastronomia color-gastronomia text-right">
+                    City Tour <br />
+                    en Ica
+                  </h1>
+                  <p
+                    className="ml-auto pt-4"
+                    style={{ maxWidth: "490px", lineHeight: "1.7" }}
+                  >
+                    Recojo del Hotel en Ica , visita a la plaza de armas ,
+                    templo de Luren ,chocolatería , plaza de temática de
+                    Cachiche, palmera de 7 cabezas , bodega vitivinícola
+                    artesanal , tiempo de almuerzo en Rest. campestre, visita al
+                    Oasis de Huacachina, contaremos con un tiempo en las Dunas
+                    para la práctica del Sandboard (opcional) , traslado al
+                    punto de origen.
+                  </p>
                 </div>
-                <div className="col-xl-5 col-md-5">
+                <div className="d-flex justify-content-end">
+                  <button className="color-gastronomia br-gastronomia px-5">
+                    RESERVA
+                  </button>
                   <img
-                    src={escudocolor}
-                    className="img-fluid mb-sm-5"
-                    alt="escudocolor"
+                    src={ArrowRight}
+                    className="img-fluid ml-4"
+                    alt="ArrowRight"
                   />
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 d-flex justify-content-end pt-3">
-              <div className="d-flex align-self-end">
-                <button className="color-gastronomia br-gastronomia px-5">
-                  RESERVA
-                </button>
-                <img src={ArrowRight} className="ml-4" alt="ArrowRight" />
+          </div>
+        </div>
+
+        <div className="container px-90 border-bottom-color">
+          <div className="row">
+            <div className="col-md-6 col-xl-6 col-sm-12 my-3">
+              <div className="mx-auto d-flex flex-column justify-content-between h-100">
+                <div>
+                  <h1 className="pages-titles-gastronomia color-gastronomia text-left">
+                    ¿A QUÉ <br />
+                    SABE ICA?
+                  </h1>
+                  <p
+                    className="text-left pt-4 mr-auto"
+                    style={{ maxWidth: "450px", lineHeight: "1.7" }}
+                  >
+                    - Visita a chocolatería Helena ó casa de las tejas. <br />
+                    - Tour clásico al Viñedo industrial Tacama <br />- Tiempo
+                    para almuerzo (por cuenta del pasajero). <br /> - Durante el
+                    recorrido, realizaremos una breve parada en una fábrica de
+                    paletas artesanales iqueñas. <br /> - Visita al Oasis de
+                    Huacachina , paseo en carros tubulares y práctica del
+                    Sandboard.
+                  </p>
+                </div>
+                <div className="d-flex">
+                  <button className="color-gastronomia br-gastronomia px-5">
+                    RESERVA
+                  </button>
+                  <img
+                    src={ArrowRight}
+                    className="img-fluid ml-4"
+                    alt="ArrowRight"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-xl-6 col-sm-12 my-3 align-self-center">
+              <div className="position-relative" style={{ width: "100%" }}>
+                <img src={sabeica} className="img-fluid" alt="sabe ica" />
               </div>
             </div>
           </div>
         </div>
-        <div className="container-fluid p-0 mt-5 position-relative">
-          <img src={banner2} className="img-fluid" alt="banner2" />
-          <p
-            className="text-white text-right position-absolute txt-grastronomia-photo"
-            style={{ top: "40px", right: "40px" }}
-          >
-            ARMA tu ruta
-            <br /> y reserva aquí
-          </p>
+
+        <div className="container px-90 border-bottom-color">
+          <div className="row">
+            <div className="col-md-6 col-sm-12 align-self-end">
+              <img src={sabeica} className="img-fluid mb-2" alt="sabe ica" />
+              <div className="d-flex mt-5 ml-1">
+                <button className="color-gastronomia br-gastronomia px-5">
+                  RESERVA
+                </button>
+                <img
+                  src={ArrowRight}
+                  className="img-fluid ml-4"
+                  alt="ArrowRight"
+                />
+              </div>
+            </div>
+            <div className="col-md-6 col-sm-12 text-right">
+              <h1 className="pages-titles-gastronomia color-gastronomia">
+                ICA/ PARACAS /VIÑEDOS
+              </h1>
+              <h3
+                className="color-gastronomia text-uppercase"
+                style={{ fontSize: "30px", fontWeight: "300" }}
+              >
+                Ica y Paracas en una copa
+              </h3>
+              <strong className="gastronomia-days text-uppercase">
+                Día 1: LLEGADA A ICA
+              </strong>
+              <p
+                className="text-right ml-auto pb-3"
+                style={{ maxWidth: "600px", lineHeight: "1.7" }}
+              >
+                12:00 hrs Llegada a Ica – Instalación en Hotel en Ica 15:30 hrs
+                Visitaremos la Laguna de Huacachina, donde realizaremos un paseo
+                en Tubulares y contaremos con un instructor para la práctica del
+                Sandboard.
+              </p>
+              <strong className="gastronomia-days text-uppercase">
+                día 2: ISLAS BALLESTAS+RESERVA DE PARACAS
+              </strong>
+              <p
+                className="text-right ml-auto pb-3"
+                style={{ maxWidth: "600px", lineHeight: "1.7" }}
+              >
+                06:30 am Traslado Ica – Paracas. <br /> 08:00 am Salida hacia
+                Islas Ballestas <br /> Comprende: Visita del candelabro, islas.,
+                fauna marítima, lobos marinos (fino, chusco). Maternidad de
+                lobos, biodiversidad de aves guaneras en Habitual natural como
+                zarcillos, guanay, chuitas, camarones y pingüinos de Humbolt
+                formaciones rocosas que constituyen unos de los paisajes más
+                hermosos de la costa peruana, luego ingresaremos a la reserva de
+                paracas donde visitaremos obelisco, sala de interpretación
+                (temporalmente cerrado) , tiempo de playa en lagunillas. <br />{" "}
+                4:00 pm Llegada a Ica
+              </p>
+              <strong className="gastronomia-days text-uppercase">
+                día 3: RUTA DEL PISCO
+              </strong>
+              <p
+                className="text-right ml-auto"
+                style={{ maxWidth: "600px", lineHeight: "1.7" }}
+              >
+                09:00 am Recojo del hotel elegido, e iniciaremos la visita por
+                la Bodega el Catador, donde aprenderemos el proceso de
+                elaboración del pisco artesanal (pisco hecho a mano), mientras
+                disfrutaremos de sus diversas variedades, conoceremos su
+                historia . Como segundo punto nos dirigiremos hacia la bodega
+                artesanal “3 generaciones “ Luego visitaremos la bodega
+                Industrial Tacama, al igual que las dos bodegas anteriores,
+                podrán observar sus plantaciones de viñedos, ingresaran al área
+                de producción para apreciar el desarrollo de la elaboración de
+                sus piscos y vinos. <br /> 13:00 pm. Retorno a su hotel –
+                traslado al terminal de Bus en Ica.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="container px-90 border-bottom-color">
+          <di className="row">
+            <div className="col-md-6 col-sm-12 text-left">
+              <h1 className="pages-titles-gastronomia color-gastronomia">
+                ICA/PARACAS/ CAÑON <br />
+                DE LOS PERDIDOS
+              </h1>
+              <h3
+                className="color-gastronomia text-uppercase pb-5"
+                style={{ fontSize: "30px", fontWeight: "300" }}
+              >
+                Ica, Paracas y las joyas del Desierto
+              </h3>
+              <strong className="gastronomia-days text-uppercase">
+                Día 1: ICA
+              </strong>
+              <p
+                className="text-left mr-auto pb-3"
+                style={{ maxWidth: "600px", lineHeight: "1.7" }}
+              >
+                13:00 hrs Llegada a Ica. <br /> Traslado del terminal de bus e
+                Instalación en Hotel en Ica <br />
+                14:00 hrs CITY TOUR EN ICA <br /> Visitaremos un viñedo
+                artesanal plaza temática de Cachiche , templo de Luren ,
+                chocolatería Helena, visita a la laguna de Huacachina llamado el
+                Oasis de América . Pernocte en Ica.
+              </p>
+              <strong className="gastronomia-days text-uppercase">
+                día 2: ISLAS BALLESTAS
+              </strong>
+              <p
+                className="text-left mr-auto pb-3"
+                style={{ maxWidth: "600px", lineHeight: "1.7" }}
+              >
+                06:30 hrs. Recojo en hotel en Ica. <br /> 08:00 hrs. Salida
+                hacia Islas Ballestas <br /> Comprende: Vista del candelabro,
+                islas., fauna marítima, lobos marinos (fino, chusco). Maternidad
+                de lobos, biodiversidad de aves guaneras en Habitual natural
+                como zarcillos, guanay, chuitas, camarones y pingüinos de
+                Humbolt formaciones rocosas que constituyen unos de los paisajes
+                más hermosos de la costa peruana, luego ingresaremos a la
+                reserva de paracas donde visitaremos obelisco, sala de
+                interpretación, tiempo de playa en lagunillas (ALMUERZO
+                OPCIONAL) <br /> 15:00 hrs. Traslado a Hotel en Ica <br />{" "}
+                Pernocte en Ica.
+              </p>
+              <strong className="gastronomia-days text-uppercase">
+                día 3: TREKKING AL CAÑÓN DE LOS PERDIDOS
+              </strong>
+              <p
+                className="text-left mr-auto"
+                style={{ maxWidth: "610px", lineHeight: "1.7" }}
+              >
+                06:30 am Recojo desde Hotel en Ica. <br /> El recorrido consiste
+                en la visita del Distrito de Ocucaje, donde ingresaremos al
+                desierto , visitaremos la plaza temática, luego la pampa de
+                meteoritos , tiempo de fotos en el famoso ojo de piedra,
+                continuando con el recorrido llegaremos al gran Cañón una
+                formación caprichosa de la naturaleza, se realizara una caminata
+                por el interior del Cañón luego retornaremos a la Ciudad de Ica.
+                <br />
+                1:00 pm aprox Llegada a Ica , Al retornar a Ica llegaremos al
+                punto de origen en Ica. <br />
+                15:00 hrs Traslado hacia el terminal de Bus en Ica.
+              </p>
+            </div>
+
+            <div className="col-md-6 col-sm-12 align-self-end">
+              <img
+                src={canperdidos}
+                className="img-fluid mb-2"
+                alt="sabe ica"
+              />
+              <div className="d-flex mt-5 justify-content-end">
+                <button className="color-gastronomia br-gastronomia px-5">
+                  RESERVA
+                </button>
+                <img
+                  src={ArrowRight}
+                  className="img-fluid ml-4"
+                  alt="ArrowRight"
+                />
+              </div>
+            </div>
+          </di>
+        </div>
+
+        <div className="container px-90">
+          <div className="row">
+            <div className="col-md-6 col-sm-12 align-self-end">
+              <img src={tradicion} className="img-fluid mb-2" alt="sabe ica" />
+              <div className="d-flex mt-5 ml-1">
+                <button className="color-gastronomia br-gastronomia px-5">
+                  RESERVA
+                </button>
+                <img
+                  src={ArrowRight}
+                  className="img-fluid ml-4"
+                  alt="ArrowRight"
+                />
+              </div>
+            </div>
+            <div className="col-md-6 col-sm-12 text-right">
+              <h1 className="pages-titles-gastronomia color-gastronomia mb-4">
+                TRADICIÓN EN ICA <br />Y SOL EN PARACAS
+              </h1>
+              <strong className="gastronomia-days text-uppercase">
+                Día 1: City Tour en Ica
+              </strong>
+              <p
+                className="text-right ml-auto pb-3"
+                style={{ maxWidth: "600px", lineHeight: "1.7" }}
+              >
+                Visitaremos los principales puntos de la ciudad incluyendo una
+                bodega vitivinícola además de tener un tiempo en la laguna de
+                Huacachina, donde realizaremos un paseo en Tubulares y
+                contaremos con un instructor para la práctica del Sandboard (no
+                incluido)
+              </p>
+              <strong className="gastronomia-days text-uppercase">
+                día 2: Full Day Paracas
+              </strong>
+              <p
+                className="text-right ml-auto pb-3"
+                style={{ maxWidth: "600px", lineHeight: "1.7" }}
+              >
+                Salida 06:30 am. Recojo en su hospedaje <br /> Comprende ISLAS
+                BALLESTAS: Vista del candelabro, islas., fauna marítima, lobos
+                marinos (finos, chuscos). Maternidad de lobos, biodiversidad de
+                aves guaneras en Habitual natural como zarcillos, guanay,
+                chuitas, camarones y pingüinos de Humbolt formaciones
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       <Footer color={DataFooter[0]} txt={DataFooter[1]} />

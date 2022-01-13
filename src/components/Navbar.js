@@ -55,7 +55,10 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/tienda">
+              <Link className="nav-link" to="#" onClick={(e)=>{
+                window.location =`https://tienda.uvasyhuarangos.pe/`
+                e.preventDefault()
+              }}>
                 TIENDA
               </Link>
             </li>

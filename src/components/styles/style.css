@@ -497,6 +497,10 @@ h6 {
   color: #e27423;
 }
 
+.border-bottom-color {
+  border-bottom: 1px solid #e27423;
+}
+
 .bg-gastronomia {
   background-color: #e27423;
 }
