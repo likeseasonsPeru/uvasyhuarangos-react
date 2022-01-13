@@ -227,7 +227,7 @@ export const FamiliiaScreen = () => {
                 <img
                   src={item.owner}
                   className="img-fluid"
-                  style={{ maxHeight: "590px" }}
+                  style={{ maxHeight: "580px" }}
                   alt="owner"
                   // data-aos="fade-right"
                 />

@@ -49,17 +49,17 @@ export const NavFamilies = () => {
             </li>
             <li className="nav-item-fam">
               <Link className="brands-link" to="/familia/fundosantalucia">
-                <p className="text-center">
+                <p className="text-center text-uppercase">
                   FUNDO <br />
-                  SANTA LUCIA
+                  SANTA LUCíA
                 </p>
               </Link>
             </li>
             <li className="nav-item-fam">
               <Link className="brands-link" to="/familia/bodega1615">
-                <p className="text-center">
+                <p className="text-center text-uppercase">
                   Bodega <br />
-                  1615
+                  SAN Nicolás
                 </p>
               </Link>
             </li>
@@ -143,15 +143,15 @@ export const NavFamilies = () => {
             <Link className="brands-link" to="/familia/fundosantalucia">
               <p className="text-center">
                 FUNDO <br />
-                SANTA LUCIA
+                SANTA LUCíA
               </p>
             </Link>
           </li>
           <li className="nav-item-fam">
-            <Link className="brands-link" to="/familia/bodega1615">
+            <Link className="brands-link" to="/familia/bodegasannicolas">
               <p className="text-center">
                 Bodega <br />
-                1615
+                San Nicolás
               </p>
             </Link>
           </li>

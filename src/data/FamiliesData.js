@@ -81,8 +81,8 @@ export const FamiliesData = [
         },
         {
             "id": 4,
-            "familia":"bodega1615",
-            "title": ["BODEGA 1615"],
+            "familia":"bodegasannicolas",
+            "title": ["BODEGA", "SAN nicolás"],
             "txt": ["Nacimos en Pisco y nos quedamos en Pisco. Hacemos honor a quienes iniciaron hace más de 400 años. En el mismo lugar, con la misma tierra.La paciencia y la pasión de nuestros agricultores es el mejor medidor de calidad que podemos tener. Cada gota de nuestro pisco habla por nosotros. Representamos los nuevos tiempos del pisco. Rescatamos nuestra historia amos a conocimientos contemporáneos de destilación y mixología."],
             "banner": bannerBodega1615,
             "txtBanner": "ES MOMENTO DE COMPARTIR",
@@ -99,10 +99,10 @@ export const FamiliesData = [
         {
             "id": 5,
             "familia":"bodegaelcatador",
-            "title": ["BODEGA", "El catador"],
+            "title": ["BODEGA turística", "El catador srl."],
             "txt": [`Somos una empresa que desde 1856 nos dedicamos a la elaboración de Piscos y Vinos, a su vez brindamos asesorías y consultoría ENOLÓGICA.`,`Enviamos nuestros productos a nivel Nacional.`],
             "banner": bannerElCatador,
-            "txtBanner": "LA MáS GRANDE VARIEDAD DE CREMAS",
+            "txtBanner": "Innovación y diversidad",
             "owner": ownerElCatador,
             // "pisco": piscoElCatador,
             "txtOwner": ["Ica es un desierto rico en tradiciones y nosotros tenemos 36 años de historia promoviendo el pisco y sus derivados."],
