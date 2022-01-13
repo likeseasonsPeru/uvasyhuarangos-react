@@ -66,7 +66,7 @@ export const Piscos = () => {
                   <br />
                   <br />
                   Un homenaje para este Patrimonio Cultural del Perú que deleita
-                  el paladar de todo aquel que lo prueba
+                  el paladar de todo aquel que lo prueba.
                 </p>
               </div>
             </div>
@@ -132,7 +132,7 @@ export const Piscos = () => {
                   olla y, con el calor, ebullen pasando por el cuello de cisne,
                   donde alcoholes y sustancias no deseadas son retenidas.
                   Finalmente, llegan al serpentín, para condensarse y dar como
-                  resultado el destilado
+                  resultado el destilado.
                 </p>
               </div>
               <div className=" d-flex flex-row-reverse">

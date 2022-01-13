@@ -185,7 +185,7 @@ export const FamiliesData = [
             "id": 10,
             "familia":"restauranteolladejuanita",
             "title": ["Restaurante", "Olla de Juanita"],
-            "txt": ["Con la sazón y dedicación que solo Doña Juanita, la Dama del Pisco, heredó a su hija Cecilia Gonzales nace “La Olla de Juanita”.Mujeres de temple, con amor por la cocina y el pisco, que supieron desde siempre la filosofía que marcaría la línea de la casa:", "“Recuperar, revalorizar y preservar las expresiones culinarias de nuestro país, respetando la esencia de nuestros sabores”."],
+            "txt": ["Con la sazón y dedicación que solo Doña Juanita, la Dama del Pisco, heredó a su hija Cecilia Gonzales nace “La Olla de Juanita”. Mujeres de temple, con amor por la cocina y el pisco, que supieron desde siempre la filosofía que marcaría la línea de la casa:", "“Recuperar, revalorizar y preservar las expresiones culinarias de nuestro país, respetando la esencia de nuestros sabores”."],
             "banner": bannerOllaDeJuanita,
             "txtBanner": "Sabor y algarabía iqueña",
             "owner": ownerOllaDeJuanita,

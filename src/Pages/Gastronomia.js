@@ -16,6 +16,7 @@ import canperdidos from "../assets/img/gastronomia/canperdidos.jpg";
 import tours from "../assets/img/gastronomia/tours.jpg";
 import citytour from "../assets/img/gastronomia/citytour.jpg";
 import dunas from "../assets/img/gastronomia/dunas.jpg";
+import vinedos from "../assets/img/gastronomia/vinedos.jpg";
 import sabeica from "../assets/img/gastronomia/sabeica.jpg";
 import trekking from "../assets/img/gastronomia/trekking.jpg";
 import pampa from "../assets/img/gastronomia/pampa.jpg";
@@ -184,7 +185,8 @@ adrenalina y regreso por la noche (dunas, paseos)
               <div className="d-flex flex-column justify-content-between h-100">
                 <div>
                   <h1 className="pages-titles-gastronomia text-right color-gastronomia">
-                    EL <br /> CATADOR
+                    RESTAURANTE TURíSTICO <br />
+                    EL CATADOR SRL.
                   </h1>
                   <p
                     className="text-right ml-auto  pt-3"
@@ -408,7 +410,7 @@ adrenalina y regreso por la noche (dunas, paseos)
                     realizar el recorrido por las Dunas, estos son carros
                     HOMOLOGADOS y muy seguros podrás disfrutar la velocidad y
                     adrenalina en el enorme desierto de Ica tendrás un tiempo
-                    para la práctica del Sandboard,
+                    para la práctica del Sandboard.
                   </p>
                 </div>
                 <div className="d-flex">
@@ -527,7 +529,7 @@ adrenalina y regreso por la noche (dunas, paseos)
         <div className="container px-90 border-bottom-color">
           <div className="row">
             <div className="col-md-6 col-sm-12 align-self-end">
-              <img src={sabeica} className="img-fluid mb-2" alt="sabe ica" />
+              <img src={vinedos} className="img-fluid mb-2" alt="sabe ica" />
               <div className="d-flex mt-5 ml-1">
                 <button className="color-gastronomia br-gastronomia px-5">
                   RESERVA

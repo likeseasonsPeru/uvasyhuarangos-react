@@ -223,7 +223,7 @@ export const Vinos = () => {
                   <strong>COLOR</strong>
                 </th>
                 <th className="th-table-vinos py-2">
-                  <strong>AZUCAR</strong>
+                  <strong className="text-uppercase">AZúCAR</strong>
                 </th>
               </tr>
               <tr>
