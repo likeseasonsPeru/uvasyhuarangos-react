@@ -70,7 +70,7 @@ export const Uvas = () => {
                 <div className="col" key={index} data-aos="fade-up">
                   <div className="products-container imgs-vino position-relative">
                     <img width="100%" height="100%" src={img} alt={name} />
-                    <div className="products-titles position-absolute w-100 bottom-0">{name}</div> 
+                    <div className="products-titles position-absolute w-100" style={{ padding: "4px 0", bottom: "-13px" }}>{name}</div> 
                   </div>
                 </div>
               );

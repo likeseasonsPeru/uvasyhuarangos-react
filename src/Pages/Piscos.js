@@ -244,13 +244,13 @@ export const Piscos = () => {
                 data-aos="fade-up-left"
               >
                 <div className="d-flex flex-row justify-content-center align-items-center">
+                <Link to="/cocteleria" className="d-flex text-decoration-none" style={{ cursor: "pointer" }}>
                   <h1
                     className="color-white text-title my-0 pt-2 text-uppercase"
                     style={{ fontSize: "60px" }}
                   >
                     COCTELERíA
                   </h1>
-                  <Link to="/cocteleria">
                     <img
                       src={ArrowYellow}
                       className="img-fluid ml-xl-4 ml-2"
