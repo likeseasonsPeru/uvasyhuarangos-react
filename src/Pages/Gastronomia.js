@@ -9,6 +9,7 @@ import Navbar from "../components/Navbar";
 // images
 import ArrowRight from "../assets/img/gastronomia/arrow-right.png";
 import ArrowLeft from "../assets/img/gastronomia/arrow-left.png";
+import sello from "../assets/img/gastronomia/sello1.png";
 import banner1 from "../assets/img/gastronomia/banner1.jpg";
 import tradicion from "../assets/img/gastronomia/tradicion.jpg";
 import canperdidos from "../assets/img/gastronomia/canperdidos.jpg";
@@ -422,10 +423,19 @@ adrenalina y regreso por la noche (dunas, paseos)
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-xl-6 col-sm-12 my-3 align-self-center">
-              <div className="position-relative" style={{ width: "100%" }}>
-                <img src={dunas} className="img-fluid" alt="dunas" />
-              </div>
+            <div className="col-md-6 col-xl-6 col-sm-12 my-3 align-self-center position-relative">
+              <img
+                src={sello}
+                alt="sello"
+                style={{
+                  height: "200px",
+                  top: "-12%",
+                  left: "-6%",
+                  zIndex: "10",
+                }}
+                className="position-absolute"
+              />
+              <img src={dunas} className="img-fluid" alt="dunas" />
             </div>
           </div>
         </div>
