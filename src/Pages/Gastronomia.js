@@ -26,7 +26,9 @@ import olladejuanita from "../assets/img/gastronomia/olladejuanita.jpg";
 const Gastronomia = () => {
   const DataFooter = [
     "#E27423",
-    "RACIMOS DEL SUR TE INVITA A UNA EXPERIENCIA COMPLETA, LOS MEJORES VINOS Y PISCOS, CON LA AVENTURA QUE ESTABAS BUSCANDO",
+    [
+      `"RACIMOS DEL SUR TE INVITA A UNA EXPERIENCIA COMPLETA, LOS MEJORES VINOS Y PISCOS, CON LA AVENTURA QUE ESTABAS BUSCANDO"`,
+    ],
   ];
   useEffect(() => {
     AOS.init({

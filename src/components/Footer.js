@@ -105,7 +105,13 @@ const Footer = ({ color, txt }) => {
               <img src={Shield} className="img-fluid pb-4" alt="shield" />
             </div>
             <div className="col-md-12 col-sm-12 col-lg-7 col-xl-7 col-xxl-7">
-              <p className="txt-footer color-footer">{txt}</p>
+              {txt.length > 1 ? (
+                <p className="txt-footer color-footer">
+                  {txt[0]} <br /> <br /> {txt[1]}{" "}
+                </p>
+              ) : (
+                <p className="txt-footer color-footer">{txt[0]}</p>
+              )}
             </div>
           </div>
         </div>

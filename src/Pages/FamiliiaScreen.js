@@ -28,7 +28,7 @@ export const FamiliiaScreen = () => {
   const widthView = 992;
   const DataFooter = [
     "#A45844",
-    "“PORQUE SOMOS PARTE DE LA TRADICIÓN, DEL CELEBRAR, DEL DISFRUTAR EN FAMILIA”",
+    ["“PORQUE SOMOS PARTE DE LA TRADICIÓN, DEL CELEBRAR, DEL DISFRUTAR EN FAMILIA”"],
   ];
   return (
     <>

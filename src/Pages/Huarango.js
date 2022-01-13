@@ -16,7 +16,7 @@ import whyimportant from "../assets/img/huarangos/whyimportant.jpg";
 export const Huarango = () => {
   const DataFooter = [
     "#C0D8E1",
-    `"AUNQUE NO HABLE NI CAMINE, EL HUARANGO ES COMO UN AMIGO QUE SE PREOCUPA POR NUESTRA VIDA, UN HERMANO QUE TENEMOS QUE CUIDAR  \n MARTÍN NOA, ARTÍCULO PARA LA BBC MUNDO."`,
+    [`"AUNQUE NO HABLE NI CAMINE, EL HUARANGO ES COMO UN AMIGO QUE SE PREOCUPA POR NUESTRA VIDA, UN HERMANO QUE TENEMOS QUE CUIDAR".`, `MARTÍN NOA, ARTÍCULO PARA LA BBC MUNDO.`],
   ];
   useEffect(() => {
     AOS.init({

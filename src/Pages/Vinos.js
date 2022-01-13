@@ -21,7 +21,7 @@ import { Link } from "react-router-dom";
 export const Vinos = () => {
   const DataFooter = [
     "#5D5D43",
-    "“NOSOTROS NO SOMOS LA PITUCA PRODUCIDA. NOSOTROS SOMOS LA TRADICIÓN DE LCA. OSEA SOMOS LA CHOLA BONITA”",
+    ["“NOSOTROS NO SOMOS LA PITUCA PRODUCIDA. NOSOTROS SOMOS LA TRADICIÓN DE LCA. OSEA SOMOS LA CHOLA BONITA”"],
   ];
   useEffect(() => {
     AOS.init({

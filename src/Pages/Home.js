@@ -18,7 +18,7 @@ export const Home = () => {
   const [video, hideVideo] = useState(true);
   const DataFooter = [
     "#6E5844",
-    "GRACIAS AL REY FELIPE II POR PROHIBIR LA VENTA DEL “FRUTO DE CASTILLA” EN ESPAÑA SIN SABERLO CREABAS EL PISCO.",
+    ["GRACIAS AL REY FELIPE II POR PROHIBIR LA VENTA DEL “FRUTO DE CASTILLA” EN ESPAÑA SIN SABERLO CREABAS EL PISCO."],
   ];
 
   const hideVideoPlayer = () => {

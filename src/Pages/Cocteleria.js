@@ -16,7 +16,7 @@ import piscopunch from "../assets/img/bebidas/piscopunch.jpg";
 export const Cocteleria = () => {
   const DataFooter = [
     "#FED16A",
-    "“PORQUE NUESTRA PERUANIDAD ESTÁ EN LA TRADICIÓN, Y EN EL PISCO, NUESTRA IDENTIDAD”",
+    ["“PORQUE NUESTRA PERUANIDAD ESTÁ EN LA TRADICIÓN, Y EN EL PISCO, NUESTRA IDENTIDAD”"],
   ];
 
   return (
