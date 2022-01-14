@@ -8,7 +8,6 @@ import Navbar from "../components/Navbar";
 
 // images
 import ArrowRight from "../assets/img/huarangos/arrow-right.png";
-import Sello from "../assets/img/huarangos/sello1.png";
 import banner1 from "../assets/img/huarangos/banner1.jpg";
 import banner2 from "../assets/img/huarangos/banner2.jpg";
 import whyimportant from "../assets/img/huarangos/whyimportant.jpg";
@@ -87,7 +86,7 @@ export const Huarango = () => {
 
         <div className="container pb-5">
           <div className="row">
-            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 pt-3">
               <div style={{ width: "100%" }} data-aos="fade-right">
                 <img
                   src={whyimportant}
@@ -96,7 +95,7 @@ export const Huarango = () => {
                 />
               </div>
             </div>
-            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 pt-3">
               <div className="ml-auto d-flex flex-column justify-content-between">
                 <div>
                   <div className="text-right align-self-end">
@@ -138,8 +137,8 @@ export const Huarango = () => {
         </div>
 
         <div className="container py-5 mt-5">
-          <div className="row">
-            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+          <div className="row pb-4">
+            <div className="col-sm-12 col-md-12 col-lg-5 col-xl-5">
               <h2 className="pages-subtitles color-huarango" data-aos="flip-up">
                 CUIDEMOS <br />
                 AL GUARDIÁN
@@ -170,24 +169,11 @@ export const Huarango = () => {
               </p>
             </div>
             <div
-              className="col-sm-12 col-md-12 col-lg-6 col-xl-6 h-100 align-self-end position-relative"
-              // data-aos="fade-left"
+              className="col-sm-12 col-md-12 col-lg-7 col-xl-7 h-100 align-self-end"
             >
               <img
-                src={Sello}
-                alt="Sello"
-                style={{
-                  height: "250px",
-                  top: "-25%",
-                  left: "-9%",
-                  zIndex: "10",
-                }}
-                className="position-absolute"
-                data-aos="fade-left"
-              />
-              <img
                 src={banner2}
-                class="img-fluid h-100"
+                className="img-fluid"
                 alt="banner2"
                 data-aos="fade-left"
               />

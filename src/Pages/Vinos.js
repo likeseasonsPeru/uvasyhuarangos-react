@@ -27,11 +27,12 @@ export const Vinos = () => {
     AOS.init({
       duration: 2000,
     });
+    
   }, []);
   return (
     <>
       <Navbar />
-      <section id="legado" className="page mt-120">
+      <section id="legado" className={`page mt-120`}>
         <div className="container py-5 position-relative">
           <div className="row">
             <div className="col text-center my-5">
@@ -109,7 +110,7 @@ export const Vinos = () => {
               <img
                 src={Tinto}
                 alt="tinto"
-                class="img-fluid mb-5"
+                className="img-fluid mb-5"
                 data-aos="fade-up-right"
               />
               <p
@@ -144,7 +145,7 @@ export const Vinos = () => {
               <img
                 src={Rose}
                 alt="Rose"
-                class="img-fluid mb-5"
+                className="img-fluid mb-5"
                 data-aos="fade-up-left"
               />
               <p
@@ -165,21 +166,21 @@ export const Vinos = () => {
           </div>
           <div className="d-flex justify-content-between">
             <div className="d-flex mt-5" data-aos="fade-up-right">
-              <button className="btn-w color-tienda br-store">TIENDA</button>
+              <button className="btn-w color-tienda br-store btn-h80">TIENDA</button>
               <img
                 src={ArrowStore}
-                className="img-fluid ml-4"
+                className="ml-2 btn-h80"
                 alt="arrow store"
               />
             </div>
-            <div className="d-flex mt-5" data-aos="fade-up-left">
-              <Link to="/uvas">
+            <div className="d-flex" data-aos="fade-up-left">
+              <Link to="/uvas" className="d-flex mt-5">
                 <button className="btn-w color-uva br-grape btn-h80">
                   UVAS
                 </button>
                 <img
                   src={ArrowGrape}
-                  className="img-fluid ml-4"
+                  className="ml-2 btn-h80"
                   alt="arrow grape"
                 />
               </Link>

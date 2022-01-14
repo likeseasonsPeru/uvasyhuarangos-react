@@ -247,7 +247,7 @@ export const Piscos = () => {
                 <Link to="/cocteleria" className="d-flex text-decoration-none" style={{ cursor: "pointer" }}>
                   <h1
                     className="color-white text-title my-0 pt-2 text-uppercase"
-                    style={{ fontSize: "60px" }}
+                    style={{ fontSize: "57px" }}
                   >
                     COCTELERíA
                   </h1>

@@ -159,7 +159,7 @@ button {
   overflow: hidden;
 }
 .mt-120 {
-  margin-top: 125px;
+  margin-top: 126px;
 }
 .mt-140 {
   margin-top: 140px;
@@ -206,8 +206,14 @@ li {
 .px-60 {
   padding: 60px 0;
 }
+.pb-60 {
+  padding-bottom: 60px;
+}
 .px-90 {
   padding: 90px 0;
+}
+.pb-90 {
+  padding-bottom: 90px;
 }
 .px-120 {
   padding: 120px 0;
@@ -220,6 +226,9 @@ li {
 }
 .mb-120 {
   margin-bottom: 120px;
+}
+.mt-8 {
+  margin-top: 0;
 }
 .font-mackinacpro {
   font-family: "p22_mackinac_probook" !important;
@@ -488,10 +497,15 @@ h6 {
 .imgs-vino:hover {
   box-shadow: 0px 14px 9px 7px rgba(158, 152, 152, 0.29);
   transform: scale(1.1);
+  z-index: 10;
 }
 /* END UVAS PATRIMONIALES */
 
 /* GASTRONOMIA */
+i {
+  font-size: 20px;
+  color: #808060;
+}
 
 .color-gastronomia {
   color: #e27423;
@@ -1007,6 +1021,9 @@ h6 {
   }
   .arrowFamiliaBtnFam > img {
     height: 3rem;
+  }
+  .mt-8 {
+    margin-top: 2rem;
   }
 }
 @media screen and (max-width: 576px) {

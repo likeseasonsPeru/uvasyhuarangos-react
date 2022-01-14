@@ -9,7 +9,6 @@ import Navbar from "../components/Navbar";
 // images
 import ArrowRight from "../assets/img/gastronomia/arrow-right.png";
 import ArrowLeft from "../assets/img/gastronomia/arrow-left.png";
-import sello from "../assets/img/gastronomia/sello1.png";
 import banner1 from "../assets/img/gastronomia/banner1.jpg";
 import tradicion from "../assets/img/gastronomia/tradicion.jpg";
 import canperdidos from "../assets/img/gastronomia/canperdidos.jpg";
@@ -90,10 +89,10 @@ const Gastronomia = () => {
         <div className="container mt-5 mb-120">
           <div className="row">
             <div className="col-md-6 col-xl-6 col-sm-12">
-              <div class="d-flex flex-column justify-content-between h-100">
+              <div className="d-flex flex-column justify-content-between h-100">
                 <div>
                   <h1 className="pages-titles-gastronomia text-left color-gastronomia">
-                    OLLA DE <br /> JUANITA
+                    LA OLLA DE <br /> JUANITA
                   </h1>
                   <p
                     className="text-left pt-3"
@@ -137,42 +136,9 @@ const Gastronomia = () => {
             </div>
           </div>
         </div>
-        {/* <div className="ml-auto" style={{ maxWidth: "800px" }}>
-<strong className="gastronomia-days">DE 3 DIAS</strong>
-<p className="text-right"style={{ lineHeight:"1.9"}}>
-<spanclassName="txt-bold-gastronomia">Primer día:</span>{""}
-Llegada y adrenalina (dunas, turismo, restaurants, hotel){" "}
-<br/>
-<spanclassName="txt-bold-gastronomia">
-Segundo día:
-</span>{""}
-cata en bodegas y comida (3 bodegas, Olla Juanita,
-almuerzo, hotel) <br />
-<spanclassName="txt-bold-gastronomia">
-Tercer día:
-</span>{""}
-paseo y regreso (bodega final) <br />
-<spanclassName="txt-bold-gastronomia">
-Cuarto día:
-</span>{""}
-+ Bodegas o atracciones turísticas.
-</p>
-<strongclassName="gastronomia-days">DE 1 DIA</strong>
-<pclassName="text-right">
-<spanclassName="txt-bold-gastronomia">Primer día:</span>{""}
-cata y comida (3 bodegas, Olla Juanita, almuerzo, hotel){" "}
-<br/>
-<spanclassName="txt-bold-gastronomia">
-Segundo día:
-</span>{""}
-adrenalina y regreso por la noche (dunas, paseos)
-</p>
-</div>
- */}
-
-        <div className="container mt-5 mb-120">
+        <div className="container mb-120">
           <div className="row">
-            <div className="col-md-6 col-xl-6 col-sm-12">
+            <div className="col-md-6 col-xl-6 col-sm-12  mt-5">
               <div style={{ width: "100%" }}>
                 <img src={elcatador} className="img-fluid" alt="el catador" />
                 <p
@@ -183,7 +149,7 @@ adrenalina y regreso por la noche (dunas, paseos)
                 </p>
               </div>
             </div>
-            <div className="col-md-6 col-xl-6 col-sm-12">
+            <div className="col-md-6 col-xl-6 col-sm-12  mt-5">
               <div className="d-flex flex-column justify-content-between h-100">
                 <div>
                   <h1 className="pages-titles-gastronomia text-right color-gastronomia">
@@ -341,7 +307,7 @@ adrenalina y regreso por la noche (dunas, paseos)
           </div>
         </div>
 
-        <div className="container px-90 border-bottom-color">
+        <div className="container border-bottom-color  px-90">
           <div className="row row-reverse-w">
             <div className="col-md-6 col-xl-6 col-sm-12 align-self-center">
               <div className="position-relative" style={{ width: "100%" }}>
@@ -351,7 +317,7 @@ adrenalina y regreso por la noche (dunas, paseos)
             <div className="col-md-6 col-xl-6 col-sm-12">
               <div className="h-100 text-right d-flex flex-column justify-content-between h-100">
                 <div>
-                  <h1 className="pages-titles-gastronomia color-gastronomia text-right">
+                  <h1 className="pages-titles-gastronomia color-gastronomia text-right mt-3">
                     RUTA DEL <br />
                     PISCO Clásico
                   </h1>
@@ -394,7 +360,7 @@ adrenalina y regreso por la noche (dunas, paseos)
 
         <div className="container px-90 border-bottom-color">
           <div className="row">
-            <div className="col-md-6 col-xl-6 col-sm-12 my-2">
+            <div className="col-md-5 col-xl-5 col-sm-12 my-2">
               <div className="mx-auto d-flex flex-column justify-content-between h-100">
                 <div>
                   <h1 className="pages-titles-gastronomia color-gastronomia text-left">
@@ -427,18 +393,7 @@ adrenalina y regreso por la noche (dunas, paseos)
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-xl-6 col-sm-12 my-3 align-self-center position-relative">
-              <img
-                src={sello}
-                alt="sello"
-                style={{
-                  height: "200px",
-                  top: "-12%",
-                  left: "-6%",
-                  zIndex: "10",
-                }}
-                className="position-absolute"
-              />
+            <div className="col-md-7 col-xl-7 col-sm-12 my-3 align-self-center position-relative">
               <img src={dunas} className="img-fluid" alt="dunas" />
             </div>
           </div>
@@ -454,7 +409,7 @@ adrenalina y regreso por la noche (dunas, paseos)
             <div className="col-md-6 col-xl-6 col-sm-12">
               <div className="h-100 text-right d-flex flex-column justify-content-between h-100">
                 <div>
-                  <h1 className="pages-titles-gastronomia color-gastronomia text-right">
+                  <h1 className="pages-titles-gastronomia color-gastronomia text-right  mt-3">
                     City Tour <br />
                     en Ica
                   </h1>
@@ -544,7 +499,7 @@ adrenalina y regreso por la noche (dunas, paseos)
               </div>
             </div>
             <div className="col-md-6 col-sm-12 text-right">
-              <h1 className="pages-titles-gastronomia color-gastronomia">
+              <h1 className="pages-titles-gastronomia color-gastronomia  mt-3">
                 ICA/ PARACAS /VIÑEDOS
               </h1>
               <h3
@@ -709,7 +664,7 @@ adrenalina y regreso por la noche (dunas, paseos)
               </div>
             </div>
             <div className="col-md-6 col-sm-12 text-right">
-              <h1 className="pages-titles-gastronomia color-gastronomia mb-4">
+              <h1 className="pages-titles-gastronomia color-gastronomia mb-4  mt-3">
                 TRADICIÓN EN ICA <br />Y SOL EN PARACAS
               </h1>
               <strong className="gastronomia-days text-uppercase">

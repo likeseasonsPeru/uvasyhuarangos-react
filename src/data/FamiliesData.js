@@ -3,28 +3,20 @@ import bannerDolphin from "../assets/img/quienesomos/dolphin/banner1.jpg"
 import ownerDolphin from "../assets/img/quienesomos/dolphin/owner.jpg"
 import bannerFinca314 from "../assets/img/quienesomos/finca314/banner.jpg"
 import ownerFinca314 from "../assets/img/quienesomos/finca314/owner.jpg"
-// import piscoFinca314 from "../assets/img/quienesomos/finca314/pisco.jpg"
 import bannerFundoSantaLucia from "../assets/img/quienesomos/fundosantalucia/banner.jpg"
 import ownerFundoSantaLucia from "../assets/img/quienesomos/fundosantalucia/owner.jpg"
-// import piscoFundoSantaLucia from "../assets/img/quienesomos/fundosantalucia/pisco.jpg"
 import bannerBodega1615 from "../assets/img/quienesomos/bodega1615/banner1.jpg"
 import ownerBodega1615 from "../assets/img/quienesomos/bodega1615/owner.jpg"
-// import piscoBodega1615 from "../assets/img/quienesomos/bodega1615/pisco.jpg"
 import bannerElCatador from "../assets/img/quienesomos/elcatador/banner1.jpg"
 import ownerElCatador from "../assets/img/quienesomos/elcatador/owner.jpg"
-// import piscoElCatador from "../assets/img/quienesomos/elcatador/pisco.jpg"
 import bannerPampasDeIca from "../assets/img/quienesomos/bodegapampasdeica/banner.jpg"
 import ownerPampasDeIca from "../assets/img/quienesomos/bodegapampasdeica/owner.jpg"
-// import piscoPampasDeIca from "../assets/img/quienesomos/bodegapampasdeica/pisco.jpg"
 import bannerTresGeneraciones from "../assets/img/quienesomos/bodegatresgeneraciones/banner.jpg"
 import ownerTresGeneraciones from "../assets/img/quienesomos/bodegatresgeneraciones/owner.jpg"
-// import piscoTresGeneraciones from "../assets/img/quienesomos/bodegatresgeneraciones/pisco.jpg"
 import bannerBodegaVillacuri from "../assets/img/quienesomos/bodegavillacuri/banner1.jpg"
 import ownerBodegaVillacuri from "../assets/img/quienesomos/bodegavillacuri/owner.jpg"
-// import piscoBodegaVillacuris from "../assets/img/quienesomos/bodegavillacuri/pisco.jpg"
 import bannerGranPaso from "../assets/img/quienesomos/haciendagranpaso/banner.jpg"
 import ownerGranPaso from "../assets/img/quienesomos/haciendagranpaso/owner.jpg"
-// import piscoGranPaso from "../assets/img/quienesomos/haciendagranpaso/pisco.jpg"
 import bannerOllaDeJuanita from "../assets/img/quienesomos/olladejuanita/banner1.jpg"
 import ownerOllaDeJuanita from "../assets/img/quienesomos/olladejuanita/owner.jpg"
 
@@ -50,7 +42,7 @@ export const FamiliesData = [
             "id": 2,
             "familia":"finca314",
             "title": ["FINCA 314"],
-            "txt": ["Finca 314 es la historia de un legado de mujeres dedicadas a la elaboración artesanal de Pisco Premium por más de 190 años; desde nuestra tatarabuela “Etelvina”, una de las mujeres pioneras en la elaboración artesanal de Pisco, hasta la Quinta Generación, conformada  por Claudia, Gabriela y Fátima Moquillaza Robatty.", "Nosotras hemos retomado estos anclajes familiares, respetando la infraestructura  de La Bodega, original de aquella época (Presencia de Fermentadores, Lagar, Alambique, Fogón, Alberca y Pisquera), así como la forma ancestral de la elaboración del Pisco"],
+            "txt": [`Finca 314 es la historia de un legado de mujeres dedicadas a la elaboración artesanal de Pisco Premium por más de 190 años; desde nuestra tatarabuela “Etelvina”, una de las mujeres pioneras en la elaboración artesanal de Pisco, hasta la Quinta Generación, conformada  por Claudia, Gabriela y Fátima Moquillaza Robatty.", "Nosotras hemos retomado estos anclajes familiares, respetando la infraestructura  de La Bodega, original de aquella época (𝙿𝚛𝚎𝚜𝚎𝚗𝚌𝚒𝚊 𝚍𝚎 𝙵𝚎𝚛𝚖𝚎𝚗𝚝𝚊𝚍𝚘𝚛𝚎𝚜, 𝙻𝚊𝚐𝚊𝚛, 𝙰𝚕𝚊𝚖𝚋𝚒𝚚𝚞𝚎, 𝙵𝚘𝚐𝚘́𝚗, 𝙰𝚕𝚋𝚎𝚛𝚌𝚊 𝚢 𝙿𝚒𝚜𝚚𝚞𝚎𝚛𝚊) así como la forma ancestral de la elaboración del Pisco.`],
             "banner": bannerFinca314,
             "txtBanner": "TRADICión y pasión por el pisco",
             "owner": ownerFinca314,

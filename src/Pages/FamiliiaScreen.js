@@ -64,7 +64,7 @@ export const FamiliiaScreen = () => {
             <div className="col-12">
               {item.txt.length > 1 ? (
                 <p
-                  style={{ maxWidth: "800px" }}
+                  style={{ maxWidth: "800px", lineHeight: "1.8" }}
                   className="mx-auto animate__animated animate__fadeInUp pt-3"
                 >
                   {item.txt[0]}
@@ -73,7 +73,7 @@ export const FamiliiaScreen = () => {
                 </p>
               ) : (
                 <p
-                  style={{ maxWidth: "800px" }}
+                  style={{ maxWidth: "800px", lineHeight: "1.8" }}
                   className="mx-auto animate__animated animate__fadeInUp pt-3"
                 >
                   {item.txt}
@@ -84,7 +84,7 @@ export const FamiliiaScreen = () => {
         </div>
         <div className="container mb-5">
           <div className="row">
-            <div className="col-md-4 col-sm-12">
+            <div className="col-md-12 col-sm-12 col-lg-4 col-xl-4">
               <div className="text-center">
                 <Link
                   className="link-social text-decoration-none"
@@ -98,7 +98,7 @@ export const FamiliiaScreen = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-md-4 col-sm-12">
+            <div className="col-md-12 col-sm-12 col-lg-4 col-xl-4">
               <div className="text-center">
                 <Link
                   className="link-social text-decoration-none"
@@ -112,7 +112,7 @@ export const FamiliiaScreen = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-md-4 col-sm-12">
+            <div className="col-md-12 col-sm-12 col-lg-4 col-xl-4">
               <div className="text-center">
                 {item.networkSocial.web ? (
                   <Link
@@ -156,71 +156,7 @@ export const FamiliiaScreen = () => {
             {item.txtBanner}
           </h1>
         </div>
-        {item.pisco ? (
-          <div className="container pb-5">
-            <div className="row px-60">
-              <div
-                className="col-md-6 text-center"
-                // data-aos="fade-right"
-              >
-                <img
-                  src={item.owner}
-                  className="img-fluid"
-                  style={{ maxHeight: "580px" }}
-                  alt="owner"
-                />
-              </div>
-              <div className="col-md-2 text-center align-self-start">
-                <img
-                  src={item.pisco}
-                  className="img-fluid mt-2"
-                  style={{ maxHeight: "580px" }}
-                  alt={`Pisco ${familia}`}
-                />
-              </div>
-              <div className="col-md-4 d-flex flex-column justify-content-between">
-                {item.txtOwner.length > 1 ? (
-                  <p className="text-right pb-1" style={{ maxWidth: "400px" }}>
-                    {item.txtOwner[0]}
-                    <br />
-                    <br />
-                    {item.txtOwner[1]}
-                  </p>
-                ) : (
-                  <p className="text-right pb-1" style={{ maxWidth: "400px" }}>
-                    {item.txtOwner}
-                  </p>
-                )}
-                <div style={{ maxWidth: "400px" }}>
-                  {item.nameOwner.length > 1 ? (
-                    <>
-                      <h4 className="txt-autor text-center pl-3">{item.nameOwner[0]}</h4>
-                      <h4 className="txt-autor text-right">
-                        {item.nameOwner[1]}
-                      </h4>
-                    </>
-                  ) : (
-                    <>
-                      <h4 className="txt-autor text-center pr-5">
-                        {item.nameOwner}
-                      </h4>
-                    </>
-                  )}
-                </div>
-                <div className="d-flex">
-                  <button className="btn-w color-tienda br-store px-5">
-                    TIENDA
-                  </button>
-                  <img
-                    src={ArrowRight}
-                    className="img-fluid ml-4"
-                    alt="ArrowRight"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        ) : (
+        
           <div className="container pb-5">
             <div className="row pb-4">
               <div className="col-md-7 col-sm-12 text-center my-3">
@@ -274,7 +210,7 @@ export const FamiliiaScreen = () => {
               </div>
             </div>
           </div>
-        )}
+        
       </section>
       <Footer color={DataFooter[0]} txt={DataFooter[1]} />
     </>

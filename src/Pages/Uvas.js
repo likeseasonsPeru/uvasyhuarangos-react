@@ -22,7 +22,9 @@ import sello from "../assets/img/uvas-patrimoniales/sello.jpg";
 export const Uvas = () => {
   const DataFooter = [
     "#8A73A6",
-    ["AL INICIAR LA COLONIA, LOS VALLES DE LA COSTA SUR, ESPECIALMENTE LOS DE ICA, FUERON ESCENARIO DEL ÉXITO DE LA EXPLOTACIÓN DE LA VID. RÁPIDAMENTE, SE COMENZÓ A ELABORAR, ADEMÁS DE VINO, UN DELICIOSO DESTILADO DE UVA O “VINO COCIDO”, CONOCIDO COMO “AGUARDIENTE DE PISCO” O SIMPLEMENTE “PISCO”, POR PROVENIR DE DICHA REGIÓN SUREÑA.",]
+    [
+      "AL INICIAR LA COLONIA, LOS VALLES DE LA COSTA SUR, ESPECIALMENTE LOS DE ICA, FUERON ESCENARIO DEL ÉXITO DE LA EXPLOTACIÓN DE LA VID. RÁPIDAMENTE, SE COMENZÓ A ELABORAR, ADEMÁS DE VINO, UN DELICIOSO DESTILADO DE UVA O “VINO COCIDO”, CONOCIDO COMO “AGUARDIENTE DE PISCO” O SIMPLEMENTE “PISCO”, POR PROVENIR DE DICHA REGIÓN SUREÑA.",
+    ],
   ];
 
   const uvas = [
@@ -32,21 +34,22 @@ export const Uvas = () => {
     { name: "ALBILLA", img: albilla },
     { name: "MOLLAR", img: mollar },
     { name: "MOSCATEL", img: moscatel },
-    { name: "UBILLA", img: moscatel },
-    { name: "ITALIA", img: moscatel },
+    { name: "UBINA", img: mollar },
+    { name: "ITALIA", img: mollar },
   ];
   useEffect(() => {
     AOS.init({
-      duration: 2000
-    })
-  }, [])
+      duration: 2000,
+    });
+  }, []);
   return (
     <>
       <Navbar />
       <section id="uvas-patrimoniales" className="page py-5 mt-120">
-        <div className="container py-5">
+        <div className="container py-5 position-relative">
           <button
-            className="float-left pt-4"
+            className="arrowLeftLegado pl-lg-5 pb-lg-2"
+            style={{ zIndex: "10" }}
             onClick={() => window.history.back()}
             data-aos="fade-right"
           >
@@ -54,8 +57,12 @@ export const Uvas = () => {
           </button>
           <div className="row py-4">
             <div className="col text-center">
-              <h1 className="pages-titles color-uva" data-aos="zoom-out-down">UVAS PATRIMONIALES</h1>
-              <h4 className="pages-slogan mt-4" data-aos="zoom-out-down">Nuestra Biodiversidad</h4>
+              <h1 className="pages-titles color-uva" data-aos="zoom-out-down">
+                UVAS PATRIMONIALES
+              </h1>
+              <h4 className="pages-slogan mt-4" data-aos="zoom-out-down">
+                Nuestra Biodiversidad
+              </h4>
               <p className="py-4" data-aos="zoom-out-down">
                 Se manifiesta en los sabores únicos de los ocho tipos de uvas
                 pisqueras,
@@ -64,17 +71,151 @@ export const Uvas = () => {
               </p>
             </div>
           </div>
-          <div className="row pb-3">
-            {uvas.map(({ img, name }, index) => {
-              return (
-                <div className="col" key={index} data-aos="fade-up">
-                  <div className="products-container imgs-vino position-relative">
-                    <img width="100%" height="100%" src={img} alt={name} />
-                    <div className="products-titles position-absolute w-100" style={{ padding: "4px 0", bottom: "-13px" }}>{name}</div> 
+          <div className="row align-items-end pb-3">
+            <div className="col-lg-3 col-md-6 px-0">
+              <div className="row align-items-end px-0">
+                <div className="col-6  px-2">
+                  <div className="products-container imgs-vino position-relative mt-5">
+                    <img
+                      width="100%"
+                      height="100%"
+                      src={uvas[0].img}
+                      alt={uvas[0].name}
+                    />
+                    <div
+                      className="products-titles position-absolute w-100"
+                      style={{ padding: "7px 0", bottom: "-31px" }}
+                    >
+                      {uvas[0].name}
+                    </div>
                   </div>
                 </div>
-              );
-            })}
+                <div className="col-6  px-2">
+                  <div className="products-container imgs-vino position-relative mt-5">
+                    <img
+                      width="100%"
+                      height="100%"
+                      src={uvas[1].img}
+                      alt={uvas[1].name}
+                    />
+                    <div
+                      className="products-titles position-absolute w-100"
+                      style={{ padding: "7px 0", bottom: "-31px" }}
+                    >
+                      {uvas[1].name}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6  px-0">
+              <div className="row align-items-end px-0">
+                <div className="col-6  px-2">
+                  <div className="products-container imgs-vino position-relative mt-5">
+                    <img
+                      width="100%"
+                      height="100%"
+                      src={uvas[2].img}
+                      alt={uvas[2].name}
+                    />
+                    <div
+                      className="products-titles position-absolute w-100"
+                      style={{ padding: "7px 0", bottom: "-31px" }}
+                    >
+                      {uvas[2].name}
+                    </div>
+                  </div>
+                </div>
+                <div className="col-6  px-2">
+                  <div className="products-container imgs-vino position-relative mt-5">
+                    <img
+                      width="100%"
+                      height="100%"
+                      src={uvas[3].img}
+                      alt={uvas[3].name}
+                    />
+                    <div
+                      className="products-titles position-absolute w-100"
+                      style={{ padding: "7px 0", bottom: "-31px" }}
+                    >
+                      {uvas[3].name}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 px-0">
+              <div className="row align-items-end px-0">
+                <div className="col-6 px-2">
+                  <div className="products-container imgs-vino position-relative mt-5">
+                    <img
+                      width="100%"
+                      height="100%"
+                      src={uvas[4].img}
+                      alt={uvas[4].name}
+                    />
+                    <div
+                      className="products-titles position-absolute w-100"
+                      style={{ padding: "7px 0", bottom: "-31px" }}
+                    >
+                      {uvas[4].name}
+                    </div>
+                  </div>
+                </div>
+                <div className="col-6 px-2">
+                  <div className="products-container imgs-vino position-relative mt-5">
+                    <img
+                      width="100%"
+                      height="100%"
+                      src={uvas[5].img}
+                      alt={uvas[5].name}
+                    />
+                    <div
+                      className="products-titles position-absolute w-100"
+                      style={{ padding: "7px 0", bottom: "-31px" }}
+                    >
+                      {uvas[5].name}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 px-0">
+              <div className="row align-items-end px-0">
+                <div className="col-6 px-2">
+                  <div className="products-container imgs-vino position-relative mt-5">
+                    <img
+                      width="100%"
+                      height="100%"
+                      src={uvas[6].img}
+                      alt={uvas[6].name}
+                    />
+                    <div
+                      className="products-titles position-absolute w-100"
+                      style={{ padding: "7px 0", bottom: "-31px" }}
+                    >
+                      {uvas[6].name}
+                    </div>
+                  </div>
+                </div>
+                <div className="col-6 px-2">
+                  <div className="products-container imgs-vino position-relative mt-5">
+                    <img
+                      width="100%"
+                      height="100%"
+                      src={uvas[7].img}
+                      alt={uvas[7].name}
+                    />
+                    <div
+                      className="products-titles position-absolute w-100"
+                      style={{ padding: "7px 0", bottom: "-31px" }}
+                    >
+                      {uvas[7].name}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -84,10 +225,21 @@ export const Uvas = () => {
 
         <div className="container px-120">
           <div className="row justify-content-center align-items-center">
-            <div className="col-md-3 col-sm-6 text-center align-self-center py-3" data-aos="fade-right">
-              <img src={sello} className="img-fluid" alt="UVAS PATRIMONIALES" style={{ maxHeight: "270px" }} />
+            <div
+              className="col-md-3 col-sm-6 text-center align-self-center py-3"
+              data-aos="fade-right"
+            >
+              <img
+                src={sello}
+                className="img-fluid"
+                alt="UVAS PATRIMONIALES"
+                style={{ maxHeight: "270px" }}
+              />
             </div>
-            <div className="col-md-6 col-sm-6 align-self-center" data-aos="fade-up">
+            <div
+              className="col-md-6 col-sm-6 align-self-center"
+              data-aos="fade-up"
+            >
               <h2
                 className="pages-subtitles color-uva mx-auto "
                 style={{ maxWidth: "415px", lineHeight: "1" }}
@@ -95,7 +247,10 @@ export const Uvas = () => {
                 DE ESTAS UVAS VIENE EL VINO Y DEL VINO, EL PISCO
               </h2>
             </div>
-            <div className="col-md-3  col-sm-12 align-self-center" data-aos="fade-left">
+            <div
+              className="col-md-3  col-sm-12 align-self-center"
+              data-aos="fade-left"
+            >
               <p>
                 Hoy en día, alrededor del mundo, podemos encontrar una tendencia
                 a rescatar variedades emblemáticas de uvas, mejor conocidas como

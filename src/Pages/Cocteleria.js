@@ -53,10 +53,10 @@ export const Cocteleria = () => {
           </div>
         </div>
 
-        <div className="container py-5">
+        <div className="container px-90">
           <div className="row">
             <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12">
-              <h1 className="pages-titles color-tradicion">CHILCANO</h1>
+              <h1 className="pages-titles color-tradicion mt-8">CHILCANO</h1>
               <p style={{ maxWidth: "600px" }}>
                 Sencillo, exquisito y muy refrescante. Prueba uno de los tragos
                 más emblemáticos y amados de nuestro país. En especial en los
@@ -97,9 +97,9 @@ export const Cocteleria = () => {
           </div>
         </div>
 
-        <div className="container py-5">
+        <div className="container">
           <div className="row">
-            <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12">
+            <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12  pb-60">
               <div className="position-relative w-100">
                 <img
                   src={capitan}
@@ -118,7 +118,7 @@ export const Cocteleria = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 pl-lg-5 pl-md-5 pl-sm-1">
+            <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 pl-lg-5 pl-md-5 pl-sm-1  pb-60">
               <h1 className="pages-titles color-tradicion">CAPITáN</h1>
               <p className="mr-auto" style={{ maxWidth: "600px" }}>
                 Con casi 100 años de historia, este sabroso trago es uno de los
@@ -167,7 +167,7 @@ export const Cocteleria = () => {
           </div>
         </div>
 
-        <div className="container py-5">
+        <div className="container pb-60">
           <div className="row">
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <h1 className="pages-titles color-tradicion">PISCO SOUR</h1>
@@ -228,9 +228,9 @@ export const Cocteleria = () => {
           </div>
         </div>
 
-        <div className="container py-5">
+        <div className="container">
           <div className="row">
-            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-5">
+            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-5 pb-60">
               <div className="position-relative w-100">
                 <img src={piscopunch} className="img-fluid" alt="piscopunch" />
                 <div className="d-flex mt-5 position-absolute arrowWhiteCocteleria">
@@ -245,7 +245,7 @@ export const Cocteleria = () => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 pl-lg-5 pl-md-5 pl-sm-1">
+            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 pl-lg-5 pl-md-5 pl-sm-1 pb-60">
               <h1 className="pages-titles color-tradicion">PISCO PUNCH</h1>
               <p style={{ maxWidth: "600px" }}>
                 Este trago preparado con pisco nace lejos de nuestro país, ya

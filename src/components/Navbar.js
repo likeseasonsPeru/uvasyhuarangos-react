@@ -1,12 +1,20 @@
-import React from "react";
+import React, {useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import "./styles/style.css";
 import Logo from "../assets/img/logo.png";
 
 const Navbar = () => {
+  const [height, changeHeight] = useState(0)
+  const ref = useRef(null)
+
+  console.log(height)
+
+  useEffect(() => {
+    changeHeight(ref.current.clientHeight)
+  }, [])
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-black nav-fixed" style={{minHeight: "120px"}}>
+      <nav ref={ref} className="navbar navbar-expand-lg navbar-dark bg-black nav-fixed" style={{minHeight: "126px"}}>
         <Link className="navbar-brand" to="/">
           <img src={Logo} alt="Uvas y Huarangos" className="img-fluid" />
         </Link>
