@@ -142,7 +142,7 @@ export const FamiliiaScreen = () => {
           </div>
         </div>
 
-        <div className="container-fluid p-0 mb-5 position-relative">
+        <div className="container-fluid p-0 mb-5 position-relative px-0">
           <img
             src={item.banner}
             className="img-fluid"
