@@ -188,14 +188,6 @@ export const NavFamilies = () => {
             </Link>
           </li>
           <li className="nav-item-fam">
-            <Link className="brands-link" to="/familia/haciendagranpaso">
-              <p className="text-center">
-                Hacienda <br />
-                gran paso
-              </p>
-            </Link>
-          </li>
-          <li className="nav-item-fam">
             <Link
               className="brands-link"
               to="/familia/restauranteolladejuanita"
