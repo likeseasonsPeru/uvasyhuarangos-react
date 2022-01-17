@@ -104,10 +104,10 @@ export const NavFamilies = () => {
               </Link>
             </li>
             <li className="nav-item-fam">
-              <Link className="brands-link" to="/familia/restauranteolladejuanita">
+              <Link className="brands-link" to="/familia/restaurantelaolladejuanita">
                 <p className="text-center">
                   Restaurante <br />
-                  olla de juanita
+                  La olla de juanita
                 </p>
               </Link>
             </li>
@@ -190,11 +190,11 @@ export const NavFamilies = () => {
           <li className="nav-item-fam">
             <Link
               className="brands-link"
-              to="/familia/restauranteolladejuanita"
+              to="/familia/restaurantelaolladejuanita"
             >
               <p className="text-center">
                 Restaurante <br />
-                olla de juanita
+                 La olla de juanita
               </p>
             </Link>
           </li>
