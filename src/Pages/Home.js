@@ -18,7 +18,9 @@ export const Home = () => {
   const [video, hideVideo] = useState(true);
   const DataFooter = [
     "#6E5844",
-    ["GRACIAS AL REY FELIPE II POR PROHIBIR LA VENTA DEL “FRUTO DE CASTILLA” EN ESPAÑA SIN SABERLO CREABAS EL PISCO."],
+    [
+      "GRACIAS AL REY FELIPE II POR PROHIBIR LA VENTA DEL “FRUTO DE CASTILLA” EN ESPAÑA SIN SABERLO CREABAS EL PISCO.",
+    ],
   ];
 
   const hideVideoPlayer = () => {
@@ -91,7 +93,7 @@ export const Home = () => {
                 <div className="col-md-4 text-right animate__animated animate__fadeInRight">
                   <img
                     className="img-fluid sello-home"
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                     src={Shilf}
                     alt="Shilf"
                   />
@@ -173,7 +175,7 @@ export const SectionHome = ({ color, arrow, clase, txt, to }) => {
         className="d-flex flex-column justify-content-end px-3 b-parallax-data"
       >
         <div className="d-flex pl-2 justify-content-between">
-          <button className="btn-store px-4" data-aos="fade-right">
+          <button className="btn-store px-4" data-aos="fade-up">
             Tienda
           </button>
           <Link to={`/${to}`}>
@@ -181,24 +183,28 @@ export const SectionHome = ({ color, arrow, clase, txt, to }) => {
               src={arrow}
               alt="arrow"
               className="img-fluid b-parallax-arrow"
-              data-aos="fade-left"
+              data-aos="fade-up"
             />
           </Link>
         </div>
-        <h1
-          className="parallax-titles animate__animated animate__bounce"
-          data-aos="fade-up"
-        >
-          {txt[0]}
-        </h1>
+        <Link to={`/${to}`} className="text-decoration-none">
+          <h1
+            className="parallax-titles animate__animated animate__bounce"
+            data-aos="fade-up"
+          >
+            {txt[0]}
+          </h1>
+        </Link>
       </div>
       <div className={`parallax ${clase} px-3`}>
-        <h1
-          className="parallax-titles pt-2 animate__animated animate__bounce"
-          data-aos="fade-up"
-        >
-          {txt[1]}
-        </h1>
+        <Link to={`/${to}`} className="text-decoration-none">
+          <h1
+            className="parallax-titles pt-2 animate__animated animate__bounce"
+            data-aos="fade-up"
+          >
+            {txt[1]}
+          </h1>
+        </Link>
       </div>
     </>
   );

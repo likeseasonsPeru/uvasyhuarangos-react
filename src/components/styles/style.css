@@ -170,6 +170,9 @@ button {
 .navbar-brand {
   margin-right: 0 !important;
 }
+.logo-img {
+  max-width: 100%;
+}
 .nav-item {
   font-family: "tuskergrotesk-medium";
   font-size: 1.5rem;
@@ -1035,6 +1038,9 @@ i {
   }
   .arrowFamiliaBtn > img {
     height: 2.5rem;
+  }
+  .logo-img {
+    max-width: 220px !important;
   }
 }
 @media screen and (min-width: 1200px) {

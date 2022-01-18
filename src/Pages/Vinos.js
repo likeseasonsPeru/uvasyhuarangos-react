@@ -21,13 +21,14 @@ import { Link } from "react-router-dom";
 export const Vinos = () => {
   const DataFooter = [
     "#5D5D43",
-    ["“NOSOTROS NO SOMOS LA PITUCA PRODUCIDA. NOSOTROS SOMOS LA TRADICIÓN DE LCA. OSEA SOMOS LA CHOLA BONITA”"],
+    [
+      "“NOSOTROS NO SOMOS LA PITUCA PRODUCIDA. NOSOTROS SOMOS LA TRADICIÓN DE LCA. OSEA SOMOS LA CHOLA BONITA”",
+    ],
   ];
   useEffect(() => {
     AOS.init({
       duration: 2000,
     });
-    
   }, []);
   return (
     <>
@@ -166,7 +167,9 @@ export const Vinos = () => {
           </div>
           <div className="d-flex justify-content-between">
             <div className="d-flex mt-5" data-aos="fade-up-right">
-              <button className="btn-w color-tienda br-store btn-h80">TIENDA</button>
+              <button className="btn-w color-tienda br-store btn-h80">
+                TIENDA
+              </button>
               <img
                 src={ArrowStore}
                 className="ml-2 btn-h80"
@@ -174,7 +177,7 @@ export const Vinos = () => {
               />
             </div>
             <div className="d-flex" data-aos="fade-up-left">
-              <Link to="/uvas" className="d-flex mt-5">
+              <Link to="/uvas" className="d-flex mt-5 text-decoration-none">
                 <button className="btn-w color-uva br-grape btn-h80">
                   UVAS
                 </button>
@@ -196,10 +199,16 @@ export const Vinos = () => {
             </div>
             <div className="col-12" style={{ marginBottom: "100px" }}>
               <div className="row  align-items-end">
-                <div className="col-md-6 col-sm-12 text-center" data-aos="fade-right">
+                <div
+                  className="col-md-6 col-sm-12 text-center"
+                  data-aos="fade-right"
+                >
                   <img src={Premio1} className="img-fluid" alt="premio 2" />
                 </div>
-                <div className="col-md-6 col-sm-12 text-center" data-aos="fade-left">
+                <div
+                  className="col-md-6 col-sm-12 text-center"
+                  data-aos="fade-left"
+                >
                   <img src={Premio2} className="img-fluid" alt="premio 2" />
                 </div>
               </div>
@@ -214,35 +223,39 @@ export const Vinos = () => {
               className="table-vinos text-center mx-auto"
               style={{ maxWidth: "1100px" }}
             >
-              <tr className="text-center bg-legado w-100">
-                <th colspan="2" className="py-2">
-                  TIPOS DE VINOS
-                </th>
-              </tr>
-              <tr>
-                <th className="th-table-vinos py-2">
-                  <strong>COLOR</strong>
-                </th>
-                <th className="th-table-vinos py-2">
-                  <strong className="text-uppercase">AZúCAR</strong>
-                </th>
-              </tr>
-              <tr>
-                <td className="td-table-vinos py-3">Blanco</td>
-                <td className="td-table-vinos py-3">Seco</td>
-              </tr>
-              <tr>
-                <td className="td-table-vinos py-3">Rosado</td>
-                <td className="td-table-vinos py-3">Semi seco</td>
-              </tr>
-              <tr>
-                <td className="td-table-vinos py-3">Tinto</td>
-                <td className="td-table-vinos py-3">Semi Dulce</td>
-              </tr>
-              <tr>
-                <td className="td-table-vinos py-3">Clarete</td>
-                <td className="td-table-vinos py-3">Dulce</td>
-              </tr>
+              <thead>
+                <tr className="text-center bg-legado w-100">
+                  <th colSpan="2" className="py-2">
+                    TIPOS DE VINOS
+                  </th>
+                </tr>
+                <tr>
+                  <th className="th-table-vinos py-2">
+                    <strong>COLOR</strong>
+                  </th>
+                  <th className="th-table-vinos py-2">
+                    <strong className="text-uppercase">AZúCAR</strong>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="td-table-vinos py-3">Blanco</td>
+                  <td className="td-table-vinos py-3">Seco</td>
+                </tr>
+                <tr>
+                  <td className="td-table-vinos py-3">Rosado</td>
+                  <td className="td-table-vinos py-3">Semi seco</td>
+                </tr>
+                <tr>
+                  <td className="td-table-vinos py-3">Tinto</td>
+                  <td className="td-table-vinos py-3">Semi Dulce</td>
+                </tr>
+                <tr>
+                  <td className="td-table-vinos py-3">Clarete</td>
+                  <td className="td-table-vinos py-3">Dulce</td>
+                </tr>
+              </tbody>
             </table>
           </div>
         </div>

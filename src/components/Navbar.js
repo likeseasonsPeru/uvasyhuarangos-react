@@ -16,7 +16,7 @@ const Navbar = () => {
     <>
       <nav ref={ref} className="navbar navbar-expand-lg navbar-dark bg-black nav-fixed" style={{minHeight: "126px"}}>
         <Link className="navbar-brand" to="/">
-          <img src={Logo} alt="Uvas y Huarangos" className="img-fluid" />
+          <img src={Logo} alt="Uvas y Huarangos" className="img-fluid logo-img" />
         </Link>
         <button
           className="navbar-toggler"
