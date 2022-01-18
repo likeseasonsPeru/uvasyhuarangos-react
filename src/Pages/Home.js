@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ReactPlayer from "react-player";
+import { Parallax } from "react-parallax";
+import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -10,9 +12,15 @@ import HomeData from "../data/homeData";
 
 // images
 import Shilf from "../assets/img/sello.png";
-import { Link } from "react-router-dom";
+import ImgHome from "../assets/img/bg-inicio.jpg";
 // video
 import VideoUvas from "../assets/video/video.mp4";
+
+const insideStyles = {
+  background: "transparent",
+  position: "absolute",
+  top: "2%",
+};
 
 export const Home = () => {
   const [video, hideVideo] = useState(true);
@@ -29,6 +37,7 @@ export const Home = () => {
   };
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     AOS.init({
       duration: 2000,
     });
@@ -78,28 +87,22 @@ export const Home = () => {
         <>
           <Navbar />
           <section className="mt-120">
-            <div className="container-fluid parallax p-inicio">
-              <div
-                className="row d-flex align-items-end"
-                style={{ height: "inherit" }}
-              >
-                <div className="col-md-8">
-                  <h1 className="parallax-titles animate__animated animate__bounce">
-                    ALEGRÍA Y <br />
-                    SABOR IQUEÑO
-                  </h1>
-                  <br />
-                </div>
-                <div className="col-md-4 text-right animate__animated animate__fadeInRight">
-                  <img
-                    className="img-fluid sello-home"
-                    data-aos="fade-up"
-                    src={Shilf}
-                    alt="Shilf"
-                  />
+            <Parallax bgImage={ImgHome} strength={400}>
+              <div style={{ height: 400 }} className="px-3">
+                <div
+                  className="row d-flex align-items-end"
+                  style={{ height: "inherit" }}
+                >
+                  <div className="col-md-12">
+                    <h1 className="parallax-titles animate__animated animate__bounce">
+                      ALEGRÍA Y <br />
+                      SABOR IQUEÑO
+                    </h1>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Parallax>
+
             <div className="container-fluid d-flex flex-column justify-content-between py-5 contain-home-data">
               <div className="row">
                 <div className="col-md-3 text-center" data-aos="fade-up">
@@ -117,7 +120,7 @@ export const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-5 col-md-9" data-aos="fade-up">
+                <div className="col-lg-6 col-md-9" data-aos="fade-up">
                   <p className="py-2 text-white">
                     Somos una gran familia iqueña compuesta de socios
                     propietarios de viñedos, bodegas, haciendas, restaurantes y
@@ -127,6 +130,14 @@ export const Home = () => {
                   <p className="slg-index text-white">
                     el corazón latiendo de amor por Ica.
                   </p>
+                </div>
+                <div className="col-md-3 text-right animate__animated animate__fadeInRight">
+                  <img
+                    className="img-fluid sello-home"
+                    data-aos="fade-up"
+                    src={Shilf}
+                    alt="Shilf"
+                  />
                 </div>
               </div>
               <div className="row">
@@ -147,12 +158,12 @@ export const Home = () => {
                 </div>
               </div>
             </div>
-            {HomeData.map(({ color, arrow, clase, txt, to }, index) => {
+            {HomeData.map(({ color, arrow, img, txt, to }, index) => {
               return (
                 <SectionHome
                   color={color}
                   arrow={arrow}
-                  clase={clase}
+                  img={img}
                   txt={txt}
                   key={index}
                   to={to}
@@ -167,7 +178,7 @@ export const Home = () => {
   );
 };
 
-export const SectionHome = ({ color, arrow, clase, txt, to }) => {
+export const SectionHome = ({ color, arrow, img, txt, to }) => {
   return (
     <>
       <div
@@ -196,16 +207,25 @@ export const SectionHome = ({ color, arrow, clase, txt, to }) => {
           </h1>
         </Link>
       </div>
-      <div className={`parallax ${clase} px-3`}>
+      {/* <div className={`parallax ${clase} px-3`}>
         <Link to={`/${to}`} className="text-decoration-none">
-          <h1
-            className="parallax-titles pt-2 animate__animated animate__bounce"
-            data-aos="fade-up"
-          >
-            {txt[1]}
-          </h1>
+          
         </Link>
-      </div>
+      </div> */}
+      <Parallax bgImage={img} strength={600}>
+        <div style={{ height: 600 }} className="px-3">
+          <div style={insideStyles}>
+            <Link to={`/${to}`} className="text-decoration-none">
+              <h1
+                className="parallax-titles animate__animated animate__bounce"
+                data-aos="fade-up"
+              >
+                {txt[1]}
+              </h1>
+            </Link>
+          </div>
+        </div>
+      </Parallax>
     </>
   );
 };

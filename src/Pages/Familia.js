@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 // components
 import Footer from "../components/Footer";
@@ -17,6 +17,10 @@ export const Familia = () => {
     "#A45844",
     ["“PORQUE SOMOS PARTE DE LA TRADICIÓN, DEL CELEBRAR, DEL DISFRUTAR EN FAMILIA”",]
   ];
+
+  useEffect(() => {
+    window.scrollTo(0,0)
+  }, [])
   return (
     <>
       <NavFamilies />

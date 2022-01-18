@@ -38,6 +38,7 @@ export const Uvas = () => {
     { name: "ITALIA", img: mollar },
   ];
   useEffect(() => {
+    window.scrollTo(0,0)
     AOS.init({
       duration: 2000,
     });

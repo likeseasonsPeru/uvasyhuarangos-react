@@ -23,7 +23,7 @@ import ownerOllaDeJuanita from "../assets/img/quienesomos/olladejuanita/owner.jp
 export const FamiliesData = [
     
         {
-            "id": 1,
+            "id": 0,
             "familia":"agenciadolphintravel",
             "title": ["AGENCIA", "DOLPHIN TRAVEL"],
             "txt": ["Agencia de Turismo en Ica, que brinda diversos circuitos turísticos para dar a conocer al Perú y al mundo los atractivos de nuestro maravillosa Ica. Estamos preparados para brindar una atención personalizada, cordial y amigable.  Nuestro personal, le hará sentir que sus vacaciones y días de descanso,  empiezan en el momento en que nos visita."],
@@ -39,7 +39,7 @@ export const FamiliesData = [
             }
         },
         {
-            "id": 2,
+            "id": 1,
             "familia":"finca314",
             "title": ["FINCA 314"],
             "txt": [`Finca 314 es la historia de un legado de mujeres dedicadas a la elaboración artesanal de Pisco Premium por más de 190 años; desde nuestra tatarabuela “Etelvina”, una de las mujeres pioneras en la elaboración artesanal de Pisco, hasta la Quinta Generación, conformada  por Claudia, Gabriela y Fátima Moquillaza Robatty.", "Nosotras hemos retomado estos anclajes familiares, respetando la infraestructura  de La Bodega, original de aquella época (𝙿𝚛𝚎𝚜𝚎𝚗𝚌𝚒𝚊 𝚍𝚎 𝙵𝚎𝚛𝚖𝚎𝚗𝚝𝚊𝚍𝚘𝚛𝚎𝚜, 𝙻𝚊𝚐𝚊𝚛, 𝙰𝚕𝚊𝚖𝚋𝚒𝚚𝚞𝚎, 𝙵𝚘𝚐𝚘́𝚗, 𝙰𝚕𝚋𝚎𝚛𝚌𝚊 𝚢 𝙿𝚒𝚜𝚚𝚞𝚎𝚛𝚊) así como la forma ancestral de la elaboración del Pisco.`],
@@ -55,7 +55,7 @@ export const FamiliesData = [
             }
         },
         {
-            "id": 3,
+            "id": 2,
             "familia":"fundosantalucia",
             "title": ["FUNDO", "SANTA LUCía"],
             "txt": ["En nuestro fundo Santa Lucía, ubicado en el distrito de Santiago, al sur de Ica, seguimos respetando una de las principales reglas de mi padre: usar la mejor materia prima.\nAllí nosotros sembramos la uva, la podamos, la abonamos, la deshojamos y, luego, recién viene el proceso de bodega Es un trabajo de todo el año donde buscamos la perfección del pisco."],
@@ -72,7 +72,7 @@ export const FamiliesData = [
             }
         },
         {
-            "id": 4,
+            "id": 3,
             "familia":"bodegasannicolas",
             "title": ["BODEGA", "SAN nicolás"],
             "txt": ["Nacimos en Pisco y nos quedamos en Pisco. Hacemos honor a quienes iniciaron hace más de 400 años. En el mismo lugar, con la misma tierra.La paciencia y la pasión de nuestros agricultores es el mejor medidor de calidad que podemos tener. Cada gota de nuestro pisco habla por nosotros. Representamos los nuevos tiempos del pisco. Rescatamos nuestra historia amos a conocimientos contemporáneos de destilación y mixología."],
@@ -89,7 +89,7 @@ export const FamiliesData = [
             }
         },
         {
-            "id": 5,
+            "id": 4,
             "familia":"bodegaelcatador",
             "title": ["BODEGA turística", "El catador srl."],
             "txt": [`Somos una empresa agroindustrial reconocida por su marca Tony Labis. Es una organización empresarial que se caracteriza por haber desarrollado una cadena productiva donde los recursos naturales se obtienen de pequeños agricultores del Valle, logrando a su vez, desarrollar la mejora continua obteniendo productos de calidad en términos innovadores.`],
@@ -106,7 +106,7 @@ export const FamiliesData = [
             }
         },
         {
-            "id": 6,
+            "id": 5,
             "familia":"bodegapampasdeica",
             "title": ["BODEGA", "Pampas de Ica"],
             "txt": ["Bodega Pampas nace en el año 2012, como un emprendimiento de la familia Carpio Amoroto, teniendo desde un principio la meta de producir los mejores productos Vitivinícolas de la región.","Desde entonces vienen trabajando arduamente, con inversión en conocimientos, tecnología, infraestructura y capital humano."],
@@ -123,7 +123,7 @@ export const FamiliesData = [
             }
         },
         {
-            "id": 7,
+            "id": 6,
             "familia":"bodegatresgeneraciones",
             "title": ["BODEGA", "Tres Generaciones"],
             "txt": ["Empresa familiar que apuesta en conservar su espíritu emprendedor e innovador basándose en sus tradiciones. Tanto así que estamos elaborando vinos con cepas pisqueras de los cuales 2 vinos blancos Albilla y Torontel ya han ganado 2 medallas de oro. Nuestra madre pilar de la empresa es conocida en el mundo pisquero como La Dama del Pisco. Título que nos honra y nos compromete a sus nuevas generaciones a preservar y continuar con el legado familiar."],
@@ -140,7 +140,7 @@ export const FamiliesData = [
             }
         },
         {
-            "id": 8,
+            "id": 7,
             "familia":"bodegavillacuri",
             "title": ["BODEGA", "Villacuri"],
             "txt": ["Bodega Villacuri es una experiencia para los amantes de la agricultura y ecoturismo con extensos sembríos de uvas, jojoba, cilantros, apios  y naranjas. Ofrece al público la visita a la bodega “Buena Cosecha” y la posibilidad de adquirir su vino “Parihuana” hecho de uva patrimonial o su joya más preciada el pisco “Corazón” entre otros productos.", "La aventura en la Bodega Villacurí también es posible gracias a sus dunas colindantes, que invitan a los aventureros a deslizarte en sus faldas a través buggies areneros y así mismo terminar en una comida para el grupo restaurante de carretera llamado “Pampa de Villacurí”."],
@@ -156,25 +156,25 @@ export const FamiliesData = [
                 "web": ["www.bodegavillacuri.com", "https://www.bodegavillacuri.com/"]
             }
         },
+        // {
+        //     "id": ,
+        //     "familia":"haciendagranpaso",
+        //     "title": ["Hacienda", "Gran Paso"],
+        //     "txt": ["Pisco “Gran Paso”, un Pisco joven con siete años en el mercado peruano, llega  respaldado por el conocimiento y experiencia de sus gestores de más de veinte años en el rubro para ofrecer un Pisco de calidad que se convierta en el favorito del paladar de todos los conocedores de nuestra bebida bandera.", "El nombre “Gran Paso” es un homenaje que a través del Pisco como Patrimonio Nacional, se le rinde al Caballo de Paso Peruano, otro Patrimonio Nacional; porque ambos simbolizan la elegancia, nobleza y tradición."],
+        //     "banner": bannerGranPaso,
+        //     "txtBanner": "La bebida auténtica del perú",
+        //     "owner": ownerGranPaso,
+        //     // "pisco": piscoGranPaso,
+        //     "txtOwner": ["Pisco Gran Paso es un Pisco joven, con 9 años en el mercado, pero respaldado por la experiancia de sus gestores en el rubro de más de 20 años. Somos un Pisco de calidad indiscutible. Somos un Pisco de Pisco."],
+        //     "nameOwner": ["Javier","Sanchez"],
+        //     "networkSocial": {
+        //         "instragram": ["@pisco gran paso", "https://www.instagram.com/piscogranpaso/"],
+        //         "facebook": ["@pisco gran paso", "https://www.facebook.com/PiscoGranPaso"],
+        //         "web": ["www.piscogranpaso.com", "http://www.piscogranpaso.com/"]
+        //     }
+        // },
         {
-            "id": 9,
-            "familia":"haciendagranpaso",
-            "title": ["Hacienda", "Gran Paso"],
-            "txt": ["Pisco “Gran Paso”, un Pisco joven con siete años en el mercado peruano, llega  respaldado por el conocimiento y experiencia de sus gestores de más de veinte años en el rubro para ofrecer un Pisco de calidad que se convierta en el favorito del paladar de todos los conocedores de nuestra bebida bandera.", "El nombre “Gran Paso” es un homenaje que a través del Pisco como Patrimonio Nacional, se le rinde al Caballo de Paso Peruano, otro Patrimonio Nacional; porque ambos simbolizan la elegancia, nobleza y tradición."],
-            "banner": bannerGranPaso,
-            "txtBanner": "La bebida auténtica del perú",
-            "owner": ownerGranPaso,
-            // "pisco": piscoGranPaso,
-            "txtOwner": ["Pisco Gran Paso es un Pisco joven, con 9 años en el mercado, pero respaldado por la experiancia de sus gestores en el rubro de más de 20 años. Somos un Pisco de calidad indiscutible. Somos un Pisco de Pisco."],
-            "nameOwner": ["Javier","Sanchez"],
-            "networkSocial": {
-                "instragram": ["@pisco gran paso", "https://www.instagram.com/piscogranpaso/"],
-                "facebook": ["@pisco gran paso", "https://www.facebook.com/PiscoGranPaso"],
-                "web": ["www.piscogranpaso.com", "http://www.piscogranpaso.com/"]
-            }
-        },
-        {
-            "id": 10,
+            "id": 8,
             "familia":"restaurantelaolladejuanita",
             "title": ["Restaurante", "La Olla de Juanita"],
             "txt": ["Con la sazón y dedicación que solo Doña Juanita, la Dama del Pisco, heredó a su hija Cecilia Gonzales nace “La Olla de Juanita”. Mujeres de temple, con amor por la cocina y el pisco, que supieron desde siempre la filosofía que marcaría la línea de la casa:", "“Recuperar, revalorizar y preservar las expresiones culinarias de nuestro país, respetando la esencia de nuestros sabores”."],

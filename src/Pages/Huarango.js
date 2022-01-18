@@ -18,6 +18,7 @@ export const Huarango = () => {
     [`"AUNQUE NO HABLE NI CAMINE, EL HUARANGO ES COMO UN AMIGO QUE SE PREOCUPA POR NUESTRA VIDA, UN HERMANO QUE TENEMOS QUE CUIDAR".`, `MARTÍN NOA, ARTÍCULO PARA LA BBC MUNDO.`],
   ];
   useEffect(() => {
+    window.scrollTo(0,0)
     AOS.init({
       duration: 2000,
     });

@@ -22,6 +22,7 @@ export const Piscos = () => {
     ["“PORQUE NUESTRA PERUANIDAD ESTÁ EN LA TRADICIÓN, Y EN EL PISCO, NUESTRA IDENTIDAD”"]
   ];
   useEffect(() => {
+    window.scrollTo(0,0)
     AOS.init({
       duration: 2000,
     });

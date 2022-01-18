@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 // components
 import Footer from "../components/Footer";
@@ -18,7 +18,9 @@ export const Cocteleria = () => {
     "#FED16A",
     ["“PORQUE NUESTRA PERUANIDAD ESTÁ EN LA TRADICIÓN, Y EN EL PISCO, NUESTRA IDENTIDAD”"],
   ];
-
+  useEffect(() => {
+    window.scrollTo(0,0)
+  }, [])
   return (
     <>
       <Navbar />
