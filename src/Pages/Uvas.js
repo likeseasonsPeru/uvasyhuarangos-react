@@ -52,19 +52,19 @@ export const Uvas = () => {
             className="arrowLeftLegado pl-lg-5 pb-lg-2"
             style={{ zIndex: "10" }}
             onClick={() => window.history.back()}
-            data-aos="fade-right"
+            data-aos="fade-up"
           >
             <img src={ArrowRight} alt="arrow-right" />
           </button>
           <div className="row py-4">
             <div className="col text-center">
-              <h1 className="pages-titles color-uva" data-aos="zoom-out-down">
+              <h1 className="pages-titles color-uva" data-aos="fade-up">
                 UVAS PATRIMONIALES
               </h1>
-              <h4 className="pages-slogan mt-4" data-aos="zoom-out-down">
+              <h4 className="pages-slogan mt-4" data-aos="fade-up">
                 Nuestra Biodiversidad
               </h4>
-              <p className="py-4" data-aos="zoom-out-down">
+              <p className="py-4" data-aos="fade-up">
                 Se manifiesta en los sabores únicos de los ocho tipos de uvas
                 pisqueras,
                 <br />
@@ -228,7 +228,7 @@ export const Uvas = () => {
           <div className="row justify-content-center align-items-center">
             <div
               className="col-md-3 col-sm-6 text-center align-self-center py-3"
-              data-aos="fade-right"
+              data-aos="fade-up"
             >
               <img
                 src={sello}
@@ -250,7 +250,7 @@ export const Uvas = () => {
             </div>
             <div
               className="col-md-3  col-sm-12 align-self-center"
-              data-aos="fade-left"
+              data-aos="fade-up"
             >
               <p>
                 Hoy en día, alrededor del mundo, podemos encontrar una tendencia

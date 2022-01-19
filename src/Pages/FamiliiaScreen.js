@@ -21,9 +21,7 @@ export const FamiliiaScreen = () => {
 
   const { familia } = useParams();
   const item = FamiliesData.find((item) => item.familia === familia);
-  console.log(item.familia);
-  const indexFamily = FamiliesData.findIndex((i) => i.id === item.id);
-  const nextData = FamiliesData[indexFamily + 1];
+  
   if (!item) {
     return <Navigate to="/familia" />;
   }
@@ -47,7 +45,7 @@ export const FamiliiaScreen = () => {
               </h6>
               {item.title.length > 1 ? (
                 <>
-                  <div className="d-flex justify-content-around">
+                  <div className="d-flex justify-content-around align-items-center">
                     <button
                       className="animate__animated animate__fadeInLeft"
                       onClick={() => window.history.back()}
@@ -64,13 +62,27 @@ export const FamiliiaScreen = () => {
                     >
                       {item.title[0]}
                     </h2>
-                    {indexFamily && (
-                      <Link to={`/familia/${nextData.familia}`}>
+                    {FamiliesData[item.id + 1] ? (
+                      <Link
+                        to={`/familia/${FamiliesData[item.id + 1].familia}`}
+                      >
                         <button className="animate__animated animate__fadeInLeft">
                           <img
                             src={ArrowLeft}
                             alt="ArrowLeft"
                             className="img-fluid"
+                            style={{ transform: "rotate(180deg)" }}
+                          />
+                        </button>
+                      </Link>
+                    ) : (
+                      <Link to={"#"}>
+                        <button className="animate__animated animate__fadeInLeft">
+                          <img
+                            src={ArrowLeft}
+                            alt="ArrowLeft"
+                            className="img-fluid"
+                            disabled={true}
                             style={{ transform: "rotate(180deg)" }}
                           />
                         </button>
@@ -82,7 +94,7 @@ export const FamiliiaScreen = () => {
                   </h1>
                 </>
               ) : (
-                <div className="d-flex justify-content-around">
+                <div className="d-flex justify-content-around align-items-center">
                   <button
                     className="animate__animated animate__fadeInLeft"
                     onClick={() => window.history.back()}
@@ -96,13 +108,25 @@ export const FamiliiaScreen = () => {
                   <h1 className="pages-titles color-qs animate__animated animate__fadeInDown">
                     {item.title}
                   </h1>
-                  {indexFamily && (
-                    <Link to={`/familia/${nextData.familia}`}>
+                  {FamiliesData[item.id + 1] ? (
+                    <Link to={`/familia/${FamiliesData[item.id + 1].familia}`}>
                       <button className="animate__animated animate__fadeInLeft">
                         <img
                           src={ArrowLeft}
                           alt="ArrowLeft"
                           className="img-fluid"
+                          style={{ transform: "rotate(180deg)" }}
+                        />
+                      </button>
+                    </Link>
+                  ) : (
+                    <Link to={"#"}>
+                      <button className="animate__animated animate__fadeInLeft">
+                        <img
+                          src={ArrowLeft}
+                          alt="ArrowLeft"
+                          className="img-fluid"
+                          disabled={true}
                           style={{ transform: "rotate(180deg)" }}
                         />
                       </button>

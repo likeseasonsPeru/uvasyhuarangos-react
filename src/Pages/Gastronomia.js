@@ -563,7 +563,7 @@ const Gastronomia = () => {
         </div>
 
         <div className="container px-90 border-bottom-color">
-          <di className="row">
+          <div className="row">
             <div className="col-md-6 col-sm-12 text-left">
               <h1 className="pages-titles-gastronomia color-gastronomia">
                 ICA/PARACAS/ CAÑON <br />
@@ -646,7 +646,7 @@ const Gastronomia = () => {
                 />
               </div>
             </div>
-          </di>
+          </div>
         </div>
 
         <div className="container px-90">

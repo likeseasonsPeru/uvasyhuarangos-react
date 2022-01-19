@@ -43,10 +43,10 @@ export const Familia = () => {
                 el sabor de la uva y la alegria iqueña.
               </p>
               <br />
-              <p className="mx-auto">
+              <div className="mx-auto">
                 <h6 className="pages-subheaderh6">Somos el cluster</h6>
                 <h3 className="subtitles-racimo">Racimos del Sur</h3>
-              </p>
+              </div>
             </div>
           </div>
         </div>

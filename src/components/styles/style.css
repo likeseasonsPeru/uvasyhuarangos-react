@@ -380,7 +380,7 @@ h6 {
 .logo-home-bear {
   font-size: 2rem;
 }
-.contain-home-data {
+.contain-home {
   /* height: 50vh; */
   background: #808060;
 }
@@ -389,8 +389,9 @@ h6 {
   right: 20px;
   top: -250px;
 }
-.b-parallax-data {
-  height: 50vh;
+.b-parallax-dat {
+  height: 500px;
+  /* height: 50vh; */
   font-size: 2rem;
 }
 .b-parallax-arrow {
@@ -1000,7 +1001,7 @@ i {
   }
   .b-parallax-data,
   .parallax {
-    height: 40vh;
+    height: 500px;
   }
   .b-parallax-arrow {
     height: 80px !important;

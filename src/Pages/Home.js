@@ -103,7 +103,7 @@ export const Home = () => {
               </div>
             </Parallax>
 
-            <div className="container-fluid d-flex flex-column justify-content-between py-5 contain-home-data">
+            <div className="container-fluid d-flex flex-column justify-content-between py-5 contain-home">
               <div className="row">
                 <div className="col-md-3 text-center" data-aos="fade-up">
                   <div className="d-flex align-items-center justify-content-center">
@@ -183,7 +183,7 @@ export const SectionHome = ({ color, arrow, img, txt, to }) => {
     <>
       <div
         style={{ backgroundColor: color }}
-        className="d-flex flex-column justify-content-end px-3 b-parallax-data"
+        className="d-flex flex-column justify-content-end px-3 b-parallax-dat"
       >
         <div className="d-flex pl-2 justify-content-between">
           <button className="btn-store px-4" data-aos="fade-up">
@@ -213,7 +213,7 @@ export const SectionHome = ({ color, arrow, img, txt, to }) => {
         </Link>
       </div> */}
       <Parallax bgImage={img} strength={600}>
-        <div style={{ height: 600 }} className="px-3">
+        <div className="px-3 b-parallax-dat">
           <div style={insideStyles}>
             <Link to={`/${to}`} className="text-decoration-none">
               <h1

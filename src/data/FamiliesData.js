@@ -15,8 +15,8 @@ import bannerTresGeneraciones from "../assets/img/quienesomos/bodegatresgeneraci
 import ownerTresGeneraciones from "../assets/img/quienesomos/bodegatresgeneraciones/owner.jpg"
 import bannerBodegaVillacuri from "../assets/img/quienesomos/bodegavillacuri/banner1.jpg"
 import ownerBodegaVillacuri from "../assets/img/quienesomos/bodegavillacuri/owner.jpg"
-import bannerGranPaso from "../assets/img/quienesomos/haciendagranpaso/banner.jpg"
-import ownerGranPaso from "../assets/img/quienesomos/haciendagranpaso/owner.jpg"
+// import bannerGranPaso from "../assets/img/quienesomos/haciendagranpaso/banner.jpg"
+// import ownerGranPaso from "../assets/img/quienesomos/haciendagranpaso/owner.jpg"
 import bannerOllaDeJuanita from "../assets/img/quienesomos/olladejuanita/banner1.jpg"
 import ownerOllaDeJuanita from "../assets/img/quienesomos/olladejuanita/owner.jpg"
 

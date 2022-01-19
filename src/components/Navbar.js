@@ -5,10 +5,8 @@ import Logo from "../assets/img/logo.png";
 
 const Navbar = () => {
   const [height, changeHeight] = useState(0)
+  console.log(height);
   const ref = useRef(null)
-
-  console.log(height)
-
   useEffect(() => {
     changeHeight(ref.current.clientHeight)
   }, [])

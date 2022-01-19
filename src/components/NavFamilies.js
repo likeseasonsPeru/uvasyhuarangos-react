@@ -5,7 +5,6 @@ import "./styles/style.css";
 
 export const NavFamilies = () => {
   const width = window.innerWidth;
-  console.log(width, "width");
   return (
     <>
     <section>

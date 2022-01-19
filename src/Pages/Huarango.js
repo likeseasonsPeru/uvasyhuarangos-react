@@ -35,7 +35,7 @@ export const Huarango = () => {
             alt="banner 1 huarangos"
           />
           <button
-            data-aos="fade-right"
+            data-aos="fade-up"
             className="position-absolute border-0 ArrowRightHuarango"
             onClick={() => window.history.back()}
           >
@@ -45,7 +45,7 @@ export const Huarango = () => {
         <div
           className="container-fluid py-3"
           style={{ backgroundColor: "#C0D8E1" }}
-          data-aos="flip-right"
+          data-aos="fade-up"
         >
           <h1 className="pages-titles color-white pt-4  text-center">
             CONMIGO COMIENZA TODO
@@ -59,7 +59,7 @@ export const Huarango = () => {
               </h4>
               <p
                 className="mx-auto pt-3 font-mackinacpro"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 style={{ maxWidth: "1000px" }}
               >
                 Estoy aquí desde tiempos inmemoriales, llegué a Ica antes que
@@ -88,7 +88,7 @@ export const Huarango = () => {
         <div className="container pb-5">
           <div className="row">
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 pt-3">
-              <div style={{ width: "100%" }} data-aos="fade-right">
+              <div style={{ width: "100%" }} data-aos="fade-up">
                 <img
                   src={whyimportant}
                   className="img-fluid"
@@ -110,7 +110,7 @@ export const Huarango = () => {
                   <p
                     className="ml-auto text-right font-mackinacpro"
                     style={{ maxWidth: "560px" }}
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                   >
                     El árbol de huarango es oriundo del Valle de Ica, donde la
                     lluvia es prácticamente nula. Con uno de los ecosistemas más
@@ -144,14 +144,14 @@ export const Huarango = () => {
                 CUIDEMOS <br />
                 AL GUARDIÁN
               </h2>
-              <p className="color-huarango" data-aos="fade-right">
+              <p className="color-huarango" data-aos="fade-up">
                 Un árbol tan majestuoso como el huarango, <br /> debe ser
                 preservado con mucho cuidado.
               </p>
               <p
                 className="font-mackinacpro pt-2"
                 style={{ maxWidth: "580px" }}
-                data-aos="fade-right"
+                data-aos="fade-up"
               >
                 Debemos saber que hacer para salvaguardarlo, porque sembrar sus
                 semillas sólo es la primer paso, el segundo es plantar la
@@ -176,7 +176,7 @@ export const Huarango = () => {
                 src={banner2}
                 className="img-fluid"
                 alt="banner2"
-                data-aos="fade-left"
+                data-aos="fade-up"
               />
             </div>
           </div>
