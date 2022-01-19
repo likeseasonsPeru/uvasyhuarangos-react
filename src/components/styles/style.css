@@ -965,6 +965,9 @@ i {
   }
 }
 @media screen and (max-width: 768px) {
+  .b-parallax-dat {
+    height: 400px;
+  }
   /* Global */
   .pages-titles {
     font-size: 3rem;
@@ -1031,6 +1034,9 @@ i {
   }
 }
 @media screen and (max-width: 576px) {
+  .b-parallax-dat {
+    height: 340px;
+  }
   .contain-home-data {
     height: 100vh;
   }

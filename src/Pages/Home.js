@@ -88,7 +88,7 @@ export const Home = () => {
           <Navbar />
           <section className="mt-120">
             <Parallax bgImage={ImgHome} strength={400}>
-              <div style={{ height: 400 }} className="px-3">
+              <div className="px-3 b-parallax-dat">
                 <div
                   className="row d-flex align-items-end"
                   style={{ height: "inherit" }}
