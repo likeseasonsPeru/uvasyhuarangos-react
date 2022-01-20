@@ -791,10 +791,18 @@ i {
   color: #fff;
   font-family: "p22_mackinac_probook";
 }
+.input-footer:focus {
+  outline: none;
+}
 .input-footer::placeholder {
   color: #fff;
   font-family: "p22_mackinac_probook";
   font-size: 15px;
+}
+.btn-footer {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
 }
 .logo-footer {
   font-family: "tuskergrotesk-medium";

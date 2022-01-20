@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles/style.css";
 import { Link } from "react-router-dom";
 
 // images
 import ArrowRight from "../assets/img/footer/arrow-right.png";
 import Shield from "../assets/img/footer/escudo.png";
+import submit from "../assets/img/footer/btn.png";
 
 const Footer = ({ color, txt }) => {
+  const [email, setEmail] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert(email);
+    setEmail("");
+  };
+
   return (
     <div className="pb-40 pt-20" style={{ paddingTop: "20px" }}>
       <div className="row p-0 p-lg-5 p-md-5 justify-content-around">
@@ -55,14 +64,27 @@ const Footer = ({ color, txt }) => {
                 SÚSCRIBETE A NOTICIAS
               </h4>
               <div>
-                <form>
+                <form
+                  className="position-relative"
+                  style={{ width: "100%" }}
+                  onSubmit={handleSubmit}
+                >
                   <input
                     className="input-footer"
                     type="email"
                     style={{ width: "90%" }}
                     placeholder="Escribe tu email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                     required
                   />
+                  <button
+                    type="submit"
+                    className="border-0 position-absolute bottom-0 btn-footer"
+                    style={{ right: "10%", zIndex: "10" }}
+                  >
+                    <img src={submit} alt="submit" />
+                  </button>
                 </form>
                 <p className="py-3 color-white" style={{ fontSize: "11px" }}>
                   Recibe invitaciones, ofertas y noticias sobre nuestros
