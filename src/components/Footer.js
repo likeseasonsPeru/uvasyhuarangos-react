@@ -26,7 +26,7 @@ const Footer = ({ color, txt }) => {
             Uso de esta web:
             <br />
             <Link
-              to="#"
+              to="/terminosycondiciones"
               className=" text-decoration-none text-white"
               style={{ cursor: "pointer" }}
             >
@@ -34,7 +34,7 @@ const Footer = ({ color, txt }) => {
             </Link>
             <br />
             <Link
-              to="#"
+              to="/cookies"
               className=" text-decoration-none text-white"
               style={{ cursor: "pointer" }}
             >
@@ -93,8 +93,19 @@ const Footer = ({ color, txt }) => {
                 Racimos del sur <br />
                 Cluster vitivinícolo y enoturístico <br />
                 Direccion ﬁscal 000, Ica, Perú. <br />
-                999 999 999 <br />
-                Atención en horario de oﬁcina.
+                <Link
+                  to="#"
+                  onClick={(e) => {
+                    window.location = "tel:+51956620053";
+                    e.preventDefault();
+                  }}
+                  className="text-white text-decoration-none"
+                >
+                  956620053
+                </Link>{" "}
+                <br />
+                Atención en horario de oﬁcina: <br />
+                10:00 am-7:00 pm
               </p>
             </div>
           </div>

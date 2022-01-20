@@ -12,6 +12,8 @@ import { Familia } from "../Pages/Familia";
 import { FamiliiaScreen } from "../Pages/FamiliiaScreen";
 import { Error } from "../Pages/Error";
 import { Cocteleria } from "../Pages/Cocteleria";
+import { Cookies } from "../Pages/Cookies";
+import { TermsAndConditions } from "../Pages/TermsAndConditions";
 
 export const AppRouter = () => {
   return (
@@ -26,6 +28,8 @@ export const AppRouter = () => {
         <Route path="/cocteleria"  element={ <Cocteleria/> }/>
         <Route path="/familia" element={<Familia />} />
         <Route path="/familia/:familia" element={<FamiliiaScreen />} />
+        <Route path="/cookies" element={<Cookies />} />
+        <Route path="/terminosycondiciones" element={<TermsAndConditions />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </>
