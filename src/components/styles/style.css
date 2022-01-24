@@ -470,6 +470,11 @@ h6 {
   line-height: 1;
   opacity: 0.8;
 }
+.font-size-famvisit {
+  font-size: 65px;
+  line-height: 1;
+  opacity: 1.2;
+}
 .pages-slogan {
   font-family: "californyabuploaded_file";
   font-size: 3rem;
@@ -766,6 +771,9 @@ i {
   font-family: "p22_mackinac_probook";
   font-size: 20px;
   letter-spacing: 4px;
+}
+.bg-familias {
+  background-color: #a45844;
 }
 /* END QUIENES SOMOS */
 

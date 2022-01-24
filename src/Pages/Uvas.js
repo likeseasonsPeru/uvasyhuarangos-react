@@ -221,7 +221,7 @@ export const Uvas = () => {
         </div>
 
         <div className="container-fluid p-0">
-          <img src={banner1} className="img-fluid" alt="Banner 1 uvas" />
+          <img src={banner1} className="img-fluid" alt="Banner 1 uvas" width="100%"/>
         </div>
 
         <div className="container px-120">

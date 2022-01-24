@@ -124,8 +124,7 @@ export const Home = () => {
                   <p className="py-2 text-white">
                     Somos una gran familia iqueña compuesta de socios
                     propietarios de viñedos, bodegas, haciendas, restaurantes y
-                    agencias de turismo con algo en común: el corazón latiendo
-                    de amor por Ica.
+                    agencias de turismo con algo en común.
                   </p>
                   <p className="slg-index text-white">
                     el corazón latiendo de amor por Ica.

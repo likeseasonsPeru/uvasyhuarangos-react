@@ -10,6 +10,7 @@ import "aos/dist/aos.css";
 import ArrowRight from "../assets/img/legado/arrow-right-store.png";
 import ArrowLeft from "../assets/img/quienesomos/arrow-right.png";
 import { FamiliesData } from "../data/FamiliesData";
+import { FamiliesVisitUs } from "../components/FamiliesVisitUs";
 
 export const FamiliiaScreen = () => {
   useEffect(() => {
@@ -286,6 +287,11 @@ export const FamiliiaScreen = () => {
             </div>
           </div>
         </div>
+        {
+          item.dataVisit ? (
+            <FamiliesVisitUs txt={item.dataVisit.txt} img={item.dataVisit.img} include={item.dataVisit.include}  slg={item.dataVisit.slg}/>
+          ) :(<></>)
+        }
       </section>
       <Footer color={DataFooter[0]} txt={DataFooter[1]} />
     </>

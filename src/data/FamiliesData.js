@@ -3,6 +3,7 @@ import bannerDolphin from "../assets/img/quienesomos/dolphin/banner1.jpg"
 import ownerDolphin from "../assets/img/quienesomos/dolphin/owner.jpg"
 import bannerFinca314 from "../assets/img/quienesomos/finca314/banner.jpg"
 import ownerFinca314 from "../assets/img/quienesomos/finca314/owner.jpg"
+import visitUs from "../assets/img/quienesomos/finca314/visitus.jpg"
 import bannerFundoSantaLucia from "../assets/img/quienesomos/fundosantalucia/banner.jpg"
 import ownerFundoSantaLucia from "../assets/img/quienesomos/fundosantalucia/owner.jpg"
 import bannerBodega1615 from "../assets/img/quienesomos/bodega1615/banner1.jpg"
@@ -52,6 +53,13 @@ export const FamiliesData = [
                 "instragram": ["@finca_314", "https://www.instagram.com/finca_314"],
                 "facebook": ["@Finca 314", "https://www.facebook.com/Finca-314-1981581998629779"],
                 "web": ["www.finca314.com", "https://finca314.com/"]
+            },
+            "dataVisit": {
+                "slg": "Tradición y pasión por el pisco",
+                "txt": "El cultivo hace más de 400 años. En el mismo lugar, con la misma tierra. La paciencia y la pasión de nuestros agricultores es el mejor medidor de calidad que podemos tener. Cada gota de nuestro pisco habla por nosotros. Representamos los nuevos tiempos del pisco. Rescatamos nuestra historia.",
+                "include": "Visita guiada + cata",
+                "img": visitUs,
+                "to": "#"
             }
         },
         {

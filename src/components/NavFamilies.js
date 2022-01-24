@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Navbar from "./Navbar";
 import "./styles/style.css";
 
@@ -123,71 +123,71 @@ export const NavFamilies = () => {
           style={{ marginBottom: "0" }}
         >
           <li className="nav-item-fam">
-            <Link className="brands-link" to="/familia/agenciadolphintravel">
+            <NavLink className="brands-link" to="/familia/agenciadolphintravel">
               <p className="text-center">
                 AGENCIA <br />
                 DOLPHIN TRAVEL
               </p>
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item-fam">
-            <Link className="brands-link" to="/familia/finca314">
+            <NavLink className="brands-link" to="/familia/finca314">
               <p className="text-center">
                 Finca <br />
                 314
               </p>
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item-fam">
-            <Link className="brands-link" to="/familia/fundosantalucia">
+            <NavLink className="brands-link" to="/familia/fundosantalucia">
               <p className="text-center">
                 FUNDO <br />
                 SANTA LUCíA
               </p>
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item-fam">
-            <Link className="brands-link" to="/familia/bodegasannicolas">
+            <NavLink className="brands-link" to="/familia/bodegasannicolas">
               <p className="text-center">
                 Bodega <br />
                 San Nicolás
               </p>
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item-fam">
-            <Link className="brands-link" to="/familia/bodegaelcatador">
+            <NavLink className="brands-link" to="/familia/bodegaelcatador">
               <p className="text-center">
                 Bodega <br />
                 el catador
               </p>
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item-fam">
-            <Link className="brands-link" to="/familia/bodegapampasdeica">
+            <NavLink className="brands-link" to="/familia/bodegapampasdeica">
               <p className="text-center">
                 Bodega <br />
                 pampas de ica
               </p>
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item-fam">
-            <Link className="brands-link" to="/familia/bodegatresgeneraciones">
+            <NavLink className="brands-link" to="/familia/bodegatresgeneraciones">
               <p className="text-center">
                 Bodega <br />
                 tres Generaciones
               </p>
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item-fam">
-            <Link className="brands-link" to="/familia/bodegavillacuri">
+            <NavLink className="brands-link" to="/familia/bodegavillacuri">
               <p className="text-center">
                 Bodega <br />
                 Villacuri
               </p>
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item-fam">
-            <Link
+            <NavLink
               className="brands-link"
               to="/familia/restaurantelaolladejuanita"
             >
@@ -195,7 +195,7 @@ export const NavFamilies = () => {
                 Restaurante <br />
                  La olla de juanita
               </p>
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </nav>
