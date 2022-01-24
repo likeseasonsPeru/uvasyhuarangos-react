@@ -1,5 +1,5 @@
 import React, {useState, useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./styles/style.css";
 import Logo from "../assets/img/logo.png";
 
@@ -7,6 +7,12 @@ const Navbar = () => {
   const [height, changeHeight] = useState(0)
   console.log(height);
   const ref = useRef(null)
+
+  // let match = useRouteMatch({
+  //   // path: to,
+  //   // exact: activeOnlyWhenExact
+  // });
+
   useEffect(() => {
     changeHeight(ref.current.clientHeight)
   }, [])
@@ -31,34 +37,34 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="burgermenu">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <Link className="nav-link" to="/uvas">
+              <NavLink className="nav-link" to="/uvas">
                 UVAS
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/huarangos">
+              <NavLink className="nav-link" to="/huarangos">
                 HUARANGOS
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/familia">
+              <NavLink className="nav-link" to="/familia">
                 FAMILIAS
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/piscos">
+              <NavLink className="nav-link" to="/piscos">
                 PISCOS
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/vinos">
+              <NavLink className="nav-link" to="/vinos">
                 VINOS
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/turismo">
+              <NavLink className="nav-link" to="/turismo">
                 TURISMO
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="#" onClick={(e)=>{

@@ -55,7 +55,7 @@ export const NavFamilies = () => {
               </Link>
             </li>
             <li className="nav-item-fam">
-              <Link className="brands-link" to="/familia/bodega1615">
+              <Link className="brands-link" to="/familia/bodegasannicolas">
                 <p className="text-center text-uppercase">
                   Bodega <br />
                   SAN Nicolás

@@ -5,6 +5,8 @@ import "aos/dist/aos.css";
 // components
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import { StoreGastronomy } from "../components/StoreGastronomy";
+import { StoresGastronomyData } from "../data/StoresGastronomyData";
 
 // images
 import ArrowRight from "../assets/img/gastronomia/arrow-right.png";
@@ -21,7 +23,6 @@ import trekking from "../assets/img/gastronomia/trekking.jpg";
 import pampa from "../assets/img/gastronomia/pampa.jpg";
 import elcatador from "../assets/img/gastronomia/elcatador.jpg";
 import olladejuanita from "../assets/img/gastronomia/olladejuanita.jpg";
-
 const Gastronomia = () => {
   const DataFooter = [
     "#E27423",
@@ -30,7 +31,7 @@ const Gastronomia = () => {
     ],
   ];
   useEffect(() => {
-    window.scrollTo(0,0)
+    // window.scrollTo(0, 0);
     AOS.init({
       duration: 2000,
     });
@@ -697,6 +698,38 @@ const Gastronomia = () => {
             </div>
           </div>
         </div>
+
+        <div className="bg-gastronomia py-5">
+          <div className="container">
+            <div className="row">
+              <div className="col text-center">
+                <h4
+                  className="font-neue text-black"
+                  style={{ fontSize: "40px" }}
+                >
+                  ven a Ica y
+                </h4>
+                <h1 className="pages-titles-gastronomia text-black">
+                  ¡VISíTANOS!
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {StoresGastronomyData.map(
+          ({ head, slg, txt, include, id, img, to }) => (
+            <StoreGastronomy
+              key={id}
+              head={head}
+              slg={slg}
+              txt={txt}
+              include={include}
+              img={img}
+              to={to}
+            />
+          )
+        )}
       </section>
       <Footer color={DataFooter[0]} txt={DataFooter[1]} />
     </>

@@ -102,14 +102,6 @@
 }
 
 @font-face {
-  font-family: "LondrinaOutline-Regular";
-  src: url("../../assets/fonts/LondrinaOutline-Regular.woff2") format("woff2"),
-    url("../../assets/fonts/LondrinaOutline-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "gothic_outline";
   src: url("../../assets/fonts/gothic_outline_title_d_ot_regular-webfont.woff2")
       format("woff2"),
@@ -464,7 +456,20 @@ h6 {
   text-transform: uppercase;
   line-height: 1;
 }
-
+.font-neue {
+  font-family: "neue_worldsuperCnLt";
+}
+.font-california {
+  font-family: "californyabuploaded_file";
+}
+.font-tusker {
+  font-family: "tuskergrotesk-medium";
+}
+.font-size-gastro {
+  font-size: 50px;
+  line-height: 1;
+  opacity: 0.8;
+}
 .pages-slogan {
   font-family: "californyabuploaded_file";
   font-size: 3rem;
