@@ -39,7 +39,7 @@ const Gastronomia = () => {
     <>
       <Navbar />
       <section id="gastronomia" className="page mt-120">
-        <div className="container-fluid p-0 position-relative">
+        <div className="bg-gastronomia mb-120  position-relative">
           <button
             className="icon-left"
             onClick={() => window.history.back()}
@@ -47,29 +47,26 @@ const Gastronomia = () => {
           >
             <img src={ArrowLeft} alt="ArrowLeft" className="img-fluid" />
           </button>
-        </div>
-        <div className="bg-gastronomia mb-120">
           <div className="container py-5">
             <div className="row my-5">
               <div className="col text-center">
-                <h1
-                  className="pages-titles-gastronomia text-white"
-                  data-aos="fade-up"
-                >
+                <h1 className="pages-titles text-white" data-aos="fade-up">
                   GASTRONOMíA
                 </h1>
-                <h4 className="enoturismo-logo" data-aos="zoom-in-up">
+                <h4
+                  className="enoturismo-logo mx-auto"
+                  data-aos="zoom-in-up"
+                  style={{ maxWidth: 700 }}
+                >
                   Contundencia, variedad y buena sazón
                 </h4>
                 <p className="my-5" data-aos="zoom-in-up">
                   Eso caracteriza a la comida peruana, no por nada es reconocida
                   a nivel internacional.
                   <br />
-                  <br />
                   Dentro de nuestra gastronomía, Ica dispone de una de las
                   cocinas más representativas del país, <br />
                   con una exquisita fusión de la cocina criolla y la africana.
-                  <br />
                   <br />
                   La región iqueña está repleta de deliciosos platillos
                   tradicionales que reflejan el amor <br />
@@ -97,7 +94,7 @@ const Gastronomia = () => {
                     la Dama del Pisco, Doña Juanita, heredada a su hija Cecilia
                     González. Parras, recetas y piscos inolvidables en un
                     ambiente rústico estupendo para celebrar los más exquisitos
-                    sabores de la cocina iqueña con amor y admiración por
+                    sabores de la cocina iqueña, con amor y admiración por
                     nuestra gastronomía.
                   </p>
                 </div>
@@ -249,14 +246,12 @@ const Gastronomia = () => {
                     className="text-left pt-2"
                     style={{ maxWidth: "400px", lineHeight: "1.7" }}
                   >
-                    El recorrido consiste en la visita del Distrito de Ocucaje,
-                    donde ingresamos al desierto, visitaremos el cerro Colorado,
-                    pampa de piedras, visitaremos los fósiles de ballenas
-                    <br /> <br />
-                    Luego llegaremos al mirador paisajístico del cañón de los
-                    perdidos una formación caprichosa de la naturaleza,
-                    posteriormente se realizará una caminata hacia la garganta
-                    del cañón.
+                    Visitamos el Distrito de Ocucaje y vivimos desde adentro el
+                    desierto iqueño, visitamos el cerro Colorado, pampa de
+                    piedras y los fósiles de ballenas. Al llegar al mirador
+                    paisajístico del cañón de los perdidos nos encontramos con
+                    una formación caprichosa de la naturaleza, la cual
+                    camineremos hasta llegar a la garganta del cañón.
                   </p>
                 </div>
                 <div className="d-flex pb-3">
@@ -301,22 +296,13 @@ const Gastronomia = () => {
                     className="ml-auto"
                     style={{ maxWidth: "580px", lineHeight: "1.7" }}
                   >
-                    <strong>1.</strong> Recojo del hotel Elegido, e iniciaremos
-                    la visita por la Bodega el Catador, donde aprenderemos el
-                    proceso de elaboración del pisco artesanal (pisco hecho a
-                    mano), mientras disfrutaremos de sus diversas variedades,
-                    conoceremos su historia reseña. <br /> <br />
-                    <strong> 2.</strong>Como segundo punto nos dirigiremos hacia
-                    la bodega artesanal “3 generaciones “ <br /> <br />
-                    <strong> 3.</strong> Visitaremos la bodega Tacama, al igual
-                    que las dos bodegas anteriores, podrán observar sus
-                    plantaciones de viñedos, ingresaran al área de producción
-                    para apreciar el desarrollo de la elaboración de sus piscos
-                    y vinos. <br /> <br />
-                    <strong> 4.</strong> Y por ultimo nos trasladaremos hacia el
-                    Oasis de la Huacachina donde podrán realizar las actividades
-                    de Aventura por el desierto y deslizarse en tablas por las
-                    dunas.
+                    Recojo en hotel y recorrido por Bodega el Catador, Tres
+                    Generaciones y San Nicolás donde aprenderemos el proceso de
+                    elaboración del pisco artesanal (pisco hecho a mano),
+                    mientras disfrutaremos de sus diversas variedades y
+                    conoceremos su historia. Visita al oasis de la Huacachina
+                    donde podrán realizar las actividades de aventura por el
+                    desierto y deslizarse en tablas por las dunas.
                   </p>
                 </div>
                 <div className="d-flex justify-content-end">
@@ -352,7 +338,7 @@ const Gastronomia = () => {
                     nuestras instalaciones en el Balneario de Huacachina,
                     abordaremos los carros UTV, que son unidades especiales para
                     realizar el recorrido por las Dunas, estos son carros
-                    HOMOLOGADOS y muy seguros podrás disfrutar la velocidad y
+                    homologados y muy seguros podrás disfrutar la velocidad y
                     adrenalina en el enorme desierto de Ica tendrás un tiempo
                     para la práctica del Sandboard.
                   </p>
@@ -393,13 +379,13 @@ const Gastronomia = () => {
                     className="ml-auto pt-4"
                     style={{ maxWidth: "490px", lineHeight: "1.7" }}
                   >
-                    Recojo del Hotel en Ica , visita a la plaza de armas ,
-                    templo de Luren ,chocolatería , plaza de temática de
-                    Cachiche, palmera de 7 cabezas , bodega vitivinícola
-                    artesanal , tiempo de almuerzo en Rest. campestre, visita al
-                    Oasis de Huacachina, contaremos con un tiempo en las Dunas
-                    para la práctica del Sandboard (opcional) , traslado al
-                    punto de origen.
+                    Recojo del Hotel en Ica, visita a la plaza de armas, templo
+                    de Luren, chocolatería, plaza de temática de Cachiche,
+                    palmera de 7 cabezas, bodega vitivinícola artesanal, tiempo
+                    de almuerzo en Rest. campestre, visita al oasis de
+                    Huacachina, contaremos con un tiempo en las Dunas para la
+                    práctica del Sandboard (opcional), traslado al punto de
+                    origen.
                   </p>
                 </div>
                 <div className="d-flex justify-content-end">
@@ -430,12 +416,12 @@ const Gastronomia = () => {
                     className="text-left pt-4 mr-auto"
                     style={{ maxWidth: "450px", lineHeight: "1.7" }}
                   >
-                    - Visita a chocolatería Helena ó casa de las tejas. <br />
-                    - Tour clásico al Viñedo industrial Tacama <br />- Tiempo
+                    - Visita a chocolatería ó casa de las tejas. <br />
+                    - Tour clásico bodega vitivinícola artesanal. <br />- Tiempo
                     para almuerzo (por cuenta del pasajero). <br /> - Durante el
                     recorrido, realizaremos una breve parada en una fábrica de
-                    paletas artesanales iqueñas. <br /> - Visita al Oasis de
-                    Huacachina , paseo en carros tubulares y práctica del
+                    paletas artesanales iqueñas. <br /> - Visita al oasis de
+                    Huacachina, paseo en carros tubulares y práctica del
                     Sandboard.
                   </p>
                 </div>
@@ -491,10 +477,9 @@ const Gastronomia = () => {
                 className="text-right ml-auto pb-3"
                 style={{ maxWidth: "600px", lineHeight: "1.7" }}
               >
-                12:00 hrs Llegada a Ica – Instalación en Hotel en Ica 15:30 hrs
-                Visitaremos la Laguna de Huacachina, donde realizaremos un paseo
-                en Tubulares y contaremos con un instructor para la práctica del
-                Sandboard.
+                12:00 hrs Llegada a Ica – Instalación en Hotel en Ica <br />{" "}
+                15:30 hrs Visita de laguna Huacachina, paseo en tubulares e
+                instructor para la práctica del Sandboard.
               </p>
               <strong className="gastronomia-days text-uppercase">
                 día 2: ISLAS BALLESTAS+RESERVA DE PARACAS
@@ -503,16 +488,12 @@ const Gastronomia = () => {
                 className="text-right ml-auto pb-3"
                 style={{ maxWidth: "600px", lineHeight: "1.7" }}
               >
-                06:30 am Traslado Ica – Paracas. <br /> 08:00 am Salida hacia
-                Islas Ballestas <br /> Comprende: Visita del candelabro, islas.,
-                fauna marítima, lobos marinos (fino, chusco). Maternidad de
-                lobos, biodiversidad de aves guaneras en Habitual natural como
-                zarcillos, guanay, chuitas, camarones y pingüinos de Humbolt
-                formaciones rocosas que constituyen unos de los paisajes más
-                hermosos de la costa peruana, luego ingresaremos a la reserva de
-                paracas donde visitaremos obelisco, sala de interpretación
-                (temporalmente cerrado) , tiempo de playa en lagunillas. <br />{" "}
-                4:00 pm Llegada a Ica
+                06:30 Traslado Ica – Paracas. <br /> 08:00 Salida hacia Islas
+                Ballestas. Visita del candelabro, fauna marítima y biodiversidad
+                de aves guaneras en formaciones rocosas que constituyen unos de
+                los paisajes más hermosos de la costa peruana, ingreso a reserva
+                de Paracas, obelisco, tiempo de playa en lagunillas. <br />{" "}
+                16:00 Llegada a Ica.
               </p>
               <strong className="gastronomia-days text-uppercase">
                 día 3: RUTA DEL PISCO
@@ -521,17 +502,9 @@ const Gastronomia = () => {
                 className="text-right ml-auto"
                 style={{ maxWidth: "600px", lineHeight: "1.7" }}
               >
-                09:00 am Recojo del hotel elegido, e iniciaremos la visita por
-                la Bodega el Catador, donde aprenderemos el proceso de
-                elaboración del pisco artesanal (pisco hecho a mano), mientras
-                disfrutaremos de sus diversas variedades, conoceremos su
-                historia . Como segundo punto nos dirigiremos hacia la bodega
-                artesanal “3 generaciones “ Luego visitaremos la bodega
-                Industrial Tacama, al igual que las dos bodegas anteriores,
-                podrán observar sus plantaciones de viñedos, ingresaran al área
-                de producción para apreciar el desarrollo de la elaboración de
-                sus piscos y vinos. <br /> 13:00 pm. Retorno a su hotel –
-                traslado al terminal de Bus en Ica.
+                09:00 Recojo del hotel elegido, visita por la Bodega el Catador,
+                Bodega Tres generaciones y Bodega San Nicolás. <br />
+                13:00 Retorno a su hotel – traslado al terminal de Bus en Ica.
               </p>
             </div>
           </div>
@@ -557,12 +530,10 @@ const Gastronomia = () => {
                 className="text-left mr-auto pb-3"
                 style={{ maxWidth: "600px", lineHeight: "1.7" }}
               >
-                13:00 hrs Llegada a Ica. <br /> Traslado del terminal de bus e
-                Instalación en Hotel en Ica <br />
-                14:00 hrs CITY TOUR EN ICA <br /> Visitaremos un viñedo
-                artesanal plaza temática de Cachiche , templo de Luren ,
-                chocolatería Helena, visita a la laguna de Huacachina llamado el
-                Oasis de América . Pernocte en Ica.
+                13:00 Llegada a Ica. <br /> 14:00 City tour en Ica <br /> Visita
+                de viñedo artesanal. plaza temática de Cachiche, templo de
+                Luren, chocolatería Helena y laguna de Huacachina. Pernocte en
+                Ica.
               </p>
               <strong className="gastronomia-days text-uppercase">
                 día 2: ISLAS BALLESTAS
@@ -571,17 +542,14 @@ const Gastronomia = () => {
                 className="text-left mr-auto pb-3"
                 style={{ maxWidth: "600px", lineHeight: "1.7" }}
               >
-                06:30 hrs. Recojo en hotel en Ica. <br /> 08:00 hrs. Salida
-                hacia Islas Ballestas <br /> Comprende: Vista del candelabro,
-                islas., fauna marítima, lobos marinos (fino, chusco). Maternidad
-                de lobos, biodiversidad de aves guaneras en Habitual natural
-                como zarcillos, guanay, chuitas, camarones y pingüinos de
-                Humbolt formaciones rocosas que constituyen unos de los paisajes
-                más hermosos de la costa peruana, luego ingresaremos a la
-                reserva de paracas donde visitaremos obelisco, sala de
-                interpretación, tiempo de playa en lagunillas (ALMUERZO
-                OPCIONAL) <br /> 15:00 hrs. Traslado a Hotel en Ica <br />{" "}
-                Pernocte en Ica.
+                06:30 Recojo en hotel en Ica. <br />
+                08:00 Salida hacia Islas Ballestas. <br />
+                Visita del candelabro, fauna marítima y biodiversidad de aves
+                guaneras en formaciones rocosas que constituyen unos de los
+                paisajes más hermosos de la costa peruana, ingreso a reserva de
+                Paracas, obelisco, tiempo de playa en lagunillas. <br />
+                16:00 Llegada a Ica. (ALMUERZO OPCIONAL) <br />
+                15:00 Traslado a Hotel en Ica, pernocte en Ica.
               </p>
               <strong className="gastronomia-days text-uppercase">
                 día 3: TREKKING AL CAÑÓN DE LOS PERDIDOS
@@ -590,17 +558,15 @@ const Gastronomia = () => {
                 className="text-left mr-auto"
                 style={{ maxWidth: "610px", lineHeight: "1.7" }}
               >
-                06:30 am Recojo desde Hotel en Ica. <br /> El recorrido consiste
-                en la visita del Distrito de Ocucaje, donde ingresaremos al
-                desierto , visitaremos la plaza temática, luego la pampa de
-                meteoritos , tiempo de fotos en el famoso ojo de piedra,
-                continuando con el recorrido llegaremos al gran Cañón una
-                formación caprichosa de la naturaleza, se realizara una caminata
-                por el interior del Cañón luego retornaremos a la Ciudad de Ica.
-                <br />
-                1:00 pm aprox Llegada a Ica , Al retornar a Ica llegaremos al
-                punto de origen en Ica. <br />
-                15:00 hrs Traslado hacia el terminal de Bus en Ica.
+                06:30 Recojo desde hotel en Ica. <br />
+                Visitamos el distrito de Ocucaje y vivimos desde adentro el
+                desierto iqueño, visitaremos la plaza temática, la pampa de
+                meteoritos y el famoso ojo de piedra, continuando con el
+                recorrido llegaremos al gran Cañón una formación caprichosa de
+                la naturaleza, se realizara una caminata por el interior del
+                Cañón luego retornaremos a la Ciudad de Ica. <br />
+                13:00 Llegada a Ica, punto de origen. <br />
+                15:00 Traslado hacia el terminal de Bus en Ica.
               </p>
             </div>
 
@@ -652,7 +618,7 @@ const Gastronomia = () => {
               >
                 Visitaremos los principales puntos de la ciudad incluyendo una
                 bodega vitivinícola además de tener un tiempo en la laguna de
-                Huacachina, donde realizaremos un paseo en Tubulares y
+                Huacachina, donde realizaremos un paseo en tubulares y
                 contaremos con un instructor para la práctica del Sandboard (no
                 incluido)
               </p>
@@ -663,11 +629,12 @@ const Gastronomia = () => {
                 className="text-right ml-auto pb-3"
                 style={{ maxWidth: "600px", lineHeight: "1.7" }}
               >
-                Salida 06:30 am. Recojo en su hospedaje <br /> Comprende ISLAS
-                BALLESTAS: Vista del candelabro, islas., fauna marítima, lobos
-                marinos (finos, chuscos). Maternidad de lobos, biodiversidad de
-                aves guaneras en Habitual natural como zarcillos, guanay,
-                chuitas, camarones y pingüinos de Humbolt formaciones
+                Salida 06:30 Recojo en su hospedaje <br />
+                Islas Ballestas, visita del candelabro, fauna marítima y
+                biodiversidad de aves guaneras en formaciones rocosas que
+                constituyen unos de los paisajes más hermosos de la costa
+                peruana, ingreso a reserva de Paracas, obelisco, tiempo de playa
+                en lagunillas.
               </p>
             </div>
           </div>
@@ -679,9 +646,9 @@ const Gastronomia = () => {
               <div className="col text-center">
                 <h4
                   className="font-neue text-black"
-                  style={{ fontSize: "40px" }}
+                  style={{ fontSize: "60px" }}
                 >
-                  ven a Ica y
+                  Prueba nuestros mejores piscos y vinos
                 </h4>
                 <h1 className="pages-titles-gastronomia text-black">
                   ¡VISíTANOS!
