@@ -472,7 +472,7 @@ h6 {
 }
 .font-size-famvisit {
   font-size: 65px;
-  line-height: 1;
+  line-height: 0.9;
   opacity: 1.2;
 }
 .pages-slogan {
@@ -774,6 +774,12 @@ i {
 }
 .bg-familias {
   background-color: #a45844;
+}
+.br-familias {
+  border: 1px solid #a45844;
+  height: 77px;
+  font-family: "tuskergrotesk-medium";
+  color: #a45844;
 }
 /* END QUIENES SOMOS */
 

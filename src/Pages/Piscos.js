@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 // components
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import { Link } from "react-router-dom";
 
 // images
 import ArrowLeft from "../assets/img/tradicion/arrow-left.png";
@@ -14,15 +15,18 @@ import ArrowGrape from "../assets/img/legado/arrow-right-grape.png";
 import Banner2 from "../assets/img/tradicion/banner2.jpg";
 import ArrowYellow from "../assets/img/tradicion/arrow-right-yellow.png";
 import ArrowStore from "../assets/img/legado/arrow-right-store.png";
-import { Link } from "react-router-dom";
+import premio1 from "../assets/img/legado/premios/premio1.jpg";
+import premio2 from "../assets/img/legado/premios/premio2.jpg";
 
 export const Piscos = () => {
   const DataFooter = [
-    "#FED16A",
-    ["“PORQUE NUESTRA PERUANIDAD ESTÁ EN LA TRADICIÓN, Y EN EL PISCO, NUESTRA IDENTIDAD”"]
+    "#6E5844",
+    [
+      "“PORQUE NUESTRA PERUANIDAD ESTÁ EN LA TRADICIÓN, Y EN EL PISCO, NUESTRA IDENTIDAD”",
+    ],
   ];
   useEffect(() => {
-    window.scrollTo(0,0)
+    window.scrollTo(0, 0);
     AOS.init({
       duration: 2000,
     });
@@ -222,6 +226,44 @@ export const Piscos = () => {
             </div>
           </div>
         </div>
+        <div className="container px-90">
+          <div>
+            <div className="text-center my-5">
+              <h1
+                className="premios-title color-tradicion-r"
+                data-aos="fade-up"
+              >
+                Premios
+              </h1>
+            </div>
+            <div className="row align-items-end">
+              <div
+                className="col-md-3 col-sm-12 text-center"
+                data-aos="fade-right"
+              >
+                <img src={premio1} className="img-fluid" alt="premio 2" />
+              </div>
+              <div
+                className="col-md-3 col-sm-12 text-center"
+                data-aos="fade-up"
+              >
+                <img src={premio2} className="img-fluid" alt="premio 2" />
+              </div>
+              <div
+                className="col-md-3 col-sm-12 text-center"
+                data-aos="fade-up"
+              >
+                <img src={premio1} className="img-fluid" alt="premio 2" />
+              </div>
+              <div
+                className="col-md-3 col-sm-12 text-center"
+                data-aos="fade-left"
+              >
+                <img src={premio2} className="img-fluid" alt="premio 2" />
+              </div>
+            </div>
+          </div>
+        </div>
         <div
           className="container-fluid px-0"
           style={{ backgroundColor: "#FED16A" }}
@@ -245,13 +287,17 @@ export const Piscos = () => {
                 data-aos="fade-up-left"
               >
                 <div className="d-flex flex-row justify-content-center align-items-center">
-                <Link to="/cocteleria" className="d-flex text-decoration-none" style={{ cursor: "pointer" }}>
-                  <h1
-                    className="color-white text-title my-0 pt-2 text-uppercase"
-                    style={{ fontSize: "57px" }}
+                  <Link
+                    to="/cocteleria"
+                    className="d-flex text-decoration-none"
+                    style={{ cursor: "pointer" }}
                   >
-                    COCTELERíA
-                  </h1>
+                    <h1
+                      className="color-white text-title my-0 pt-2 text-uppercase"
+                      style={{ fontSize: "57px" }}
+                    >
+                      COCTELERíA
+                    </h1>
                     <img
                       src={ArrowYellow}
                       className="img-fluid ml-xl-4 ml-2"

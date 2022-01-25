@@ -8,16 +8,17 @@ import bannerFundoSantaLucia from "../assets/img/quienesomos/fundosantalucia/ban
 import ownerFundoSantaLucia from "../assets/img/quienesomos/fundosantalucia/owner.jpg"
 import bannerBodega1615 from "../assets/img/quienesomos/bodega1615/banner1.jpg"
 import ownerBodega1615 from "../assets/img/quienesomos/bodega1615/owner.jpg"
+import visitUs1615 from "../assets/img/quienesomos/bodega1615/visitus.jpg"
 import bannerElCatador from "../assets/img/quienesomos/elcatador/banner1.jpg"
 import ownerElCatador from "../assets/img/quienesomos/elcatador/owner.jpg"
 import bannerPampasDeIca from "../assets/img/quienesomos/bodegapampasdeica/banner.jpg"
 import ownerPampasDeIca from "../assets/img/quienesomos/bodegapampasdeica/owner.jpg"
+import visitUsPampas from "../assets/img/quienesomos/bodegapampasdeica/visitus.jpg"
 import bannerTresGeneraciones from "../assets/img/quienesomos/bodegatresgeneraciones/banner.jpg"
 import ownerTresGeneraciones from "../assets/img/quienesomos/bodegatresgeneraciones/owner.jpg"
 import bannerBodegaVillacuri from "../assets/img/quienesomos/bodegavillacuri/banner1.jpg"
 import ownerBodegaVillacuri from "../assets/img/quienesomos/bodegavillacuri/owner.jpg"
-// import bannerGranPaso from "../assets/img/quienesomos/haciendagranpaso/banner.jpg"
-// import ownerGranPaso from "../assets/img/quienesomos/haciendagranpaso/owner.jpg"
+import visitUsVillacuri from "../assets/img/quienesomos/bodegavillacuri/visitus.jpg"
 import bannerOllaDeJuanita from "../assets/img/quienesomos/olladejuanita/banner1.jpg"
 import ownerOllaDeJuanita from "../assets/img/quienesomos/olladejuanita/owner.jpg"
 
@@ -26,7 +27,7 @@ export const FamiliesData = [
         {
             "id": 0,
             "familia":"agenciadolphintravel",
-            "title": ["AGENCIA", "DOLPHIN TRAVEL"],
+            "title": ["AGENCIA", "DOLPHIN TRAVEL PErú"],
             "txt": ["Agencia de Turismo en Ica, que brinda diversos circuitos turísticos para dar a conocer al Perú y al mundo los atractivos de nuestro maravillosa Ica. Estamos preparados para brindar una atención personalizada, cordial y amigable.  Nuestro personal, le hará sentir que sus vacaciones y días de descanso,  empiezan en el momento en que nos visita."],
             "banner": bannerDolphin,
             "txtBanner": "ENOTURISMO, ADRENALINA , ICA",
@@ -55,7 +56,7 @@ export const FamiliesData = [
                 "web": ["www.finca314.com", "https://finca314.com/"]
             },
             "dataVisit": {
-                "slg": "Tradición y pasión por el pisco",
+                "slg": ["Tradición y pasión", "por el pisco"],
                 "txt": "El cultivo hace más de 400 años. En el mismo lugar, con la misma tierra. La paciencia y la pasión de nuestros agricultores es el mejor medidor de calidad que podemos tener. Cada gota de nuestro pisco habla por nosotros. Representamos los nuevos tiempos del pisco. Rescatamos nuestra historia.",
                 "include": "Visita guiada + cata",
                 "img": visitUs,
@@ -64,8 +65,8 @@ export const FamiliesData = [
         },
         {
             "id": 2,
-            "familia":"fundosantalucia",
-            "title": ["FUNDO", "SANTA LUCía"],
+            "familia":"bodegasantalucia",
+            "title": ["BODEGA", "SANTA LUCía"],
             "txt": ["En nuestro fundo Santa Lucía, ubicado en el distrito de Santiago, al sur de Ica, seguimos respetando una de las principales reglas de mi padre: usar la mejor materia prima.\nAllí nosotros sembramos la uva, la podamos, la abonamos, la deshojamos y, luego, recién viene el proceso de bodega Es un trabajo de todo el año donde buscamos la perfección del pisco."],
             "banner": bannerFundoSantaLucia,
             "txtBanner": "El legado del pisco, continúa",
@@ -94,6 +95,13 @@ export const FamiliesData = [
                 "instragram": ["@pisco1615", "https://www.instagram.com/pisco1615/"],
                 "facebook": ["@pisco1615", "https://www.facebook.com/pisco1615"],
                 "web": ["www.pisco1615.pe", "https://www.pisco1615.pe/"]
+            },
+            "dataVisit": {
+                "slg": ["Es momento de", "compartir"],
+                "txt": "El cultivo hace más de 400 años. En el mismo lugar, con la misma tierra. La paciencia y la pasión de nuestros agricultores es el mejor medidor de calidad que podemos tener. Cada gota de nuestro pisco habla por nosotros. Representamos los nuevos tiempos del pisco. Rescatamos nuestra historia.",
+                "include": "Visita guiada + cata",
+                "img": visitUs1615,
+                "to": "#"
             }
         },
         {
@@ -128,6 +136,13 @@ export const FamiliesData = [
                 "instragram": ["@pampasdeIca", "https://www.instagram.com/pampasdeica/"],
                 "facebook": ["@Bodega Pampas", "https://www.facebook.com/BodegaPampas"],
                 "web": ["www.pampasdeica.pe", "http://www.pampasdeica.pe/"]
+            },
+            "dataVisit": {
+                "slg": ["Pisco, vinos,", "premios y esfuerzo"],
+                "txt": "El cultivo hace más de 400 años. En el mismo lugar, con la misma tierra. La paciencia y la pasión de nuestros agricultores es el mejor medidor de calidad que podemos tener. Cada gota de nuestro pisco habla por nosotros. Representamos los nuevos tiempos del pisco. Rescatamos nuestra historia.",
+                "include": "Visita guiada + cata",
+                "img": visitUsPampas,
+                "to": "#"
             }
         },
         {
@@ -162,6 +177,13 @@ export const FamiliesData = [
                 "instragram": ["@ BodegaVillacuri", "https://www.instagram.com/bodega_villacuri/"],
                 "facebook": ["@ Bodega Villacuri", "https://www.facebook.com/Bodega-Villacuri-469435333464216/"],
                 "web": ["www.bodegavillacuri.com", "https://www.bodegavillacuri.com/"]
+            },
+            "dataVisit": {
+                "slg": ["Una pasión:", "producir uvas", "de calidad"],
+                "txt": "El cultivo hace más de 400 años. En el mismo lugar, con la misma tierra. La paciencia y la pasión de nuestros agricultores es el mejor medidor de calidad que podemos tener. Cada gota de nuestro pisco habla por nosotros. Representamos los nuevos tiempos del pisco. Rescatamos nuestra historia.",
+                "include": "Visita guiada + cata",
+                "img": visitUsVillacuri,
+                "to": "#"
             }
         },
         // {

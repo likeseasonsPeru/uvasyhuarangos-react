@@ -11,7 +11,6 @@ import { StoresGastronomyData } from "../data/StoresGastronomyData";
 // images
 import ArrowRight from "../assets/img/gastronomia/arrow-right.png";
 import ArrowLeft from "../assets/img/gastronomia/arrow-left.png";
-import banner1 from "../assets/img/gastronomia/banner1.jpg";
 import tradicion from "../assets/img/gastronomia/tradicion.jpg";
 import canperdidos from "../assets/img/gastronomia/canperdidos.jpg";
 import tours from "../assets/img/gastronomia/tours.jpg";
@@ -41,12 +40,6 @@ const Gastronomia = () => {
       <Navbar />
       <section id="gastronomia" className="page mt-120">
         <div className="container-fluid p-0 position-relative">
-          <img
-            src={banner1}
-            className="img-fluid"
-            style={{ width: "100%", maxHeight: "80vh" }}
-            alt="Banner 1 Turismo"
-          />
           <button
             className="icon-left"
             onClick={() => window.history.back()}
@@ -122,18 +115,12 @@ const Gastronomia = () => {
               </div>
             </div>
             <div className="col-md-6 col-xl-6 col-sm-12">
-              <div className="position-relative" style={{ width: "100%" }}>
+              <div style={{ width: "100%" }}>
                 <img
                   src={olladejuanita}
                   className="img-fluid"
                   alt="olla de juanita"
                 />
-                <p
-                  className="text-white text-right position-absolute txt-grastronomia-photo"
-                  style={{ top: "40px", right: "40px" }}
-                >
-                  A LA HORA <br /> DEL BITUTE
-                </p>
               </div>
             </div>
           </div>
@@ -143,12 +130,6 @@ const Gastronomia = () => {
             <div className="col-md-6 col-xl-6 col-sm-12  mt-5">
               <div style={{ width: "100%" }}>
                 <img src={elcatador} className="img-fluid" alt="el catador" />
-                <p
-                  className="text-white text-right position-absolute txt-grastronomia-photo"
-                  style={{ top: "40px", right: "40px" }}
-                >
-                  Comida <br /> ancestral
-                </p>
               </div>
             </div>
             <div className="col-md-6 col-xl-6 col-sm-12  mt-5">
@@ -215,15 +196,8 @@ const Gastronomia = () => {
               </div>
             </div>
             <div className="col-md-6 col-xl-6 col-sm-12">
-              <div className="position-relative" style={{ width: "100%" }}>
+              <div style={{ width: "100%" }}>
                 <img src={pampa} className="img-fluid" alt="pampa" />
-                <p
-                  className="text-white text-left position-absolute txt-grastronomia-photo"
-                  style={{ bottom: "20px", left: "40px" }}
-                >
-                  Comida típica
-                  <br /> iqueña
-                </p>
               </div>
             </div>
           </div>

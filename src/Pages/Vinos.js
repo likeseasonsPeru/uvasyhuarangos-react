@@ -201,13 +201,25 @@ export const Vinos = () => {
             <div className="col-12" style={{ marginBottom: "100px" }}>
               <div className="row  align-items-end">
                 <div
-                  className="col-md-6 col-sm-12 text-center"
+                  className="col-md-3 col-sm-12 text-center"
                   data-aos="fade-right"
                 >
                   <img src={Premio1} className="img-fluid" alt="premio 2" />
                 </div>
                 <div
-                  className="col-md-6 col-sm-12 text-center"
+                  className="col-md-3 col-sm-12 text-center"
+                  data-aos="fade-left"
+                >
+                  <img src={Premio2} className="img-fluid" alt="premio 2" />
+                </div>
+                <div
+                  className="col-md-3 col-sm-12 text-center"
+                  data-aos="fade-right"
+                >
+                  <img src={Premio1} className="img-fluid" alt="premio 2" />
+                </div>
+                <div
+                  className="col-md-3 col-sm-12 text-center"
                   data-aos="fade-left"
                 >
                   <img src={Premio2} className="img-fluid" alt="premio 2" />

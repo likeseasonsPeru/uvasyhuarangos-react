@@ -23,14 +23,21 @@ const Footer = ({ color, txt }) => {
           className="col-md-2 d-flex flex-column justify-content-between"
           style={{ minHeight: "500px" }}
         >
-          <div className="d-flex mt-5">
-            <button className="br-btn-footer px-3">TIENDA</button>
-            <img
-              src={ArrowRight}
-              className="img-fluid ml-4"
-              alt="arrow right"
-            />
-          </div>
+          <Link
+            to="#"
+            onClick={() => {
+              window.location = "https://tienda.uvasyhuarangos.pe/";
+            }}
+          >
+            <div className="d-flex mt-5">
+              <button className="br-btn-footer px-3">TIENDA</button>
+              <img
+                src={ArrowRight}
+                className="img-fluid ml-4"
+                alt="arrow right"
+              />
+            </div>
+          </Link>
           <p className="color-white">
             Uso de esta web:
             <br />

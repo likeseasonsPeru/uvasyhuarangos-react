@@ -47,9 +47,9 @@ export const NavFamilies = () => {
               </Link>
             </li>
             <li className="nav-item-fam">
-              <Link className="brands-link" to="/familia/fundosantalucia">
+              <Link className="brands-link" to="/familia/bodegasantalucia">
                 <p className="text-center text-uppercase">
-                  FUNDO <br />
+                  BODEGA <br />
                   SANTA LUCíA
                 </p>
               </Link>
@@ -139,9 +139,9 @@ export const NavFamilies = () => {
             </NavLink>
           </li>
           <li className="nav-item-fam">
-            <NavLink className="brands-link" to="/familia/fundosantalucia">
+            <NavLink className="brands-link" to="/familia/bodegasantalucia">
               <p className="text-center">
-                FUNDO <br />
+                BODEGA <br />
                 SANTA LUCíA
               </p>
             </NavLink>
