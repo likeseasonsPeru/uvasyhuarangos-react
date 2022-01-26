@@ -22,7 +22,7 @@ const Footer = ({ color, txt }) => {
       <div className="row p-0 p-lg-5 p-md-5 justify-content-around">
         <div
           className="col-md-2 d-flex flex-column justify-content-between"
-          style={{ minHeight: "500px" }}
+          style={{ minHeight: "475px" }}
         >
           <Link
             to="#"

@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useRef } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./styles/style.css";
-import Logo from "../assets/img/logo.jpg";
+import Logo from "../assets/img/logo.png";
 
 const Navbar = () => {
   const [height, changeHeight] = useState(0)
