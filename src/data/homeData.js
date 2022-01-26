@@ -9,7 +9,7 @@ import arrowAdrenalina from '../assets/img/home/arrow-adrenalina.png'
 import parallaxUvas from "../assets/img/bg-uvas.jpg"
 import parallaxhuarango from "../assets/img/bg-huarango.jpg"
 import parallaxfamilias from "../assets/img/bg-familias.jpg"
-import parallaxpisco from "../assets/img/bg-pisco1.jpg"
+import parallaxpisco from "../assets/img/bg-pisco.jpg"
 import parallaxvinos from "../assets/img/bg-vinos.jpg"
 import parallaxadrenalina from "../assets/img/bg-adrenalina.jpg"
 
