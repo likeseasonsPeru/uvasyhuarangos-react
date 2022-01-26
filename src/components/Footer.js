@@ -101,7 +101,7 @@ const Footer = ({ color, txt }) => {
               </div>
               <div>
                 <p className="color-white">
-                  Reclamos: <br />
+                  Contacto: <br />
                   <Link
                     to="#"
                     onClick={(e) => {

@@ -35,7 +35,7 @@ export const StoresGastronomyData = [
         "id": 3,
         "head": "BODEGA PAMPAS DE ICA",
         "slg": ["Pisco, vinos,", "premios y esfuerzo"],
-        "txt": "el cultivo hace más de 400 años. En el mismo lugar, con la misma tierra. La paciencia y la pasión de nuestros agricultores es el mejor medidor de calidad que podemos tener. Cada gota de nuestro pisco habla por nosotros. Representamos los nuevos tiempos del pisco. Rescatamos nuestra historia \ny la incorporamos a conocimientos contemporáneos de destilación y mixología.",
+        "txt": "El cultivo hace más de 400 años. En el mismo lugar, con la misma tierra. La paciencia y la pasión de nuestros agricultores es el mejor medidor de calidad que podemos tener. Cada gota de nuestro pisco habla por nosotros. Representamos los nuevos tiempos del pisco. Rescatamos nuestra historia \ny la incorporamos a conocimientos contemporáneos de destilación y mixología.",
         "include": "Visita guiada + cata",
         "to": "bodegapampasdeica",
         "img": Pampas
