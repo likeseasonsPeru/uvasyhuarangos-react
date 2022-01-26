@@ -27,7 +27,7 @@ export const Home = () => {
   const DataFooter = [
     "#6E5844",
     [
-      "GRACIAS AL REY FELIPE II POR PROHIBIR LA VENTA DEL “FRUTO DE CASTILLA” EN ESPAÑA SIN SABERLO CREABAS EL PISCO.",
+      "Qué diría el Rey Felipe II, que en el año 1595 al prohibía la venta del “Fruto de Castilla”, por que nuestros vinos sabían mejor que los de España, sin saberlo abría las puertas a las uvas que seguían creciendo en Ica a convertirse en pisqueras, salud don Felipe.",
     ],
   ];
 

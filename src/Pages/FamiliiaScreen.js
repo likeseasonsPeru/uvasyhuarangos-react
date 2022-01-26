@@ -31,7 +31,7 @@ export const FamiliiaScreen = () => {
   const DataFooter = [
     "#A45844",
     [
-      "“PORQUE SOMOS PARTE DE LA TRADICIÓN, DEL CELEBRAR, DEL DISFRUTAR EN FAMILIA”",
+      "“El peruano y su pisco son la definición precisa del anfitrión” Ismael Benavides",
     ],
   ];
   return (

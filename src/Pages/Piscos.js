@@ -22,7 +22,7 @@ export const Piscos = () => {
   const DataFooter = [
     "#6E5844",
     [
-      "“PORQUE NUESTRA PERUANIDAD ESTÁ EN LA TRADICIÓN, Y EN EL PISCO, NUESTRA IDENTIDAD”",
+      "“NUESTRA PERUANIDAD ESTÁ EN LA TRADICIÓN, Y EN EL PISCO, NUESTRA IDENTIDAD”",
     ],
   ];
   useEffect(() => {

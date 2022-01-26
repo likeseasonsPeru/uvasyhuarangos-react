@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import ArrowRight from "../assets/img/footer/arrow-right.png";
 import Shield from "../assets/img/footer/escudo.png";
 import submit from "../assets/img/footer/btn.png";
+import Racimos from "../assets/img/footer/logo-racimos.png";
 
 const Footer = ({ color, txt }) => {
   const [email, setEmail] = useState("");
@@ -58,7 +59,7 @@ const Footer = ({ color, txt }) => {
             </Link>
           </p>
           <p className="logo-footer text-center">
-            únete al cluster racimos del sur
+          <img src={Racimos} className="img-fluid pb-4" alt="logo racimos del sur" />
           </p>
         </div>
         <div className="col-md-6 pt-5">
@@ -104,12 +105,12 @@ const Footer = ({ color, txt }) => {
                   <Link
                     to="#"
                     onClick={(e) => {
-                      window.location = "mailto:reclamos@racimosdelsur.pe";
+                      window.location = "mailto:info@racimosdelsur.com";
                       e.preventDefault();
                     }}
                     className="color-white"
                   >
-                    reclamos@racimosdelsur.pe
+                    info@racimosdelsur.com
                   </Link>
                 </p>
               </div>
@@ -134,7 +135,7 @@ const Footer = ({ color, txt }) => {
                 </Link>{" "}
                 <br />
                 Atención en horario de oﬁcina: <br />
-                10:00 am-7:00 pm
+                10:00 am - 7:00 pm
               </p>
             </div>
           </div>

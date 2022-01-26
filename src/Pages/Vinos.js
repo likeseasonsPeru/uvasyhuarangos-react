@@ -22,7 +22,7 @@ export const Vinos = () => {
   const DataFooter = [
     "#5D5D43",
     [
-      "“NOSOTROS NO SOMOS LA PITUCA PRODUCIDA. NOSOTROS SOMOS LA TRADICIÓN DE LCA. OSEA SOMOS LA CHOLA BONITA”",
+      "“El vino en el Perú tiene grandeza y aquí vamos a mostrarla. No somos la pituca produdica, somos la chola bonita” Rosa Grados",
     ],
   ];
   useEffect(() => {

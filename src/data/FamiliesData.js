@@ -67,12 +67,12 @@ export const FamiliesData = [
             "id": 2,
             "familia":"bodegasantalucia",
             "title": ["BODEGA", "SANTA LUCía"],
-            "txt": ["En nuestro fundo Santa Lucía, ubicado en el distrito de Santiago, al sur de Ica, seguimos respetando una de las principales reglas de mi padre: usar la mejor materia prima.\nAllí nosotros sembramos la uva, la podamos, la abonamos, la deshojamos y, luego, recién viene el proceso de bodega Es un trabajo de todo el año donde buscamos la perfección del pisco."],
+            "txt": ["El Pisco Cholo Matías, sintetiza la tradición transmitida por cinco generaciones. Nuestro padre, Matías Grados Ferreyra, fue un pionero en la preservación de las uvas pisqueras, dedicando su vida a la búsqueda y recuperación de las mismas en los valles y quebradas de la región, para luego conservarlas en nuestras viñas, recuperando así algunas variedades de uvas pisqueras que casi se habían perdido. Así como también “El Cholo Matías”, dedicó su vida a promover el Pisco tradicional."],
             "banner": bannerFundoSantaLucia,
             "txtBanner": "El legado del pisco, continúa",
             "owner": ownerFundoSantaLucia,
             // "pisco": piscoFundoSantaLucia,
-            "txtOwner": ["EL Pisco Acholado Cholo Matías es un Pisco de Culto de Ica. Elaborado con cepas de más de 100 años y de manera tecno artesanal porque usa leña de palta (80%) y de huarango (20%) para el fuego, como se hacía hace 100 años. La calidad de un Pisco de culto no tiene comparación, estos piscos son los obsequios preferidos de los mandatarios extranjeros cuando visitan el Perú. Este Pisco es elaborado con el trabajo de más de 80 agricultores de uvas y casi mil personas intervienen en el proceso de la uva."],
+            "txtOwner": ["Como familia Grados somos responsables de mantener el legado, conservando la calidad y personalidad de su Pisco. Hoy Matías Grados Mora, continúa con esta tradición."],
             "nameOwner": ["Rosa","Grados"],
             "networkSocial": {
                 "instragram": ["@Pisco Cholo Matias", "https://www.instagram.com/pisco.cholomatias/"],
@@ -166,12 +166,12 @@ export const FamiliesData = [
             "id": 7,
             "familia":"bodegavillacuri",
             "title": ["BODEGA", "Villacuri"],
-            "txt": ["Bodega Villacuri es una experiencia para los amantes de la agricultura y ecoturismo con extensos sembríos de uvas, jojoba, cilantros, apios  y naranjas. Ofrece al público la visita a la bodega “Buena Cosecha” y la posibilidad de adquirir su vino “Parihuana” hecho de uva patrimonial o su joya más preciada el pisco “Corazón” entre otros productos.", "La aventura en la Bodega Villacurí también es posible gracias a sus dunas colindantes, que invitan a los aventureros a deslizarte en sus faldas a través buggies areneros y así mismo terminar en una comida para el grupo restaurante de carretera llamado “Pampa de Villacurí”."],
+            "txt": ["Ubicada a 30 km al norte de Ica en el desierto de Villacuri. Se dedica a la elaboracion de maquila y cuenta con tecnología de punta y una capacidad instalada para elaborar medio millon de litros de pisco. Fundada en el año 2007 viene desde entonces elaborando reconocidas marcas.", "Nuestra Bodega Buena Cosecha te espera para disfrutar sus piscos y vinos, deslizarte en sus dunas en sandbord o buggies o pasear en su viñedo para apreciar su lombricultura, que producen vinos rosados y piscos , la jojoba para la elaboracion de aceites y cosmeticos, los esparragos y naranjas sin pepas, de las cuales se elaboran nuestro “Vermouth Capitán”. Toda una experiencia vivencial."],
             "banner": bannerBodegaVillacuri,
             "txtBanner": "Una pasión: producir uvas de calidad",
             "owner": ownerBodegaVillacuri,
             // "pisco": piscoBodegaVillacuris,
-            "txtOwner": ["Ubicada en Villacuri, nuestra bodega fue fundada en el año 2007 y desde entonces viene dando servicio de elaboración a marcas reconocidas de piscos y vinos. Contamos con tecnología de punta y capacidad instalada para destilar 1 millón de litros."],
+            "txtOwner": ["Puedes terminar la experiencia enoturistica maridando y visitando nuestro restaurante picanteria “Pampa de Villacuri! al lado de la bodega donde degustarás platos tipicos regionales y una fuerte influencia de nuestros ajies peruanos."],
             "nameOwner": ["Jason","Astete"],
             "networkSocial": {
                 "instragram": ["@ BodegaVillacuri", "https://www.instagram.com/bodega_villacuri/"],
@@ -180,7 +180,7 @@ export const FamiliesData = [
             },
             "dataVisit": {
                 "slg": ["Una pasión:", "producir uvas", "de calidad"],
-                "txt": "El cultivo hace más de 400 años. En el mismo lugar, con la misma tierra. La paciencia y la pasión de nuestros agricultores es el mejor medidor de calidad que podemos tener. Cada gota de nuestro pisco habla por nosotros. Representamos los nuevos tiempos del pisco. Rescatamos nuestra historia.",
+                "txt": "La bodega ofrece un tour al viñedo Buena Cosecha, el cual esta situado a solo 7 km de recorrido donde podras disfrutar de las mas impresionantes dunas, para los amantes del off road y sandboard, a bordo de sus propias unidades todo terreno “UTV” o buggies. Aquí desgustarás de exquisitos piqueos y cocteles a base de pisco y verás la puesta del sol junto a los cultivos que el fundo posee.",
                 "include": "Visita guiada + cata",
                 "img": visitUsVillacuri,
                 "to": "#"

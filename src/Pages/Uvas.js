@@ -23,7 +23,7 @@ export const Uvas = () => {
   const DataFooter = [
     "#8A73A6",
     [
-      "AL INICIAR LA COLONIA, LOS VALLES DE LA COSTA SUR, ESPECIALMENTE LOS DE ICA, FUERON ESCENARIO DEL ÉXITO DE LA EXPLOTACIÓN DE LA VID. RÁPIDAMENTE, SE COMENZÓ A ELABORAR, ADEMÁS DE VINO, UN DELICIOSO DESTILADO DE UVA O “VINO COCIDO”, CONOCIDO COMO “AGUARDIENTE DE PISCO” O SIMPLEMENTE “PISCO”, POR PROVENIR DE DICHA REGIÓN SUREÑA.",
+      "Al iniciar  la Colonia,  los valles de la costa sur, especialmente los de Ica, fueron escenario del éxito de la explotación de la vid. Rápidamente, se comenzó a elaborar, además de vino, un delicioso destilado de uva o “vino cocido”, conocido como “aguardiente de Pisco” o simplemente “Pisco”, por provenir de dicha región sureña.",
     ],
   ];
 
