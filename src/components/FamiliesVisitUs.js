@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ArrowRight from "../assets/img/quienesomos/arrow-right-family.png";
 
-export const FamiliesVisitUs = ({ slg, to, img, txt, include }) => {
+export const FamiliesVisitUs = ({ slg, to, img, txt, include, item }) => {
+  const family = "bodegapampasdeica";
   return (
     <section>
       <div className="bg-familias py-5">
@@ -35,6 +36,35 @@ export const FamiliesVisitUs = ({ slg, to, img, txt, include }) => {
                 )}
               </div>
               <p style={{ maxWidth: 500 }}>{txt}</p>
+              {item === family ? (
+                <div style={{ maxWidth: 500 }}>
+                  <strong className="font-tusker">Tour Semisecos</strong>
+                  <p>
+                    Nuestro servicio personalizado enoturístico, se desarrolla
+                    con la explica ción del proceso del pisco y vino, concluye
+                    con la degustación de 2 vinos semisecos, 1 dulce, 1 pisco y
+                    una crema. Las muestras son las siguientes: <br /> <br />-
+                    Vino semiseco Borgoña <br /> - Vino semiseco Rosé <br /> -
+                    Vino dulce Perfecto amor <br /> - Pisco puro Quebranta{" "}
+                    <br /> - Crema de algarrobina <br />
+                    *Degustación en copas e incluye agua.
+                  </p>
+                  <br />
+                  <strong className="font-tusker">Tour Semisecos</strong>
+                  <p>
+                    Nuestro servicio personalizado enoturístico, se desarrolla
+                    con la explica ción del proceso del pisco y vino, concluye
+                    con la degustación de 2 vinos secos, 1 pisco aromático y
+                    mosto verde. Las muestras son las siguientes: <br /> <br />-
+                    Vino Blanco Patrimonial ( Albilla y torontel) <br /> - Vino
+                    Rosé María ( Malbec y Sirah) <br /> - Pisco Torontel <br />{" "}
+                    - Pisco Mosto verde Quebranta <br />
+                    *Degustación en copas e incluye agua.
+                  </p>
+                </div>
+              ) : (
+                <></>
+              )}
             </div>
             <div>
               <strong className="font-tusker">Incluye:</strong>{" "}

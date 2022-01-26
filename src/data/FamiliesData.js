@@ -139,7 +139,7 @@ export const FamiliesData = [
             },
             "dataVisit": {
                 "slg": ["Pisco, vinos,", "premios y esfuerzo"],
-                "txt": "El cultivo hace más de 400 años. En el mismo lugar, con la misma tierra. La paciencia y la pasión de nuestros agricultores es el mejor medidor de calidad que podemos tener. Cada gota de nuestro pisco habla por nosotros. Representamos los nuevos tiempos del pisco. Rescatamos nuestra historia.",
+                "txt": "",
                 "include": "Visita guiada + cata",
                 "img": visitUsPampas,
                 "to": "#"

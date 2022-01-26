@@ -22,6 +22,7 @@ export const FamiliiaScreen = () => {
 
   const { familia } = useParams();
   const item = FamiliesData.find((item) => item.familia === familia);
+  console.log(item.familia);
   
   if (!item) {
     return <Navigate to="/familia" />;
@@ -289,7 +290,7 @@ export const FamiliiaScreen = () => {
         </div>
         {
           item.dataVisit ? (
-            <FamiliesVisitUs txt={item.dataVisit.txt} img={item.dataVisit.img} include={item.dataVisit.include}  slg={item.dataVisit.slg}/>
+            <FamiliesVisitUs txt={item.dataVisit.txt} img={item.dataVisit.img} include={item.dataVisit.include}  slg={item.dataVisit.slg} item={item.familia}/>
           ) :(<></>)
         }
       </section>
