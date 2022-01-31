@@ -25,6 +25,7 @@ const Footer = ({ color, txt }) => {
           style={{ minHeight: "475px" }}
         >
           <Link
+          className="text-decoration-none"
             to="#"
             onClick={() => {
               window.location = "https://tienda.uvasyhuarangos.pe/";
