@@ -185,9 +185,18 @@ export const SectionHome = ({ color, arrow, img, txt, to }) => {
         className="d-flex flex-column justify-content-end px-3 b-parallax-dat"
       >
         <div className="d-flex pl-2 justify-content-between">
+          <Link
+            className="text-decoration-none"
+              to="#"
+              onClick={() => {
+                window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
+              }}
+          >
           <button className="btn-store px-4" data-aos="fade-up">
             Tienda
           </button>
+          </Link>
+          
           <Link to={`/${to}`}>
             <img
               src={arrow}

@@ -158,7 +158,11 @@ export const Piscos = () => {
                   />
                 </div>
                 <div className="d-flex mt-5 justify-content-end mr-3">
-                  <Link to="#" data-aos="fade-up">
+                  <Link to="#" data-aos="fade-up"
+                  onClick={() => {
+                    window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
+                  }}
+                  >
                     <button
                       className="btn-w color-tienda br-store"
                       style={{ height: "80px" }}

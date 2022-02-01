@@ -276,9 +276,17 @@ export const FamiliiaScreen = () => {
                 )}
               </div>
               <div className="d-flex" style={{ maxWidth: "450px" }}>
+              <Link
+                className="text-decoration-none"
+                  to="#"
+                  onClick={() => {
+                    window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
+                  }}
+              >
                 <button className="btn-w color-tienda br-store px-5">
                   TIENDA
                 </button>
+                </Link>
                 <img
                   src={ArrowRight}
                   className="img-fluid ml-4"
