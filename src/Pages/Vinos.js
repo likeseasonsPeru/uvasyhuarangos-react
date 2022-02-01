@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 // components
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import { Link } from "react-router-dom";
 
 // images
 import ArrowLeft from "../assets/img/legado/arrow-left.png";
@@ -16,7 +17,6 @@ import Rose from "../assets/img/legado/rose.jpg";
 import Tinto from "../assets/img/legado/tinto.jpg";
 import Premio1 from "../assets/img/legado/premio1.jpg";
 import Premio2 from "../assets/img/legado/premio2.jpg";
-import { Link } from "react-router-dom";
 
 export const Vinos = () => {
   const DataFooter = [
@@ -168,9 +168,15 @@ export const Vinos = () => {
           </div>
           <div className="d-flex justify-content-between">
             <div className="d-flex mt-5" data-aos="fade-up-right">
+              <Link to="#" data-aos="fade-up"
+                  onClick={() => {
+                    window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
+                  }}
+                  >
               <button className="btn-w color-tienda br-store btn-h80">
                 TIENDA
               </button>
+              </Link>
               <img
                 src={ArrowStore}
                 className="ml-2 btn-h80"
