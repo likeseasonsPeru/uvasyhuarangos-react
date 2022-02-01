@@ -5,7 +5,6 @@ import "aos/dist/aos.css";
 // components
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import { Link, useParams, Navigate } from "react-router-dom";
 
 // images
 import ArrowLeft from "../assets/img/legado/arrow-left.png";
@@ -169,17 +168,9 @@ export const Vinos = () => {
           </div>
           <div className="d-flex justify-content-between">
             <div className="d-flex mt-5" data-aos="fade-up-right">
-            <Link
-                className="text-decoration-none"
-                  to="#"
-                  onClick={() => {
-                    window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
-                  }}
-              >
               <button className="btn-w color-tienda br-store btn-h80">
                 TIENDA
               </button>
-              </Link>
               <img
                 src={ArrowStore}
                 className="ml-2 btn-h80"
