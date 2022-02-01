@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 // components
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import { Link } from "react-router-dom";
+import { Link, useParams, Navigate } from "react-router-dom";
 
 // images
 import ArrowLeft from "../assets/img/tradicion/arrow-left.png";

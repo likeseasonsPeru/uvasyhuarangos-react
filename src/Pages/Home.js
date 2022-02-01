@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ReactPlayer from "react-player";
 import { Parallax } from "react-parallax";
-import { Link } from "react-router-dom";
+import { Link, useParams, Navigate } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

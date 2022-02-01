@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 // components
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import { Link, useParams, Navigate } from "react-router-dom";
 
 // images
 import ArrowRight from "../assets/img/bebidas/arrow-left.png";
