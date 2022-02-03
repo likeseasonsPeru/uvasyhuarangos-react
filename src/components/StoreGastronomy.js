@@ -29,7 +29,7 @@ export const StoreGastronomy = ({ head, slg, txt, include, img, to }) => {
                   *Degustación en copas e incluye agua.
                 </p>
                 <br />
-                <strong className="font-tusker">Tour Semisecos</strong>
+                <strong className="font-tusker">Tour Seco</strong>
                 <p>
                   Nuestro servicio personalizado enoturístico, se desarrolla con
                   la explica ción del proceso del pisco y vino, concluye con la

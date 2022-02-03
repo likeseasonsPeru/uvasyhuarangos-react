@@ -9,25 +9,38 @@ import { Link } from "react-router-dom";
 import ArrowRight from "../assets/img/quienesomos/arrow-right.png";
 import banner1 from "../assets/img/quienesomos/banner1.jpg";
 import sello from "../assets/img/legado/sello.png";
+import { ReactComponent as Racimos } from "../assets/img/quienesomos/racimos.svg";
 
 export const Familia = () => {
   const width = window.innerWidth;
   const widthView = 992;
   const DataFooter = [
     "#A45844",
-    ["“El peruano y su pisco son la definición precisa del anfitrión” Ismael Benavides",]
+    [
+      "“El peruano y su pisco son la definición precisa del anfitrión” Ismael Benavides",
+    ],
   ];
 
   useEffect(() => {
-    window.scrollTo(0,0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <NavFamilies />
-      <section id="quienes-somos" className={ width <= widthView ? "mt-140 page" : "mt-240 page" }>
+      <section
+        id="quienes-somos"
+        className={width <= widthView ? "mt-140 page" : "mt-240 page"}
+      >
         <div className="container pb-5 position-relative pt-90">
-          <button className="position-absolute arrowFamiliaBtn" onClick={() => window.history.back()}>
-            <img src={ArrowRight} className="img-fluid arrowFamilia" alt="ArrowRight" />
+          <button
+            className="position-absolute arrowFamiliaBtn"
+            onClick={() => window.history.back()}
+          >
+            <img
+              src={ArrowRight}
+              className="img-fluid arrowFamilia"
+              alt="ArrowRight"
+            />
           </button>
           <div className="row text-center justify-content-md-center">
             <div className="col-12">
@@ -45,7 +58,7 @@ export const Familia = () => {
               <br />
               <div className="mx-auto">
                 <h6 className="pages-subheaderh6">Somos el cluster</h6>
-                <h3 className="subtitles-racimo">Racimos del Sur</h3>
+                <Racimos width="200" />
               </div>
             </div>
           </div>
@@ -54,16 +67,16 @@ export const Familia = () => {
           <div className="row">
             <div className="col-md-4 col-sm-12">
               <div className="text-center">
-              <Link
-                    className="link-social text-decoration-none"
-                    to="#"
-                    onClick={(e) => {
-                      window.location = `mailto:racimosdelsur@gmail.com`;
-                      e.preventDefault();
-                    }}
-                  >
-                    <span>MAIL:</span> racimosdelsur@gmail.com
-                  </Link>
+                <Link
+                  className="link-social text-decoration-none"
+                  to="#"
+                  onClick={(e) => {
+                    window.location = `mailto:racimosdelsur@gmail.com`;
+                    e.preventDefault();
+                  }}
+                >
+                  <span>MAIL:</span> racimosdelsur@gmail.com
+                </Link>
               </div>
             </div>
             <div className="col-md-4 col-sm-12">
@@ -71,7 +84,7 @@ export const Familia = () => {
                 <Link
                   className="link-social text-decoration-none"
                   to="#"
-                  onClick={(e)=> {
+                  onClick={(e) => {
                     window.location = `https://www.facebook.com/Racimos-Del-Sur-114922723616207/`;
                     e.preventDefault();
                   }}
@@ -82,10 +95,14 @@ export const Familia = () => {
             </div>
             <div className="col-md-4 col-sm-12">
               <div className="text-center">
-                <Link className="link-social text-decoration-none" to="#" onClick={(e)=> {
+                <Link
+                  className="link-social text-decoration-none"
+                  to="#"
+                  onClick={(e) => {
                     window.location = `https://racimosdelsur.com/`;
                     e.preventDefault();
-                  }}>
+                  }}
+                >
                   <span>WEB:</span> www.racimosdelsur.com
                 </Link>
               </div>
@@ -108,13 +125,19 @@ export const Familia = () => {
           <div className="row px-90">
             <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
               <h1 className="pages-titles color-qs">VISIón</h1>
-              <p style={{ maxWidth: "400px", lineHeight: "2.3" }} className="mx-auto">
-              Nuestro propósito es hacer de Ica la región enoturística del Perú, destacando la 
-              inmortalidad de nuestras costumbres y alimentando el alma y corazón de los peruanos con los frutos de nuestras tierras.
+              <p
+                style={{ maxWidth: "400px", lineHeight: "2.3" }}
+                className="mx-auto"
+              >
+                Nuestro propósito es hacer de Ica la región enoturística del
+                Perú, destacando la inmortalidad de nuestras costumbres y
+                alimentando el alma y corazón de los peruanos con los frutos de
+                nuestras tierras.
                 <br />
                 <br />
-                Una experiencia vitivinicola de excelencia con una oferta articulada
-                 y diversa en la región que promueve la innovación y el valor compartido.
+                Una experiencia vitivinicola de excelencia con una oferta
+                articulada y diversa en la región que promueve la innovación y
+                el valor compartido.
               </p>
             </div>
             <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-4 text-center">
@@ -122,12 +145,18 @@ export const Familia = () => {
             </div>
             <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
               <h1 className="pages-titles color-qs">MISIón</h1>
-              <p style={{ maxWidth: "400px", lineHeight: "2.3" }} className="mx-auto">
-              Somos una comunidad vitivinícola y eno turística que ofrece servicios relacionados a sus viñedos y el sol que los ve crecer en Ica.
+              <p
+                style={{ maxWidth: "400px", lineHeight: "2.3" }}
+                className="mx-auto"
+              >
+                Somos una comunidad vitivinícola y eno turística que ofrece
+                servicios relacionados a sus viñedos y el sol que los ve crecer
+                en Ica.
                 <br />
                 <br />
                 Somos socios unidos bajo una misma cultura de marca: compartir
-                al enoturista la tradición y alegría iqueña para que se convierta en nuestro embajador.
+                al enoturista la tradición y alegría iqueña para que se
+                convierta en nuestro embajador.
               </p>
             </div>
           </div>

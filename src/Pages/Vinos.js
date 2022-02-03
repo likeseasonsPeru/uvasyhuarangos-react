@@ -15,8 +15,8 @@ import ArrowGrape from "../assets/img/legado/arrow-right-grape.png";
 import ArrowStore from "../assets/img/legado/arrow-right-store.png";
 import Rose from "../assets/img/legado/rose.jpg";
 import Tinto from "../assets/img/legado/tinto.jpg";
-import Premio1 from "../assets/img/legado/premio1.jpg";
-import Premio2 from "../assets/img/legado/premio2.jpg";
+// import Premio1 from "../assets/img/legado/premio1.jpg";
+// import Premio2 from "../assets/img/legado/premio2.jpg";
 
 export const Vinos = () => {
   const DataFooter = [
@@ -198,7 +198,7 @@ export const Vinos = () => {
           </div>
         </div>
         <div className="container mb-5">
-          <div className="row mb-5">
+          {/* <div className="row mb-5">
             <div className="col-12 text-center my-5">
               <h1 className="premios-title color-legado" data-aos="fade-up">
                 Premios
@@ -233,6 +233,7 @@ export const Vinos = () => {
               </div>
             </div>
           </div>
+           */}
           <div
             className="table-box"
             data-aos="fade-up"

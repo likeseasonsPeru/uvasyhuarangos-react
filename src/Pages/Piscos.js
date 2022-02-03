@@ -15,8 +15,8 @@ import ArrowGrape from "../assets/img/legado/arrow-right-grape.png";
 import Banner2 from "../assets/img/tradicion/banner2.jpg";
 import ArrowYellow from "../assets/img/tradicion/arrow-right-yellow.png";
 import ArrowStore from "../assets/img/legado/arrow-right-store.png";
-import premio1 from "../assets/img/legado/premios/premio1.jpg";
-import premio2 from "../assets/img/legado/premios/premio2.jpg";
+// import premio1 from "../assets/img/legado/premios/premio1.jpg";
+// import premio2 from "../assets/img/legado/premios/premio2.jpg";
 
 export const Piscos = () => {
   const DataFooter = [
@@ -230,7 +230,7 @@ export const Piscos = () => {
             </div>
           </div>
         </div>
-        <div className="container px-90">
+        {/* <div className="container px-90">
           <div>
             <div className="text-center my-5">
               <h1
@@ -268,6 +268,7 @@ export const Piscos = () => {
             </div>
           </div>
         </div>
+         */}
         <div
           className="container-fluid px-0"
           style={{ backgroundColor: "#FED16A" }}

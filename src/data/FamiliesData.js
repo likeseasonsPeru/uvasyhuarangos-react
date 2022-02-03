@@ -2,7 +2,7 @@
 import bannerDolphin from "../assets/img/quienesomos/dolphin/banner1.jpg"
 import ownerDolphin from "../assets/img/quienesomos/dolphin/owner.jpg"
 import bannerFinca314 from "../assets/img/quienesomos/finca314/banner.jpg"
-import ownerFinca314 from "../assets/img/quienesomos/finca314/owner.jpg"
+import ownerFinca314 from "../assets/img/quienesomos/finca314/owner.png"
 import visitUs from "../assets/img/quienesomos/finca314/visitus.jpg"
 import bannerFundoSantaLucia from "../assets/img/quienesomos/fundosantalucia/banner.jpg"
 import ownerFundoSantaLucia from "../assets/img/quienesomos/fundosantalucia/owner.jpg"
@@ -15,7 +15,8 @@ import bannerPampasDeIca from "../assets/img/quienesomos/bodegapampasdeica/banne
 import ownerPampasDeIca from "../assets/img/quienesomos/bodegapampasdeica/owner.jpg"
 import visitUsPampas from "../assets/img/quienesomos/bodegapampasdeica/visitus.jpg"
 import bannerTresGeneraciones from "../assets/img/quienesomos/bodegatresgeneraciones/banner.jpg"
-import ownerTresGeneraciones from "../assets/img/quienesomos/bodegatresgeneraciones/owner.jpg"
+import ownerTresGeneraciones from "../assets/img/quienesomos/bodegatresgeneraciones/owner.png"
+import visitUsTresGeneraciones from "../assets/img/quienesomos/bodegatresgeneraciones/visitus.png"
 import bannerBodegaVillacuri from "../assets/img/quienesomos/bodegavillacuri/banner1.jpg"
 import ownerBodegaVillacuri from "../assets/img/quienesomos/bodegavillacuri/owner.jpg"
 import visitUsVillacuri from "../assets/img/quienesomos/bodegavillacuri/visitus.jpg"
@@ -160,6 +161,13 @@ export const FamiliesData = [
                 "instragram": ["@Pisco Tres Generaciones", "https://www.instagram.com/piscotresgeneraciones/"],
                 "facebook": ["@Pisco Tres Generaciones", "https://www.facebook.com/PiscoTresGeneracionesPe"],
                 "web": ["www.piscotresgeneraciones.pe", "https://piscotresgeneraciones.com/"]
+            },
+            "dataVisit": {
+                "slg": ["Tradición y pureza", "del pisco"],
+                "txt": 'Es aquí donde se consolida la tradición y se origina la pureza. Bienvenidos a nuestra Bodega "Doña Juanita" en Ica, Perú.',
+                "include": "Visita guiada + cata",
+                "img": visitUsTresGeneraciones,
+                "to": "#"
             }
         },
         {

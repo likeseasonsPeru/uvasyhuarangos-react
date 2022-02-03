@@ -23,7 +23,6 @@ export const FamiliiaScreen = () => {
   const { familia } = useParams();
   const item = FamiliesData.find((item) => item.familia === familia);
   console.log(item.familia);
-  
   if (!item) {
     return <Navigate to="/familia" />;
   }
@@ -275,32 +274,60 @@ export const FamiliiaScreen = () => {
                   </>
                 )}
               </div>
-              <div className="d-flex" style={{ maxWidth: "450px" }}>
-              <Link
-                className="text-decoration-none"
+              <div
+                className="d-flex justify-content-between align-items-center"
+                style={{ maxWidth: "450px" }}
+              >
+                <Link
+                  className="text-decoration-none"
                   to="#"
                   onClick={() => {
                     window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
                   }}
-              >
-                <button className="btn-w color-tienda br-store px-5">
-                  TIENDA
-                </button>
+                >
+                  <button className="btn-w color-tienda br-store btn-h80">
+                    {item.familia === "restaurantelaolladejuanita"
+                      ? "RESERVA"
+                      : "TIENDA"}
+                  </button>
                 </Link>
-                <img
-                  src={ArrowRight}
-                  className="img-fluid ml-4"
-                  alt="ArrowRight"
-                />
+                {FamiliesData[item.id + 1] ? (
+                  <Link to={`/familia/${FamiliesData[item.id + 1].familia}`}>
+                    <button className="animate__animated animate__fadeInLeft">
+                      <img
+                        src={ArrowRight}
+                        alt="ArrowRight"
+                        className="img-fluid"
+                      />
+                    </button>
+                  </Link>
+                ) : (
+                  <Link to={"#"}>
+                    <button className="animate__animated animate__fadeInLeft">
+                      <img
+                        src={ArrowRight}
+                        alt="ArrowRight"
+                        className="img-fluid"
+                        disabled={true}
+                      />
+                    </button>
+                  </Link>
+                )}
               </div>
             </div>
           </div>
         </div>
-        {
-          item.dataVisit ? (
-            <FamiliesVisitUs txt={item.dataVisit.txt} img={item.dataVisit.img} include={item.dataVisit.include}  slg={item.dataVisit.slg} item={item.familia}/>
-          ) :(<></>)
-        }
+        {item.dataVisit ? (
+          <FamiliesVisitUs
+            txt={item.dataVisit.txt}
+            img={item.dataVisit.img}
+            include={item.dataVisit.include}
+            slg={item.dataVisit.slg}
+            item={item.familia}
+          />
+        ) : (
+          <></>
+        )}
       </section>
       <Footer color={DataFooter[0]} txt={DataFooter[1]} />
     </>

@@ -2,18 +2,18 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 // Components
-import { Home } from "../Pages/Home";
-import { Huarango } from "../Pages/Huarango";
-import { Uvas } from "../Pages/Uvas";
-import Gastronomia from "../Pages/Gastronomia";
-import { Vinos } from "../Pages/Vinos";
-import { Piscos } from "../Pages/Piscos";
-import { Familia } from "../Pages/Familia";
-import { FamiliiaScreen } from "../Pages/FamiliiaScreen";
-import { Error } from "../Pages/Error";
-import { Cocteleria } from "../Pages/Cocteleria";
-import { Cookies } from "../Pages/Cookies";
-import { TermsAndConditions } from "../Pages/TermsAndConditions";
+import { Home } from "../pages/Home";
+import { Huarango } from "../pages/Huarango";
+import { Uvas } from "../pages/Uvas";
+import Gastronomia from "../pages/Gastronomia";
+import { Vinos } from "../pages/Vinos";
+import { Piscos } from "../pages/Piscos";
+import { Familia } from "../pages/Familia";
+import { FamiliiaScreen } from "../pages/FamiliiaScreen";
+import { Error } from "../pages/Error";
+import { Cocteleria } from "../pages/Cocteleria";
+import { Cookies } from "../pages/Cookies";
+import { TermsAndConditions } from "../pages/TermsAndConditions";
 
 export const AppRouter = () => {
   return (
