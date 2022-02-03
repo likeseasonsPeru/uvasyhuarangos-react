@@ -2,18 +2,18 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 // Components
-import { Home } from "../pages/Home";
-import { Huarango } from "../pages/Huarango";
-import { Uvas } from "../pages/Uvas";
-import Gastronomia from "../pages/Gastronomia";
-import { Vinos } from "../pages/Vinos";
-import { Piscos } from "../pages/Piscos";
-import { Familia } from "../pages/Familia";
-import { FamiliiaScreen } from "../pages/FamiliiaScreen";
-import { Error } from "../pages/Error";
-import { Cocteleria } from "../pages/Cocteleria";
-import { Cookies } from "../pages/Cookies";
-import { TermsAndConditions } from "../pages/TermsAndConditions";
+import { Home } from "../Pages/Home.js";
+import { Huarango } from "../Pages/Huarango.js";
+import { Uvas } from "../Pages/Uvas.js";
+import Gastronomia from "../Pages/Gastronomia.js";
+import { Vinos } from "../Pages/Vinos.js";
+import { Piscos } from "../Pages/Piscos.js";
+import { Familia } from "../Pages/Familia.js";
+import { FamiliiaScreen } from "../Pages/FamiliiaScreen.js";
+import { Error } from "../Pages/Error.js";
+import { Cocteleria } from "../Pages/Cocteleria.js";
+import { Cookies } from "../Pages/Cookies.js";
+import { TermsAndConditions } from "../Pages/TermsAndConditions.js";
 
 export const AppRouter = () => {
   return (
