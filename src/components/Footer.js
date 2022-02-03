@@ -60,7 +60,13 @@ const Footer = ({ color, txt }) => {
             </Link>
           </p>
           <p className="logo-footer text-center">
-          <img src={Racimos} className="img-fluid pb-4" alt="logo racimos del sur" />
+            <Link
+              to="#"
+              onClick={() => {window.open("https://racimosdelsur.pe/","_blank");}}
+              style={{ cursor: "pointer" }}
+            >
+            <img src={Racimos} className="img-fluid pb-4" alt="logo racimos del sur" />
+            </Link>
           </p>
         </div>
         <div className="col-md-6 pt-5">
@@ -122,8 +128,7 @@ const Footer = ({ color, txt }) => {
               </h4>
               <p className="mt-5 color-white">
                 Racimos del sur <br />
-                Cluster vitivinícolo y enoturístico <br />
-                Direccion ﬁscal 000, Ica, Perú. <br />
+                Cluster enoturístico de Ica<br />
                 <Link
                   to="#"
                   onClick={(e) => {
@@ -132,11 +137,11 @@ const Footer = ({ color, txt }) => {
                   }}
                   className="text-white text-decoration-none"
                 >
-                  956620053
+                  Teléfono: 956620053
                 </Link>{" "}
                 <br />
                 Atención en horario de oﬁcina: <br />
-                10:00 am - 7:00 pm
+                10:00am - 7:00pm
               </p>
             </div>
           </div>

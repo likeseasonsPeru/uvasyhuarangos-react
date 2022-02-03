@@ -57,7 +57,7 @@ export const FamiliesData = [
             },
             "dataVisit": {
                 "slg": ["Tradición y pasión", "por el pisco"],
-                "txt": "El cultivo hace más de 400 años. En el mismo lugar, con la misma tierra. La paciencia y la pasión de nuestros agricultores es el mejor medidor de calidad que podemos tener. Cada gota de nuestro pisco habla por nosotros. Representamos los nuevos tiempos del pisco. Rescatamos nuestra historia.",
+                "txt": "Nuestra bodega está diseñada con el objetivo de ofrecerles una experiencia única y auténtica en la elaboración de nuestras líneas de Vinos Peruanos y por supuesto Piscos y Licores afrutados.​",
                 "include": "Visita guiada + cata",
                 "img": visitUs,
                 "to": "#"
@@ -98,7 +98,7 @@ export const FamiliesData = [
             },
             "dataVisit": {
                 "slg": ["Es momento de", "compartir"],
-                "txt": "El cultivo hace más de 400 años. En el mismo lugar, con la misma tierra. La paciencia y la pasión de nuestros agricultores es el mejor medidor de calidad que podemos tener. Cada gota de nuestro pisco habla por nosotros. Representamos los nuevos tiempos del pisco. Rescatamos nuestra historia.",
+                "txt": "Visita la majestuosidad de nuestro viñedo y su verdor mientras disfrutas nuestros piscos en una barra espectacular. Una experiencia que solo te dejará decir ¡Wow!",
                 "include": "Visita guiada + cata",
                 "img": visitUs1615,
                 "to": "#"
@@ -138,7 +138,7 @@ export const FamiliesData = [
                 "web": ["www.pampasdeica.pe", "http://www.pampasdeica.pe/"]
             },
             "dataVisit": {
-                "slg": ["Pisco, vinos,", "premios y esfuerzo"],
+                "slg": ["Tour Seco"],
                 "txt": "",
                 "include": "Visita guiada + cata",
                 "img": visitUsPampas,

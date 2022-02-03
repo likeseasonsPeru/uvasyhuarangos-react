@@ -8,7 +8,7 @@ export const StoresGastronomyData = [
         "id": 0,
         "head": "BODEGA SAN NICOLás",
         "slg": ["Es momento de", "compartir"],
-        "txt": "El cultivo hace más de 400 años. En el mismo lugar, con la misma tierra. La paciencia y la pasión de nuestros agricultores es el mejor medidor de calidad que podemos tener. Cada gota de nuestro pisco habla por nosotros. Representamos los nuevos tiempos del pisco. Rescatamos nuestra historia \ny la incorporamos a conocimientos contemporáneos de destilación y mixología.",
+        "txt": "Visita la majestuosidad de nuestro viñedo y su verdor mientras disfrutas nuestros piscos en una barra espectacular. Una experiencia que solo te dejará decir ¡Wow!",
         "include": "Visita guiada + cata",
         "to": "bodegasannicolas",
         "img": SanNicolas
@@ -17,7 +17,7 @@ export const StoresGastronomyData = [
         "id": 1,
         "head": "FINCA 314",
         "slg": ["Tradición y pasión", "por el pisco"],
-        "txt": "El cultivo hace más de 400 años. En el mismo lugar, con la misma tierra. La paciencia y la pasión de nuestros agricultores es el mejor medidor de calidad que podemos tener. Cada gota de nuestro pisco habla por nosotros. Representamos los nuevos tiempos del pisco. Rescatamos nuestra historia ",
+        "txt": "Nuestra bodega está diseñada con el objetivo de ofrecerles una experiencia única y auténtica en la elaboración de nuestras líneas de Vinos Peruanos y por supuesto Piscos y Licores afrutados.",
         "include": "Visita guiada + cata",
         "to": "finca314",
         "img": Finca314
@@ -34,7 +34,7 @@ export const StoresGastronomyData = [
     {
         "id": 3,
         "head": "BODEGA PAMPAS DE ICA",
-        "slg": ["Pisco, vinos,", "premios y esfuerzo"],
+        "slg": ["Tour Seco"],
         "txt": "",
         "include": "Visita guiada + cata",
         "to": "bodegapampasdeica",

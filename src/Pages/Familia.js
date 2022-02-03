@@ -109,14 +109,12 @@ export const Familia = () => {
             <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
               <h1 className="pages-titles color-qs">VISIón</h1>
               <p style={{ maxWidth: "400px", lineHeight: "2.3" }} className="mx-auto">
-                Nuestro propósito es la inmortalidad de nuestras costumbres y
-                alimentar el alma y corazón de los peruanos con los frutos de
-                nuestras tierras.
+              Nuestro propósito es hacer de Ica la región enoturística del Perú, destacando la 
+              inmortalidad de nuestras costumbres y alimentando el alma y corazón de los peruanos con los frutos de nuestras tierras.
                 <br />
                 <br />
-                Queremos ser los primeros en llegar a la ﬁesta y los últimos en
-                irnos llevando nuestro trabajo a las casas de quienes aman lo
-                hecho con pasión.
+                Una experiencia vitivinicola de excelencia con una oferta articulada
+                 y diversa en la región que promueve la innovación y el valor compartido.
               </p>
             </div>
             <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-4 text-center">
@@ -125,13 +123,11 @@ export const Familia = () => {
             <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
               <h1 className="pages-titles color-qs">MISIón</h1>
               <p style={{ maxWidth: "400px", lineHeight: "2.3" }} className="mx-auto">
-                Somos una comunidad vitivinícola y eno turística que ofrece
-                servicios relacionados a sus viñedos y el sol que los ve crecer
-                en Ica.
+              Somos una comunidad vitivinícola y eno turística que ofrece servicios relacionados a sus viñedos y el sol que los ve crecer en Ica.
                 <br />
                 <br />
                 Somos socios unidos bajo una misma cultura de marca: compartir
-                la tradición y alegría iqueña.
+                al enoturista la tradición y alegría iqueña para que se convierta en nuestro embajador.
               </p>
             </div>
           </div>

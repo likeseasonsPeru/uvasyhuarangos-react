@@ -27,7 +27,7 @@ export const Home = () => {
   const DataFooter = [
     "#6E5844",
     [
-      "Qué diría el Rey Felipe II, que en el año 1595 al prohibía la venta del “Fruto de Castilla”, por que nuestros vinos sabían mejor que los de España, sin saberlo abría las puertas a las uvas que seguían creciendo en Ica a convertirse en pisqueras, salud don Felipe.",
+      "QUÉ DIRÍA EL REY FELIPE II, QUIEN EN EL AÑO 1595, AL PROHIBIR LA VENTA DEL “FRUTO DE CASTILLA” EN EL VIRREINATO DEL PERÚ PORQUE SUS VINOS SABÍAN MEJOR QUE LOS DE ESPAÑA, SIN SABERLO, ABRÍA LAS PUERTAS A QUE LAS UVAS QUE SEGUÍAN CRECIENDO EN ICA SE CONVIRTIESEN EN PISQUERAS. ¡SALUD DON FELIPE!",
     ],
   ];
 
@@ -124,7 +124,7 @@ export const Home = () => {
                   <p className="py-2 text-white">
                     Somos una gran familia iqueña compuesta de socios
                     propietarios de viñedos, bodegas, haciendas, restaurantes y
-                    agencias de turismo con algo en común.
+                    agencias de turismo con algo en común:
                   </p>
                   <p className="slg-index text-white">
                     el corazón latiendo de amor por Ica.
