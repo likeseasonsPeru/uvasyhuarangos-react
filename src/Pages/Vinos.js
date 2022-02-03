@@ -18,7 +18,6 @@ import Tinto from "../assets/img/legado/tinto.jpg";
 // import Premio1 from "../assets/img/legado/premio1.jpg";
 // import Premio2 from "../assets/img/legado/premio2.jpg";
 
-
 export const Vinos = () => {
   const DataFooter = [
     "#5D5D43",
