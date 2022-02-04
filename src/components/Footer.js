@@ -62,7 +62,7 @@ const Footer = ({ color, txt }) => {
           <p className="logo-footer text-center">
             <Link
               to="#"
-              onClick={() => {window.open("https://racimosdelsur.pe/","_blank");}}
+              onClick={() => {window.open("https://racimosdelsur.com/","_blank");}}
               style={{ cursor: "pointer" }}
             >
             <img src={Racimos} className="img-fluid pb-4" alt="logo racimos del sur" />

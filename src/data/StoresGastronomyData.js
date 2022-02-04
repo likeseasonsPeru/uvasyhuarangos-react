@@ -2,6 +2,7 @@
  import Finca314 from "../assets/img/gastronomia/stores/finca314.jpg"
  import Pampas from "../assets/img/quienesomos/bodegapampasdeica/visitus.jpg"
  import Villacuri from "../assets/img/gastronomia/stores/villacuri.jpg"
+ import TresGeneraciones from "../assets/img/quienesomos/bodegatresgeneraciones/visitus.jpg"
 
 export const StoresGastronomyData = [
     {
@@ -39,5 +40,14 @@ export const StoresGastronomyData = [
         "include": "Visita guiada + cata",
         "to": "https://tienda.uvasyhuarangos.pe/turismo/visitanos/bodega-pampas-de-ica/",
         "img": Pampas
+    },
+    {
+        "id": 4,
+        "head": "BODEGA TRES GENERACIONES",
+        "slg": ["Tradición y pureza", "del pisco"],
+        "txt": 'Es aquí donde se consolida la tradición y se origina la pureza. Bienvenidos a nuestra Bodega "Doña Juanita" en Ica, Perú.',
+        "include": "Visita guiada + cata",
+        "to": "https://tienda.uvasyhuarangos.pe/turismo/visitanos/tradicion-y-pureza-del-pisco/",
+        "img": TresGeneraciones
     }
 ]
