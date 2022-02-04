@@ -174,7 +174,7 @@ export const FamiliesData = [
                 "txt": 'Es aquí donde se consolida la tradición y se origina la pureza. Bienvenidos a nuestra Bodega "Doña Juanita" en Ica, Perú.',
                 "include": "Visita guiada + cata",
                 "img": visitUsTresGeneraciones,
-                "to": "https://tienda.uvasyhuarangos.pe/"
+                "to": "https://tienda.uvasyhuarangos.pe/turismo/visitanos/tradicion-y-pureza-del-pisco/"
             }
         },
         {
