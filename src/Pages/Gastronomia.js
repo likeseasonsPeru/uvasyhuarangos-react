@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 // components
 import Footer from "../components/Footer";
@@ -100,9 +101,19 @@ const Gastronomia = () => {
                 </div>
 
                 <div className="d-flex pb-3">
-                  <button className="color-gastronomia br-gastronomia px-5">
-                    RESERVA
-                  </button>
+                  <Link
+                    to="#"
+                    onClick={() => {
+                      window.open(
+                        "https://tienda.uvasyhuarangos.pe/turismo/restaurantes/restaurantes-la-olla-de-juanita/",
+                        "_blank"
+                      );
+                    }}
+                  >
+                    <button className="color-gastronomia br-gastronomia px-5">
+                      RESERVA
+                    </button>
+                  </Link>
                   <img
                     src={ArrowRight}
                     className="img-fluid ml-4"
@@ -122,6 +133,7 @@ const Gastronomia = () => {
             </div>
           </div>
         </div>
+
         <div className="container mb-120">
           <div className="row">
             <div className="col-md-6 col-xl-6 col-sm-12  mt-5">
@@ -148,9 +160,19 @@ const Gastronomia = () => {
                   </p>
                 </div>
                 <div className="d-flex justify-content-end pb-3">
-                  <button className="color-gastronomia br-gastronomia px-5">
-                    RESERVA
-                  </button>
+                  <Link
+                    to="#"
+                    onClick={() => {
+                      window.open(
+                        "https://tienda.uvasyhuarangos.pe/turismo/restaurantes/restaurantes-el-catador/",
+                        "_blank"
+                      );
+                    }}
+                  >
+                    <button className="color-gastronomia br-gastronomia px-5">
+                      RESERVA
+                    </button>
+                  </Link>
                   <img
                     src={ArrowRight}
                     className="img-fluid ml-4"
@@ -181,9 +203,19 @@ const Gastronomia = () => {
                   </p>
                 </div>
                 <div className="d-flex mt-5 pb-3">
-                  <button className="color-gastronomia br-gastronomia px-5">
-                    RESERVA
-                  </button>
+                  <Link
+                    to="#"
+                    onClick={() => {
+                      window.open(
+                        "https://tienda.uvasyhuarangos.pe/turismo/restaurantes/restaurante-las-pampas/",
+                        "_blank"
+                      );
+                    }}
+                  >
+                    <button className="color-gastronomia br-gastronomia px-5">
+                      RESERVA
+                    </button>
+                  </Link>
                   <img
                     src={ArrowRight}
                     className="img-fluid ml-4"
@@ -255,9 +287,19 @@ const Gastronomia = () => {
                   </p>
                 </div>
                 <div className="d-flex pb-3">
-                  <button className="color-gastronomia br-gastronomia px-5">
-                    RESERVA
-                  </button>
+                  <Link
+                    to="#"
+                    onClick={() => {
+                      window.open(
+                        "https://tienda.uvasyhuarangos.pe/turismo/aventura/trekking-al-canon-de-los-perdidos/",
+                        "_blank"
+                      );
+                    }}
+                  >
+                    <button className="color-gastronomia br-gastronomia px-5">
+                      RESERVA
+                    </button>
+                  </Link>
                   <img
                     src={ArrowRight}
                     className="img-fluid ml-4"
@@ -306,9 +348,19 @@ const Gastronomia = () => {
                   </p>
                 </div>
                 <div className="d-flex justify-content-end">
-                  <button className="color-gastronomia br-gastronomia px-5">
-                    RESERVA
-                  </button>
+                  <Link
+                    to="#"
+                    onClick={() => {
+                      window.open(
+                        "https://tienda.uvasyhuarangos.pe/turismo/aventura/ruta-del-pisco-clasico/",
+                        "_blank"
+                      );
+                    }}
+                  >
+                    <button className="color-gastronomia br-gastronomia px-5">
+                      RESERVA
+                    </button>
+                  </Link>
                   <img
                     src={ArrowRight}
                     className="img-fluid ml-4"
@@ -344,9 +396,19 @@ const Gastronomia = () => {
                   </p>
                 </div>
                 <div className="d-flex">
-                  <button className="color-gastronomia br-gastronomia px-5">
-                    RESERVA
-                  </button>
+                  <Link
+                    to="#"
+                    onClick={() => {
+                      window.open(
+                        "https://tienda.uvasyhuarangos.pe/turismo/aventura/paseo-por-las-dunas-de-huacachina-en-utv/",
+                        "_blank"
+                      );
+                    }}
+                  >
+                    <button className="color-gastronomia br-gastronomia px-5">
+                      RESERVA
+                    </button>
+                  </Link>
                   <img
                     src={ArrowRight}
                     className="img-fluid ml-4"
@@ -389,9 +451,19 @@ const Gastronomia = () => {
                   </p>
                 </div>
                 <div className="d-flex justify-content-end">
-                  <button className="color-gastronomia br-gastronomia px-5">
-                    RESERVA
-                  </button>
+                  <Link
+                    to="#"
+                    onClick={() => {
+                      window.open(
+                        "https://tienda.uvasyhuarangos.pe/turismo/aventura/citytour-ica/",
+                        "_blank"
+                      );
+                    }}
+                  >
+                    <button className="color-gastronomia br-gastronomia px-5">
+                      RESERVA
+                    </button>
+                  </Link>
                   <img
                     src={ArrowRight}
                     className="img-fluid ml-4"
@@ -426,9 +498,19 @@ const Gastronomia = () => {
                   </p>
                 </div>
                 <div className="d-flex">
-                  <button className="color-gastronomia br-gastronomia px-5">
-                    RESERVA
-                  </button>
+                  <Link
+                    to="#"
+                    onClick={() => {
+                      window.open(
+                        "https://tienda.uvasyhuarangos.pe/turismo/aventura/a-que-sabe-ica/",
+                        "_blank"
+                      );
+                    }}
+                  >
+                    <button className="color-gastronomia br-gastronomia px-5">
+                      RESERVA
+                    </button>
+                  </Link>
                   <img
                     src={ArrowRight}
                     className="img-fluid ml-4"
@@ -450,9 +532,19 @@ const Gastronomia = () => {
             <div className="col-md-6 col-sm-12 align-self-end">
               <img src={vinedos} className="img-fluid mb-2" alt="sabe ica" />
               <div className="d-flex mt-5 ml-1">
-                <button className="color-gastronomia br-gastronomia px-5">
-                  RESERVA
-                </button>
+                <Link
+                  to="#"
+                  onClick={() => {
+                    window.open(
+                      "https://tienda.uvasyhuarangos.pe/turismo/aventura/ica-paracas-vinedos/",
+                      "_blank"
+                    );
+                  }}
+                >
+                  <button className="color-gastronomia br-gastronomia px-5">
+                    RESERVA
+                  </button>
+                </Link>
                 <img
                   src={ArrowRight}
                   className="img-fluid ml-4"
@@ -577,9 +669,19 @@ const Gastronomia = () => {
                 alt="sabe ica"
               />
               <div className="d-flex mt-5 justify-content-end">
-                <button className="color-gastronomia br-gastronomia px-5">
-                  RESERVA
-                </button>
+                <Link
+                  to="#"
+                  onClick={() => {
+                    window.open(
+                      "https://tienda.uvasyhuarangos.pe/turismo/aventura/ica-paracas-canon-de-los-perdidos/",
+                      "_blank"
+                    );
+                  }}
+                >
+                  <button className="color-gastronomia br-gastronomia px-5">
+                    RESERVA
+                  </button>
+                </Link>
                 <img
                   src={ArrowRight}
                   className="img-fluid ml-4"
@@ -595,9 +697,19 @@ const Gastronomia = () => {
             <div className="col-md-6 col-sm-12 align-self-end">
               <img src={tradicion} className="img-fluid mb-2" alt="sabe ica" />
               <div className="d-flex mt-5 ml-1">
-                <button className="color-gastronomia br-gastronomia px-5">
-                  RESERVA
-                </button>
+                <Link
+                  to="#"
+                  onClick={() => {
+                    window.open(
+                      "https://tienda.uvasyhuarangos.pe/turismo/aventura/tradicion-en-ica-y-sol-en-paracas/",
+                      "_blank"
+                    );
+                  }}
+                >
+                  <button className="color-gastronomia br-gastronomia px-5">
+                    RESERVA
+                  </button>
+                </Link>
                 <img
                   src={ArrowRight}
                   className="img-fluid ml-4"

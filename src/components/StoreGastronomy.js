@@ -49,7 +49,12 @@ export const StoreGastronomy = ({ head, slg, txt, include, img, to }) => {
             <strong className="font-tusker">Incluye:</strong>{" "}
             <span className="font-mackinacpro">{include}</span>
             <div className="d-flex mt-4">
-              <Link to={`/familia/${to}`}>
+              <Link
+                to="#"
+                onClick={() => {
+                  window.open(`${to}`, "_blank");
+                }}
+              >
                 <button className="color-gastronomia br-gastronomia px-5">
                   RESERVA
                 </button>

@@ -70,7 +70,9 @@ export const FamiliesVisitUs = ({ slg, to, img, txt, include, item }) => {
               <strong className="font-tusker">Incluye:</strong>{" "}
               <span className="font-mackinacpro">{include}</span>
               <div className="d-flex mt-4">
-                <Link to={`/familia/${to}`}>
+                <Link to="#" onClick={()=>{
+                  window.open(`${to}`, "_blank")
+                }}>
                   <button className="br-familias px-5">RESERVA</button>
                   <img
                     src={ArrowRight}

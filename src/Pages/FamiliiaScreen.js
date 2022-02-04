@@ -164,9 +164,8 @@ export const FamiliiaScreen = () => {
                 <Link
                   className="link-social text-decoration-none"
                   to="#"
-                  onClick={(e) => {
-                    window.location = `${item.networkSocial.instragram[1]}`;
-                    e.preventDefault();
+                  onClick={() => {
+                    window.open(`${item.networkSocial.instragram[1]}`, "_blank");
                   }}
                 >
                   <span>INSTAGRAM:</span> {item.networkSocial.instragram[0]}
@@ -178,9 +177,8 @@ export const FamiliiaScreen = () => {
                 <Link
                   className="link-social text-decoration-none"
                   to="#"
-                  onClick={(e) => {
-                    window.location = `${item.networkSocial.facebook[1]}`;
-                    e.preventDefault();
+                  onClick={() => {
+                    window.open(`${item.networkSocial.facebook[1]}`, "_blank");
                   }}
                 >
                   <span>FACEBOOK:</span> {item.networkSocial.facebook[0]}
@@ -193,9 +191,8 @@ export const FamiliiaScreen = () => {
                   <Link
                     className="link-social text-decoration-none"
                     to="#"
-                    onClick={(e) => {
-                      window.location = `${item.networkSocial.web[1]}`;
-                      e.preventDefault();
+                    onClick={() => {
+                      window.open(`${item.networkSocial.web[1]}`, "_blank");
                     }}
                   >
                     <span>WEB:</span> {item.networkSocial.web[0]}
@@ -204,9 +201,8 @@ export const FamiliiaScreen = () => {
                   <Link
                     className="link-social text-decoration-none"
                     to="#"
-                    onClick={(e) => {
-                      window.location = `${item.networkSocial.mail[1]}`;
-                      e.preventDefault();
+                    onClick={() => {
+                      window.open(`${item.networkSocial.mail[1]}`, "_blank");
                     }}
                   >
                     <span>MAIL:</span> {item.networkSocial.mail[0]}
@@ -282,7 +278,7 @@ export const FamiliiaScreen = () => {
                   className="text-decoration-none"
                   to="#"
                   onClick={() => {
-                    window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
+                    window.open(`${item.to}`, "_blank");
                   }}
                 >
                   <button className="btn-w color-tienda br-store btn-h80">
@@ -324,6 +320,7 @@ export const FamiliiaScreen = () => {
             include={item.dataVisit.include}
             slg={item.dataVisit.slg}
             item={item.familia}
+            to={item.dataVisit.to}
           />
         ) : (
           <></>

@@ -52,7 +52,7 @@ export const Cocteleria = () => {
                     window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
                   }}
               >
-              <button className="btn-w color-white br-btn-footer px-5">
+              <button className="btn-w color-white br-btn-footer px-5 btn-h80">
                 TIENDA
               </button>
               </Link>
@@ -102,7 +102,7 @@ export const Cocteleria = () => {
                       window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
                     }}
                 >
-                  <button className="btn-w color-black br-store px-5">
+                  <button className="btn-w color-black br-store px-5 btn-h80">
                     TIENDA
                   </button>
                   </Link>
@@ -134,7 +134,7 @@ export const Cocteleria = () => {
                     window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
                   }}
               >
-                  <button className="btn-w color-white br-btn-footer px-5">
+                  <button className="btn-w color-white br-btn-footer px-5 btn-h80">
                     TIENDA
                   </button>
                   </Link>
@@ -249,7 +249,7 @@ export const Cocteleria = () => {
                     window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
                   }}
               >
-                  <button className="btn-w color-black br-store px-5">
+                  <button className="btn-w color-black br-store px-5 btn-h80">
                     TIENDA
                   </button>
                   </Link>
@@ -277,7 +277,7 @@ export const Cocteleria = () => {
                       window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
                     }}
                 >
-                  <button className="btn-w color-white br-btn-footer px-5">
+                  <button className="btn-w color-white br-btn-footer px-5 btn-h80">
                     TIENDA
                   </button>
                   </Link>

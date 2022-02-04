@@ -27,6 +27,7 @@ export const FamiliesData = [
     
         {
             "id": 0,
+            "to": "https://tienda.uvasyhuarangos.pe/turismo/",
             "familia":"agenciadolphintravel",
             "title": ["AGENCIA", "DOLPHIN TRAVEL PErú"],
             "txt": ["Agencia de Turismo en Ica, que brinda diversos circuitos turísticos para dar a conocer al Perú y al mundo los atractivos de nuestro maravillosa Ica. Estamos preparados para brindar una atención personalizada, cordial y amigable.  Nuestro personal, le hará sentir que sus vacaciones y días de descanso,  empiezan en el momento en que nos visita."],
@@ -43,6 +44,7 @@ export const FamiliesData = [
         },
         {
             "id": 1,
+            "to": "https://tienda.uvasyhuarangos.pe/",
             "familia":"finca314",
             "title": ["FINCA 314"],
             "txt": [`Finca 314 es la historia de un legado de mujeres dedicadas a la elaboración artesanal de Pisco Premium por más de 190 años; desde nuestra tatarabuela “Etelvina”, una de las mujeres pioneras en la elaboración artesanal de Pisco, hasta la Quinta Generación, conformada  por Claudia, Gabriela y Fátima Moquillaza Robatty.", "Nosotras hemos retomado estos anclajes familiares, respetando la infraestructura  de La Bodega, original de aquella época (𝙿𝚛𝚎𝚜𝚎𝚗𝚌𝚒𝚊 𝚍𝚎 𝙵𝚎𝚛𝚖𝚎𝚗𝚝𝚊𝚍𝚘𝚛𝚎𝚜, 𝙻𝚊𝚐𝚊𝚛, 𝙰𝚕𝚊𝚖𝚋𝚒𝚚𝚞𝚎, 𝙵𝚘𝚐𝚘́𝚗, 𝙰𝚕𝚋𝚎𝚛𝚌𝚊 𝚢 𝙿𝚒𝚜𝚚𝚞𝚎𝚛𝚊) así como la forma ancestral de la elaboración del Pisco.`],
@@ -61,11 +63,12 @@ export const FamiliesData = [
                 "txt": "Nuestra bodega está diseñada con el objetivo de ofrecerles una experiencia única y auténtica en la elaboración de nuestras líneas de Vinos Peruanos y por supuesto Piscos y Licores afrutados.​",
                 "include": "Visita guiada + cata",
                 "img": visitUs,
-                "to": "#"
+                "to": "https://tienda.uvasyhuarangos.pe/turismo/visitanos/finca-314/"
             }
         },
         {
             "id": 2,
+            "to": " https://tienda.uvasyhuarangos.pe",
             "familia":"bodegasantalucia",
             "title": ["BODEGA", "SANTA LUCía"],
             "txt": ["El Pisco Cholo Matías, sintetiza la tradición transmitida por cinco generaciones. Nuestro padre, Matías Grados Ferreyra, fue un pionero en la preservación de las uvas pisqueras, dedicando su vida a la búsqueda y recuperación de las mismas en los valles y quebradas de la región, para luego conservarlas en nuestras viñas, recuperando así algunas variedades de uvas pisqueras que casi se habían perdido. Así como también “El Cholo Matías”, dedicó su vida a promover el Pisco tradicional."],
@@ -83,6 +86,7 @@ export const FamiliesData = [
         },
         {
             "id": 3,
+            "to": " https://tienda.uvasyhuarangos.pe",
             "familia":"bodegasannicolas",
             "title": ["BODEGA", "SAN nicolás"],
             "txt": ["Nacimos en Pisco y nos quedamos en Pisco. Hacemos honor a quienes iniciaron hace más de 400 años. En el mismo lugar, con la misma tierra.La paciencia y la pasión de nuestros agricultores es el mejor medidor de calidad que podemos tener. Cada gota de nuestro pisco habla por nosotros. Representamos los nuevos tiempos del pisco. Rescatamos nuestra historia amos a conocimientos contemporáneos de destilación y mixología."],
@@ -102,11 +106,12 @@ export const FamiliesData = [
                 "txt": "Visita la majestuosidad de nuestro viñedo y su verdor mientras disfrutas nuestros piscos en una barra espectacular. Una experiencia que solo te dejará decir ¡Wow!",
                 "include": "Visita guiada + cata",
                 "img": visitUs1615,
-                "to": "#"
+                "to": "https://tienda.uvasyhuarangos.pe/turismo/visitanos/bodega-san-nicolas/"
             }
         },
         {
             "id": 4,
+            "to": "https://tienda.uvasyhuarangos.pe/turismo/restaurantes/restaurantes-el-catador/",
             "familia":"bodegaelcatador",
             "title": ["BODEGA turística", "El catador srl."],
             "txt": [`Somos una empresa agroindustrial reconocida por su marca Tony Labis. Es una organización empresarial que se caracteriza por haber desarrollado una cadena productiva donde los recursos naturales se obtienen de pequeños agricultores del Valle, logrando a su vez, desarrollar la mejora continua obteniendo productos de calidad en términos innovadores.`],
@@ -124,6 +129,7 @@ export const FamiliesData = [
         },
         {
             "id": 5,
+            "to": "https://tienda.uvasyhuarangos.pe/",
             "familia":"bodegapampasdeica",
             "title": ["BODEGA", "Pampas de Ica"],
             "txt": ["Bodega Pampas nace en el año 2012, como un emprendimiento de la familia Carpio Amoroto, teniendo desde un principio la meta de producir los mejores productos Vitivinícolas de la región.","Desde entonces vienen trabajando arduamente, con inversión en conocimientos, tecnología, infraestructura y capital humano."],
@@ -143,11 +149,12 @@ export const FamiliesData = [
                 "txt": "",
                 "include": "Visita guiada + cata",
                 "img": visitUsPampas,
-                "to": "#"
+                "to": "https://tienda.uvasyhuarangos.pe/turismo/visitanos/bodega-pampas-de-ica/"
             }
         },
         {
             "id": 6,
+            "to": " https://tienda.uvasyhuarangos.pe/",
             "familia":"bodegatresgeneraciones",
             "title": ["BODEGA", "Tres Generaciones"],
             "txt": ["Empresa familiar que apuesta en conservar su espíritu emprendedor e innovador basándose en sus tradiciones. Tanto así que estamos elaborando vinos con cepas pisqueras de los cuales 2 vinos blancos Albilla y Torontel ya han ganado 2 medallas de oro. Nuestra madre pilar de la empresa es conocida en el mundo pisquero como La Dama del Pisco. Título que nos honra y nos compromete a sus nuevas generaciones a preservar y continuar con el legado familiar."],
@@ -167,11 +174,12 @@ export const FamiliesData = [
                 "txt": 'Es aquí donde se consolida la tradición y se origina la pureza. Bienvenidos a nuestra Bodega "Doña Juanita" en Ica, Perú.',
                 "include": "Visita guiada + cata",
                 "img": visitUsTresGeneraciones,
-                "to": "#"
+                "to": "https://tienda.uvasyhuarangos.pe/"
             }
         },
         {
             "id": 7,
+            "to": " https://tienda.uvasyhuarangos.pe/",
             "familia":"bodegavillacuri",
             "title": ["BODEGA", "Villacuri"],
             "txt": ["Ubicada a 30 km al norte de Ica en el desierto de Villacuri. Se dedica a la elaboracion de maquila y cuenta con tecnología de punta y una capacidad instalada para elaborar medio millon de litros de pisco. Fundada en el año 2007 viene desde entonces elaborando reconocidas marcas.", "Nuestra Bodega Buena Cosecha te espera para disfrutar sus piscos y vinos, deslizarte en sus dunas en sandbord o buggies o pasear en su viñedo para apreciar su lombricultura, que producen vinos rosados y piscos , la jojoba para la elaboracion de aceites y cosmeticos, los esparragos y naranjas sin pepas, de las cuales se elaboran nuestro “Vermouth Capitán”. Toda una experiencia vivencial."],
@@ -191,11 +199,12 @@ export const FamiliesData = [
                 "txt": "La bodega ofrece un tour al viñedo Buena Cosecha, el cual esta situado a solo 7 km de recorrido donde podras disfrutar de las mas impresionantes dunas, para los amantes del off road y sandboard, a bordo de sus propias unidades todo terreno “UTV” o buggies. Aquí desgustarás de exquisitos piqueos y cocteles a base de pisco y verás la puesta del sol junto a los cultivos que el fundo posee.",
                 "include": "Visita guiada + cata",
                 "img": visitUsVillacuri,
-                "to": "#"
+                "to": "https://tienda.uvasyhuarangos.pe/turismo/visitanos/bodega-villacuri/"
             }
         },
         // {
         //     "id": ,
+        //     "to": "",
         //     "familia":"haciendagranpaso",
         //     "title": ["Hacienda", "Gran Paso"],
         //     "txt": ["Pisco “Gran Paso”, un Pisco joven con siete años en el mercado peruano, llega  respaldado por el conocimiento y experiencia de sus gestores de más de veinte años en el rubro para ofrecer un Pisco de calidad que se convierta en el favorito del paladar de todos los conocedores de nuestra bebida bandera.", "El nombre “Gran Paso” es un homenaje que a través del Pisco como Patrimonio Nacional, se le rinde al Caballo de Paso Peruano, otro Patrimonio Nacional; porque ambos simbolizan la elegancia, nobleza y tradición."],
@@ -213,6 +222,7 @@ export const FamiliesData = [
         // },
         {
             "id": 8,
+            "to": "https://tienda.uvasyhuarangos.pe/turismo/restaurantes/restaurantes-la-olla-de-juanita/",
             "familia":"restaurantelaolladejuanita",
             "title": ["Restaurante", "La Olla de Juanita"],
             "txt": ["Con la sazón y dedicación que solo Doña Juanita, la Dama del Pisco, heredó a su hija Cecilia Gonzales nace “La Olla de Juanita”. Mujeres de temple, con amor por la cocina y el pisco, que supieron desde siempre la filosofía que marcaría la línea de la casa:", "“Recuperar, revalorizar y preservar las expresiones culinarias de nuestro país, respetando la esencia de nuestros sabores”."],

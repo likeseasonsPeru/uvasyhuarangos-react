@@ -1,6 +1,6 @@
  import SanNicolas from "../assets/img/gastronomia/stores/sannicolas.jpg"
  import Finca314 from "../assets/img/gastronomia/stores/finca314.jpg"
- import Pampas from "../assets/img/gastronomia/stores/pampasdeica.jpg"
+ import Pampas from "../assets/img/quienesomos/bodegapampasdeica/visitus.jpg"
  import Villacuri from "../assets/img/gastronomia/stores/villacuri.jpg"
 
 export const StoresGastronomyData = [
@@ -10,7 +10,7 @@ export const StoresGastronomyData = [
         "slg": ["Es momento de", "compartir"],
         "txt": "Visita la majestuosidad de nuestro viñedo y su verdor mientras disfrutas nuestros piscos en una barra espectacular. Una experiencia que solo te dejará decir ¡Wow!",
         "include": "Visita guiada + cata",
-        "to": "bodegasannicolas",
+        "to": "https://tienda.uvasyhuarangos.pe/turismo/visitanos/bodega-san-nicolas/",
         "img": SanNicolas
     },
     {
@@ -19,7 +19,7 @@ export const StoresGastronomyData = [
         "slg": ["Tradición y pasión", "por el pisco"],
         "txt": "Nuestra bodega está diseñada con el objetivo de ofrecerles una experiencia única y auténtica en la elaboración de nuestras líneas de Vinos Peruanos y por supuesto Piscos y Licores afrutados.",
         "include": "Visita guiada + cata",
-        "to": "finca314",
+        "to": "https://tienda.uvasyhuarangos.pe/turismo/visitanos/finca-314/",
         "img": Finca314
     },
     {
@@ -28,7 +28,7 @@ export const StoresGastronomyData = [
         "slg": ["Una pasión: producir", "uvas de calidad"],
         "txt": "El cultivo hace más de 400 años. En el mismo lugar, con la misma tierra. La paciencia y la pasión de nuestros agricultores es el mejor medidor de calidad que podemos tener. Cada gota de nuestro pisco habla por nosotros. Representamos los nuevos tiempos del pisco. Rescatamos nuestra historia ",
         "include": "Visita guiada + cata",
-        "to": "bodegavillacuri",
+        "to": "https://tienda.uvasyhuarangos.pe/turismo/visitanos/bodega-villacuri/",
         "img":  Villacuri
     },
     {
@@ -37,7 +37,7 @@ export const StoresGastronomyData = [
         "slg": ["Tour Seco"],
         "txt": "",
         "include": "Visita guiada + cata",
-        "to": "bodegapampasdeica",
+        "to": "https://tienda.uvasyhuarangos.pe/turismo/visitanos/bodega-pampas-de-ica/",
         "img": Pampas
     }
 ]
