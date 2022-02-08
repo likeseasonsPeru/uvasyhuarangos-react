@@ -25,7 +25,7 @@ const Footer = ({ color, txt }) => {
           style={{ minHeight: "475px" }}
         >
           <Link
-          className="text-decoration-none"
+            className="text-decoration-none"
             to="#"
             onClick={() => {
               window.location = "https://tienda.uvasyhuarangos.pe/";
@@ -62,10 +62,16 @@ const Footer = ({ color, txt }) => {
           <p className="logo-footer text-center">
             <Link
               to="#"
-              onClick={() => {window.open("https://racimosdelsur.com/","_blank");}}
+              onClick={() => {
+                window.open("https://racimosdelsur.com/", "_blank");
+              }}
               style={{ cursor: "pointer" }}
             >
-            <img src={Racimos} className="img-fluid pb-4" alt="logo racimos del sur" />
+              <img
+                src={Racimos}
+                className="img-fluid pb-4"
+                alt="logo racimos del sur"
+              />
             </Link>
           </p>
         </div>
@@ -128,7 +134,8 @@ const Footer = ({ color, txt }) => {
               </h4>
               <p className="mt-5 color-white">
                 Racimos del sur <br />
-                Cluster enoturístico de Ica<br />
+                Cluster enoturístico de Ica
+                <br />
                 <Link
                   to="#"
                   onClick={(e) => {

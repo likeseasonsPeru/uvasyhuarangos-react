@@ -15,6 +15,8 @@ import negraCriolla from "../assets/img/uvas-patrimoniales/negracriolla.jpg";
 import albilla from "../assets/img/uvas-patrimoniales/albilla.jpg";
 import mollar from "../assets/img/uvas-patrimoniales/mollar.jpg";
 import moscatel from "../assets/img/uvas-patrimoniales/moscatel.jpg";
+import ubina from "../assets/img/uvas-patrimoniales/ubina.jpg";
+import italia from "../assets/img/uvas-patrimoniales/italia.jpg";
 import banner1 from "../assets/img/uvas-patrimoniales/banner1.jpg";
 import banner2 from "../assets/img/uvas-patrimoniales/banner2.jpg";
 import sello from "../assets/img/uvas-patrimoniales/sello.jpg";
@@ -34,8 +36,8 @@ export const Uvas = () => {
     { name: "ALBILLA", img: albilla },
     { name: "MOLLAR", img: mollar },
     { name: "MOSCATEL", img: moscatel },
-    { name: "UBINA", img: mollar },
-    { name: "ITALIA", img: mollar },
+    { name: "UBINA", img: ubina },
+    { name: "ITALIA", img: italia },
   ];
   useEffect(() => {
     window.scrollTo(0,0)

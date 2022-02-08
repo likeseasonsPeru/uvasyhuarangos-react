@@ -14,7 +14,8 @@ import HomeData from "../data/homeData";
 import Shilf from "../assets/img/sello.png";
 import ImgHome from "../assets/img/bg-inicio.jpg";
 // video
-import VideoUvas from "../assets/video/video.mp4";
+import VideoUvas from "../assets/video/video1.mp4";
+// import VideoUvasOgg from "../assets/video/video1.ogg";
 
 const insideStyles = {
   background: "transparent",
@@ -64,18 +65,22 @@ export const Home = () => {
               </button>
             </div>
             {/* <video
-              src={VideoUvas}
               autoPlay
-              muted
-              style={{ maxHeight: "100vh" }}
+              controls
+              // style={{ maxHeight: "99vh" }}
               width="100%"
               height="100%"
-            ></video> */}
+            >
+              <source src={VideoUvas} type="video/mp4" />
+              <source src={VideoUvasOgg} type="video/ogg" />
+            </video> */}
             <ReactPlayer
               url={VideoUvas}
               className="react-player"
-              playing
               width="100%"
+              playing
+              controls
+              volume="0.4"
               height="100%"
               muted
               style={{ maxHeight: "99vh" }}
@@ -187,16 +192,16 @@ export const SectionHome = ({ color, arrow, img, txt, to }) => {
         <div className="d-flex pl-2 justify-content-between">
           <Link
             className="text-decoration-none"
-              to="#"
-              onClick={() => {
-                window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
-              }}
+            to="#"
+            onClick={() => {
+              window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
+            }}
           >
-          <button className="btn-store px-4" data-aos="fade-up">
-            Tienda
-          </button>
+            <button className="btn-store px-4" data-aos="fade-up">
+              Tienda
+            </button>
           </Link>
-          
+
           <Link to={`/${to}`}>
             <img
               src={arrow}
