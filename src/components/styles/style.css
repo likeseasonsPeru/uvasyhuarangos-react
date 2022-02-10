@@ -999,7 +999,8 @@ i {
     height: 400px;
   }
   /* Global */
-  .pages-titles {
+  .pages-titles,
+  .pages-subtitles {
     font-size: 3rem;
   }
   /* Gastronomia */
@@ -1068,6 +1069,10 @@ i {
     height: 620px;
   }
   .slg-index {
+    text-align: center;
+  }
+  .pages-subtitles {
+    font-size: 2.5rem;
     text-align: center;
   }
   .btn-aceptar,

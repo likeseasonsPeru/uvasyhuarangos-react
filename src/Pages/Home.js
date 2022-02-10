@@ -158,12 +158,12 @@ export const Home = () => {
                 </div>
               </div>
               <div className="  d-flex justify-content-between align-items-end">
-                <div className="col-md-3 col-lg-3 col-sm-6 text-center">
+                <div className="col-md-3 col-lg-3 col-sm-3 text-center">
                   <p className="text-white">
                     ÚNETE A<br />
                     RACIMOS DEL SUR
                   </p>
-                  <div className="d-flex">
+                  <div className="d-flex justify-content-center">
                     <button className="btn-cookies">Usamos cookies</button>
                     <button className="btn-aceptar">aceptar</button>
                   </div>
