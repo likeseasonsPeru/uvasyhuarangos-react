@@ -36,7 +36,7 @@ export const Home = () => {
     hideVideo(false);
     sessionStorage.setItem("video", JSON.stringify("video"));
   };
-
+  const width = window.innerWidth;
   useEffect(() => {
     window.scrollTo(0, 0);
     AOS.init({
@@ -103,6 +103,17 @@ export const Home = () => {
                       ALEGRÍA Y <br />
                       SABOR IQUEÑO
                     </h1>
+                    {width <= 640 && (
+                      <div className="text-center">
+                        <img
+                          className="img-fluid pb-5"
+                          data-aos="fade-up"
+                          src={Shilf}
+                          alt="Shilf"
+                          style={{ maxWidth: 250 }}
+                        />
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>
@@ -111,19 +122,21 @@ export const Home = () => {
             <div className="container-fluid d-flex flex-column justify-content-between py-5 contain-home">
               <div className="row">
                 <div className="col-md-3 text-center" data-aos="fade-up">
-                  <div className="d-flex align-items-center justify-content-center">
-                    <div>
-                      <span className="mayoria text-white">+18</span>
+                  {width > 640 && (
+                    <div className="d-flex align-items-center justify-content-center">
+                      <div>
+                        <span className="mayoria text-white">+18</span>
+                      </div>
+                      <div className="btn-idiomas">
+                        <button className="btn-block p-2 text-white">
+                          ENGLISH
+                        </button>
+                        <button className="btn-block p-2 text-white">
+                          ESPAÑOL
+                        </button>
+                      </div>
                     </div>
-                    <div className="btn-idiomas">
-                      <button className="btn-block p-2 text-white">
-                        ENGLISH
-                      </button>
-                      <button className="btn-block p-2 text-white">
-                        ESPAÑOL
-                      </button>
-                    </div>
-                  </div>
+                  )}
                 </div>
                 <div className="col-lg-6 col-md-9" data-aos="fade-up">
                   <p className="py-2 text-white">
@@ -144,21 +157,33 @@ export const Home = () => {
                   />
                 </div>
               </div>
-              <div className="row">
-                <div className="col-md-3 col-lg-3 col-sm-5 text-center">
+              <div className="  d-flex justify-content-between align-items-end">
+                <div className="col-md-3 col-lg-3 col-sm-6 text-center">
                   <p className="text-white">
                     ÚNETE A<br />
                     RACIMOS DEL SUR
                   </p>
-                  <div>
-                    <button className="btn-cookies p-3">Usamos cookies</button>
-                    <button className="btn-aceptar p-3">aceptar</button>
+                  <div className="d-flex">
+                    <button className="btn-cookies">Usamos cookies</button>
+                    <button className="btn-aceptar">aceptar</button>
                   </div>
                 </div>
-                <div className="col-md-9 align-self-end">
-                  <p className="logo-home-bear text-white">
-                    {/* TOMAR BEBIDAS ALCOHÓLICAS EN EXCESO ES DAÑINO */}
-                  </p>
+                <div className="col-sm-6 col-md-9 align-self-end">
+                  {width <= 640 && (
+                    <div className="d-flex align-items-center justify-content-center">
+                      <div>
+                        <span className="mayoria text-white">+18</span>
+                      </div>
+                      <div className="btn-idiomas">
+                        <button className="btn-block p-2 text-white">
+                          ENGLISH
+                        </button>
+                        <button className="btn-block p-2 text-white">
+                          ESPAÑOL
+                        </button>
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>

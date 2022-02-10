@@ -356,6 +356,7 @@ h6 {
   border: none;
   text-transform: uppercase;
   font-family: "tuskergrotesk-medium";
+  padding: 1rem;
 }
 .btn-aceptar {
   color: #fff;
@@ -364,6 +365,7 @@ h6 {
   border: none;
   text-transform: uppercase;
   font-family: "tuskergrotesk-medium";
+  padding: 1rem;
 }
 .slg-index {
   font-family: "californyabuploaded_file";
@@ -1063,7 +1065,14 @@ i {
 }
 @media screen and (max-width: 576px) {
   .b-parallax-dat {
-    height: 340px;
+    height: 620px;
+  }
+  .slg-index {
+    text-align: center;
+  }
+  .btn-aceptar,
+  .btn-cookies {
+    padding: 3px;
   }
   .contain-home-data {
     height: 100vh;
