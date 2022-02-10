@@ -524,6 +524,10 @@ h6 {
   transform: scale(1.1);
   z-index: 10;
 }
+.drinks {
+  max-width: 430px;
+  font-size: 30px;
+}
 /* END UVAS PATRIMONIALES */
 
 /* GASTRONOMIA */
@@ -1017,6 +1021,9 @@ i {
   .row-reverse-w {
     flex-direction: row-reverse !important;
   }
+  .column-reverse-h {
+    flex-direction: column-reverse !important;
+  }
   .enoturismo-logo {
     font-size: 2.5rem;
   }
@@ -1079,6 +1086,9 @@ i {
   }
 }
 @media screen and (max-width: 576px) {
+  .drinks {
+    font-size: 20px;
+  }
   .pages-slogan {
     font-size: 2rem;
   }

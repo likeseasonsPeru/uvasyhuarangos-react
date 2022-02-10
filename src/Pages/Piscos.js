@@ -13,6 +13,7 @@ import Tradicion from "../assets/img/tradicion/tradicion.jpg";
 import ProcesoArtesanal from "../assets/img/tradicion/procesoartesanal.jpg";
 import ArrowGrape from "../assets/img/legado/arrow-right-grape.png";
 import Banner2 from "../assets/img/tradicion/banner2.jpg";
+import Banner3 from "../assets/img/tradicion/banner3.jpg";
 import ArrowYellow from "../assets/img/tradicion/arrow-right-yellow.png";
 import ArrowStore from "../assets/img/legado/arrow-right-store.png";
 // import premio1 from "../assets/img/legado/premios/premio1.jpg";
@@ -41,7 +42,7 @@ export const Piscos = () => {
               <div className="col-3">
                 <button
                   onClick={() => window.history.back()}
-                  data-aos="fade-right"
+                  data-aos="fade-up"
                 >
                   <img
                     src={ArrowLeft}
@@ -53,11 +54,11 @@ export const Piscos = () => {
               <div className="col-9">
                 <h1
                   className="pages-titles color-tradicion-r"
-                  data-aos="fade-right"
+                  data-aos="fade-up"
                 >
                   TRADICIóN
                 </h1>
-                <p style={{ maxWidth: "450px" }} data-aos="fade-right">
+                <p style={{ maxWidth: "450px" }} data-aos="fade-up">
                   En Ica tenemos una tradición vitivinícola centenaria y un gran
                   producto emblemático, el Pisco, bebida bandera del Perú,
                   elaborado a base de uvas patrimoniales, que, si bien ahora son
@@ -76,22 +77,36 @@ export const Piscos = () => {
               </div>
             </div>
           </div>
-          <div className="col-xl-6 col-md-6 py-5">
-            <div style={{ width: "100%", height: "100%" }} data-aos="fade-left">
-              <img
-                src={Tradicion}
-                className="img-fluid"
-                alt="tradicion"
-                height="100%"
-              />
+          {window.innerWidth > 540 && (
+            <div className="col-xl-6 col-md-6 py-5">
+              <div
+                style={{ width: "100%", height: "100%" }}
+                data-aos="fade-down"
+              >
+                <img
+                  src={Tradicion}
+                  className="img-fluid"
+                  alt="tradicion"
+                  height="100%"
+                />
+              </div>
             </div>
-          </div>
+          )}
         </div>
-        <div className="row py-5">
-          <div className="col-xl-6 col-md-6 col-sm-12">
+        {window.innerWidth <= 540 && (
+          <div className="container p-0">
+            <img
+              src={Banner3}
+              alt="banner 3 tradicion"
+              style={{ width: "100%" }}
+            />
+          </div>
+        )}
+        <div className="row py-5 column-reverse-h">
+          <div className="col-xl-6 col-md-6 col-sm-12 pt-3">
             <div
               style={{ width: "100%", height: "100%" }}
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"
             >
@@ -106,7 +121,7 @@ export const Piscos = () => {
             <div className="d-flex flex-column justify-content-around pr-lg-5 pr-md-1">
               <div>
                 <h2
-                  className="pages-subtitles color-tradicion-r text-right mt-1"
+                  className="pages-subtitles color-tradicion-r align-header mt-1"
                   data-aos="fade-up"
                 >
                   PROCESO artesanal
@@ -158,10 +173,15 @@ export const Piscos = () => {
                   />
                 </div>
                 <div className="d-flex mt-5 justify-content-end mr-3">
-                  <Link to="#" data-aos="fade-up"
-                  onClick={() => {
-                    window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
-                  }}
+                  <Link
+                    to="#"
+                    data-aos="fade-up"
+                    onClick={() => {
+                      window.open(
+                        "https://tienda.uvasyhuarangos.pe/",
+                        "_blank"
+                      );
+                    }}
                   >
                     <button
                       className="btn-w color-tienda br-store"
@@ -191,10 +211,7 @@ export const Piscos = () => {
             </div>
             <div className="col-12 mt-5">
               <div className="row">
-                <div
-                  className="col-md-4 text-center px-4"
-                  data-aos="fade-right"
-                >
+                <div className="col-md-4 text-center px-4" data-aos="fade-up">
                   <div className="mx-auto" style={{ maxWidth: "300px" }}>
                     <div className="mb-4 py-2 bg-tradicion">PURO</div>
                     <p className="px-2">
@@ -217,7 +234,7 @@ export const Piscos = () => {
                     </p>
                   </div>
                 </div>
-                <div className="col-md-4 text-center px-4" data-aos="fade-left">
+                <div className="col-md-4 text-center px-4" data-aos="fade-up">
                   <div className="mx-auto" style={{ maxWidth: "300px" }}>
                     <div className="mb-4 py-2 bg-tradicion">MOSTRO VERDE</div>
                     <p className="px-2">
@@ -277,20 +294,14 @@ export const Piscos = () => {
             <div className="row justify-content-center align-items-center py-2">
               <div
                 className="col-md-6 col-sm-12 h-100 align-self-center text-center"
-                data-aos="fade-up-right"
+                data-aos="fade-up"
               >
-                <p
-                  className="my-0 text-white text-left mx-auto"
-                  style={{ maxWidth: "430px", fontSize: "30px" }}
-                >
+                <p className="my-0 text-white text-left mx-auto drinks">
                   Aprende a preparar bebidas <br /> con auténtica tradición
                   iqueña
                 </p>
               </div>
-              <div
-                className="col-md-6 col-sm-12 text-right"
-                data-aos="fade-up-left"
-              >
+              <div className="col-md-6 col-sm-12 text-right" data-aos="fade-up">
                 <div className="d-flex flex-row justify-content-center align-items-center">
                   <Link
                     to="/cocteleria"
