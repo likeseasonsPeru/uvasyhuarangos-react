@@ -79,6 +79,7 @@ const Gastronomia = () => {
             </div>
           </div>
         </div>
+        
         <div className="container mt-5 mb-120">
           <div className="row">
             <div className="col-md-6 col-xl-6 col-sm-12">
@@ -135,7 +136,7 @@ const Gastronomia = () => {
         </div>
 
         <div className="container mb-120">
-          <div className="row">
+          <div className="row  column-reverse-h">
             <div className="col-md-6 col-xl-6 col-sm-12  mt-5">
               <div style={{ width: "100%" }}>
                 <img src={elcatador} className="img-fluid" alt="el catador" />
@@ -321,8 +322,8 @@ const Gastronomia = () => {
         </div>
 
         <div className="container border-bottom-color  px-90">
-          <div className="row row-reverse-w">
-            <div className="col-md-6 col-xl-6 col-sm-12 align-self-center">
+          <div className="row column-reverse-h">
+            <div className="col-md-6 col-xl-6 col-sm-12 align-self-center class-top">
               <div className="position-relative" style={{ width: "100%" }}>
                 <img src={tours} className="img-fluid" alt="tours" />
               </div>
@@ -424,8 +425,8 @@ const Gastronomia = () => {
         </div>
 
         <div className="container px-90 border-bottom-color">
-          <div className="row row-reverse-w">
-            <div className="col-md-6 col-xl-6 col-sm-12 align-self-center">
+          <div className="row column-reverse-h">
+            <div className="col-md-6 col-xl-6 col-sm-12 align-self-center class-top">
               <div className="position-relative" style={{ width: "100%" }}>
                 <img src={citytour} className="img-fluid" alt="tours" />
               </div>
@@ -528,8 +529,8 @@ const Gastronomia = () => {
         </div>
 
         <div className="container px-90 border-bottom-color">
-          <div className="row">
-            <div className="col-md-6 col-sm-12 align-self-end">
+          <div className="row column-reverse-h">
+            <div className="col-md-6 col-sm-12 align-self-end class-top">
               <img src={vinedos} className="img-fluid mb-2" alt="sabe ica" />
               <div className="d-flex mt-5 ml-1">
                 <Link
@@ -693,8 +694,8 @@ const Gastronomia = () => {
         </div>
 
         <div className="container px-90">
-          <div className="row">
-            <div className="col-md-6 col-sm-12 align-self-end">
+          <div className="row column-reverse-h">
+            <div className="col-md-6 col-sm-12 align-self-end class-top">
               <img src={tradicion} className="img-fluid mb-2" alt="sabe ica" />
               <div className="d-flex mt-5 ml-1">
                 <Link

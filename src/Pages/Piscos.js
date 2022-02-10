@@ -290,7 +290,7 @@ export const Piscos = () => {
           className="container-fluid px-0"
           style={{ backgroundColor: "#FED16A" }}
         >
-          <div className="container py-4">
+          <div className="container py-4 mb-md-5 mb-sm-0">
             <div className="row justify-content-center align-items-center py-2">
               <div
                 className="col-md-6 col-sm-12 h-100 align-self-center text-center"
@@ -327,7 +327,7 @@ export const Piscos = () => {
           </div>
         </div>
 
-        <div className="container-fluid p-0 pt-5">
+        <div className="container-fluid p-0">
           <img
             src={Banner2}
             className="img-fluid"

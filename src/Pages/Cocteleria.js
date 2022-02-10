@@ -118,7 +118,7 @@ export const Cocteleria = () => {
         </div>
 
         <div className="container">
-          <div className="row">
+          <div className="row column-reverse-h">
             <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12  pb-60">
               <div className="position-relative w-100">
                 <img
@@ -265,7 +265,7 @@ export const Cocteleria = () => {
         </div>
 
         <div className="container">
-          <div className="row">
+          <div className="row column-reverse-h">
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-5 pb-60">
               <div className="position-relative w-100">
                 <img src={piscopunch} className="img-fluid" alt="piscopunch" />

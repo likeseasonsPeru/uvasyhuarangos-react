@@ -1034,6 +1034,12 @@ i {
     top: 2rem;
     left: 2rem;
   }
+  .class-top {
+    padding-top: 1.5rem;
+  }
+  .class-bottom {
+    margin-bottom: 1.5rem;
+  }
 
   /* Vinos */
   .arrowLeftLegado {

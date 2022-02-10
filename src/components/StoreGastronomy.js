@@ -48,7 +48,7 @@ export const StoreGastronomy = ({ head, slg, txt, include, img, to }) => {
           <div>
             <strong className="font-tusker">Incluye:</strong>{" "}
             <span className="font-mackinacpro">{include}</span>
-            <div className="d-flex mt-4">
+            <div className="d-flex mt-4 class-bottom">
               <Link
                 to="#"
                 onClick={() => {
