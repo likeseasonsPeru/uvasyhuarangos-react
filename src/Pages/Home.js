@@ -93,7 +93,7 @@ export const Home = () => {
           <Navbar />
           <section className="mt-120">
             <Parallax bgImage={ImgHome} strength={400}>
-              <div className="px-3 b-parallax-dat">
+              <div className="px-3 b-parallax-home">
                 <div
                   className="row d-flex align-items-end"
                   style={{ height: "inherit" }}
@@ -103,7 +103,7 @@ export const Home = () => {
                       ALEGRÍA Y <br />
                       SABOR IQUEÑO
                     </h1>
-                    {width <= 640 && (
+                    {width <= 540 && (
                       <div className="text-center">
                         <img
                           className="img-fluid pb-5"
@@ -122,7 +122,7 @@ export const Home = () => {
             <div className="container-fluid d-flex flex-column justify-content-between py-5 contain-home">
               <div className="row">
                 <div className="col-md-3 text-center" data-aos="fade-up">
-                  {width > 640 && (
+                  {width > 540 && (
                     <div className="d-flex align-items-center justify-content-center">
                       <div>
                         <span className="mayoria text-white">+18</span>
@@ -169,7 +169,7 @@ export const Home = () => {
                   </div>
                 </div>
                 <div className="col-sm-6 col-md-9 align-self-end">
-                  {width <= 640 && (
+                  {width <= 540 && (
                     <div className="d-flex align-items-center justify-content-center">
                       <div>
                         <span className="mayoria text-white">+18</span>

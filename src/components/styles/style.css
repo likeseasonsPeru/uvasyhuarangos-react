@@ -388,6 +388,9 @@ h6 {
   /* height: 50vh; */
   font-size: 2rem;
 }
+.b-parallax-home {
+  height: 500px;
+}
 .b-parallax-arrow {
   padding-right: 30px;
 }
@@ -481,6 +484,9 @@ h6 {
   font-family: "californyabuploaded_file";
   font-size: 3rem;
 }
+.align-header {
+  text-align: right;
+}
 
 .color-uva {
   color: #8a73a6;
@@ -504,9 +510,12 @@ h6 {
   text-align: center;
 }
 .ArrowRightHuarango {
-  top: 5rem;
+  top: calc(50% - 60px);
   left: 5rem;
+  border: 0;
+  position: absolute;
 }
+
 .imgs-vino {
   transition: transform 0.2s;
 }
@@ -948,7 +957,7 @@ i {
     right: 1rem;
   }
   .ArrowRightHuarango {
-    top: 3rem;
+    top: calc(50% - 60px);
     left: 3rem;
   }
   .contain-home-data {
@@ -995,7 +1004,8 @@ i {
   }
 }
 @media screen and (max-width: 768px) {
-  .b-parallax-dat {
+  .b-parallax-dat,
+  .b-parallax-home {
     height: 400px;
   }
   /* Global */
@@ -1027,8 +1037,12 @@ i {
   }
   .arrowLeftCocteleria,
   .ArrowRightHuarango {
-    top: 1rem;
+    top: calc(50% - 30px);
     left: 1rem;
+    height: 60px;
+  }
+  .ArrowRightHuarango-img {
+    height: 60px !important;
   }
   .contain-home-data {
     height: 70vh;
@@ -1065,11 +1079,23 @@ i {
   }
 }
 @media screen and (max-width: 576px) {
+  .pages-slogan {
+    font-size: 2rem;
+  }
   .b-parallax-dat {
-    height: 620px;
+    height: 400px;
+  }
+  .b-parallax-home {
+    height: 640px;
+  }
+  .align-header {
+    text-align: center;
   }
   .slg-index {
     text-align: center;
+  }
+  .mayoria {
+    font-size: 3.5rem;
   }
   .pages-subtitles {
     font-size: 2.5rem;

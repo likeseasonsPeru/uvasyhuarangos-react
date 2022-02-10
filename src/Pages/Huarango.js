@@ -10,15 +10,19 @@ import Navbar from "../components/Navbar";
 import ArrowRight from "../assets/img/huarangos/arrow-right.png";
 import banner1 from "../assets/img/huarangos/banner1.jpg";
 import banner2 from "../assets/img/huarangos/banner2.jpg";
+import banner3 from "../assets/img/huarangos/banner3.jpg";
 import whyimportant from "../assets/img/huarangos/whyimportant.jpg";
 
 export const Huarango = () => {
   const DataFooter = [
     "#C0D8E1",
-    [`"AUNQUE NO HABLE NI CAMINE, EL HUARANGO ES COMO UN AMIGO QUE SE PREOCUPA POR NUESTRA VIDA, UN HERMANO QUE TENEMOS QUE CUIDAR".`, `MARTÍN NOA, ARTÍCULO PARA LA BBC MUNDO.`],
+    [
+      `"AUNQUE NO HABLE NI CAMINE, EL HUARANGO ES COMO UN AMIGO QUE SE PREOCUPA POR NUESTRA VIDA, UN HERMANO QUE TENEMOS QUE CUIDAR".`,
+      `MARTÍN NOA, ARTÍCULO PARA LA BBC MUNDO.`,
+    ],
   ];
   useEffect(() => {
-    window.scrollTo(0,0)
+    window.scrollTo(0, 0);
     AOS.init({
       duration: 2000,
     });
@@ -36,10 +40,14 @@ export const Huarango = () => {
           />
           <button
             data-aos="fade-up"
-            className="position-absolute border-0 ArrowRightHuarango"
+            className="ArrowRightHuarango"
             onClick={() => window.history.back()}
           >
-            <img src={ArrowRight} alt="ArrowRight" className="img-fluid" />
+            <img
+              src={ArrowRight}
+              alt="ArrowRight"
+              className="img-fluid ArrowRightHuarango-img"
+            />
           </button>
         </div>
         <div
@@ -84,24 +92,35 @@ export const Huarango = () => {
             </div>
           </div>
         </div>
-
-        <div className="container pb-5">
+        {window.innerWidth <= 540 && (
+          <div className="container-fluid p-0">
+            <img
+              src={banner3}
+              alt="whyimportant"
+              className="img-fluid"
+              style={{ maxHeight: 170, width: "100%" }}
+            />
+          </div>
+        )}
+        <div className="container">
           <div className="row">
-            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 pt-3">
-              <div style={{ width: "100%" }} data-aos="fade-up">
-                <img
-                  src={whyimportant}
-                  className="img-fluid"
-                  alt="whyimportant"
-                />
+            {window.innerWidth > 540 && (
+              <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 pt-3">
+                <div style={{ width: "100%" }} data-aos="fade-up">
+                  <img
+                    src={whyimportant}
+                    className="img-fluid"
+                    alt="whyimportant"
+                  />
+                </div>
               </div>
-            </div>
+            )}
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 pt-3">
               <div className="ml-auto d-flex flex-column justify-content-between">
                 <div>
                   <div className="text-right align-self-end">
                     <h2
-                      className="pages-subtitles color-huarango text-right"
+                      className="pages-subtitles color-huarango align-header"
                       data-aos="flip-up"
                     >
                       ¿POR QUÉ SOY <br /> TAN IMPORTANTE?
@@ -140,7 +159,10 @@ export const Huarango = () => {
         <div className="container py-5 mt-5">
           <div className="row pb-4">
             <div className="col-sm-12 col-md-12 col-lg-5 col-xl-5">
-              <h2 className="pages-subtitles color-huarango" data-aos="flip-up">
+              <h2
+                className="pages-subtitles color-huarango pt-3"
+                data-aos="flip-up"
+              >
                 CUIDEMOS <br />
                 AL GUARDIÁN
               </h2>
@@ -169,9 +191,7 @@ export const Huarango = () => {
                 otra vez.
               </p>
             </div>
-            <div
-              className="col-sm-12 col-md-12 col-lg-7 col-xl-7 h-100 align-self-end"
-            >
+            <div className="col-sm-12 col-md-12 col-lg-7 col-xl-7 h-100 align-self-end">
               <img
                 src={banner2}
                 className="img-fluid"
