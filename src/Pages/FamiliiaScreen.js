@@ -46,7 +46,7 @@ export const FamiliiaScreen = () => {
               </h6>
               {item.title.length > 1 ? (
                 <>
-                  <div className="d-flex justify-content-around align-items-center">
+                  <div className="d-flex justify-content-around align-items-center pb-2">
                     <button
                       className="animate__animated animate__fadeInLeft"
                       onClick={() => window.history.back()}
@@ -54,7 +54,7 @@ export const FamiliiaScreen = () => {
                       <img
                         src={ArrowLeft}
                         alt="ArrowLeft"
-                        className="img-fluid"
+                        className="img-fluid heigth-arrow"
                       />
                     </button>
                     <h2
@@ -71,7 +71,7 @@ export const FamiliiaScreen = () => {
                           <img
                             src={ArrowLeft}
                             alt="ArrowLeft"
-                            className="img-fluid"
+                            className="img-fluid heigth-arrow"
                             style={{ transform: "rotate(180deg)" }}
                           />
                         </button>
@@ -82,7 +82,7 @@ export const FamiliiaScreen = () => {
                           <img
                             src={ArrowLeft}
                             alt="ArrowLeft"
-                            className="img-fluid"
+                            className="img-fluid heigth-arrow"
                             disabled={true}
                             style={{ transform: "rotate(180deg)" }}
                           />
@@ -103,7 +103,7 @@ export const FamiliiaScreen = () => {
                     <img
                       src={ArrowLeft}
                       alt="ArrowLeft"
-                      className="img-fluid"
+                      className="img-fluid heigth-arrow"
                     />
                   </button>
                   <h1 className="pages-titles color-qs animate__animated animate__fadeInDown">
@@ -115,7 +115,7 @@ export const FamiliiaScreen = () => {
                         <img
                           src={ArrowLeft}
                           alt="ArrowLeft"
-                          className="img-fluid"
+                          className="img-fluid heigth-arrow"
                           style={{ transform: "rotate(180deg)" }}
                         />
                       </button>
@@ -126,7 +126,7 @@ export const FamiliiaScreen = () => {
                         <img
                           src={ArrowLeft}
                           alt="ArrowLeft"
-                          className="img-fluid"
+                          className="img-fluid heigth-arrow"
                           disabled={true}
                           style={{ transform: "rotate(180deg)" }}
                         />
@@ -165,7 +165,10 @@ export const FamiliiaScreen = () => {
                   className="link-social text-decoration-none"
                   to="#"
                   onClick={() => {
-                    window.open(`${item.networkSocial.instragram[1]}`, "_blank");
+                    window.open(
+                      `${item.networkSocial.instragram[1]}`,
+                      "_blank"
+                    );
                   }}
                 >
                   <span>INSTAGRAM:</span> {item.networkSocial.instragram[0]}
@@ -230,6 +233,28 @@ export const FamiliiaScreen = () => {
 
         <div className="container pb-5">
           <div className="row pb-4">
+            {window.innerWidth <= 540 && (
+              <div className="col-sm-12">
+                <div className="mx-auto" style={{ maxWidth: "450px" }}>
+                  {item.nameOwner.length > 1 ? (
+                    <>
+                      <h4 className="txt-autor text-center pr-5">
+                        {item.nameOwner[0]}
+                      </h4>
+                      <h4 className="txt-autor text-center pl-5">
+                        {item.nameOwner[1]}
+                      </h4>
+                    </>
+                  ) : (
+                    <>
+                      <h4 className="txt-autor text-center">
+                        {item.nameOwner}
+                      </h4>
+                    </>
+                  )}
+                </div>
+              </div>
+            )}
             <div className="col-md-7 col-sm-12 text-center my-3">
               <img
                 src={item.owner}
@@ -239,39 +264,41 @@ export const FamiliiaScreen = () => {
                 // data-aos="fade-right"
               />
             </div>
-            <div className="col-md-5 d-flex flex-column justify-content-around my-3 pl-5">
+            <div className="col-md-5 d-flex flex-column justify-content-around my-3">
               {item.txtOwner.length > 1 ? (
-                <p className="text-right pb-3" style={{ maxWidth: "450px" }}>
+                <p className="align-header pb-3" style={{ maxWidth: "450px" }}>
                   {item.txtOwner[0]}
                   <br />
                   <br />
                   {item.txtOwner[1]}
                 </p>
               ) : (
-                <p className="text-right pb-3" style={{ maxWidth: "450px" }}>
+                <p className="align-header pb-3" style={{ maxWidth: "450px" }}>
                   {item.txtOwner}
                 </p>
               )}
-              <div style={{ maxWidth: "450px" }}>
-                {item.nameOwner.length > 1 ? (
-                  <>
-                    <h4 className="txt-autor text-center pl-4">
-                      {item.nameOwner[0]}
-                    </h4>
-                    <h4 className="txt-autor text-right">
-                      {item.nameOwner[1]}
-                    </h4>
-                  </>
-                ) : (
-                  <>
-                    <h4 className="txt-autor text-lg-right text-md-right text-xl-right">
-                      {item.nameOwner}
-                    </h4>
-                  </>
-                )}
-              </div>
+              {window.innerWidth > 540 && (
+                <div style={{ maxWidth: "450px" }}>
+                  {item.nameOwner.length > 1 ? (
+                    <>
+                      <h4 className="txt-autor text-center pl-4">
+                        {item.nameOwner[0]}
+                      </h4>
+                      <h4 className="txt-autor text-right">
+                        {item.nameOwner[1]}
+                      </h4>
+                    </>
+                  ) : (
+                    <>
+                      <h4 className="txt-autor text-lg-right text-md-right text-xl-right">
+                        {item.nameOwner}
+                      </h4>
+                    </>
+                  )}
+                </div>
+              )}
               <div
-                className="d-flex justify-content-between align-items-center"
+                className="d-flex justify-content-between align-items-center ml-540"
                 style={{ maxWidth: "450px" }}
               >
                 <Link

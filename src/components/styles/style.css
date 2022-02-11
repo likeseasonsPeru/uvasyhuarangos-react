@@ -1092,6 +1092,14 @@ i {
   }
 }
 @media screen and (max-width: 576px) {
+  .heigth-arrow {
+    height: 60px !important;
+  }
+  .font-size-famvisit {
+    text-align: center;
+    font-size: 50px;
+    line-height: 1;
+  }
   .drinks {
     font-size: 20px;
   }
@@ -1106,6 +1114,9 @@ i {
   }
   .align-header {
     text-align: center;
+  }
+  .ml-540 {
+    margin-left: auto;
   }
   .slg-index {
     text-align: center;
@@ -1125,7 +1136,7 @@ i {
     height: 100vh;
   }
   .arrowFamiliaBtn {
-    top: 3.5rem;
+    top: 8.5rem;
   }
   .arrowFamiliaBtn > img {
     height: 2.5rem;

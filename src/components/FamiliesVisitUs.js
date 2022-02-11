@@ -69,7 +69,7 @@ export const FamiliesVisitUs = ({ slg, to, img, txt, include, item }) => {
             <div>
               <strong className="font-tusker">Incluye:</strong>{" "}
               <span className="font-mackinacpro">{include}</span>
-              <div className="d-flex mt-4">
+              <div className="d-flex mt-4 pb-2">
                 <Link to="#" onClick={()=>{
                   window.open(`${to}`, "_blank")
                 }}>
