@@ -297,6 +297,18 @@ export const FamiliiaScreen = () => {
                   )}
                 </div>
               )}
+              {window.innerWidth <= 540 && item.pisco ? (
+                <div className="mx-auto mt-3 mb-5">
+                  <img
+                    src={item.pisco}
+                    alt="Imagen de Pisco"
+                    style={{ maxHeight: "450px" }}
+                  />
+                </div>
+              ) : (
+                <></>
+              )}
+
               <div
                 className="d-flex justify-content-between align-items-center ml-540"
                 style={{ maxWidth: "450px" }}
