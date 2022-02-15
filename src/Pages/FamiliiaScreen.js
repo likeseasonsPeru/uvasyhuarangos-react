@@ -256,13 +256,23 @@ export const FamiliiaScreen = () => {
               </div>
             )}
             <div className="col-md-7 col-sm-12 text-center my-3">
-              <img
+              {window.innerWidth <= 540 ? (
+                <img
+                src={item.boss}
+                className="img-fluid"
+                style={{ maxHeight: "580px" }}
+                alt="owner"
+                // data-aos="fade-right"
+              />
+              ) : (
+                <img
                 src={item.owner}
                 className="img-fluid"
                 style={{ maxHeight: "580px" }}
                 alt="owner"
                 // data-aos="fade-right"
               />
+              )}
             </div>
             <div className="col-md-5 d-flex flex-column justify-content-around my-3">
               {item.txtOwner.length > 1 ? (

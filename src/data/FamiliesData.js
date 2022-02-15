@@ -1,34 +1,43 @@
 // IMAGES
 import bannerDolphin from "../assets/img/quienesomos/dolphin/banner1.jpg"
 import ownerDolphin from "../assets/img/quienesomos/dolphin/owner.jpg"
+import bossDolphin from "../assets/img/quienesomos/dolphin/boss.jpg"
 import bannerFinca314 from "../assets/img/quienesomos/finca314/banner.jpg"
 import ownerFinca314 from "../assets/img/quienesomos/finca314/owner.jpg"
+import bossFinca314 from "../assets/img/quienesomos/finca314/boss.jpg"
 import piscoFinca314 from "../assets/img/quienesomos/finca314/pisco.jpg"
 import visitUs from "../assets/img/quienesomos/finca314/visitus.jpg"
 import bannerFundoSantaLucia from "../assets/img/quienesomos/fundosantalucia/banner.jpg"
 import ownerFundoSantaLucia from "../assets/img/quienesomos/fundosantalucia/owner.jpg"
 import piscoFundoSantaLucia from "../assets/img/quienesomos/fundosantalucia/pisco.jpg"
+import bossFundoSantaLucia from "../assets/img/quienesomos/fundosantalucia/boss.jpg"
 import bannerBodega1615 from "../assets/img/quienesomos/bodega1615/banner1.jpg"
 import ownerBodega1615 from "../assets/img/quienesomos/bodega1615/owner.jpg"
 import visitUs1615 from "../assets/img/quienesomos/bodega1615/visitus.jpg"
 import pisco1615 from "../assets/img/quienesomos/bodega1615/pisco.jpg"
+import bossBodega1615 from "../assets/img/quienesomos/bodega1615/boss.jpg"
 import bannerElCatador from "../assets/img/quienesomos/elcatador/banner1.jpg"
 import ownerElCatador from "../assets/img/quienesomos/elcatador/owner.jpg"
 import piscoElCatador from "../assets/img/quienesomos/elcatador/pisco.jpg"
+import bossElCatador from "../assets/img/quienesomos/elcatador/boss.jpg"
 import bannerPampasDeIca from "../assets/img/quienesomos/bodegapampasdeica/banner.jpg"
 import ownerPampasDeIca from "../assets/img/quienesomos/bodegapampasdeica/owner.jpg"
 import piscoPampasDeIca from "../assets/img/quienesomos/bodegapampasdeica/pisco.jpg"
 import visitUsPampas from "../assets/img/quienesomos/bodegapampasdeica/visitus.jpg"
+import bossPampas from "../assets/img/quienesomos/bodegapampasdeica/boss.jpg"
 import bannerTresGeneraciones from "../assets/img/quienesomos/bodegatresgeneraciones/banner.jpg"
 import ownerTresGeneraciones from "../assets/img/quienesomos/bodegatresgeneraciones/owner.jpg"
 import piscoTresGeneraciones from "../assets/img/quienesomos/bodegatresgeneraciones/pisco.jpg"
 import visitUsTresGeneraciones from "../assets/img/quienesomos/bodegatresgeneraciones/visitus.jpg"
+import bossTresGeneraciones from "../assets/img/quienesomos/bodegatresgeneraciones/boss.jpg"
 import bannerBodegaVillacuri from "../assets/img/quienesomos/bodegavillacuri/banner1.jpg"
 import ownerBodegaVillacuri from "../assets/img/quienesomos/bodegavillacuri/owner.jpg"
 import piscoBodegaVillacuri from "../assets/img/quienesomos/bodegavillacuri/pisco.jpg"
 import visitUsVillacuri from "../assets/img/quienesomos/bodegavillacuri/visitus.jpg"
+import bossVillacuri from "../assets/img/quienesomos/bodegavillacuri/boss.jpg"
 import bannerOllaDeJuanita from "../assets/img/quienesomos/olladejuanita/banner1.jpg"
 import ownerOllaDeJuanita from "../assets/img/quienesomos/olladejuanita/owner.jpg"
+import bossOllaDeJuanita from "../assets/img/quienesomos/olladejuanita/boss.jpg"
 
 export const FamiliesData = [
     
@@ -41,6 +50,7 @@ export const FamiliesData = [
             "banner": bannerDolphin,
             "txtBanner": "ENOTURISMO, ADRENALINA , ICA",
             "owner": ownerDolphin,
+            "boss": bossDolphin,
             "txtOwner": ["La historia, tradiciones y costumbres de un pueblo representan la identidad de su gente. Aquí en Ica usamos el turismo para revalorizarlas y preservarlas. Ayudamos a los pobladores a adquirir conciencia de sus propios valores culturales, a difundirlos y protegerlos a través de nuevas experiencias, productos y servicios a los visitantes, diversificando así su oferta y mejorando su competitividad frente a otros destinos.", "Buscamos generar conciencia, valores y actitudes que fortalezcan la identidad, fomentar el buen trato a los turistas para asegurar su retorno y recomendación, y así lograr un turismo sostenible en la región de Ica."],
             "nameOwner": ["Elena Contreras"],
             "networkSocial": {
@@ -58,6 +68,7 @@ export const FamiliesData = [
             "banner": bannerFinca314,
             "txtBanner": "TRADICión y pasión por el pisco",
             "owner": ownerFinca314,
+            "boss": bossFinca314,
             "pisco": piscoFinca314,
             "txtOwner": ["Cercanas a cumplir nuestro Bicentenario estamos orgullosas de llevar la historia de la familia a mercados nacionales e internacionales. Siguiendo este legado, continuamos con dos grandes pilares de nuestra tradición bicentenaria: La honestidad y calidad; valores que hoy son premiados a través de concursos nacionales e internacionales, donde hemos obtenido medallas de oro en nuestras diferentes líneas de Pisco."],
             "nameOwner": ["Claudia","Moquillaza"],
@@ -83,6 +94,7 @@ export const FamiliesData = [
             "banner": bannerFundoSantaLucia,
             "txtBanner": "El legado del pisco, continúa",
             "owner": ownerFundoSantaLucia,
+            "boss": bossFundoSantaLucia,
             "pisco": piscoFundoSantaLucia,
             "txtOwner": ["Como familia Grados somos responsables de mantener el legado, conservando la calidad y personalidad de su Pisco. Hoy Matías Grados Mora, continúa con esta tradición."],
             "nameOwner": ["Rosa","Grados"],
@@ -101,6 +113,7 @@ export const FamiliesData = [
             "banner": bannerBodega1615,
             "txtBanner": "ES MOMENTO DE COMPARTIR",
             "owner": ownerBodega1615,
+            "boss": bossBodega1615,
             "pisco": pisco1615,
             "txtOwner": ["Somos una compañía dedicada al cultivo de uva, destilación y comercialización de pisco, destilado tradicional del Perú, bajo las marcas Pisco 1615 y Hermano, Nacimos en Pisco, Perú y hoy llegamos a más de 52 ciudades alrededor del mundo que nos hicieron el pisco #1 de exportaciones."],
             "nameOwner": ["Raúl","Otero"],
@@ -126,6 +139,7 @@ export const FamiliesData = [
             "banner": bannerElCatador,
             "txtBanner": "Innovación y diversidad",
             "owner": ownerElCatador,
+            "boss": bossElCatador,
             "pisco": piscoElCatador,
             "txtOwner": ["Ica es un desierto rico en tradiciones, y nuestros mas de 30 años en la industria nos han permitido entenderlas y transformarlas en productos diversos e innovadores con pisco y derivados."],
             "nameOwner": ["Antonio","Carrasco"],
@@ -144,6 +158,7 @@ export const FamiliesData = [
             "banner": bannerPampasDeIca,
             "txtBanner": "Pisco, Vino, Premios y esfuerzo",
             "owner": ownerPampasDeIca,
+            "boss": bossPampas,
             "pisco": piscoPampasDeIca,
             "txtOwner": ["Nuestras 25 hectáreas de viñedos se encuentran ubicados en la provincia de Ica, en el Distrito de Santiago en el sector Pampas de los Castillos por ende el nombre de la marca “Pampas de Ica”. Estas tierras se compraron en los años 80 y en estos últimos 20 años se vienen cultivando variedades de uva destinadas para elaboración de Pisco y de Vino. Los suelos son franco arenosas, ricos en materia orgánica y minerales. Las aguas con las que se riegan estas viñas provienen de las regiones altoandinas y dan esa riqueza de minerales a nuestros suelos."],
             "nameOwner": ["Ismael","Carpio"],
@@ -169,6 +184,7 @@ export const FamiliesData = [
             "banner": bannerTresGeneraciones,
             "txtBanner": "Tradición y Pureza del pisco",
             "owner": ownerTresGeneraciones,
+            "boss": bossTresGeneraciones,
             "pisco": piscoTresGeneraciones,
             "txtOwner": ["Tradición desde 1856, La calidad de Tres Generaciones descansa en el cuidadoso cultivo de las uvas y el respeto a las prácticas tradicionales de elaboración."],
             "nameOwner": ["Juanita","Martinez"],
@@ -194,6 +210,7 @@ export const FamiliesData = [
             "banner": bannerBodegaVillacuri,
             "txtBanner": "Una pasión: producir uvas de calidad",
             "owner": ownerBodegaVillacuri,
+            "boss": bossVillacuri,
             "pisco": piscoBodegaVillacuri,
             "txtOwner": ["Puedes terminar la experiencia enoturistica maridando y visitando nuestro restaurante picanteria “Pampa de Villacuri! al lado de la bodega donde degustarás platos tipicos regionales y una fuerte influencia de nuestros ajies peruanos."],
             "nameOwner": ["Jason","Astete"],
@@ -236,6 +253,7 @@ export const FamiliesData = [
             "txt": ["Con la sazón y dedicación que solo Doña Juanita, la Dama del Pisco, heredó a su hija Cecilia Gonzales nace “La Olla de Juanita”. Mujeres de temple, con amor por la cocina y el pisco, que supieron desde siempre la filosofía que marcaría la línea de la casa:", "“Recuperar, revalorizar y preservar las expresiones culinarias de nuestro país, respetando la esencia de nuestros sabores”."],
             "banner": bannerOllaDeJuanita,
             "txtBanner": "Sabor y algarabía iqueña",
+            "boss": bossOllaDeJuanita,
             "owner": ownerOllaDeJuanita,
             "txtOwner": ["“Nuestra cocina no tiene secretos. Si eres un criollo verdadero y usas ajo, cebolla, pimiento, comino y ají natural, tu comida tiene todo lo necesario para que salga bien… lo demás ya está en la mano”"],
             "nameOwner": ["Cecilia","Gonzales"],
