@@ -80,7 +80,7 @@ export const Home = () => {
               width="100%"
               playing
               controls
-              volume="0.4"
+              volume={0.4}
               height="100%"
               muted
               style={{ maxHeight: "99vh" }}
@@ -107,7 +107,6 @@ export const Home = () => {
                       <div className="text-center">
                         <img
                           className="img-fluid pb-5"
-                          data-aos="fade-up"
                           src={Shilf}
                           alt="Shilf"
                           style={{ maxWidth: 250 }}

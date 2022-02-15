@@ -585,7 +585,8 @@ i {
 .color-legado {
   color: #808060;
 }
-.arrowLeftLegado {
+.arrowLeftLegado,
+.arrowLeftUvas {
   position: absolute;
   top: 5rem;
   border: none;
@@ -1105,16 +1106,24 @@ i {
   }
 
   /* Vinos */
-  .arrowLeftLegado {
+  .arrowLeftUvas {
     top: 4rem;
+  }
+  .arrowLeftLegado {
+    top: 6rem;
   }
   .arrowLeftLegado img {
     height: 3rem !important;
   }
+  .arrowLeftUvas img {
+    height: 3rem !important;
+  }
   .arrowLeftCocteleria,
   .ArrowRightHuarango {
-    top: calc(50% - 30px);
+    top: calc(50% - 40px);
     left: 1rem;
+  }
+  .arrowLeftCocteleria img {
     height: 60px;
   }
   .ArrowRightHuarango-img {

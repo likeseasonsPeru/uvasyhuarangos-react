@@ -51,7 +51,7 @@ export const Uvas = () => {
       <section id="uvas-patrimoniales" className="page py-5 mt-120">
         <div className="container py-5 position-relative">
           <button
-            className="arrowLeftLegado pl-lg-5 pb-lg-2"
+            className="arrowLeftUvas pl-lg-5 pb-lg-2"
             style={{ zIndex: "10" }}
             onClick={() => window.history.back()}
             data-aos="fade-up"
