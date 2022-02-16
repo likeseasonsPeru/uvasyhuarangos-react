@@ -6,7 +6,7 @@ export const StoreGastronomy = ({ head, slg, txt, include, img, to }) => {
   const family = "BODEGA PAMPAS DE ICA";
   return (
     <div className="container px-120 border-bottom-color">
-      <h1 className="pages-titles-gastronomia text-left color-gastronomia">
+      <h1 className="pages-titles-gastronomia txt-position-l-c color-gastronomia">
         {head}
       </h1>
       <div className="row mt-3">
@@ -15,7 +15,7 @@ export const StoreGastronomy = ({ head, slg, txt, include, img, to }) => {
             <h4 className="font-california mt-2 font-size-gastro">{slg[0]}</h4>
             <h4 className="font-california pb-4 font-size-gastro">{slg[1]}</h4>
             <p style={{ maxWidth: 500 }}>{txt}</p>
-            {head === family ? (
+            {head === family && (
               <div style={{ maxWidth: 500 }}>
                 <strong className="font-tusker">Tour Semisecos</strong>
                 <p>
@@ -41,21 +41,20 @@ export const StoreGastronomy = ({ head, slg, txt, include, img, to }) => {
                   *Degustación en copas e incluye agua.
                 </p>
               </div>
-            ) : (
-              <></>
             )}
           </div>
           <div>
             <strong className="font-tusker">Incluye:</strong>{" "}
             <span className="font-mackinacpro">{include}</span>
-            <div className="d-flex mt-4 class-bottom">
               <Link
                 to="#"
+                className="text-decoration-none"
                 onClick={() => {
                   window.open(`${to}`, "_blank");
                 }}
               >
-                <button className="color-gastronomia br-gastronomia px-5">
+                <div className="d-flex mt-4 class-bottom button-arrow-turism">
+                <button className="color-gastronomia br-gastronomia">
                   RESERVA
                 </button>
                 <img
@@ -63,8 +62,8 @@ export const StoreGastronomy = ({ head, slg, txt, include, img, to }) => {
                   className="img-fluid ml-4"
                   alt="ArrowRight"
                 />
+                </div>
               </Link>
-            </div>
           </div>
         </div>
         <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 h-100">

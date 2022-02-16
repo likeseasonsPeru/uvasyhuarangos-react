@@ -71,7 +71,7 @@ export const Vinos = () => {
           <button
             className="arrowLeftLegado"
             onClick={() => window.history.back()}
-            data-aos="fade-right"
+            data-aos="fade-up"
           >
             <img src={ArrowLeft} className="img-fluid" alt="arrow-left" />
           </button>
@@ -113,7 +113,7 @@ export const Vinos = () => {
                 src={Tinto}
                 alt="tinto"
                 className="img-fluid mb-5"
-                data-aos="fade-up-right"
+                data-aos="fade-up"
               />
               <p
                 className="mx-auto text-center"
@@ -148,7 +148,7 @@ export const Vinos = () => {
                 src={Rose}
                 alt="Rose"
                 className="img-fluid mb-5"
-                data-aos="fade-up-left"
+                data-aos="fade-up"
               />
               <p
                 className="mx-auto text-center"
@@ -167,8 +167,8 @@ export const Vinos = () => {
             </div>
           </div>
           <div className="d-flex justify-content-between">
-            <div className="d-flex mt-5" data-aos="fade-up-right">
-              <Link to="#" data-aos="fade-up"
+            <div className="d-flex mt-5" data-aos="fade-up">
+              <Link to="#"
                   onClick={() => {
                     window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
                   }}
@@ -183,7 +183,7 @@ export const Vinos = () => {
                 alt="arrow store"
               />
             </div>
-            <div className="d-flex" data-aos="fade-up-left">
+            <div className="d-flex" data-aos="fade-up">
               <Link to="/uvas" className="d-flex mt-5 text-decoration-none">
                 <button className="btn-w color-uva br-grape btn-h80">
                   UVAS
@@ -237,7 +237,6 @@ export const Vinos = () => {
           <div
             className="table-box"
             data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom"
           >
             <table
               className="table-vinos text-center mx-auto"

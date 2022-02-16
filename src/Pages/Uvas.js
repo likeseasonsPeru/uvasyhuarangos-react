@@ -254,7 +254,7 @@ export const Uvas = () => {
               className="col-md-3  col-sm-12 align-self-center"
               data-aos="fade-up"
             >
-              <p>
+              <p className="txt-position-l-c">
                 Hoy en día, alrededor del mundo, podemos encontrar una tendencia
                 a rescatar variedades emblemáticas de uvas, mejor conocidas como
                 uvas patrimoniales, por su conexión a la cultura y tradición

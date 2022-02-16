@@ -127,7 +127,7 @@ export const Piscos = () => {
                   PROCESO artesanal
                 </h2>
                 <p
-                  className="ml-auto text-right py-4"
+                  className="ml-auto txt-position-r-c py-4"
                   style={{ maxWidth: "600px" }}
                   data-aos="fade-up"
                 >

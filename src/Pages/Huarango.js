@@ -127,7 +127,7 @@ export const Huarango = () => {
                     </h2>
                   </div>
                   <p
-                    className="ml-auto text-right font-mackinacpro"
+                    className="ml-auto txt-position-r-c font-mackinacpro"
                     style={{ maxWidth: "560px" }}
                     data-aos="fade-up"
                   >
@@ -171,7 +171,7 @@ export const Huarango = () => {
                 preservado con mucho cuidado.
               </p>
               <p
-                className="font-mackinacpro pt-2"
+                className="font-mackinacpro pt-2 txt-position-l-c"
                 style={{ maxWidth: "580px" }}
                 data-aos="fade-up"
               >
