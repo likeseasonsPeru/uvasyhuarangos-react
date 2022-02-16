@@ -17,7 +17,7 @@ export const FamiliiaScreen = () => {
     AOS.init({
       duration: 2000,
     });
-    // window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
   }, []);
 
   const { familia } = useParams();
