@@ -166,7 +166,7 @@ export const Huarango = () => {
                 CUIDEMOS <br />
                 AL GUARDIÁN
               </h2>
-              <p className="color-huarango" data-aos="fade-up">
+              <p className="color-huarango txt-position-l-c" data-aos="fade-up">
                 Un árbol tan majestuoso como el huarango, <br /> debe ser
                 preservado con mucho cuidado.
               </p>
