@@ -17,11 +17,13 @@ import piscopunch from "../assets/img/bebidas/piscopunch.jpg";
 export const Cocteleria = () => {
   const DataFooter = [
     "#FED16A",
-    ["“PORQUE NUESTRA PERUANIDAD ESTÁ EN LA TRADICIÓN, Y EN EL PISCO, NUESTRA IDENTIDAD”"],
+    [
+      "“PORQUE NUESTRA PERUANIDAD ESTÁ EN LA TRADICIÓN, Y EN EL PISCO, NUESTRA IDENTIDAD”",
+    ],
   ];
   useEffect(() => {
-    window.scrollTo(0,0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar />
@@ -43,18 +45,18 @@ export const Cocteleria = () => {
               CON TRADICIóN
             </h1>
             <br />
-            
+
             <div className="d-flex mt-3">
-            <Link
+              <Link
                 className="text-decoration-none"
-                  to="#"
-                  onClick={() => {
-                    window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
-                  }}
+                to="#"
+                onClick={() => {
+                  window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
+                }}
               >
-              <button className="btn-w color-white br-btn-footer px-5 btn-h80">
-                TIENDA
-              </button>
+                <button className="btn-w color-white br-btn-footer px-5 btn-h80">
+                  TIENDA
+                </button>
               </Link>
               <img
                 src={ArrowPiscos}
@@ -82,7 +84,9 @@ export const Cocteleria = () => {
                 <li>- Ginger ale a gusto</li>
                 <li>- 1 limón</li>
               </ul>
-              <strong className="strong-txt font-mackinacpro">PREPARACIóN:</strong>
+              <strong className="strong-txt font-mackinacpro">
+                PREPARACIóN:
+              </strong>
               <ol className="ul-ingredientes">
                 <li>Colocar el hielo en un vaso.</li>
                 <li>Añadir el pisco.</li>
@@ -95,16 +99,19 @@ export const Cocteleria = () => {
               <div className="position-relative w-100">
                 <img src={chilcano} className="img-fluid mt-5" alt="chilcano" />
                 <div className="d-flex mt-5 position-absolute arrowWhiteCocteleria">
-                <Link
-                  className="text-decoration-none"
+                  <Link
+                    className="text-decoration-none"
                     to="#"
                     onClick={() => {
-                      window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
+                      window.open(
+                        "https://tienda.uvasyhuarangos.pe/",
+                        "_blank"
+                      );
                     }}
-                >
-                  <button className="btn-w color-black br-store px-5 btn-h80">
-                    TIENDA
-                  </button>
+                  >
+                    <button className="btn-w color-black br-store px-5 btn-h80">
+                      TIENDA
+                    </button>
                   </Link>
                   <img
                     src={ArrowPiscosBlack}
@@ -127,16 +134,19 @@ export const Cocteleria = () => {
                   alt="pisco capitan"
                 />
                 <div className="d-flex mt-5 position-absolute arrowWhiteCocteleria">
-                <Link
-                className="text-decoration-none"
-                  to="#"
-                  onClick={() => {
-                    window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
-                  }}
-              >
-                  <button className="btn-w color-white br-btn-footer px-5 btn-h80">
-                    TIENDA
-                  </button>
+                  <Link
+                    className="text-decoration-none"
+                    to="#"
+                    onClick={() => {
+                      window.open(
+                        "https://tienda.uvasyhuarangos.pe/",
+                        "_blank"
+                      );
+                    }}
+                  >
+                    <button className="btn-w color-white br-btn-footer px-5 btn-h80">
+                      TIENDA
+                    </button>
                   </Link>
                   <img
                     src={ArrowPiscos}
@@ -158,24 +168,42 @@ export const Cocteleria = () => {
               </p>
               <strong className="font-mackinacpro">INGREDIENTES:</strong>
               <div className="row pl-lg-5 pl-md-5 pl-sm-1">
-                <div className="col-5">
-                  <ul className="ul-ingredientes">
-                    <li>- 1 1⁄2 onzas de pisco</li>
-                    <li>- 1 1⁄2 onzas de vermouth rosado</li>
-                    <li>- 2 cerezas marrasquino</li>
-                  </ul>
-                </div>
-                <div className="col-7 text-left">
-                  <ul className="ul-ingredientes">
-                    <li>
-                      - 1 gota de amargo de <br />
-                      angostura
-                    </li>
-                    <li>- 2 o 3 cubos de hielo</li>
-                  </ul>
-                </div>
+                {window.innerWidth <= 540 ? (
+                  <>
+                    <div className="col-12">
+                      <ul className="ul-ingredientes">
+                        <li>- 1 1⁄2 onzas de pisco</li>
+                        <li>- 1 1⁄2 onzas de vermouth rosado</li>
+                        <li>- 2 cerezas marrasquino</li>
+                        <li>- 1 gota de amargo de angostura</li>
+                        <li>- 2 o 3 cubos de hielo</li>
+                      </ul>
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    <div className="col-5">
+                      <ul className="ul-ingredientes">
+                        <li>- 1 1⁄2 onzas de pisco</li>
+                        <li>- 1 1⁄2 onzas de vermouth rosado</li>
+                        <li>- 2 cerezas marrasquino</li>
+                      </ul>
+                    </div>
+                    <div className="col-7 text-left">
+                      <ul className="ul-ingredientes">
+                        <li>
+                          - 1 gota de amargo de <br />
+                          angostura
+                        </li>
+                        <li>- 2 o 3 cubos de hielo</li>
+                      </ul>
+                    </div>
+                  </>
+                )}
               </div>
-              <strong className="strong-txt font-mackinacpro">PREPARACIóN:</strong>
+              <strong className="strong-txt font-mackinacpro">
+                PREPARACIóN:
+              </strong>
               <ol style={{ maxWidth: "600px" }} className="ul-ingredientes">
                 <li>
                   Vierta el pisco y el vermouth en una coctelera con hielo y
@@ -208,25 +236,44 @@ export const Cocteleria = () => {
               </p>
               <strong className="font-mackinacpro">INGREDIENTES:</strong>
               <div className="row pl-lg-5 pl-md-5 pl-sm-1">
-                <div className="col-5">
-                  <ul className="ul-ingredientes">
-                    <li>- 8 cubos de hielo</li>
-                    <li>- 1 onza de jugo de limón</li>
-                    <li>- 1 onza de jarabe de goma</li>
-                    <li>- 3 onzas de pisco</li>
-                  </ul>
-                </div>
-                <div className="col-7 text-left">
-                  <ul className="ul-ingredientes">
-                    <li>- 1/2 clara de huevo</li>
-                    <li>
-                      - 4 gotas de amargo de <br />
-                      angostura
-                    </li>
-                  </ul>
-                </div>
+                {window.innerWidth <= 540 ? (
+                  <>
+                    <div className="col-12">
+                      <ul className="ul-ingredientes">
+                        <li>- 8 cubos de hielo</li>
+                        <li>- 1 onza de jugo de limón</li>
+                        <li>- 1 onza de jarabe de goma</li>
+                        <li>- 3 onzas de pisco</li>
+                        <li>- 1/2 clara de huevo</li>
+                        <li>- 4 gotas de amargo de angostura</li>
+                      </ul>
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    <div className="col-5">
+                      <ul className="ul-ingredientes">
+                        <li>- 8 cubos de hielo</li>
+                        <li>- 1 onza de jugo de limón</li>
+                        <li>- 1 onza de jarabe de goma</li>
+                        <li>- 3 onzas de pisco</li>
+                      </ul>
+                    </div>
+                    <div className="col-7 text-left">
+                      <ul className="ul-ingredientes">
+                        <li>- 1/2 clara de huevo</li>
+                        <li>
+                          - 4 gotas de amargo de <br />
+                          angostura
+                        </li>
+                      </ul>
+                    </div>
+                  </>
+                )}
               </div>
-              <strong className="strong-txt font-mackinacpro">PREPARACIóN:</strong>
+              <strong className="strong-txt font-mackinacpro">
+                PREPARACIóN:
+              </strong>
               <ol className="ul-ingredientes">
                 <li>Colocar los cubos de hielo.</li>
                 <li>
@@ -242,16 +289,19 @@ export const Cocteleria = () => {
               <div className="position-relative w-100">
                 <img src={piscosour} className="img-fluid" alt="piscosour" />
                 <div className="d-flex mt-5 position-absolute arrowWhiteCocteleria">
-                <Link
-                className="text-decoration-none"
-                  to="#"
-                  onClick={() => {
-                    window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
-                  }}
-              >
-                  <button className="btn-w color-black br-store px-5 btn-h80">
-                    TIENDA
-                  </button>
+                  <Link
+                    className="text-decoration-none"
+                    to="#"
+                    onClick={() => {
+                      window.open(
+                        "https://tienda.uvasyhuarangos.pe/",
+                        "_blank"
+                      );
+                    }}
+                  >
+                    <button className="btn-w color-black br-store px-5 btn-h80">
+                      TIENDA
+                    </button>
                   </Link>
                   <img
                     src={ArrowPiscosBlack}
@@ -270,16 +320,19 @@ export const Cocteleria = () => {
               <div className="position-relative w-100">
                 <img src={piscopunch} className="img-fluid" alt="piscopunch" />
                 <div className="d-flex mt-5 position-absolute arrowWhiteCocteleria">
-                <Link
-                  className="text-decoration-none"
+                  <Link
+                    className="text-decoration-none"
                     to="#"
                     onClick={() => {
-                      window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
+                      window.open(
+                        "https://tienda.uvasyhuarangos.pe/",
+                        "_blank"
+                      );
                     }}
-                >
-                  <button className="btn-w color-white br-btn-footer px-5 btn-h80">
-                    TIENDA
-                  </button>
+                  >
+                    <button className="btn-w color-white br-btn-footer px-5 btn-h80">
+                      TIENDA
+                    </button>
                   </Link>
                   <img
                     src={ArrowPiscos}
@@ -301,27 +354,48 @@ export const Cocteleria = () => {
               </p>
               <strong className="font-mackinacpro">INGREDIENTES:</strong>
               <div className="row pl-lg-5 pl-md-5 pl-sm-1">
-                <div className="col-6 ">
-                  <ul className="ul-ingredientes">
-                    <li>- 8 cubos de hielo</li>
-                    <li>- 1/2 onza de jugo de limón</li>
-                    <li>- 1 onza de zumo de piña</li>
-                    <li>- 2 onzas de pisco Italia</li>
-                    <li>- 3 onzas de agua con gas</li>
-                  </ul>
-                </div>
-                <div className=" col-6 text-left">
-                  <ul className="ul-ingredientes">
-                    <li>
-                      - 2 cucharadas de <br />
-                      macedonia de piña
-                    </li>
-                    <li>- 1 hoja de piña</li>
-                    <li>- 1 cereza</li>
-                  </ul>
-                </div>
+                {window.innerWidth <= 540 ? (
+                  <>
+                    <div className="col-12">
+                      <ul className="ul-ingredientes">
+                        <li>- 8 cubos de hielo</li>
+                        <li>- 1/2 onza de jugo de limón</li>
+                        <li>- 1 onza de zumo de piña</li>
+                        <li>- 2 onzas de pisco Italia</li>
+                        <li>- 3 onzas de agua con gas</li>
+                        <li>- 2 cucharadas de macedonia de piña</li>
+                        <li>- 1 hoja de piña</li>
+                        <li>- 1 cereza</li>
+                      </ul>
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    <div className="col-6 ">
+                      <ul className="ul-ingredientes">
+                        <li>- 8 cubos de hielo</li>
+                        <li>- 1/2 onza de jugo de limón</li>
+                        <li>- 1 onza de zumo de piña</li>
+                        <li>- 2 onzas de pisco Italia</li>
+                        <li>- 3 onzas de agua con gas</li>
+                      </ul>
+                    </div>
+                    <div className=" col-6 text-left">
+                      <ul className="ul-ingredientes">
+                        <li>
+                          - 2 cucharadas de <br />
+                          macedonia de piña
+                        </li>
+                        <li>- 1 hoja de piña</li>
+                        <li>- 1 cereza</li>
+                      </ul>
+                    </div>
+                  </>
+                )}
               </div>
-              <strong className="strong-txt font-mackinacpro">PREPARACIóN:</strong>
+              <strong className="strong-txt font-mackinacpro">
+                PREPARACIóN:
+              </strong>
               <ol className="ul-ingredientes">
                 <li>Colocar el hielo en una copa amplia.</li>
                 <li>
