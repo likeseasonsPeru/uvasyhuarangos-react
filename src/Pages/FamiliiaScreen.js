@@ -17,7 +17,7 @@ export const FamiliiaScreen = () => {
     AOS.init({
       duration: 2000,
     });
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   }, []);
 
   const { familia } = useParams();
@@ -330,7 +330,7 @@ export const FamiliiaScreen = () => {
                     window.open(`${item.to}`, "_blank");
                   }}
                 >
-                  <button className="btn-w color-tienda br-store btn-h80">
+                  <button className="btn-w color-tienda br-store ">
                     {item.familia === "restaurantelaolladejuanita"
                       ? "RESERVA"
                       : "TIENDA"}
@@ -342,7 +342,7 @@ export const FamiliiaScreen = () => {
                       <img
                         src={ArrowRight}
                         alt="ArrowRight"
-                        className="img-fluid"
+                        className="arrowfamilystore"
                       />
                     </button>
                   </Link>
@@ -352,7 +352,7 @@ export const FamiliiaScreen = () => {
                       <img
                         src={ArrowRight}
                         alt="ArrowRight"
-                        className="img-fluid"
+                        className="arrowfamilystore"
                         disabled={true}
                       />
                     </button>

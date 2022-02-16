@@ -577,7 +577,8 @@ i {
   margin-right: 1.5rem;
 }
 
-.button-arrow-turism {
+.button-arrow-turism,
+.arrowfamilystore {
   height: 80px;
 }
 .gastronomia-days {
@@ -646,6 +647,7 @@ i {
 .br-store {
   border: 1px solid #000;
   font-family: "tuskergrotesk-medium";
+  height: 80px;
 }
 .bg-legado {
   background-color: #808060;
@@ -1214,7 +1216,9 @@ i {
     height: 60px !important;
   }
   .button-arrow-turism,
-  .br-visitUs {
+  .br-visitUs,
+  .br-store,
+  .arrowfamilystore {
     height: 50px;
     justify-content: flex-end;
   }
@@ -1229,6 +1233,7 @@ i {
     margin-right: 0.5rem;
   }
   .button-arrow-turism,
+  .br-store,
   .arrowWhiteCocteleria,
   .br-visitUs > button {
     font-size: 25px;
