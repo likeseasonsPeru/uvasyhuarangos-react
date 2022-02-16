@@ -22,7 +22,7 @@ export const Cocteleria = () => {
     ],
   ];
   useEffect(() => {
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   }, []);
   return (
     <>
@@ -98,27 +98,23 @@ export const Cocteleria = () => {
             <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12">
               <div className="position-relative w-100">
                 <img src={chilcano} className="img-fluid mt-5" alt="chilcano" />
-                <div className="d-flex mt-5 position-absolute arrowWhiteCocteleria">
-                  <Link
-                    className="text-decoration-none"
-                    to="#"
-                    onClick={() => {
-                      window.open(
-                        "https://tienda.uvasyhuarangos.pe/",
-                        "_blank"
-                      );
-                    }}
-                  >
-                    <button className="btn-w color-black br-store px-5 btn-h80">
-                      TIENDA
-                    </button>
-                  </Link>
-                  <img
-                    src={ArrowPiscosBlack}
-                    className="img-fluid ml-4"
-                    alt="ArrowPiscos"
-                  />
-                </div>
+
+                <Link
+                  className="text-decoration-none"
+                  to="#"
+                  onClick={() => {
+                    window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
+                  }}
+                >
+                  <div className="d-flex position-absolute arrowWhiteCocteleria">
+                    <button className="br-coc-b">TIENDA</button>
+                    <img
+                      src={ArrowPiscosBlack}
+                      className="img-fluid"
+                      alt="ArrowPiscos"
+                    />
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
@@ -133,27 +129,23 @@ export const Cocteleria = () => {
                   className="img-fluid mt-5"
                   alt="pisco capitan"
                 />
-                <div className="d-flex mt-5 position-absolute arrowWhiteCocteleria">
-                  <Link
-                    className="text-decoration-none"
-                    to="#"
-                    onClick={() => {
-                      window.open(
-                        "https://tienda.uvasyhuarangos.pe/",
-                        "_blank"
-                      );
-                    }}
-                  >
-                    <button className="btn-w color-white br-btn-footer px-5 btn-h80">
-                      TIENDA
-                    </button>
-                  </Link>
-                  <img
-                    src={ArrowPiscos}
-                    className="img-fluid ml-4"
-                    alt="ArrowPiscos"
-                  />
-                </div>
+
+                <Link
+                  className="text-decoration-none"
+                  to="#"
+                  onClick={() => {
+                    window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
+                  }}
+                >
+                  <div className="d-flex position-absolute arrowWhiteCocteleria">
+                    <button className="br-coc-w">TIENDA</button>
+                    <img
+                      src={ArrowPiscos}
+                      className="img-fluid"
+                      alt="ArrowPiscos"
+                    />
+                  </div>
+                </Link>
               </div>
             </div>
             <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 pl-lg-5 pl-md-5 pl-sm-1  pb-60">
@@ -288,27 +280,23 @@ export const Cocteleria = () => {
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-5">
               <div className="position-relative w-100">
                 <img src={piscosour} className="img-fluid" alt="piscosour" />
-                <div className="d-flex mt-5 position-absolute arrowWhiteCocteleria">
-                  <Link
-                    className="text-decoration-none"
-                    to="#"
-                    onClick={() => {
-                      window.open(
-                        "https://tienda.uvasyhuarangos.pe/",
-                        "_blank"
-                      );
-                    }}
-                  >
-                    <button className="btn-w color-black br-store px-5 btn-h80">
-                      TIENDA
-                    </button>
-                  </Link>
-                  <img
-                    src={ArrowPiscosBlack}
-                    className="img-fluid ml-4"
-                    alt="ArrowPiscos"
-                  />
-                </div>
+
+                <Link
+                  className="text-decoration-none"
+                  to="#"
+                  onClick={() => {
+                    window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
+                  }}
+                >
+                  <div className="d-flex position-absolute arrowWhiteCocteleria">
+                    <button className="br-coc-b">TIENDA</button>
+                    <img
+                      src={ArrowPiscosBlack}
+                      className="img-fluid"
+                      alt="ArrowPiscos"
+                    />
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
@@ -319,27 +307,23 @@ export const Cocteleria = () => {
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-5 pb-60">
               <div className="position-relative w-100">
                 <img src={piscopunch} className="img-fluid" alt="piscopunch" />
-                <div className="d-flex mt-5 position-absolute arrowWhiteCocteleria">
-                  <Link
-                    className="text-decoration-none"
-                    to="#"
-                    onClick={() => {
-                      window.open(
-                        "https://tienda.uvasyhuarangos.pe/",
-                        "_blank"
-                      );
-                    }}
-                  >
-                    <button className="btn-w color-white br-btn-footer px-5 btn-h80">
-                      TIENDA
-                    </button>
-                  </Link>
-                  <img
-                    src={ArrowPiscos}
-                    className="img-fluid ml-4"
-                    alt="ArrowPiscos"
-                  />
-                </div>
+
+                <Link
+                  className="text-decoration-none"
+                  to="#"
+                  onClick={() => {
+                    window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
+                  }}
+                >
+                  <div className="d-flex position-absolute arrowWhiteCocteleria">
+                    <button className="br-coc-w">TIENDA</button>
+                    <img
+                      src={ArrowPiscos}
+                      className="img-fluid"
+                      alt="ArrowPiscos"
+                    />
+                  </div>
+                </Link>
               </div>
             </div>
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 pl-lg-5 pl-md-5 pl-sm-1 pb-60">

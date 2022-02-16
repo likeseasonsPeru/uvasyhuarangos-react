@@ -560,6 +560,23 @@ i {
   width: 150px;
   font-family: "tuskergrotesk-medium";
 }
+.br-coc-b {
+  border: 1px solid #000;
+  color: #000;
+  height: inherit;
+  width: 150px;
+  font-family: "tuskergrotesk-medium";
+  margin-right: 1.5rem;
+}
+.br-coc-w {
+  border: 1px solid #fff;
+  color: #fff;
+  height: inherit;
+  width: 150px;
+  font-family: "tuskergrotesk-medium";
+  margin-right: 1.5rem;
+}
+
 .button-arrow-turism {
   height: 80px;
 }
@@ -702,6 +719,7 @@ i {
 .arrowWhiteCocteleria {
   bottom: 3rem;
   right: 2rem;
+  height: 80px;
 }
 /* END BEBIDAS */
 
@@ -1189,7 +1207,18 @@ i {
     height: 50px;
     justify-content: flex-end;
   }
-  .button-arrow-turism > button {
+  .arrowWhiteCocteleria {
+    height: 50px;
+    bottom: 0.5rem;
+    right: 0.5rem;
+  }
+  .arrowWhiteCocteleria > .br-coc-b,
+  .br-coc-w {
+    width: 100px;
+    margin-right: 0.5rem;
+  }
+  .button-arrow-turism,
+  .arrowWhiteCocteleria > button {
     font-size: 25px;
   }
   .mb-turism {
