@@ -118,46 +118,55 @@ export const Home = () => {
               </div>
             </Parallax>
 
-            <div className="container-fluid d-flex flex-column justify-content-between py-5 contain-home">
+            <div className="container-fluid d-flex flex-column justify-content-between py-5 contain-home px-4">
               <div className="row">
-                <div className="col-md-3 text-center" data-aos="fade-up">
+                {/* <div className="col-md-3 text-center" data-aos="fade-up">
                   {width > 540 && (
-                    <div className="d-flex align-items-center justify-content-center">
+                    
+                  )}
+                </div> */}
+                <div className="col-lg-6 col-md-9" data-aos="fade-up">
+                  <p className="py-2 text-white">
+                    Somos una gran familia iqueña compuesta por socios propietarios de viñedos, <br />
+                    bodegas, haciendas, restaurantes y agencias de turismo con algo en común:
+                  </p>
+                  <p className="slg-index text-white">
+                    Nuestro corazón latiendo de amor por Ica.
+                  </p>
+
+                  {width > 540 && (
+                    <div className="d-flex align-items-center justify-content-start dNon">
                       <div>
                         <span className="mayoria text-white">+18</span>
                       </div>
                       <div className="btn-idiomas">
                         <button className="btn-block p-2 text-white">
-                          ENGLISH
+                          TIENDA
                         </button>
-                        <button className="btn-block p-2 text-white">
-                          ESPAÑOL
-                        </button>
+                        {/* <button className="btn-block p-2 text-white">
+                                            ESPAÑOL
+                                          </button> */}
                       </div>
                     </div>
                   )}
+
+
                 </div>
-                <div className="col-lg-6 col-md-9" data-aos="fade-up">
-                  <p className="py-2 text-white">
-                    Somos una gran familia iqueña compuesta de socios
-                    propietarios de viñedos, bodegas, haciendas, restaurantes y
-                    agencias de turismo con algo en común:
-                  </p>
-                  <p className="slg-index text-white">
-                    el corazón latiendo de amor por Ica.
-                  </p>
-                </div>
-                <div className="col-md-3 text-right animate__animated animate__fadeInRight">
-                  <img
-                    className="img-fluid sello-home"
-                    data-aos="fade-up"
-                    src={Shilf}
-                    alt="Shilf"
-                  />
+                <div className="col-md-5 text-right animate__animated animate__fadeInRight">
+                  {width > 540 && (
+                    <img
+                      className="img-fluid dNon"
+                      data-aos="fade-up"
+                      src={Shilf}
+                      style={{ maxWidth: '324px', maxHeight: '453px' }}
+                      alt="Shilf"
+                    />
+                  )}
+
                 </div>
               </div>
               <div className="  d-flex justify-content-between align-items-end">
-                <div className="col-md-3 col-lg-3 col-sm-3 text-center">
+                {/* <div className="col-md-3 col-lg-3 col-sm-3 text-center">
                   <p className="text-white">
                     ÚNETE A<br />
                     RACIMOS DEL SUR
@@ -166,7 +175,7 @@ export const Home = () => {
                     <button className="btn-cookies">Usamos cookies</button>
                     <button className="btn-aceptar">aceptar</button>
                   </div>
-                </div>
+                </div> */}
                 <div className="col-sm-6 col-md-9 align-self-end">
                   {width <= 540 && (
                     <div className="d-flex align-items-center justify-content-center">
@@ -175,11 +184,11 @@ export const Home = () => {
                       </div>
                       <div className="btn-idiomas">
                         <button className="btn-block p-2 text-white">
-                          ENGLISH
+                          TIENDA
                         </button>
-                        <button className="btn-block p-2 text-white">
+                        {/* <button className="btn-block p-2 text-white">
                           ESPAÑOL
-                        </button>
+                        </button> */}
                       </div>
                     </div>
                   )}

@@ -88,8 +88,8 @@ export const FamiliesData = [
     {
         "id": 2,
         "to": " https://tienda.uvasyhuarangos.pe",
-        "familia": "bodegasantalucia",
-        "title": ["BODEGA", "SANTA LUCía"],
+        "familia": "fundosantalucia",
+        "title": ["Fundo", "SANTA LUCía"],
         "txt": ["El Pisco Cholo Matías, sintetiza la tradición transmitida por cinco generaciones. Nuestro padre, Matías Grados Ferreyra, fue un pionero en la preservación de las uvas pisqueras, dedicando su vida a la búsqueda y recuperación de las mismas en los valles y quebradas de la región, para luego conservarlas en nuestras viñas, recuperando así algunas variedades de uvas pisqueras que casi se habían perdido. Así como también “El Cholo Matías”, dedicó su vida a promover el Pisco tradicional."],
         "banner": bannerFundoSantaLucia,
         "txtBanner": "El legado del pisco, continúa",
@@ -107,8 +107,8 @@ export const FamiliesData = [
     {
         "id": 3,
         "to": " https://tienda.uvasyhuarangos.pe",
-        "familia": "bodegasannicolas",
-        "title": ["BODEGA", "SAN nicolás"],
+        "familia": "bodega1615",
+        "title": ["BODEGA", "1615"],
         "txt": ["Nacimos en Pisco y nos quedamos en Pisco. Hacemos honor a quienes iniciaron hace más de 400 años. En el mismo lugar, con la misma tierra.La paciencia y la pasión de nuestros agricultores es el mejor medidor de calidad que podemos tener. Cada gota de nuestro pisco habla por nosotros. Representamos los nuevos tiempos del pisco. Rescatamos nuestra historia amos a conocimientos contemporáneos de destilación y mixología."],
         "banner": bannerBodega1615,
         "txtBanner": "ES MOMENTO DE COMPARTIR",
@@ -257,6 +257,42 @@ export const FamiliesData = [
         "owner": ownerOllaDeJuanita,
         "txtOwner": ["“Nuestra cocina no tiene secretos. Si eres un criollo verdadero y usas ajo, cebolla, pimiento, comino y ají natural, tu comida tiene todo lo necesario para que salga bien… lo demás ya está en la mano”"],
         "nameOwner": ["Cecilia", "Gonzales"],
+        "networkSocial": {
+            "instragram": ["@LaolladejuanitaPerú", "https://www.instagram.com/piscotresgeneraciones/"],
+            "facebook": ["@La olla de juanita", "https://www.facebook.com/PiscoTresGeneracionesPe"],
+            "web": ["+51 981 129 841", "tel:+51 981 129 841 "]
+        }
+    },
+    {
+        "id": 9,
+        "to": "https://tienda.uvasyhuarangos.pe/turismo/restaurantes/restaurantes-la-olla-de-juanita/",
+        "familia": "fundoviole",
+        "title": ["Fundo", "Doña Viole"],
+        "txt": ["Con la sazón y dedicación que solo Doña Juanita, la Dama del Pisco, heredó a su hija Cecilia Gonzales nace “La Olla de Juanita”. Mujeres de temple, con amor por la cocina y el pisco, que supieron desde siempre la filosofía que marcaría la línea de la casa:", "“Recuperar, revalorizar y preservar las expresiones culinarias de nuestro país, respetando la esencia de nuestros sabores”."],
+        "banner": bannerOllaDeJuanita,
+        "txtBanner": "La agroindustria creciente",
+        "boss": bossOllaDeJuanita,
+        "owner": ownerOllaDeJuanita,
+        "txtOwner": ["“Nuestra cocina no tiene secretos. Si eres un criollo verdadero y usas ajo, cebolla, pimiento, comino y ají natural, tu comida tiene todo lo necesario para que salga bien… lo demás ya está en la mano”"],
+        "nameOwner": ["Jaime", "Julian"],
+        "networkSocial": {
+            "instragram": ["@LaolladejuanitaPerú", "https://www.instagram.com/piscotresgeneraciones/"],
+            "facebook": ["@La olla de juanita", "https://www.facebook.com/PiscoTresGeneracionesPe"],
+            "web": ["+51 981 129 841", "tel:+51 981 129 841 "]
+        }
+    },
+    {
+        "id": 10,
+        "to": "https://tienda.uvasyhuarangos.pe/turismo/restaurantes/restaurantes-la-olla-de-juanita/",
+        "familia": "haciendahuamani",
+        "title": ["Hacienda", "Huamani"],
+        "txt": ["Con la sazón y dedicación que solo Doña Juanita, la Dama del Pisco, heredó a su hija Cecilia Gonzales nace “La Olla de Juanita”. Mujeres de temple, con amor por la cocina y el pisco, que supieron desde siempre la filosofía que marcaría la línea de la casa:", "“Recuperar, revalorizar y preservar las expresiones culinarias de nuestro país, respetando la esencia de nuestros sabores”."],
+        "banner": bannerOllaDeJuanita,
+        "txtBanner": "De nuestra hacienda a tu copa",
+        "boss": bossOllaDeJuanita,
+        "owner": ownerOllaDeJuanita,
+        "txtOwner": ["“Nuestra cocina no tiene secretos. Si eres un criollo verdadero y usas ajo, cebolla, pimiento, comino y ají natural, tu comida tiene todo lo necesario para que salga bien… lo demás ya está en la mano”"],
+        "nameOwner": ["Daniel", "Benavides"],
         "networkSocial": {
             "instragram": ["@LaolladejuanitaPerú", "https://www.instagram.com/piscotresgeneraciones/"],
             "facebook": ["@La olla de juanita", "https://www.facebook.com/PiscoTresGeneracionesPe"],

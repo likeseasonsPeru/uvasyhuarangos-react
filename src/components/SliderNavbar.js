@@ -28,16 +28,16 @@ export const SliderNavbar = () => {
     <div style={{ marginTop: "120px" }}>
       <Swiper
         ref={swiperRef}
-        spaceBetween={0}
-        slidesPerView={2}
-        // breakpoints={{
-        //   540: {
-        //     slidesPerView: 2,
-        //   },
-        //   992: {
-        //     slidesPerView: 4,
-        //   },
-        // }}
+        spaceBetween={2}
+        slidesPerView={1}
+      // breakpoints={{
+      //   540: {
+      //     slidesPerView: 2,
+      //   },
+      //   992: {
+      //     slidesPerView: 4,
+      //   },
+      // }}
       >
         <SwiperSlide>
           <div>

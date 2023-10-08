@@ -383,6 +383,22 @@ h6 {
   right: 20px;
   top: -250px;
 }
+
+/* .dBlo {
+  display: none;
+} */
+
+/* @media screen and (min-width: 768px) {
+  .dBlo {
+    display: flex;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .dNon {
+    display: none;
+  }
+}
 .b-parallax-dat {
   height: 500px;
   /* height: 50vh; */

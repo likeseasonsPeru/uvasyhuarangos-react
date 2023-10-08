@@ -26,8 +26,8 @@ export const NavFamilies = () => {
             <Navbar />
             <nav className="navbar-brands" style={{ marginTop: "120px" }}>
               <ul
-                className="d-flex justify-content-around  align-items-center"
-                style={{ marginBottom: "0" }}
+                className="d-flex justify-content-center  align-items-center"
+                style={{ marginBottom: "0", gap: '40px' }}
               >
                 <li className="nav-item-fam">
                   <NavLink
@@ -51,10 +51,10 @@ export const NavFamilies = () => {
                 <li className="nav-item-fam">
                   <NavLink
                     className="brands-link"
-                    to="/familia/bodegasantalucia"
+                    to="/familia/fundosantalucia"
                   >
                     <p className="text-center">
-                      BODEGA <br />
+                      FUNDO <br />
                       SANTA LUCíA
                     </p>
                   </NavLink>
@@ -62,11 +62,11 @@ export const NavFamilies = () => {
                 <li className="nav-item-fam">
                   <NavLink
                     className="brands-link"
-                    to="/familia/bodegasannicolas"
+                    to="/familia/bodega1615"
                   >
                     <p className="text-center">
                       Bodega <br />
-                      San Nicolás
+                      1615
                     </p>
                   </NavLink>
                 </li>
@@ -111,6 +111,28 @@ export const NavFamilies = () => {
                     <p className="text-center">
                       Bodega <br />
                       Villacuri
+                    </p>
+                  </NavLink>
+                </li>
+                <li className="nav-item-fam">
+                  <NavLink
+                    className="brands-link"
+                    to="/familia/fundoviole"
+                  >
+                    <p className="text-center">
+                      Doña <br />
+                      Viole
+                    </p>
+                  </NavLink>
+                </li>
+                <li className="nav-item-fam">
+                  <NavLink
+                    className="brands-link"
+                    to="/familia/haciendahuamani"
+                  >
+                    <p className="text-center">
+                      Hacienda <br />
+                      Huamani
                     </p>
                   </NavLink>
                 </li>
