@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 // images
 import ArrowLeft from "../assets/img/legado/arrow-left.png";
 import banner1 from "../assets/img/legado/banner1.jpg";
-import sello from "../assets/img/legado/sello1.png";
+import sello from "../assets/img/legado/sello.png";
 import ArrowGrape from "../assets/img/legado/arrow-right-grape.png";
 import ArrowStore from "../assets/img/legado/arrow-right-store.png";
 import Rose from "../assets/img/legado/rose.jpg";
@@ -26,7 +26,7 @@ export const Vinos = () => {
     ],
   ];
   useEffect(() => {
-    window.scrollTo(0,0)
+    window.scrollTo(0, 0)
     AOS.init({
       duration: 2000,
     });
@@ -169,13 +169,13 @@ export const Vinos = () => {
           <div className="d-flex justify-content-between">
             <div className="d-flex mt-5" data-aos="fade-up">
               <Link to="#"
-                  onClick={() => {
-                    window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
-                  }}
-                  >
-              <button className="btn-w color-tienda br-store btn-h80">
-                TIENDA
-              </button>
+                onClick={() => {
+                  window.open("https://tienda.uvasyhuarangos.pe/", "_blank");
+                }}
+              >
+                <button className="btn-w color-tienda br-store btn-h80">
+                  TIENDA
+                </button>
               </Link>
               <img
                 src={ArrowStore}
