@@ -70,51 +70,6 @@ export const FamiliesData = [
     },
     {
         "id": 1,
-        "to": "https://tienda.uvasyhuarangos.pe/",
-        "familia": "finca314",
-        "title": ["FINCA 314"],
-        "txt": [`Finca 314 es la historia de un legado de mujeres dedicadas a la elaboración artesanal de Pisco Premium por más de 190 años; desde nuestra tatarabuela “Etelvina”, una de las mujeres pioneras en la elaboración artesanal de Pisco, hasta la Quinta Generación, conformada  por Claudia, Gabriela y Fátima Moquillaza Robatty.", "Nosotras hemos retomado estos anclajes familiares, respetando la infraestructura  de La Bodega, original de aquella época (𝙿𝚛𝚎𝚜𝚎𝚗𝚌𝚒𝚊 𝚍𝚎 𝙵𝚎𝚛𝚖𝚎𝚗𝚝𝚊𝚍𝚘𝚛𝚎𝚜, 𝙻𝚊𝚐𝚊𝚛, 𝙰𝚕𝚊𝚖𝚋𝚒𝚚𝚞𝚎, 𝙵𝚘𝚐𝚘́𝚗, 𝙰𝚕𝚋𝚎𝚛𝚌𝚊 𝚢 𝙿𝚒𝚜𝚚𝚞𝚎𝚛𝚊) así como la forma ancestral de la elaboración del Pisco.`],
-        "banner": bannerFinca314,
-        "txtBanner": "TRADICión y pasión por el pisco",
-        "owner": ownerFinca314,
-        "boss": bossFinca314,
-        "pisco": piscoFinca314,
-        "txtOwner": ["Cercanas a cumplir nuestro Bicentenario estamos orgullosas de llevar la historia de la familia a mercados nacionales e internacionales. Siguiendo este legado, continuamos con dos grandes pilares de nuestra tradición bicentenaria: La honestidad y calidad; valores que hoy son premiados a través de concursos nacionales e internacionales, donde hemos obtenido medallas de oro en nuestras diferentes líneas de Pisco."],
-        "nameOwner": ["Claudia", "Moquillaza"],
-        "networkSocial": {
-            "instragram": ["@finca_314", "https://www.instagram.com/finca_314"],
-            "facebook": ["@Finca 314", "https://www.facebook.com/Finca-314-1981581998629779"],
-            "web": ["www.finca314.com", "https://finca314.com/"]
-        },
-        "dataVisit": {
-            "slg": ["Tradición y pasión", "por el pisco"],
-            "txt": "Nuestra bodega está diseñada con el objetivo de ofrecerles una experiencia única y auténtica en la elaboración de nuestras líneas de Vinos Peruanos y por supuesto Piscos y Licores afrutados.​",
-            "include": "Visita guiada + cata",
-            "img": visitUs,
-            "to": "https://tienda.uvasyhuarangos.pe/turismo/visitanos/finca-314/"
-        }
-    },
-    {
-        "id": 2,
-        "to": " https://tienda.uvasyhuarangos.pe",
-        "familia": "fundosantalucia",
-        "title": ["Fundo", "SANTA LUCía"],
-        "txt": ["El Pisco Cholo Matías, sintetiza la tradición transmitida por cinco generaciones. Nuestro padre, Matías Grados Ferreyra, fue un pionero en la preservación de las uvas pisqueras, dedicando su vida a la búsqueda y recuperación de las mismas en los valles y quebradas de la región, para luego conservarlas en nuestras viñas, recuperando así algunas variedades de uvas pisqueras que casi se habían perdido. Así como también “El Cholo Matías”, dedicó su vida a promover el Pisco tradicional."],
-        "banner": bannerFundoSantaLucia,
-        "txtBanner": "El legado del pisco, continúa",
-        "owner": ownerFundoSantaLucia,
-        "boss": bossFundoSantaLucia,
-        "pisco": piscoFundoSantaLucia,
-        "txtOwner": ["Como familia Grados somos responsables de mantener el legado, conservando la calidad y personalidad de su Pisco. Hoy Matías Grados Mora, continúa con esta tradición."],
-        "nameOwner": ["Rosa", "Grados"],
-        "networkSocial": {
-            "instragram": ["@Pisco Cholo Matias", "https://www.instagram.com/pisco.cholomatias/"],
-            "facebook": ["@Pisco Cholo Matías", "https://www.facebook.com/PiscoGrados"],
-            "mail": ["piscogrados@hotmail.com ", "mailto:piscogrados@hotmail.com "]
-        }
-    },
-    {
-        "id": 3,
         "to": " https://tienda.uvasyhuarangos.pe",
         "familia": "bodega1615",
         "title": ["BODEGA", "1615"],
@@ -140,7 +95,7 @@ export const FamiliesData = [
         }
     },
     {
-        "id": 4,
+        "id": 2,
         "to": "https://tienda.uvasyhuarangos.pe/turismo/restaurantes/restaurantes-el-catador/",
         "familia": "bodegaelcatador",
         "title": ["BODEGA turística", "El catador srl."],
@@ -159,7 +114,7 @@ export const FamiliesData = [
         }
     },
     {
-        "id": 5,
+        "id": 3,
         "to": "https://tienda.uvasyhuarangos.pe/",
         "familia": "bodegapampasdeica",
         "title": ["BODEGA", "Pampas de Ica"],
@@ -185,7 +140,7 @@ export const FamiliesData = [
         }
     },
     {
-        "id": 6,
+        "id": 4,
         "to": " https://tienda.uvasyhuarangos.pe/",
         "familia": "bodegatresgeneraciones",
         "title": ["BODEGA", "Tres Generaciones"],
@@ -211,7 +166,7 @@ export const FamiliesData = [
         }
     },
     {
-        "id": 7,
+        "id": 5,
         "to": " https://tienda.uvasyhuarangos.pe/",
         "familia": "bodegavillacuri",
         "title": ["BODEGA", "Villacuri"],
@@ -236,26 +191,34 @@ export const FamiliesData = [
             "to": "https://tienda.uvasyhuarangos.pe/turismo/visitanos/bodega-villacuri/"
         }
     },
-    // {
-    //     "id": ,
-    //     "to": "",
-    //     "familia":"haciendagranpaso",
-    //     "title": ["Hacienda", "Gran Paso"],
-    //     "txt": ["Pisco “Gran Paso”, un Pisco joven con siete años en el mercado peruano, llega  respaldado por el conocimiento y experiencia de sus gestores de más de veinte años en el rubro para ofrecer un Pisco de calidad que se convierta en el favorito del paladar de todos los conocedores de nuestra bebida bandera.", "El nombre “Gran Paso” es un homenaje que a través del Pisco como Patrimonio Nacional, se le rinde al Caballo de Paso Peruano, otro Patrimonio Nacional; porque ambos simbolizan la elegancia, nobleza y tradición."],
-    //     "banner": bannerGranPaso,
-    //     "txtBanner": "La bebida auténtica del perú",
-    //     "owner": ownerGranPaso,
-    //     // "pisco": piscoGranPaso,
-    //     "txtOwner": ["Pisco Gran Paso es un Pisco joven, con 9 años en el mercado, pero respaldado por la experiancia de sus gestores en el rubro de más de 20 años. Somos un Pisco de calidad indiscutible. Somos un Pisco de Pisco."],
-    //     "nameOwner": ["Javier","Sanchez"],
-    //     "networkSocial": {
-    //         "instragram": ["@pisco gran paso", "https://www.instagram.com/piscogranpaso/"],
-    //         "facebook": ["@pisco gran paso", "https://www.facebook.com/PiscoGranPaso"],
-    //         "web": ["www.piscogranpaso.com", "http://www.piscogranpaso.com/"]
-    //     }
-    // },
     {
-        "id": 8,
+        "id": 6,
+        "to": "https://tienda.uvasyhuarangos.pe/",
+        "familia": "finca314",
+        "title": ["FINCA 314"],
+        "txt": [`Finca 314 es la historia de un legado de mujeres dedicadas a la elaboración artesanal de Pisco Premium por más de 190 años; desde nuestra tatarabuela “Etelvina”, una de las mujeres pioneras en la elaboración artesanal de Pisco, hasta la Quinta Generación, conformada  por Claudia, Gabriela y Fátima Moquillaza Robatty.", "Nosotras hemos retomado estos anclajes familiares, respetando la infraestructura  de La Bodega, original de aquella época (𝙿𝚛𝚎𝚜𝚎𝚗𝚌𝚒𝚊 𝚍𝚎 𝙵𝚎𝚛𝚖𝚎𝚗𝚝𝚊𝚍𝚘𝚛𝚎𝚜, 𝙻𝚊𝚐𝚊𝚛, 𝙰𝚕𝚊𝚖𝚋𝚒𝚚𝚞𝚎, 𝙵𝚘𝚐𝚘́𝚗, 𝙰𝚕𝚋𝚎𝚛𝚌𝚊 𝚢 𝙿𝚒𝚜𝚚𝚞𝚎𝚛𝚊) así como la forma ancestral de la elaboración del Pisco.`],
+        "banner": bannerFinca314,
+        "txtBanner": "TRADICión y pasión por el pisco",
+        "owner": ownerFinca314,
+        "boss": bossFinca314,
+        "pisco": piscoFinca314,
+        "txtOwner": ["Cercanas a cumplir nuestro Bicentenario estamos orgullosas de llevar la historia de la familia a mercados nacionales e internacionales. Siguiendo este legado, continuamos con dos grandes pilares de nuestra tradición bicentenaria: La honestidad y calidad; valores que hoy son premiados a través de concursos nacionales e internacionales, donde hemos obtenido medallas de oro en nuestras diferentes líneas de Pisco."],
+        "nameOwner": ["Claudia", "Moquillaza"],
+        "networkSocial": {
+            "instragram": ["@finca_314", "https://www.instagram.com/finca_314"],
+            "facebook": ["@Finca 314", "https://www.facebook.com/Finca-314-1981581998629779"],
+            "web": ["www.finca314.com", "https://finca314.com/"]
+        },
+        "dataVisit": {
+            "slg": ["Tradición y pasión", "por el pisco"],
+            "txt": "Nuestra bodega está diseñada con el objetivo de ofrecerles una experiencia única y auténtica en la elaboración de nuestras líneas de Vinos Peruanos y por supuesto Piscos y Licores afrutados.​",
+            "include": "Visita guiada + cata",
+            "img": visitUs,
+            "to": "https://tienda.uvasyhuarangos.pe/turismo/visitanos/finca-314/"
+        }
+    },
+    {
+        "id": 7,
         "to": "https://tienda.uvasyhuarangos.pe/turismo/restaurantes/restaurantes-la-olla-de-juanita/",
         "familia": "fundoviole",
         "title": ["Fundo", "Doña Viole"],
@@ -274,10 +237,29 @@ export const FamiliesData = [
         }
     },
     {
+        "id": 8,
+        "to": " https://tienda.uvasyhuarangos.pe",
+        "familia": "fundosantalucia",
+        "title": ["Fundo", "SANTA LUCía"],
+        "txt": ["El Pisco Cholo Matías, sintetiza la tradición transmitida por cinco generaciones. Nuestro padre, Matías Grados Ferreyra, fue un pionero en la preservación de las uvas pisqueras, dedicando su vida a la búsqueda y recuperación de las mismas en los valles y quebradas de la región, para luego conservarlas en nuestras viñas, recuperando así algunas variedades de uvas pisqueras que casi se habían perdido. Así como también “El Cholo Matías”, dedicó su vida a promover el Pisco tradicional."],
+        "banner": bannerFundoSantaLucia,
+        "txtBanner": "El legado del pisco, continúa",
+        "owner": ownerFundoSantaLucia,
+        "boss": bossFundoSantaLucia,
+        "pisco": piscoFundoSantaLucia,
+        "txtOwner": ["Como familia Grados somos responsables de mantener el legado, conservando la calidad y personalidad de su Pisco. Hoy Matías Grados Mora, continúa con esta tradición."],
+        "nameOwner": ["Rosa", "Grados"],
+        "networkSocial": {
+            "instragram": ["@Pisco Cholo Matias", "https://www.instagram.com/pisco.cholomatias/"],
+            "facebook": ["@Pisco Cholo Matías", "https://www.facebook.com/PiscoGrados"],
+            "mail": ["piscogrados@hotmail.com ", "mailto:piscogrados@hotmail.com "]
+        }
+    },
+    {
         "id": 9,
         "to": "https://tienda.uvasyhuarangos.pe/turismo/restaurantes/restaurantes-la-olla-de-juanita/",
         "familia": "haciendahuamani",
-        "title": ["Pisco", "Huamani"],
+        "title": ["Hacienda", "Huamani"],
         "txt": ["Don Ismael de la Quintana produjo la primera botella de Pisco Huamaní en 1890 y se convirtió en una pasión que se transmitió de generación en generación. Tras las expropiaciones de tierras de los años 70's, la familia dió vida nuevamente a la Hacienda Huamaní y a su famoso destilado."],
         "banner": bannerhuamani,
         "txtBanner": "De nuestra hacienda a tu copa",

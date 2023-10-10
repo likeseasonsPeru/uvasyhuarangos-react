@@ -52,38 +52,17 @@ export const SliderNavbar = () => {
             </NavLink>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <NavLink className="nav-link brands-link" to="/familia/finca314">
-              <p className="text-center">
-                Finca <br />
-                314
-              </p>
-            </NavLink>
-          </div>
-        </SwiperSlide>
+
+
         <SwiperSlide>
           <div>
             <NavLink
               className="nav-link brands-link"
-              to="/familia/bodegasantalucia"
-            >
-              <p className="text-center text-uppercase">
-                BODEGA <br />
-                SANTA LUCíA
-              </p>
-            </NavLink>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <NavLink
-              className="nav-link brands-link"
-              to="/familia/bodegasannicolas"
+              to="/familia/bodega1615"
             >
               <p className="text-center text-uppercase">
                 Bodega <br />
-                SAN Nicolás
+                1615
               </p>
             </NavLink>
           </div>
@@ -140,16 +119,17 @@ export const SliderNavbar = () => {
             </NavLink>
           </div>
         </SwiperSlide>
-        {/* <SwiperSlide>
+        <SwiperSlide>
           <div>
-            <NavLink className="brands-link" to="/familia/haciendagranpaso">
+            <NavLink className="nav-link brands-link" to="/familia/finca314">
               <p className="text-center">
-                Hacienda <br />
-                gran paso
+                Finca <br />
+                314
               </p>
             </NavLink>
           </div>
-        </SwiperSlide> */}
+        </SwiperSlide>
+
         <SwiperSlide>
           <div>
             <NavLink
@@ -159,6 +139,19 @@ export const SliderNavbar = () => {
               <p className="text-center">
                 Doña <br />
                 Viole
+              </p>
+            </NavLink>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div>
+            <NavLink
+              className="nav-link brands-link"
+              to="/familia/bodegasantalucia"
+            >
+              <p className="text-center text-uppercase">
+                BODEGA <br />
+                SANTA LUCíA
               </p>
             </NavLink>
           </div>

@@ -40,25 +40,8 @@ export const NavFamilies = () => {
                     </p>
                   </NavLink>
                 </li>
-                <li className="nav-item-fam">
-                  <NavLink className="brands-link" to="/familia/finca314">
-                    <p className="text-center">
-                      Finca <br />
-                      314
-                    </p>
-                  </NavLink>
-                </li>
-                <li className="nav-item-fam">
-                  <NavLink
-                    className="brands-link"
-                    to="/familia/fundosantalucia"
-                  >
-                    <p className="text-center">
-                      FUNDO <br />
-                      SANTA LUCíA
-                    </p>
-                  </NavLink>
-                </li>
+
+
                 <li className="nav-item-fam">
                   <NavLink
                     className="brands-link"
@@ -115,6 +98,14 @@ export const NavFamilies = () => {
                   </NavLink>
                 </li>
                 <li className="nav-item-fam">
+                  <NavLink className="brands-link" to="/familia/finca314">
+                    <p className="text-center">
+                      Finca <br />
+                      314
+                    </p>
+                  </NavLink>
+                </li>
+                <li className="nav-item-fam">
                   <NavLink
                     className="brands-link"
                     to="/familia/fundoviole"
@@ -122,6 +113,17 @@ export const NavFamilies = () => {
                     <p className="text-center">
                       Doña <br />
                       Viole
+                    </p>
+                  </NavLink>
+                </li>
+                <li className="nav-item-fam">
+                  <NavLink
+                    className="brands-link"
+                    to="/familia/fundosantalucia"
+                  >
+                    <p className="text-center">
+                      FUNDO <br />
+                      SANTA LUCíA
                     </p>
                   </NavLink>
                 </li>
