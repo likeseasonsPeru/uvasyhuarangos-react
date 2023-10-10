@@ -137,8 +137,8 @@ export const SliderNavbar = () => {
               to="/familia/fundoviole"
             >
               <p className="text-center">
-                Doña <br />
-                Viole
+                Fundo <br />
+                Doña Viole
               </p>
             </NavLink>
           </div>

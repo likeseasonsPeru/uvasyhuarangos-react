@@ -219,7 +219,7 @@ export const FamiliesData = [
     },
     {
         "id": 7,
-        "to": "https://tienda.uvasyhuarangos.pe/turismo/restaurantes/restaurantes-la-olla-de-juanita/",
+        "to": "https://tienda.uvasyhuarangos.pe/productos/?filter_cat=185",
         "familia": "fundoviole",
         "title": ["Fundo", "Doña Viole"],
         "txt": ["Somos una compañía apasionada por la agroindustria y el cultivo de productos que nos empaticen con el medio ambiente y nuestra comunidad. Nuestro Pisco es hecho con uvas peruanas y nuestra meta es llegar a poner nuestro super destilado en la cima del mundo, para que sea nuestro producto bandera y convalide nuestra maravillosa cultura."],
@@ -257,7 +257,7 @@ export const FamiliesData = [
     },
     {
         "id": 9,
-        "to": "https://tienda.uvasyhuarangos.pe/turismo/restaurantes/restaurantes-la-olla-de-juanita/",
+        "to": "https://tienda.uvasyhuarangos.pe/productos/?filter_cat=185",
         "familia": "haciendahuamani",
         "title": ["Hacienda", "Huamani"],
         "txt": ["Don Ismael de la Quintana produjo la primera botella de Pisco Huamaní en 1890 y se convirtió en una pasión que se transmitió de generación en generación. Tras las expropiaciones de tierras de los años 70's, la familia dió vida nuevamente a la Hacienda Huamaní y a su famoso destilado."],
