@@ -38,6 +38,15 @@ import bossVillacuri from "../assets/img/quienesomos/bodegavillacuri/boss.jpg"
 import bannerOllaDeJuanita from "../assets/img/quienesomos/olladejuanita/banner1.jpg"
 import ownerOllaDeJuanita from "../assets/img/quienesomos/olladejuanita/owner.jpg"
 import bossOllaDeJuanita from "../assets/img/quienesomos/olladejuanita/boss.jpg"
+import bannerDonaViole from "../assets/img/quienesomos/donaviole/banner.jpg"
+import bossDonaViole from "../assets/img/quienesomos/donaviole/boss.jpg"
+import piscoDonaViole from "../assets/img/quienesomos/donaviole/pisco.jpg"
+import ownerDonaViole from "../assets/img/quienesomos/donaviole/owner.jpg"
+
+import bannerhuamani from "../assets/img/quienesomos/huamani/banner.jpg"
+import bosshuamani from "../assets/img/quienesomos/huamani/boss.jpg"
+import piscohuamani from "../assets/img/quienesomos/huamani/pisco.jpg"
+import ownerHuamani from "../assets/img/quienesomos/huamani/owner.jpg"
 
 export const FamiliesData = [
 
@@ -248,6 +257,44 @@ export const FamiliesData = [
     {
         "id": 8,
         "to": "https://tienda.uvasyhuarangos.pe/turismo/restaurantes/restaurantes-la-olla-de-juanita/",
+        "familia": "fundoviole",
+        "title": ["Fundo", "Doña Viole"],
+        "txt": ["Somos una compañía apasionada por la agroindustria y el cultivo de productos que nos empaticen con el medio ambiente y nuestra comunidad. Nuestro Pisco es hecho con uvas peruanas y nuestra meta es llegar a poner nuestro super destilado en la cima del mundo, para que sea nuestro producto bandera y convalide nuestra maravillosa cultura."],
+        "banner": bannerDonaViole,
+        "txtBanner": "La agroindustria creciente",
+        "pisco": piscoDonaViole,
+        "boss": bossDonaViole,
+        "owner": ownerDonaViole,
+        "txtOwner": ["En el desierto de Pisco, en Pampas de Ocas, sembramos parras, que se hicieron fuertes con abundantes frutos como Dos Fernando nos decía, frutos que hemos tratado curiosamente para elaborar nuestro Pisco Puro de uva Quebranta, que nos trae la visión del atardecer en el desierto y el sabor dulzor que evoca las uvas al sol."],
+        "nameOwner": ["Jaime", "Galvan"],
+        "networkSocial": {
+            "instragram": ["@donaviole.productos", "https://www.instagram.com/donaviole.productos/"],
+            "facebook": ["@donaviole.productos", "https://www.facebook.com/donaviole.productos"],
+            "mail": ["jgalvand@gmail.com", "mailto:jgalvand@gmail.com"]
+        }
+    },
+    {
+        "id": 9,
+        "to": "https://tienda.uvasyhuarangos.pe/turismo/restaurantes/restaurantes-la-olla-de-juanita/",
+        "familia": "haciendahuamani",
+        "title": ["Pisco", "Huamani"],
+        "txt": ["Don Ismael de la Quintana produjo la primera botella de Pisco Huamaní en 1890 y se convirtió en una pasión que se transmitió de generación en generación. Tras las expropiaciones de tierras de los años 70's, la familia dió vida nuevamente a la Hacienda Huamaní y a su famoso destilado."],
+        "banner": bannerhuamani,
+        "txtBanner": "De nuestra hacienda a tu copa",
+        "boss": bosshuamani,
+        "pisco": piscohuamani,
+        "owner": ownerHuamani,
+        "txtOwner": ["En Huamani respetamos el legado de Don Ismael de la Quintana, utilizando la misma receta que creó hace más de 125 años y sus mismos alambiques de cobre. La elaboración es artesanal y de lotes pequeños, cuidando cada detalle del proceso."],
+        "nameOwner": ["Daniel", "Benavides"],
+        "networkSocial": {
+            "instragram": ["@piscohuamani", "https://www.instagram.com/piscohuamani/"],
+            "facebook": ["@piscohuamani", "https://www.facebook.com/piscohuamani/"],
+            "web": ["www.piscohuamani.com", "https://www.piscohuamani.com/"]
+        }
+    },
+    {
+        "id": 10,
+        "to": "https://tienda.uvasyhuarangos.pe/turismo/restaurantes/restaurantes-la-olla-de-juanita/",
         "familia": "restaurantelaolladejuanita",
         "title": ["Restaurante", "La Olla de Juanita"],
         "txt": ["Con la sazón y dedicación que solo Doña Juanita, la Dama del Pisco, heredó a su hija Cecilia Gonzales nace “La Olla de Juanita”. Mujeres de temple, con amor por la cocina y el pisco, que supieron desde siempre la filosofía que marcaría la línea de la casa:", "“Recuperar, revalorizar y preservar las expresiones culinarias de nuestro país, respetando la esencia de nuestros sabores”."],
@@ -263,41 +310,6 @@ export const FamiliesData = [
             "web": ["+51 981 129 841", "tel:+51 981 129 841 "]
         }
     },
-    {
-        "id": 9,
-        "to": "https://tienda.uvasyhuarangos.pe/turismo/restaurantes/restaurantes-la-olla-de-juanita/",
-        "familia": "fundoviole",
-        "title": ["Fundo", "Doña Viole"],
-        "txt": ["Con la sazón y dedicación que solo Doña Juanita, la Dama del Pisco, heredó a su hija Cecilia Gonzales nace “La Olla de Juanita”. Mujeres de temple, con amor por la cocina y el pisco, que supieron desde siempre la filosofía que marcaría la línea de la casa:", "“Recuperar, revalorizar y preservar las expresiones culinarias de nuestro país, respetando la esencia de nuestros sabores”."],
-        "banner": bannerOllaDeJuanita,
-        "txtBanner": "La agroindustria creciente",
-        "boss": bossOllaDeJuanita,
-        "owner": ownerOllaDeJuanita,
-        "txtOwner": ["“Nuestra cocina no tiene secretos. Si eres un criollo verdadero y usas ajo, cebolla, pimiento, comino y ají natural, tu comida tiene todo lo necesario para que salga bien… lo demás ya está en la mano”"],
-        "nameOwner": ["Jaime", "Julian"],
-        "networkSocial": {
-            "instragram": ["@LaolladejuanitaPerú", "https://www.instagram.com/piscotresgeneraciones/"],
-            "facebook": ["@La olla de juanita", "https://www.facebook.com/PiscoTresGeneracionesPe"],
-            "web": ["+51 981 129 841", "tel:+51 981 129 841 "]
-        }
-    },
-    {
-        "id": 10,
-        "to": "https://tienda.uvasyhuarangos.pe/turismo/restaurantes/restaurantes-la-olla-de-juanita/",
-        "familia": "haciendahuamani",
-        "title": ["Hacienda", "Huamani"],
-        "txt": ["Con la sazón y dedicación que solo Doña Juanita, la Dama del Pisco, heredó a su hija Cecilia Gonzales nace “La Olla de Juanita”. Mujeres de temple, con amor por la cocina y el pisco, que supieron desde siempre la filosofía que marcaría la línea de la casa:", "“Recuperar, revalorizar y preservar las expresiones culinarias de nuestro país, respetando la esencia de nuestros sabores”."],
-        "banner": bannerOllaDeJuanita,
-        "txtBanner": "De nuestra hacienda a tu copa",
-        "boss": bossOllaDeJuanita,
-        "owner": ownerOllaDeJuanita,
-        "txtOwner": ["“Nuestra cocina no tiene secretos. Si eres un criollo verdadero y usas ajo, cebolla, pimiento, comino y ají natural, tu comida tiene todo lo necesario para que salga bien… lo demás ya está en la mano”"],
-        "nameOwner": ["Daniel", "Benavides"],
-        "networkSocial": {
-            "instragram": ["@LaolladejuanitaPerú", "https://www.instagram.com/piscotresgeneraciones/"],
-            "facebook": ["@La olla de juanita", "https://www.facebook.com/PiscoTresGeneracionesPe"],
-            "web": ["+51 981 129 841", "tel:+51 981 129 841 "]
-        }
-    }
+
 
 ]

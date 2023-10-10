@@ -154,6 +154,32 @@ export const SliderNavbar = () => {
           <div>
             <NavLink
               className="nav-link brands-link"
+              to="/familia/fundoviole"
+            >
+              <p className="text-center">
+                Doña <br />
+                Viole
+              </p>
+            </NavLink>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div>
+            <NavLink
+              className="nav-link brands-link"
+              to="/familia/haciendahuamani"
+            >
+              <p className="text-center">
+                Hacienda <br />
+                Huamani
+              </p>
+            </NavLink>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div>
+            <NavLink
+              className="nav-link brands-link"
               to="/familia/restaurantelaolladejuanita"
             >
               <p className="text-center">
