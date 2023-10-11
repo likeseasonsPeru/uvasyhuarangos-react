@@ -1,3 +1,7 @@
+body {
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "tuskergrotesk-medium";
   /* src: url('../fonts/TuskerGrotesk-6500Medium.woff2') format('woff2'), */
@@ -828,7 +832,7 @@ i {
 }
 .txt-autor {
   font-family: "californyabuploaded_file";
-  font-size: 70px;
+  font-size: 60px;
   line-height: 0.9;
 }
 .pages-firstitle {
@@ -953,9 +957,11 @@ i {
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* padding: 1rem; */
   font-size: 18px;
   background: #a45844;
+}
+.swiper-slide {
+  /* max-width: 50vw !important; */
 }
 .button-prev {
   height: 100%;
@@ -970,6 +976,7 @@ i {
   justify-content: flex-start;
   background-color: transparent;
   width: 10%;
+  cursor: pointer;
 }
 .button-next {
   height: 100%;
@@ -984,6 +991,7 @@ i {
   right: 0;
   background-color: transparent;
   width: 10%;
+  cursor: pointer;
 }
 
 @media (min-width: 576px) {

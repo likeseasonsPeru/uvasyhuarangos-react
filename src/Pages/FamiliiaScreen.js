@@ -258,20 +258,20 @@ export const FamiliiaScreen = () => {
             <div className="col-md-7 col-sm-12 text-center my-3">
               {window.innerWidth <= 540 ? (
                 <img
-                src={item.boss}
-                className="img-fluid"
-                style={{ maxHeight: "580px" }}
-                alt="owner"
+                  src={item.boss}
+                  className="img-fluid"
+                  style={{ maxHeight: "580px" }}
+                  alt="owner"
                 // data-aos="fade-right"
-              />
+                />
               ) : (
                 <img
-                src={item.owner}
-                className="img-fluid"
-                style={{ maxHeight: "580px" }}
-                alt="owner"
+                  src={item.owner}
+                  className="img-fluid"
+                  style={{ maxHeight: "580px" }}
+                  alt="owner"
                 // data-aos="fade-right"
-              />
+                />
               )}
             </div>
             <div className="col-md-5 d-flex flex-column justify-content-around my-3">
@@ -290,14 +290,27 @@ export const FamiliiaScreen = () => {
               {window.innerWidth > 540 && (
                 <div style={{ maxWidth: "450px" }}>
                   {item.nameOwner.length > 1 ? (
-                    <>
-                      <h4 className="txt-autor text-center pl-4">
-                        {item.nameOwner[0]}
-                      </h4>
-                      <h4 className="txt-autor text-right">
-                        {item.nameOwner[1]}
-                      </h4>
-                    </>
+
+                    item.familia === 'fundoviole' ? (
+                      <>
+                        <h4 className="txt-autor text-left pl-5">
+                          {item.nameOwner[0]}
+                        </h4>
+                        <h4 className="txt-autor text-right">
+                          {item.nameOwner[1]}
+                        </h4>
+                      </>
+                    ) : (
+                      <>
+                        <h4 className="txt-autor text-center pl-4">
+                          {item.nameOwner[0]}
+                        </h4>
+                        <h4 className="txt-autor text-right">
+                          {item.nameOwner[1]}
+                        </h4>
+                      </>
+                    )
+
                   ) : (
                     <>
                       <h4 className="txt-autor text-lg-right text-md-right text-xl-right">
